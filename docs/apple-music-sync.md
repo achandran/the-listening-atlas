@@ -30,7 +30,7 @@ Apple's current documentation before relying on any of this.
 uv run atlas sync plan --current current-ids.txt --json plan.json
 
 # Read-only plans that use the network (need ATLAS_ENABLE_APPLE_SYNC=1 and tokens):
-uv run atlas sync plan --from-catalog pl.u-kv9lRpvs7v0a9Yb      # public playlist; developer token only
+uv run atlas sync plan --from-catalog pl.u-xlyNJ0kFkAVK3NM      # public playlist; developer token only
 uv run atlas sync plan --from-library p.XXXXXXXX                 # your library playlist; + user token
 
 # Create a NEW library playlist (never modifies an existing one):

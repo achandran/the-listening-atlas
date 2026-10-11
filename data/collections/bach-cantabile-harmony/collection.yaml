@@ -25,7 +25,7 @@ guide:
   title: Bach Listening Guide
   subtitle: Cantabile & Harmony · Eleven Hearing Stages
   stages_heading: The eleven stages
-public_playlist_url: https://music.apple.com/us/playlist/bach/pl.u-kv9lRpvs7v0a9Yb
+public_playlist_url: https://music.apple.com/us/playlist/bach/pl.u-xlyNJ0kFkAVK3NM
 public_playlist_note: Public reference only; not proof that this data and the live playlist are identical.
 fallback_prompts:
   - match: fugue|fuga|contrapunctus
