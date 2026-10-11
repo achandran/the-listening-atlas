@@ -1,17 +1,17 @@
 {% extends "base.html" %}
-{% from "_macros.html" import stage_list %}
+{% from "_macros.html" import stage_list with context %}
 {% block title %}{{ '%02d' % st.number }} {{ st.name }} · {{ c.title }}{% endblock %}
 {% block description %}{{ st.principle }} {{ st.question }}{% endblock %}
 {% block main %}
 <div class="wrap stage-layout">
   <nav class="stage-nav" aria-label="Stages">
-    <p class="eyebrow">Stages</p>
+    <p class="eyebrow">Stages <span class="muted">· playlist tracks</span></p>
     {{ stage_list(c, rel, st.id) }}
   </nav>
 
   <div class="stage-main">
     <section class="stage-intro" aria-labelledby="stage-h">
-      <p class="eyebrow">Stage {{ '%02d' % st.number }} · {{ st.selections|length }} selections · {{ totals[st.id]|total }}{% if st.selections %} · tracks {{ positions[st.selections[0].id] }}–{{ positions[st.selections[-1].id] }}{% endif %}</p>
+      <p class="eyebrow">Stage {{ '%02d' % st.number }}{% if st.id in ranges %} · tracks {{ ranges[st.id] }}{% endif %} · {{ st.selections|length }} selections · {{ totals[st.id]|total }}</p>
       <h1 id="stage-h">{{ st.name }}</h1>
       <p class="principle">{{ st.principle }}</p>
       <div class="prompt">
@@ -19,15 +19,17 @@
         <p class="prompt-text">{{ st.question }}</p>
       </div>
       <p>{{ st.direction }}</p>
-      <p><strong>At the piano:</strong> {{ st.at_the_piano }}</p>
-      <p class="itinerary"><strong>Recording itinerary:</strong> {{ st.itinerary }}</p>
+      <dl class="stage-extras">
+        <div><dt>At the piano</dt><dd>{{ st.at_the_piano }}</dd></div>
+        <div class="itinerary"><dt>Recording itinerary</dt><dd>{{ st.itinerary }}</dd></div>
+      </dl>
       {% if st.editorial_notice %}
       <p class="notice" role="note"><strong>Editorial note:</strong> {{ st.editorial_notice }} <a href="../status/index.html">Details</a></p>
       {% endif %}
     </section>
 
-
     <div class="results" data-results>
+    {% set seen = namespace(prompts=[]) %}
     {% for g in groups %}
       {% set w = works[g.work_id] %}
       {% set work_note = c.work_focus.get(g.work_id) %}
@@ -39,26 +41,46 @@
       </div>
       {% else %}
       {% set shared = recordings[g.recording] if g.recording else none %}
+      {% set prompts = work_prompts(g) %}
       <details class="work" data-group open>
         <summary>
-          <span class="work-cat">{{ w.catalogue }}</span>
-          <span class="work-title">{{ w.title }}</span>
-          <span class="work-meta muted">{% if shared %}{{ shared.principal_artist }} · {% endif %}{{ g.selections|length }} tracks{% if g.seconds %} · {{ g.seconds|total }}{% endif %}</span>
+          <span class="work-heading"><span class="work-cat">{{ w.catalogue }}</span> <span class="work-title">{{ w.title }}</span></span>
+          <span class="work-meta muted">{{ g.selections|length }} tracks{% if g.seconds %} · {{ g.seconds|total }}{% endif %} · {{ positions[g.selections[0].id] }}–{{ positions[g.selections[-1].id] }}</span>
         </summary>
         <div class="work-body">
           {% if shared %}
           <p class="recording-line">{{ g.credits or shared.principal_artist }} · <span class="album">{{ g.selections[0].album_as_listed or shared.album_title }}</span>{% if shared.label or shared.release_year %} ({{ [shared.label, shared.release_year]|select|join(', ') }}){% endif %}</p>
           {% endif %}
-          {% if work_note %}
+          {# Generic prompts are shown in full the first time on a page; later works with the same prompts
+             get a one-line toggle, so a reader who jumps straight to a work can still open them. #}
+          {% set key = prompts|map('join', ': ')|join(' | ') %}
+          {% set repeat = prompts and key in seen.prompts %}
+          {% if prompts and not repeat %}{% set _ = seen.prompts.append(key) %}{% endif %}
+          {% if work_note or (prompts and not repeat) %}
           <div class="focus">
-            <p class="prompt-label">Work-level focus</p>
-            <p>{{ work_note }}</p>
+            <p class="prompt-label">Listen for</p>
+            {% if work_note %}<p>{{ work_note }}</p>{% endif %}
+            {% if not repeat %}
+            {% for label, prompt in prompts %}
+            <p class="listen-for">{% if label %}<strong>{{ label }}:</strong> {% endif %}{{ prompt }}</p>
+            {% endfor %}
+            {% endif %}
           </div>
+          {% endif %}
+          {% if repeat %}
+          <details class="focus-repeat">
+            <summary>{% if work_note %}Also listen for{% else %}Listen for{% endif %}{% if prompts[0][0] %} · {{ prompts|map(attribute=0)|join(', ') }}{% endif %} <span class="muted">(as above)</span></summary>
+            {% for label, prompt in prompts %}
+            <p class="listen-for">{% if label %}<strong>{{ label }}:</strong> {% endif %}{{ prompt }}</p>
+            {% endfor %}
+          </details>
           {% endif %}
           {% if w.composer != 'Johann Sebastian Bach' or w.attribution_note %}
           <p class="small attribution">{% if w.composer %}Composer: {{ w.composer }}. {% endif %}{{ w.attribution_note or '' }}</p>
           {% endif %}
+          <div class="tracks">
           {% for s in g.selections %}{% include "_selection.html" %}{% endfor %}
+          </div>
         </div>
       </details>
       {% endif %}

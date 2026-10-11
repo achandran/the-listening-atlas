@@ -76,12 +76,12 @@ def apple_link(s: Selection) -> Link | None:
         badge = (
             "Song ID supplied by editor; pending confirmation" if s.verification == "user_supplied" else None
         )
-        return Link(s.url, "Listen on Apple Music", badge)
+        return Link(s.url, "Play", badge)
     if kind == "album":
-        return Link(s.url, "Open the album in Apple Music", "Track not yet matched — find it on the album")
+        return Link(s.url, "Album", "Track not yet matched — find it on the album")
     if kind == "search":
-        return Link(s.url, "Search Apple Music", "Track not yet matched — search link")
-    return Link(s.url, "Open in Apple Music", "Link not verified")
+        return Link(s.url, "Search", "Track not yet matched — search link")
+    return Link(s.url, "Open", "Link not verified")
 
 
 @dataclass
@@ -109,6 +109,17 @@ class Group:
         credits = {s.credits for s in self.selections}
         return credits.pop() if len(credits) == 1 else None
 
+    def extra_credits(self, s: Selection) -> str:
+        """The names on this track beyond those credited on every track (e.g. a Passion's soloists)."""
+        common = set(_names(self.selections[0].credits)).intersection(
+            *(_names(x.credits) for x in self.selections[1:])
+        )
+        return "; ".join(n for n in _names(s.credits) if n not in common)
+
+
+def _names(credits: str) -> list[str]:
+    return [n.strip() for n in credits.split(";") if n.strip()]
+
 
 def group_by_work(selections: list[Selection]) -> list[Group]:
     groups: list[Group] = []
@@ -120,12 +131,43 @@ def group_by_work(selections: list[Selection]) -> list[Group]:
     return groups
 
 
-def fallback_prompt(c: Collection, st: Stage, s: Selection) -> str:
+def _prompt_rule(c: Collection, s: Selection) -> dict[str, str] | None:
     title = s.title.lower()
     for rule in c.meta.get("fallback_prompts", []) or []:
         if re.search(rule["match"], title, re.I):
-            return str(rule["prompt"])
-    return st.question
+            return dict(rule)
+    return None
+
+
+def fallback_prompt(c: Collection, st: Stage, s: Selection) -> str:
+    rule = _prompt_rule(c, s)
+    return rule["prompt"] if rule else st.question
+
+
+def work_prompts(c: Collection, st: Stage, g: Group) -> list[tuple[str | None, str]]:
+    """The generic prompts for a multi-track work, each shown once under the work heading as (label, prompt).
+
+    Tracks without a matching rule would only repeat the stage question (already at the top), so they add
+    nothing. The label is dropped when a single prompt covers every track."""
+    if g.single:
+        return []
+    rules = [_prompt_rule(c, s) for s in g.selections]
+    seen: list[dict[str, str]] = []
+    for r in rules:
+        if r and r not in seen:
+            seen.append(r)
+    if len(seen) == 1 and all(rules):
+        return [(None, seen[0]["prompt"])]
+    return [(r.get("label"), r["prompt"]) for r in seen]
+
+
+def track_prompt(c: Collection, st: Stage, g: Group, s: Selection) -> str | None:
+    """A single-track work's prompt, unless it would only repeat the stage question. Tracks of multi-track
+    works get theirs at the work level (:func:`work_prompts`)."""
+    if not g.single:
+        return None
+    p = fallback_prompt(c, st, s)
+    return None if p == st.question else p
 
 
 def stage_slug(st: Stage) -> str:
@@ -177,10 +219,17 @@ class SiteBuilder:
     def build_collection(self, c: Collection) -> None:
         positions = c.positions()
         totals = {st.id: sum(s.duration or 0 for s in st.selections) for st in c.stages}
+        # Playlist positions each stage covers, so a track number seen in Apple Music can be looked up.
+        ranges = {
+            st.id: f"{positions[st.selections[0].id]}–{positions[st.selections[-1].id]}"
+            for st in c.stages
+            if st.selections
+        }
         ctx: dict[str, Any] = {
             "c": c,
             "positions": positions,
             "totals": totals,
+            "ranges": ranges,
             "works": self.atlas.works,
             "recordings": self.atlas.recordings,
         }
@@ -197,7 +246,8 @@ class SiteBuilder:
                 groups=group_by_work(st.selections),
                 prev_st=prev_st,
                 next_st=next_st,
-                prompt_for=lambda s, st=st: fallback_prompt(c, st, s),
+                work_prompts=lambda g, st=st: work_prompts(c, st, g),
+                track_prompt=lambda g, s, st=st: track_prompt(c, st, g, s),
                 search_text=lambda s: selection_search_text(self.atlas, s),
                 **ctx,
             )

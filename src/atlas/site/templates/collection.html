@@ -23,7 +23,7 @@
           <strong class="stage-card-name">{{ st.name }}</strong>
           <span class="stage-card-principle">{{ st.principle }}</span>
           <span class="stage-card-question">{{ st.question }}</span>
-          <span class="muted small">{{ st.selections|length }} selections · {{ totals[st.id]|total }}</span>
+          <span class="muted small">{% if st.id in ranges %}Tracks {{ ranges[st.id] }} · {% endif %}{{ st.selections|length }} selections · {{ totals[st.id]|total }}</span>
         </span>
       </a>
     </li>

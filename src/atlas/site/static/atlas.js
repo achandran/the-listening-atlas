@@ -45,13 +45,16 @@
       if (!q) { list.innerHTML = ''; count.textContent = ''; return; }
       load().then((rows) => {
         if (norm(input.value) !== q) return; // a newer query is running
-        const hits = rows.filter((s) => matches(s.q, q));
+        // A bare number is a playlist track number (as shown in Apple Music); exact positions come first.
+        const byPos = /^\d+$/.test(q) ? rows.filter((s) => String(s.p) === q) : [];
+        const hits = [...byPos, ...rows.filter((s) => !byPos.includes(s) && matches(s.q, q))];
         const many = !only && new Set(rows.map((s) => s.c)).size > 1;
         count.textContent = `${hits.length} selection${hits.length === 1 ? '' : 's'} found` + (hits.length > LIMIT ? ` (showing the first ${LIMIT})` : '');
         list.innerHTML = hits.slice(0, LIMIT).map((s) => `<li>
-          <a href="${esc(root + s.path)}"><strong>${esc(s.title)}</strong></a>
+          <span class="pos">${esc(s.p)}</span>
+          <div><a href="${esc(root + s.path)}"><strong>${esc(s.title)}</strong></a>
           <div class="meta">${esc(s.artist)} · ${esc(s.album)}${s.d ? ' · ' + esc(s.d) : ''}</div>
-          <div class="meta">${many ? esc(s.cTitle) + ' · ' : ''}Stage ${esc(s.stageName)} · #${esc(s.p)}</div></li>`).join('');
+          <div class="meta">${many ? esc(s.cTitle) + ' · ' : ''}Stage ${esc(s.stageName)}</div></div></li>`).join('');
         const url = new URL(location.href);
         url.searchParams.set('q', input.value);
         history.replaceState(null, '', url);
@@ -62,6 +65,10 @@
     input.addEventListener('input', run);
     input.addEventListener('keydown', (ev) => {
       if (ev.key === 'Escape' && input.value) { input.value = ''; run(); history.replaceState(null, '', location.pathname); }
+      if (ev.key === 'Enter') {
+        const first = $('a', list);
+        if (first) { ev.preventDefault(); first.click(); }
+      }
     });
     const initial = new URLSearchParams(location.search).get('q');
     if (initial) { input.value = initial; run(); }

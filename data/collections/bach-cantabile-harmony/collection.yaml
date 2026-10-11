@@ -30,14 +30,19 @@ public_playlist_note: Public reference only; not proof that this data and the li
 library_playlist: Bach
 fallback_prompts:
   - match: fugue|fuga|contrapunctus
+    label: Fugues
     prompt: Follow one subject entry, then sing a different voice. What makes the voices belong together?
   - match: sarabande|allemande|courante|gigue|menuet|gavotte|bourr[eé]e
+    label: Dances
     prompt: Feel the dance pulse; locate one point where the singing phrase leans against the meter.
   - match: variation|var\.
+    label: Variations
     prompt: Hear what changes and what remains recognizable in the underlying pattern.
   - match: \baria\b|choral|chorale|chorus|recitative
+    label: Arias & chorales
     prompt: Listen for the phrase’s breath, harmonic tension and cadence; follow the words if sung.
   - match: prelude|pr[eé]lude
+    label: Preludes
     prompt: Trace the bass and harmonic direction. What does the figuration make audible?
 stage_files:
   - selections/01-ground.yaml

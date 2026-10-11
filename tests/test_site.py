@@ -259,34 +259,62 @@ def test_status_page_with_no_open_issues(site: Path) -> None:
     assert "still link to an album" not in html
 
 
-def test_works_expanded_tracks_collapsed(site: Path, atlas) -> None:  # type: ignore[no-untyped-def]
-    """Every work starts expanded; in multi-track works each track's listening focus starts collapsed."""
+def test_works_expanded_studies_visible(site: Path, atlas) -> None:  # type: ignore[no-untyped-def]
+    """Every work starts expanded and a close-listening study is shown on its track, not behind a toggle."""
     c = atlas.collection("bach-cantabile-harmony")
     for page in (site / c.id).glob("[0-9][0-9]-*/index.html"):
         html = page.read_text()
         assert '<details class="work" data-group>' not in html, page
-        assert '<details class="track-focus" open' not in html, page
+        assert "track-focus" not in html, page
     breath = (site / c.id / "02-breath/index.html").read_text()
     bwv12 = [s for s in c.stage("breath").selections if s.work == "bwv-12"]
-    card = _card(breath, bwv12[0].id)  # Herreweghe Sinfonia: a curated study, behind the toggle
-    assert '<details class="track-focus">' in card and c.deep_focus[bwv12[0].id]["listen"] in card
+    card = _card(breath, bwv12[0].id)  # Herreweghe Sinfonia: a curated study
+    assert "Close-listening study" in card and c.deep_focus[bwv12[0].id]["listen"] in card
+    assert "<details" not in card.split("Close-listening study")[0]
     single = _card((site / c.id / "01-ground/index.html").read_text(), c.stage("ground").selections[0].id)
-    assert (
-        "track-focus" not in single and "Listening focus" in single
-    )  # single-track work: focus stays visible
+    assert "Listening focus" in single
 
 
-def test_work_focus_only_when_specific(site: Path, atlas) -> None:  # type: ignore[no-untyped-def]
-    """A work shows a 'Work-level focus' box only when it has its own curated note."""
+def test_work_notes_shown_once_per_work(site: Path, atlas) -> None:  # type: ignore[no-untyped-def]
+    """Every curated work note appears on its work, in the work's 'Listen for' box."""
     from atlas.site import group_by_work
 
     c = atlas.collection("bach-cantabile-harmony")
     html = "".join(p.read_text() for p in (site / c.id).glob("[0-9][0-9]-*/index.html"))
     assert "Follow the stage question through the complete work" not in html
-    multi_with_note = {
-        g.work_id
-        for st in c.stages
-        for g in group_by_work(st.selections)
-        if not g.single and g.work_id in c.work_focus
-    }
-    assert html.count("Work-level focus") == len(multi_with_note) > 0
+    import html as h
+
+    text = h.unescape(html)
+    for st in c.stages:
+        for g in group_by_work(st.selections):
+            if g.work_id in c.work_focus:
+                assert c.work_focus[g.work_id] in text, g.work_id
+
+
+def test_generic_prompts_once_per_work(site: Path, atlas) -> None:  # type: ignore[no-untyped-def]
+    """Generic prompts sit on the work, never on its tracks; never repeat the stage question; and are shown in
+    full only the first time on a page (later works with the same prompts get a one-line toggle)."""
+    import html as h
+
+    from atlas.site import fallback_prompt, group_by_work, track_prompt, work_prompts
+
+    c = atlas.collection("bach-cantabile-harmony")
+    for st in c.stages:
+        page = h.unescape((site / c.id / f"{st.number:02d}-{st.id}/index.html").read_text())
+        assert f"</strong> {st.question}" not in page, st.id
+        full_sets: list[list[tuple[str | None, str]]] = []
+        for g in group_by_work(st.selections):
+            prompts = work_prompts(c, st, g)
+            assert all(p != st.question for _, p in prompts)
+            if prompts and prompts not in full_sets:
+                full_sets.append(prompts)
+            for s in g.selections:
+                card = _card(page, s.id)
+                own = track_prompt(c, st, g, s)
+                if not g.single:
+                    assert own is None and "Listen for:" not in card.split("Close-listening study")[0], s.id
+                elif own is not None and s.id not in c.deep_focus:
+                    assert own == fallback_prompt(c, st, s) and own in card
+        assert page.count('<div class="focus">') >= len(full_sets)
+    line = (site / c.id / "04-line/index.html").read_text()
+    assert line.count("(as above)") >= 5  # the six cello suites: prompts in full once, then toggles

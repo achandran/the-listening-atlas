@@ -10,7 +10,7 @@
 </details>
 {% endmacro %}
 
-{% macro search(label, rel, collection=None, placeholder='Title, BWV, performer, album…') %}
+{% macro search(label, rel, collection=None, placeholder='Track number, title, BWV, performer, album…') %}
 {# Inline search over the site-wide index; results appear below the box. Needs JavaScript. #}
 <section class="search js-only" role="search" aria-label="{{ label }}">
   <label class="search-label" for="q">{{ label }}</label>
@@ -29,6 +29,7 @@
     <a class="stage-link" href="{{ rel }}{{ c.id }}/{{ stage_slug(st) }}/index.html"{% if st.id == current_id %} aria-current="page"{% endif %}>
       <span class="stage-num" aria-hidden="true">{{ '%02d' % st.number }}</span>
       <span class="stage-name">{{ st.name }}</span>
+      {% if ranges is defined and st.id in ranges %}<span class="stage-range"><span class="vh">, tracks </span>{{ ranges[st.id] }}</span>{% endif %}
     </a>
   </li>
 {% endfor %}
