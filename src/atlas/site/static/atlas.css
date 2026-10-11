@@ -165,6 +165,12 @@ input[type="search"] {
 .listen-for { font-size: .95rem; }
 .badge { font-family: system-ui, sans-serif; font-size: .75rem; background: var(--warn-bg); color: var(--warn-ink); padding: .1rem .5rem; border-radius: 999px; }
 .ed-note summary { cursor: pointer; font-size: .85rem; color: var(--muted); }
+.track-focus { margin: .3rem 0 .2rem calc(2.4 * .8rem + .8rem); }
+.track-focus > summary { cursor: pointer; font-family: system-ui, sans-serif; font-size: .85rem; color: var(--muted); width: max-content; }
+.track-focus > summary:hover { color: var(--ink); }
+.track-focus[open] > summary { margin-bottom: .2rem; }
+.track-focus .deep-focus, .track-focus .listen-for { margin-left: 0; }
+@media (max-width: 560px) { .track-focus { margin-left: 0; } }
 @media (max-width: 560px) {
   .listen-for, .deep-focus, .ed-note, .sel-single .attribution { margin-left: 0; }
   .work-meta { margin-left: 0; flex-basis: 100%; }

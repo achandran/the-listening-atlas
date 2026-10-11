@@ -1,8 +1,8 @@
 {#
   One playlist selection. Context from stage.html: s, g (its work group), w (work), work_note.
   - Single-track work: the card carries the work heading, and the work note and study share one panel.
-  - Multi-track work from one recording: the recording is shown once on the group, so each track shows
-    only its movement, duration and link (the full Apple title stays in the link's accessible name and search).
+  - Multi-track work: the work is always expanded; each track shows its title line and link, with its listening
+    focus (prompt, study, editorial note) collapsed. From one recording, tracks show only their movement.
 #}
 {% set rec = recordings[s.recording] %}
 {% set link = apple_link(s) %}
@@ -54,17 +54,23 @@
     {% if w.composer != 'Johann Sebastian Bach' or w.attribution_note %}
   <p class="small attribution">{% if w.composer %}Composer: {{ w.composer }}. {% endif %}{{ w.attribution_note or '' }}</p>
     {% endif %}
-  {% elif df %}
-  <div class="deep-focus">
-    <p class="prompt-label">Close-listening study</p>
-    <p><strong>Listen for:</strong> {{ df.listen }}</p>
-    <p><strong>At the piano:</strong> {{ df.piano }}</p>
-    <p><strong>Return and ask:</strong> {{ df.question }}</p>
-  </div>
-  {% else %}
-  <p class="listen-for"><strong>Listen for:</strong> {{ prompt_for(s) }}</p>
-  {% endif %}
-  {% if s.editorial_note %}
+    {% if s.editorial_note %}
   <details class="ed-note"><summary>Editorial note</summary><p class="small">{{ s.editorial_note }}</p></details>
+    {% endif %}
+  {% else %}
+  {# A track within a multi-track work: its focus starts collapsed; the work above stays expanded. #}
+  <details class="track-focus">
+    <summary>Listening focus{% if df %} · close-listening study{% endif %}</summary>
+    {% if df %}
+    <div class="deep-focus">
+      <p><strong>Listen for:</strong> {{ df.listen }}</p>
+      <p><strong>At the piano:</strong> {{ df.piano }}</p>
+      <p><strong>Return and ask:</strong> {{ df.question }}</p>
+    </div>
+    {% else %}
+    <p class="listen-for"><strong>Listen for:</strong> {{ prompt_for(s) }}</p>
+    {% endif %}
+    {% if s.editorial_note %}<p class="small muted"><strong>Editorial note:</strong> {{ s.editorial_note }}</p>{% endif %}
+  </details>
   {% endif %}
 </article>

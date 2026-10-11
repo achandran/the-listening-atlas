@@ -27,7 +27,6 @@ guide:
   stages_heading: The eleven stages
 public_playlist_url: https://music.apple.com/us/playlist/bach/pl.u-kv9lRpvs7v0a9Yb
 public_playlist_note: Public reference only; not proof that this data and the live playlist are identical.
-default_work_focus: Follow the stage question through the complete work. Notice a change of relationship between voices, harmony or rhythm; test it by singing one line.
 fallback_prompts:
   - match: fugue|fuga|contrapunctus
     prompt: Follow one subject entry, then sing a different voice. What makes the voices belong together?

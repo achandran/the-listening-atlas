@@ -39,7 +39,7 @@
       </div>
       {% else %}
       {% set shared = recordings[g.recording] if g.recording else none %}
-      <details class="work" data-group{% if st.selections|length <= 40 or groups|length <= 3 %} open{% endif %}>
+      <details class="work" data-group open>
         <summary>
           <span class="work-cat">{{ w.catalogue }}</span>
           <span class="work-title">{{ w.title }}</span>
@@ -49,10 +49,12 @@
           {% if shared %}
           <p class="recording-line">{{ g.credits or shared.principal_artist }} · <span class="album">{{ g.selections[0].album_as_listed or shared.album_title }}</span>{% if shared.label or shared.release_year %} ({{ [shared.label, shared.release_year]|select|join(', ') }}){% endif %}</p>
           {% endif %}
+          {% if work_note %}
           <div class="focus">
             <p class="prompt-label">Work-level focus</p>
-            <p>{{ work_note or c.meta.default_work_focus }}</p>
+            <p>{{ work_note }}</p>
           </div>
+          {% endif %}
           {% if w.composer != 'Johann Sebastian Bach' or w.attribution_note %}
           <p class="small attribution">{% if w.composer %}Composer: {{ w.composer }}. {% endif %}{{ w.attribution_note or '' }}</p>
           {% endif %}

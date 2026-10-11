@@ -25,7 +25,6 @@
     },
     "public_playlist_url": {"type": "string", "format": "uri"},
     "public_playlist_note": {"type": "string"},
-    "default_work_focus": {"type": "string"},
     "fallback_prompts": {
       "type": "array",
       "items": {

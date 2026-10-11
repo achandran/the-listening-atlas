@@ -265,3 +265,36 @@ def test_status_page_with_no_open_issues(site: Path) -> None:
     html = (site / "bach-cantabile-harmony/status/index.html").read_text()
     assert "None at the moment." in html and "each linked to its exact Apple Music track" in html
     assert "still link to an album" not in html
+
+
+def test_works_expanded_tracks_collapsed(site: Path, atlas) -> None:  # type: ignore[no-untyped-def]
+    """Every work starts expanded; in multi-track works each track's listening focus starts collapsed."""
+    c = atlas.collection("bach-cantabile-harmony")
+    for page in (site / c.id).glob("[0-9][0-9]-*/index.html"):
+        html = page.read_text()
+        assert '<details class="work" data-group>' not in html, page
+        assert '<details class="track-focus" open' not in html, page
+    breath = (site / c.id / "02-breath/index.html").read_text()
+    bwv12 = [s for s in c.stage("breath").selections if s.work == "bwv-12"]
+    card = _card(breath, bwv12[0].id)  # Herreweghe Sinfonia: a curated study, behind the toggle
+    assert '<details class="track-focus">' in card and c.deep_focus[bwv12[0].id]["listen"] in card
+    single = _card((site / c.id / "01-ground/index.html").read_text(), c.stage("ground").selections[0].id)
+    assert (
+        "track-focus" not in single and "Listening focus" in single
+    )  # single-track work: focus stays visible
+
+
+def test_work_focus_only_when_specific(site: Path, atlas) -> None:  # type: ignore[no-untyped-def]
+    """A work shows a 'Work-level focus' box only when it has its own curated note."""
+    from atlas.site import group_by_work
+
+    c = atlas.collection("bach-cantabile-harmony")
+    html = "".join(p.read_text() for p in (site / c.id).glob("[0-9][0-9]-*/index.html"))
+    assert "Follow the stage question through the complete work" not in html
+    multi_with_note = {
+        g.work_id
+        for st in c.stages
+        for g in group_by_work(st.selections)
+        if not g.single and g.work_id in c.work_focus
+    }
+    assert html.count("Work-level focus") == len(multi_with_note) > 0

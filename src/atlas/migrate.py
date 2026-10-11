@@ -505,8 +505,6 @@ def migrate(root: Path) -> Migrated:
         },
         "public_playlist_url": "https://music.apple.com/us/playlist/bach/pl.u-kv9lRpvs7v0a9Yb",
         "public_playlist_note": "Public reference only; not proof that this data and the live playlist are identical.",
-        "default_work_focus": "Follow the stage question through the complete work. Notice a change of relationship "
-        "between voices, harmony or rhythm; test it by singing one line.",
         "fallback_prompts": FALLBACK_PROMPTS,
         "stage_files": [f"selections/{n:02d}-{STAGE_SLUGS[n]}.yaml" for n in sorted(stage_files)],
     }
