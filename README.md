@@ -1,8 +1,7 @@
 # The Listening Atlas
 
 A curated, pedagogical classical-music listening atlas. Each volume is a sequence of recordings arranged into
-stages, with listening questions and prompts, published as a static website with a private, browser-local
-listening journal.
+stages, with listening questions and prompts, published as a read-only static website with search.
 
 > **Method across the Atlas:** listen to what the music is doing; let expressive understanding arise from
 > audible musical relationships.
@@ -31,8 +30,8 @@ uv run atlas serve               # preview at http://127.0.0.1:8000/
 uv run pytest                    # run the test suite
 ```
 
-The site works when opened directly from disk, but search and the journal page load a JSON file, which
-browsers only allow over HTTP — use `atlas serve` for a full local preview.
+The site works when opened directly from disk, but the search page loads a JSON file, which browsers
+only allow over HTTP — use `atlas serve` for a full local preview.
 
 ## Common tasks
 

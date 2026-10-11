@@ -81,12 +81,21 @@ def test_original_prompts_preserved(site: Path, root: Path) -> None:
             assert v in text, key
 
 
-def test_search_index_and_legacy_journal_map(site: Path) -> None:
+def test_search_index(site: Path) -> None:
     data = json.loads((site / "bach-cantabile-harmony/atlas-data.json").read_text())
-    assert data["total"] == 670
-    assert len(data["legacy"]["positions"]) == 669
-    assert data["legacy"]["positions"]["1"] == "s-fjvf7ay"
-    assert data["legacy"]["storageKey"] == "bachCantabileJournal"
+    assert data["total"] == 670 == len(data["selections"])
+    assert set(data) == {"collection", "title", "total", "selections"}
+
+
+def test_read_only_no_journal_or_storage(site: Path) -> None:
+    """The site is a read view: no checklists, no note fields, no journal page, nothing stored in the browser."""
+    assert not (site / "bach-cantabile-harmony/journal").exists()
+    for page in site.rglob("*.html"):
+        html = page.read_text()
+        for forbidden in ("<textarea", 'type="checkbox"', "Heard attentively", "journal", "Unheard"):
+            assert forbidden not in html, (page.relative_to(site), forbidden)
+    js = (site / "assets/atlas.js").read_text()
+    assert "localStorage" not in js and "sessionStorage" not in js and "indexedDB" not in js
 
 
 def test_search_text_matches_catalogue_spellings() -> None:
@@ -120,7 +129,7 @@ def test_accessibility_basics(site: Path) -> None:
         assert html.count("<h1") == 1, page
     stage = (site / "bach-cantabile-harmony/01-ground/index.html").read_text()
     assert 'aria-current="page"' in stage
-    for m in re.finditer(r'<textarea id="([^"]+)"', stage):
+    for m in re.finditer(r'<(?:input|select) id="([^"]+)"', stage):
         assert f'for="{m.group(1)}"' in stage
 
 
@@ -129,3 +138,63 @@ def test_404_uses_base_url(root: Path, tmp_path: Path) -> None:
     html = (tmp_path / "404.html").read_text()
     assert 'href="/the-listening-atlas/assets/atlas.css"' in html
     assert 'href="/the-listening-atlas/index.html"' in html
+
+
+def _card(html: str, sel_id: str) -> str:
+    start = html.index(f'id="{sel_id}"')
+    return html[start : html.index("</article>", start)]
+
+
+def test_single_track_work_is_one_flat_card(site: Path, atlas) -> None:  # type: ignore[no-untyped-def]
+    """A work with one track has no collapsible wrapper; its heading, meta and focus appear once."""
+    html = (site / "bach-cantabile-harmony/01-ground/index.html").read_text()
+    first = atlas.collection("bach-cantabile-harmony").stage("ground").selections[0]
+    assert re.search(
+        rf'<div class="work work-single" data-group>\s*<article class="sel sel-single" id="{first.id}"', html
+    )
+    card = _card(html, first.id)
+    assert card.count("Minuet in G Major (Notebook for Anna Magdalena Bach, 1725)") == 1
+    assert card.count("Listening focus") == 1 and "Work-level focus" not in card
+    assert "Follow the bass under the familiar melody." in card  # work note merged into the one panel
+    assert "Daniil Trifonov · BACH: The Art of Life · 1:45" in card
+
+
+def test_single_recording_work_shows_recording_once(site: Path, atlas) -> None:  # type: ignore[no-untyped-def]
+    html = (site / "bach-cantabile-harmony/09-transformation/index.html").read_text()
+    assert (
+        html.count('<p class="recording-line">Murray Perahia · <span class="album">Bach: Goldberg Variations')
+        == 1
+    )
+    sels = atlas.collection("bach-cantabile-harmony").stage("transformation").selections
+    card = _card(html, sels[1].id)
+    assert "Bach: Goldberg Variations" not in card.split("<a ")[0]  # album not repeated per track
+    assert '<span class="t-short">Variation 1 a 1 Clav. (Instrumental)</span>' in card
+    assert (
+        '<span class="t-full">Goldberg Variations, BWV 988: Variation 1 a 1 Clav. (Instrumental)</span>'
+        in card
+    )
+
+
+def test_mixed_recordings_keep_per_track_details(site: Path, atlas) -> None:  # type: ignore[no-untyped-def]
+    """St Matthew includes one track from another album (ED-009), so nothing is collapsed for that work."""
+    html = (site / "bach-cantabile-harmony/10-convergence/index.html").read_text()
+    smp = [
+        s
+        for s in atlas.collection("bach-cantabile-harmony").stage("convergence").selections
+        if s.work == "bwv-244"
+    ]
+    card = _card(html, smp[0].id)
+    assert "t-short" not in card and "J.S. Bach: St. Matthew Passion, BWV 244" in card
+
+
+def test_variations_get_the_variation_prompt(atlas) -> None:  # type: ignore[no-untyped-def]
+    """'Variation' contains 'aria'; the vocal prompt must not be chosen for variation movements."""
+    from atlas.site import fallback_prompt
+
+    c = atlas.collection("bach-cantabile-harmony")
+    st = c.stage("transformation")
+    prompts = {fallback_prompt(c, st, s) for s in st.selections}
+    assert prompts == {"Hear what changes and what remains recognizable in the underlying pattern."}
+    span = c.stage("span")
+    olafsson = [s for s in span.selections if s.work == "bwv-989"]
+    assert all("Hear what changes" in fallback_prompt(c, span, s) for s in olafsson[1:-1])

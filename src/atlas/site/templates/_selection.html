@@ -1,22 +1,60 @@
+{#
+  One playlist selection. Context from stage.html: s, g (its work group), w (work), work_note.
+  - Single-track work: the card carries the work heading, and the work note and study share one panel.
+  - Multi-track work from one recording: the recording is shown once on the group, so each track shows
+    only its movement, duration and link (full Apple titles return in the "All tracks" view).
+#}
 {% set rec = recordings[s.recording] %}
 {% set link = apple_link(s) %}
 {% set df = c.deep_focus.get(s.id) %}
-<article class="sel" id="{{ s.id }}" data-sel="{{ s.id }}" data-q="{{ search_text(s) }}" aria-labelledby="{{ s.id }}-t">
+{% set shared_rec = not g.single and g.recording %}
+<article class="sel{% if g.single %} sel-single{% endif %}" id="{{ s.id }}" data-sel="{{ s.id }}" data-q="{{ search_text(s) }}" aria-labelledby="{{ s.id }}-t">
   <div class="sel-head">
     <span class="pos" title="Playlist position">{{ positions[s.id] }}</span>
     <div class="sel-heading">
+      {% if g.single %}
+      <h3 class="sel-title" id="{{ s.id }}-t"><span class="work-cat">{{ w.catalogue }}</span> {{ w.title }}</h3>
+      {% if s.movement %}<p class="movement">{{ s.movement }}</p>{% endif %}
+      {% elif shared_rec and s.movement %}
+      <h3 class="sel-title" id="{{ s.id }}-t"><span class="t-short">{{ s.movement }}</span><span class="t-full">{{ s.title }}</span></h3>
+      {% else %}
       <h3 class="sel-title" id="{{ s.id }}-t">{{ s.title }}</h3>
-      <p class="meta">{{ s.credits }} · <span class="album">{{ s.album_as_listed or rec.album_title }}</span>{% if rec.label or rec.release_year %} ({{ [rec.label, rec.release_year]|select|join(', ') }}){% endif %}{% if s.duration %} · {{ s.duration|duration }}{% if s.duration_status == 'approximate' %} (approx.){% endif %}{% endif %}</p>
+      {% endif %}
+      <p class="meta">
+        {%- set parts = [] -%}
+        {%- if not shared_rec -%}
+          {%- set album = (s.album_as_listed or rec.album_title) ~ ((' (' ~ ([rec.label, rec.release_year]|select|join(', ')) ~ ')') if (rec.label or rec.release_year) else '') -%}
+          {%- set _ = parts.extend([s.credits, album]) -%}
+        {%- elif not g.credits -%}
+          {%- set _ = parts.append(s.credits) -%}
+        {%- endif -%}
+        {%- if s.duration -%}{%- set _ = parts.append((s.duration|duration) ~ (' (approx.)' if s.duration_status == 'approximate' else '')) -%}{%- endif -%}
+        {{ parts|join(' · ') }}
+        {%- if link %}{% if parts %} · {% endif %}<a class="listen-link" href="{{ link.url }}" target="_blank" rel="noopener">{{ link.label }}<span class="vh"> — {{ s.title }} (opens in a new tab)</span> <span aria-hidden="true">↗</span></a>{% endif -%}
+      </p>
+      {% if link and link.badge %}<p class="meta"><span class="badge">{{ link.badge }}</span></p>{% endif %}
       {% if s.arrangement %}<p class="meta">Arrangement: {{ s.arrangement }}</p>{% endif %}
     </div>
   </div>
-  {% if link %}
-  <p class="listen">
-    <a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.label }}<span class="vh"> — {{ s.title }} (opens in a new tab)</span> <span aria-hidden="true">↗</span></a>
-    {% if link.badge %}<span class="badge">{{ link.badge }}</span>{% endif %}
-  </p>
-  {% endif %}
-  {% if df %}
+  {% if g.single %}
+    {% if work_note or df %}
+  <div class="deep-focus">
+    <p class="prompt-label">Listening focus</p>
+      {% if work_note %}<p>{{ work_note }}</p>{% endif %}
+      {% if df %}
+    <p><strong>Listen for:</strong> {{ df.listen }}</p>
+    <p><strong>At the piano:</strong> {{ df.piano }}</p>
+    <p><strong>Return and ask:</strong> {{ df.question }}</p>
+      {% endif %}
+  </div>
+    {% endif %}
+    {% if not df %}
+  <p class="listen-for"><strong>Listen for:</strong> {{ prompt_for(s) }}</p>
+    {% endif %}
+    {% if w.composer != 'Johann Sebastian Bach' or w.attribution_note %}
+  <p class="small attribution">{% if w.composer %}Composer: {{ w.composer }}. {% endif %}{{ w.attribution_note or '' }}</p>
+    {% endif %}
+  {% elif df %}
   <div class="deep-focus">
     <p class="prompt-label">Close-listening study</p>
     <p><strong>Listen for:</strong> {{ df.listen }}</p>
@@ -29,9 +67,4 @@
   {% if s.editorial_note %}
   <details class="ed-note"><summary>Editorial note</summary><p class="small">{{ s.editorial_note }}</p></details>
   {% endif %}
-  <div class="journal-entry js-only">
-    <label class="check"><input type="checkbox" data-done> Heard attentively</label>
-    <label class="vh" for="{{ s.id }}-note">Your note on {{ s.title }}</label>
-    <textarea id="{{ s.id }}-note" data-note rows="2" placeholder="{{ c.meta.journal_placeholder }}"></textarea>
-  </div>
 </article>

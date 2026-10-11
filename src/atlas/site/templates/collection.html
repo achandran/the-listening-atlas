@@ -11,7 +11,6 @@
     <h1>{{ c.title }}</h1>
     {% if c.meta.epigraph %}<blockquote class="epigraph">“{{ c.meta.epigraph }}”</blockquote>{% endif %}
     {% if c.meta.lead %}<p class="lead">{{ c.meta.lead }}</p>{% endif %}
-    <p class="js-only progress-summary" data-progress-summary aria-live="polite"></p>
   </div>
 </section>
 
@@ -29,7 +28,6 @@
               <span class="stage-card-principle">{{ st.principle }}</span>
               <span class="stage-card-question">{{ st.question }}</span>
               <span class="muted small">{{ st.selections|length }} selections · {{ totals[st.id]|total }}{% if st.selections %} · tracks {{ positions[st.selections[0].id] }}–{{ positions[st.selections[-1].id] }}{% endif %}</span>
-              <span class="stage-progress js-only" data-stage-progress="{{ stage_slug(st) }}" data-total="{{ st.selections|length }}"></span>
             </span>
           </a>
         </li>

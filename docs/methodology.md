@@ -45,10 +45,11 @@ not be copied into other volumes as if it were the Atlas's universal principle.
 5. List the collection in `data/atlas.yaml`.
 6. Run `uv run atlas validate && uv run atlas build`.
 
-The website, exports, validator and journal need no code changes for a new volume.
+The website, exports and validator need no code changes for a new volume.
 
-## Journals are private
+## The website is a read view
 
-Listening notes stay in the reader's browser (`localStorage`). They can be exported and imported as JSON.
-Nothing is sent to a server; there are no accounts. Adding an account service would be a deliberate,
-separate decision.
+The site presents each playlist with its listening questions, notes and Apple Music links, plus search.
+Readers can't record anything on it: there are no checklists, note fields or accounts, and it stores
+nothing in the browser. Listening notes belong in the reader's own notebook. Adding interactive features
+would be a deliberate, separate decision.

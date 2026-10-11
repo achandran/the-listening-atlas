@@ -24,18 +24,17 @@ beyond_the_sequence:
 public_playlist_url: https://music.apple.com/us/playlist/bach/pl.u-kv9lRpvs7v0a9Yb
 public_playlist_note: Public reference only; not proof that this data and the live playlist are identical.
 default_work_focus: Follow the stage question through the complete work. Notice a change of relationship between voices, harmony or rhythm; test it by singing one line.
-journal_placeholder: What exactly did you hear? Name a bass turn, cadence, entrance, suspension or return…
 fallback_prompts:
   - match: fugue|fuga|contrapunctus
     prompt: Follow one subject entry, then sing a different voice. What makes the voices belong together?
   - match: sarabande|allemande|courante|gigue|menuet|gavotte|bourr[eé]e
     prompt: Feel the dance pulse; locate one point where the singing phrase leans against the meter.
-  - match: aria|choral|chorale|chorus|recitative
+  - match: variation|var\.
+    prompt: Hear what changes and what remains recognizable in the underlying pattern.
+  - match: \baria\b|choral|chorale|chorus|recitative
     prompt: Listen for the phrase’s breath, harmonic tension and cadence; follow the words if sung.
   - match: prelude|pr[eé]lude
     prompt: Trace the bass and harmonic direction. What does the figuration make audible?
-  - match: variation|var\.
-    prompt: Hear what changes and what remains recognizable in the underlying pattern.
 stage_files:
   - selections/01-ground.yaml
   - selections/02-breath.yaml
@@ -48,6 +47,3 @@ stage_files:
   - selections/09-transformation.yaml
   - selections/10-convergence.yaml
   - selections/11-essence.yaml
-legacy:
-  journal_storage_key: bachCantabileJournal
-  journal_keyed_by: master-669

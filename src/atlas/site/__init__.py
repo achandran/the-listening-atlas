@@ -1,5 +1,5 @@
-"""Static website generator. Pages are fully rendered at build time; JavaScript only adds search,
-filters and the browser-local listening journal."""
+"""Static website generator: a read-only view of each playlist. Pages are fully rendered at build time;
+JavaScript only adds search and filtering, and stores nothing."""
 
 from __future__ import annotations
 
@@ -92,6 +92,22 @@ class Group:
     def seconds(self) -> int:
         return sum(s.duration or 0 for s in self.selections)
 
+    @property
+    def single(self) -> bool:
+        return len(self.selections) == 1
+
+    @property
+    def recording(self) -> str | None:
+        """The recording shared by every track of this work, so it can be shown once."""
+        ids = {s.recording for s in self.selections}
+        return ids.pop() if len(ids) == 1 else None
+
+    @property
+    def credits(self) -> str | None:
+        """Track credits shared by every track, or None when they vary (e.g. changing soloists)."""
+        credits = {s.credits for s in self.selections}
+        return credits.pop() if len(credits) == 1 else None
+
 
 def group_by_work(selections: list[Selection]) -> list[Group]:
     groups: list[Group] = []
@@ -183,7 +199,6 @@ class SiteBuilder:
                 **ctx,
             )
         self._write(f"{c.id}/search/index.html", "search.html", 2, **ctx)
-        self._write(f"{c.id}/journal/index.html", "journal.html", 2, **ctx)
         self._write(f"{c.id}/status/index.html", "status.html", 2, **ctx)
         self._write_json(c, positions)
 
@@ -207,27 +222,7 @@ class SiteBuilder:
                         "q": selection_search_text(self.atlas, s),
                     }
                 )
-        legacy_key = (c.meta.get("legacy") or {}).get("journal_keyed_by")
-        legacy_map = {
-            str(s.source_position): s.id
-            for s in c.selections()
-            if s.source_position and (s.raw.get("source") or {}).get("snapshot") == legacy_key
-        }
-        for retired in c.retired:
-            sel = retired.get("selection") or {}
-            src = sel.get("source") or {}
-            if src.get("snapshot") == legacy_key:
-                legacy_map[str(src.get("position"))] = str(sel.get("id"))
-        data = {
-            "collection": c.id,
-            "title": c.title,
-            "total": len(index),
-            "selections": index,
-            "legacy": {
-                "storageKey": (c.meta.get("legacy") or {}).get("journal_storage_key"),
-                "positions": legacy_map,
-            },
-        }
+        data = {"collection": c.id, "title": c.title, "total": len(index), "selections": index}
         (self.out / c.id / "atlas-data.json").write_text(
             json.dumps(data, ensure_ascii=False, separators=(",", ":"), sort_keys=True), encoding="utf-8"
         )

@@ -40,7 +40,7 @@ body {
   color: var(--ink);
   font: 1rem/1.6 Charter, "Iowan Old Style", "Palatino Linotype", Georgia, serif;
 }
-h1, h2, h3, .brand, .eyebrow, .stage-num, .pos, button, .button, select, input, label, summary, nav {
+h1, h2, h3, .brand, .eyebrow, .stage-num, .pos, select, input, label, summary, nav {
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 }
 h1 { font-size: clamp(1.8rem, 4vw, 2.6rem); line-height: 1.15; margin: .2em 0 .4em; }
@@ -92,7 +92,6 @@ blockquote { margin: .6rem 0; }
 .stage-card-name { font-family: system-ui, sans-serif; font-size: 1.05rem; }
 .stage-card-question { font-style: italic; }
 .stage-num { font-weight: 700; color: var(--muted); font-variant-numeric: tabular-nums; min-width: 1.8em; }
-.progress-summary { font-family: system-ui, sans-serif; }
 
 /* Stage page layout */
 .stage-layout { display: grid; grid-template-columns: 220px minmax(0, 1fr); gap: 2rem; padding-top: 1.5rem; }
@@ -103,7 +102,6 @@ blockquote { margin: .6rem 0; }
 .stage-link:hover { background: var(--tint); }
 .stage-link[aria-current="page"] { background: var(--accent); color: var(--accent-ink); }
 .stage-link[aria-current="page"] .stage-num { color: inherit; }
-.stage-progress { margin-left: auto; font-size: .75rem; opacity: .8; font-variant-numeric: tabular-nums; }
 @media (max-width: 860px) {
   .stage-layout { grid-template-columns: minmax(0, 1fr); gap: 1rem; padding-top: .8rem; }
   .stage-nav { position: static; max-height: none; overflow: visible; }
@@ -123,19 +121,11 @@ blockquote { margin: .6rem 0; }
 .controls { flex-wrap: wrap; gap: .8rem 1.2rem; align-items: end; margin: 1.2rem 0 .8rem; }
 .field { display: grid; gap: .2rem; flex: 1 1 220px; }
 .field label { font-size: .82rem; color: var(--muted); }
-input[type="search"], select, textarea {
+input[type="search"], select {
   font: inherit; color: inherit; background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: .55rem .7rem; width: 100%;
 }
 select { width: auto; }
-.check { display: inline-flex; gap: .45rem; align-items: center; font-size: .92rem; cursor: pointer; }
-.check input { width: 1.15rem; height: 1.15rem; accent-color: var(--accent); }
 .result-count { flex-basis: 100%; margin: 0; }
-button, .button {
-  font: inherit; font-size: .92rem; cursor: pointer; background: var(--accent); color: var(--accent-ink);
-  border: 0; border-radius: 8px; padding: .55rem .95rem; display: inline-block;
-}
-button.danger { background: transparent; color: var(--ink); border: 1px solid var(--line); }
-.button-row { display: flex; flex-wrap: wrap; gap: .6rem; margin: 1rem 0; }
 
 /* Works and selections */
 .work { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); margin: .7rem 0; }
@@ -151,32 +141,42 @@ button.danger { background: transparent; color: var(--ink); border: 1px solid va
 .pos { font-size: .8rem; color: var(--muted); font-variant-numeric: tabular-nums; min-width: 2.4em; padding-top: .15rem; }
 .sel-title { font-weight: 600; overflow-wrap: anywhere; }
 .meta { margin: .1rem 0 0; color: var(--muted); font-size: .9rem; }
-.listen { margin: .5rem 0 .3rem 3.2em; display: flex; flex-wrap: wrap; gap: .4rem .8rem; align-items: center; }
-.listen-for, .deep-focus, .ed-note, .journal-entry { margin-left: 3.2em; }
+.listen-link { white-space: nowrap; }
+.movement { margin: .1rem 0 0; font-style: italic; }
+.listen-for, .deep-focus, .ed-note, .sel-single .attribution { margin-left: calc(2.4 * .8rem + .8rem); } /* = .pos width + .sel-head gap */
+/* Single-track work: one flat card. */
+.work-single { padding: .9rem 1rem .5rem; }
+.work-single .sel { border-top: 0; padding-top: 0; }
+.work-single .sel-title .work-cat { margin-right: .35em; }
+/* Multi-track work from one recording: recording shown once; tracks show their movement. */
+.recording-line { margin: 0 0 .2rem; color: var(--muted); font-size: .92rem; }
+.t-full { display: none; }
 .listen-for { font-size: .95rem; }
 .badge { font-family: system-ui, sans-serif; font-size: .75rem; background: var(--warn-bg); color: var(--warn-ink); padding: .1rem .5rem; border-radius: 999px; }
 .ed-note summary { cursor: pointer; font-size: .85rem; color: var(--muted); }
-.journal-entry { display: grid; gap: .4rem; margin-top: .4rem; margin-bottom: .4rem; }
-.journal-entry textarea { min-height: 2.8rem; resize: vertical; }
-.sel.is-done .sel-title::after { content: " ✓"; color: var(--link); }
 @media (max-width: 560px) {
-  .listen, .listen-for, .deep-focus, .ed-note, .journal-entry { margin-left: 0; }
+  .listen-for, .deep-focus, .ed-note, .sel-single .attribution { margin-left: 0; }
   .work-meta { margin-left: 0; flex-basis: 100%; }
 }
 /* "All tracks" view flattens the work groups. */
 .results[data-mode="tracks"] .work { border: 0; background: none; margin: 0; }
 .results[data-mode="tracks"] .work > summary, .results[data-mode="tracks"] .focus, .results[data-mode="tracks"] .attribution { display: none; }
 .results[data-mode="tracks"] .work-body { padding: 0; }
+.results[data-mode="tracks"] .work-single { padding: 0; }
+.results[data-mode="tracks"] .work-single .sel { border-top: 1px solid var(--line); padding-top: .9rem; }
+.results[data-mode="tracks"] .t-short { display: none; }
+.results[data-mode="tracks"] .t-full { display: inline; }
+.results[data-mode="tracks"] .recording-line { margin-top: 1rem; }
 
 .pager { display: flex; justify-content: space-between; gap: 1rem; margin: 2rem 0; }
 
-/* Search & journal */
-.search-results, .journal-list { list-style: none; padding: 0; }
-.search-results li, .journal-list li { border-top: 1px solid var(--line); padding: .7rem 0; }
+/* Search */
+.search-results { list-style: none; padding: 0; }
+.search-results li { border-top: 1px solid var(--line); padding: .7rem 0; }
 .issue { border-top: 1px solid var(--line); padding-top: .4rem; }
 
 @media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
 @media print {
-  .site-header, .stage-nav, .controls, .journal-entry, .pager, .site-footer { display: none !important; }
+  .site-header, .stage-nav, .controls, .pager, .site-footer { display: none !important; }
   .work { break-inside: avoid; }
 }

@@ -41,23 +41,34 @@
           <option value="tracks">All tracks</option>
         </select>
       </div>
-      <label class="check"><input type="checkbox" data-unheard> Unheard only</label>
       <p class="muted small result-count" data-result-count aria-live="polite"></p>
     </section>
 
     <div class="results" data-results data-mode="works">
     {% for g in groups %}
       {% set w = works[g.work_id] %}
+      {% set work_note = c.work_focus.get(g.work_id) %}
+      {% if g.single %}
+      {# One track: a single flat card — no wrapper heading repeating the same work. #}
+      {% set s = g.selections[0] %}
+      <div class="work work-single" data-group>
+        {% include "_selection.html" %}
+      </div>
+      {% else %}
+      {% set shared = recordings[g.recording] if g.recording else none %}
       <details class="work" data-group{% if st.selections|length <= 40 or groups|length <= 3 %} open{% endif %}>
         <summary>
           <span class="work-cat">{{ w.catalogue }}</span>
           <span class="work-title">{{ w.title }}</span>
-          <span class="work-meta muted">{{ g.selections|length }} track{{ '' if g.selections|length == 1 else 's' }}{% if g.seconds %} · {{ g.seconds|total }}{% endif %}<span class="js-only" data-group-progress></span></span>
+          <span class="work-meta muted">{% if shared %}{{ shared.principal_artist }} · {% endif %}{{ g.selections|length }} tracks{% if g.seconds %} · {{ g.seconds|total }}{% endif %}</span>
         </summary>
         <div class="work-body">
+          {% if shared %}
+          <p class="recording-line">{{ g.credits or shared.principal_artist }} · <span class="album">{{ g.selections[0].album_as_listed or shared.album_title }}</span>{% if shared.label or shared.release_year %} ({{ [shared.label, shared.release_year]|select|join(', ') }}){% endif %}</p>
+          {% endif %}
           <div class="focus">
             <p class="prompt-label">Work-level focus</p>
-            <p>{{ c.work_focus.get(g.work_id, c.meta.default_work_focus) }}</p>
+            <p>{{ work_note or c.meta.default_work_focus }}</p>
           </div>
           {% if w.composer != 'Johann Sebastian Bach' or w.attribution_note %}
           <p class="small attribution">{% if w.composer %}Composer: {{ w.composer }}. {% endif %}{{ w.attribution_note or '' }}</p>
@@ -65,6 +76,7 @@
           {% for s in g.selections %}{% include "_selection.html" %}{% endfor %}
         </div>
       </details>
+      {% endif %}
     {% endfor %}
     </div>
     <p class="no-results" data-no-results hidden>No selections match.</p>

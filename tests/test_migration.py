@@ -43,7 +43,7 @@ def test_migration_round_trips_snapshot_byte_for_byte(root: Path, tmp_path: Path
 def test_selection_ids_are_unique_and_stable(root: Path) -> None:
     ids = [migrate.selection_id(p) for p in range(1, 670)]
     assert len(set(ids)) == 669
-    assert migrate.selection_id(1) == "s-fjvf7ay"  # changing the ID scheme would break every journal
+    assert migrate.selection_id(1) == "s-fjvf7ay"  # IDs are referenced by notes, issues and links (#s-…)
 
 
 def test_committed_data_accounts_for_every_snapshot_row(root: Path) -> None:
