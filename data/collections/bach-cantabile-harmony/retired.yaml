@@ -1,1 +1,27 @@
-retired: []
+retired:
+  - selection:
+      id: s-wrwby3e
+      work: bwv-anh-120
+      movement: null
+      recording: trifonov-art-of-life
+      title: Minuet in A Minor, BWV Anh. 120 (Notebook for Anna Magdalena Bach, 1725)
+      credits: Daniil Trifonov
+      duration: null
+      apple_music:
+        song_id: '1577780575'
+        url: https://music.apple.com/us/album/minuet-in-a-minor-bwv-anh-120-notebook-for-anna/1577776877?i=1577780575
+        album_url: https://music.apple.com/us/album/1577776877
+      status: keep
+      verification: snapshot_matched
+      editorial_note: Composer attribution uncertain; Notebook for Anna Magdalena Bach. Duration pending verification.
+      source:
+        snapshot: master-669
+        position: 2
+    former_stage: ground
+    retired_on: '2026-10-11'
+    reason: 'Editor''s decision (2026-10-11): Ground now opens with Trifonov''s Anh. 114, Anh. 116 and Anh. 121 before the Hewitt preludes; Anh. 120 removed.'
+    deep_focus:
+      source_position: 2
+      listen: Compare the A-minor dance with the preceding G-major minuet. Follow the bass and hear how each cadence establishes a different tonal home.
+      piano: Play or sing the upper melody, then play the bass alone. Compare the cadence of each minuet before bringing both voices together.
+      question: How does the bass make the minor-mode minuet feel different without treating major and minor as mere moods?

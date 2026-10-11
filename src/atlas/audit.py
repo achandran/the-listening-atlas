@@ -25,6 +25,36 @@ def _retired_selections(c: Collection) -> list[Selection]:
     return out
 
 
+def _reordered(active: list[Selection]) -> set[str]:
+    """Selections whose order relative to other snapshot selections changed.
+
+    The longest increasing run of snapshot positions (in current playlist order) is what stayed in order;
+    everything else was moved. Insertions and removals elsewhere shift positions but do not count as moves.
+    """
+    seq = [(s.source_position, s.id) for s in active if s.source_position]
+    tails: list[int] = []  # index into seq of the smallest tail of each run length
+    prev: list[int] = [-1] * len(seq)
+    for i, (pos, _) in enumerate(seq):
+        lo, hi = 0, len(tails)
+        while lo < hi:
+            mid = (lo + hi) // 2
+            if seq[tails[mid]][0] < pos:
+                lo = mid + 1
+            else:
+                hi = mid
+        prev[i] = tails[lo - 1] if lo else -1
+        if lo == len(tails):
+            tails.append(i)
+        else:
+            tails[lo] = i
+    keep: set[str] = set()
+    k = tails[-1] if tails else -1
+    while k != -1:
+        keep.add(seq[k][1])
+        k = prev[k]
+    return {sid for _, sid in seq if sid not in keep}
+
+
 def snapshot_comparison(atlas: Atlas, c: Collection, snapshot: list[Row]) -> dict[str, Any]:
     active = c.selections()
     positions = c.positions()
@@ -38,7 +68,9 @@ def snapshot_comparison(atlas: Atlas, c: Collection, snapshot: list[Row]) -> dic
             by_src[s.source_position] = ("retired", s)
 
     missing = [int(r["position"]) for r in snapshot if int(r["position"]) not in by_src]
+    reordered = _reordered(active)
     moved, amended = [], []
+    shifted = 0
     rebuilt: list[Row] = []
     for r in snapshot:
         pos = int(r["position"])
@@ -51,13 +83,15 @@ def snapshot_comparison(atlas: Atlas, c: Collection, snapshot: list[Row]) -> dic
         else:
             row = legacy_row(atlas, c, s, pos)
             if positions[s.id] != pos:
+                shifted += 1
+            if s.id in reordered:
                 moved.append((s, pos, positions[s.id]))
         diffs = [k for k in MASTER_COLUMNS if k not in ("position",) and row[k] != r[k]]
         if state == "active" and diffs:
             amended.append((s, pos, diffs))
         rebuilt.append(row)
     new = [s for s in active if not s.source_position]
-    identical = not missing and not amended and not new and not retired and not moved
+    identical = not missing and not amended and not new and not retired and not shifted
     if identical:
         identical = write_master_csv(rebuilt) == write_master_csv(snapshot)
     return {
@@ -65,6 +99,7 @@ def snapshot_comparison(atlas: Atlas, c: Collection, snapshot: list[Row]) -> dic
         "retired": retired,
         "missing": missing,
         "moved": moved,
+        "shifted": shifted,
         "amended": amended,
         "new": new,
         "byte_identical": identical,
@@ -88,7 +123,8 @@ def migration_report(root: Path, atlas: Atlas, c: Collection) -> str:
         f"| Retired selections (kept for provenance) | {len(cmp['retired'])} |",
         f"| Snapshot rows accounted for (active + retired) | {accounted} / {len(snapshot)} |",
         f"| Snapshot rows missing from canonical data | {len(cmp['missing'])} |",
-        f"| Selections at a different playlist position | {len(cmp['moved'])} |",
+        f"| Selections reordered relative to the snapshot | {len(cmp['moved'])} |",
+        f"| Selections whose position number shifted (insertions/removals) | {cmp['shifted']} |",
         f"| Selections with amended fields | {len(cmp['amended'])} |",
         f"| New selections (not in snapshot) | {len(cmp['new'])} |",
         f"| Legacy CSV export byte-identical to snapshot | {'yes' if cmp['byte_identical'] else 'no'} |",
@@ -110,7 +146,7 @@ def migration_report(root: Path, atlas: Atlas, c: Collection) -> str:
     if cmp["missing"]:
         lines += ["", "## Missing snapshot rows", "", ", ".join(map(str, cmp["missing"]))]
     if cmp["moved"]:
-        lines += ["", "## Moved", "", "| Selection | Snapshot pos | Now | Title |", "|---|---:|---:|---|"]
+        lines += ["", "## Reordered", "", "| Selection | Snapshot pos | Now | Title |", "|---|---:|---:|---|"]
         lines += [f"| `{s.id}` | {a} | {b} | {s.title} |" for s, a, b in cmp["moved"]]
     if cmp["amended"]:
         lines += [

@@ -6,12 +6,13 @@ stages:
     question: What does the bass know that the melody has not yet told us?
     direction: Find the tonal center, sing the bass, and notice how each harmony creates an expectation.
     at_the_piano: At the piano, sing the bass while playing the upper voice; then reverse. Mark a cadence and explain why it feels conclusive.
-    itinerary: 'Trifonov: Petzold Minuet BWV Anh.114 and the Minuet in A minor BWV Anh.120 (composer uncertain); Hewitt: selected Little Preludes BWV924–943 and BWV999. The Petzold Minuet is not by J. S. Bach.'
+    itinerary: 'Trifonov: Petzold Minuet BWV Anh.114, Minuet in G major BWV Anh.116 and Minuet in C minor BWV Anh.121; Hewitt: selected Little Preludes BWV924–943 and BWV999. The Petzold Minuet is not by J. S. Bach.'
     itinerary_source: 'Trifonov: Petzold Minuet BWV Anh.114 and Bach BWV511; Hewitt: selected Little Preludes BWV924–943 and BWV999. The Petzold Minuet is not by J. S. Bach.'
     constraints:
       pinned_opening_song_ids:
         - '1577781357'
-        - '1577780575'
+        - '1577781609'
+        - '1577781863'
   - id: breath
     number: 2
     name: Breath

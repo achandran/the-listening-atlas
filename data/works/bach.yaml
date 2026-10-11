@@ -9,6 +9,16 @@ works:
     title: Minuet in A Minor (Notebook for Anna Magdalena Bach, 1725)
     composer: null
     attribution_note: Composer attribution uncertain (Notebook for Anna Magdalena Bach).
+  - id: bwv-anh-116
+    catalogue: BWV Anh. 116
+    title: Minuet in G Major (Notebook for Anna Magdalena Bach, 1725)
+    composer: null
+    attribution_note: Composer attribution uncertain (Notebook for Anna Magdalena Bach).
+  - id: bwv-anh-121
+    catalogue: BWV Anh. 121
+    title: Minuet in C Minor (Notebook for Anna Magdalena Bach, 1725)
+    composer: null
+    attribution_note: Composer attribution uncertain (Notebook for Anna Magdalena Bach).
   - id: bwv-924
     catalogue: BWV 924
     title: Prelude in C Major

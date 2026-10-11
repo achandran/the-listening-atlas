@@ -9,23 +9,15 @@ changes are listed here; they are **not** reflected in the playlist until applie
 
 A prior discussion floated BWV 939 as the first Hewitt prelude; the snapshot has BWV 924 at position 3 and BWV 939 at position 15 (numerical order). Not reordered.
 
-Selections: `s-cvmqbut` (#3), `s-amydr6o` (#15)
+Selections: `s-cvmqbut` (#4), `s-amydr6o` (#16)
 
 **Action:** Editor to confirm intended order.
-
-### ED-002 · BWV Anh. 120 duration missing (open)
-
-Song ID 1577780575 is approved; duration is blank in the snapshot.
-
-Selections: `s-wrwby3e` (#2)
-
-**Action:** Verify duration from Apple Music.
 
 ### ED-003 · Approved 19-selection Breath sequence not merged (open)
 
 Snapshot has 15 Breath selections. The approved sequence replaces Fleisher's BWV 208 with Hewitt's Mary Howe transcription and adds BWV 147/X, BWV 199, BWV 21/III and BWV 127/III. Four new items lack song IDs; BWV 127/III has a user-supplied URL.
 
-Selections: `s-h7qkkv3` (#25)
+Selections: `s-h7qkkv3` (#26)
 
 **Action:** Verify song IDs, then apply the proposal.
 
@@ -33,7 +25,7 @@ Selections: `s-h7qkkv3` (#25)
 
 Positions 195–224 link only to Apple album 1721143424 (which also supplies BWV 903 song IDs). Durations are blank; the notes' reference to retained Schiff timings is not reflected in the data.
 
-Selections: `s-lff4xdo` (#195), `s-5o4es4o` (#196), `s-65ge4oi` (#197), `s-ulrxv24` (#198), `s-oh3k54p` (#199), `s-crh54oa` (#200) … and 24 more
+Selections: `s-lff4xdo` (#196), `s-5o4es4o` (#197), `s-65ge4oi` (#198), `s-ulrxv24` (#199), `s-oh3k54p` (#200), `s-crh54oa` (#201) … and 24 more
 
 **Action:** Match each Hewitt track on album 1721143424; add song IDs and durations.
 
@@ -41,7 +33,7 @@ Selections: `s-lff4xdo` (#195), `s-5o4es4o` (#196), `s-65ge4oi` (#197), `s-ulrxv
 
 Apple labels the track BWV 772a; confirm the intended version of Invention No. 1.
 
-Selections: `s-lff4xdo` (#195)
+Selections: `s-lff4xdo` (#196)
 
 **Action:** Editor to confirm.
 
@@ -49,7 +41,7 @@ Selections: `s-lff4xdo` (#195)
 
 Links are an Apple Music search page. Order Aria → Variations I–X → Aria da capo is correct. Ólafsson's BWV 659 (position 30) is on Apple album 1410551592, likely the same DG 2018 album.
 
-Selections: `s-xotciql` (#317), `s-mr7jqed` (#318), `s-fn24zfn` (#319), `s-luypvfk` (#320), `s-hthinje` (#321), `s-pxiu7zx` (#322) … and 6 more
+Selections: `s-xotciql` (#318), `s-mr7jqed` (#319), `s-fn24zfn` (#320), `s-luypvfk` (#321), `s-hthinje` (#322), `s-pxiu7zx` (#323) … and 6 more
 
 **Action:** Match each track (check album 1410551592); replace approximate durations.
 
@@ -57,7 +49,7 @@ Selections: `s-xotciql` (#317), `s-mr7jqed` (#318), `s-fn24zfn` (#319), `s-luypv
 
 Track title says Passacaglia only.
 
-Selections: `s-fgmnvuj` (#329)
+Selections: `s-fgmnvuj` (#330)
 
 **Action:** Listen and confirm coverage.
 
@@ -65,7 +57,7 @@ Selections: `s-fgmnvuj` (#329)
 
 Apple album 1721145434 holds all 96 tracks in order; edition/recording date not verified.
 
-Selections: `s-4t7zbnj` (#370)
+Selections: `s-4t7zbnj` (#371)
 
 **Action:** Verify album edition against Hyperion's later WTC release.
 
@@ -73,7 +65,7 @@ Selections: `s-4t7zbnj` (#370)
 
 Position 576 is on album 276069994 (“Erbarme Dich – Old SOTW”), not the St Matthew Passion album 251240562; its song ID is in the same range, suggesting the same performance.
 
-Selections: `s-4nznack` (#576)
+Selections: `s-4nznack` (#577)
 
 **Action:** Confirm same performance; consider switching to the Passion album track.
 
@@ -81,7 +73,7 @@ Selections: `s-4nznack` (#576)
 
 The guide calls for the recorded order; the snapshot begins with Canon 1 à 2 and places Ricercar à 3 seventh. Album track order not verified offline.
 
-Selections: `s-cxqmhpu` (#633), `s-qg7crrz` (#634), `s-xxcanxj` (#635), `s-jxbkutk` (#636), `s-6owluyf` (#637), `s-2ahd2ow` (#638) … and 10 more
+Selections: `s-cxqmhpu` (#634), `s-qg7crrz` (#635), `s-xxcanxj` (#636), `s-jxbkutk` (#637), `s-6owluyf` (#638), `s-2ahd2ow` (#639) … and 10 more
 
 **Action:** Compare with Apple album 1724249803 track order; do not reorder without approval.
 
@@ -95,16 +87,24 @@ Guide mentions BWV 511, Petri/Fleisher, Schiff and Hewitt BWV 989; ranges from S
 
 “E-FlA Major” (position 58), “in in B Minor.” (224) are Apple/ source titles kept as-is. Suzuki organ BWV 582 has principal artist “Masaaki Suzuki / Bach Collegium Japan”.
 
-Selections: `s-otae3ux` (#58), `s-xvjln6k` (#224), `s-fgmnvuj` (#329)
+Selections: `s-otae3ux` (#59), `s-xvjln6k` (#225), `s-fgmnvuj` (#330)
 
 **Action:** Decide whether to keep Apple's titles verbatim.
+
+### ED-015 · Durations for Trifonov Anh. 116 and Anh. 121 (open)
+
+Added 2026-10-11 at the editor's request with song IDs 1577781609 and 1577781863 (titles confirmed on Apple Music). Durations were not shown on the public pages. Anh. 120's close-listening study was kept with its retired record; the new minuets have no curated study yet.
+
+Selections: `s-uc6qrkj` (#2), `s-oyh3wl7` (#3)
+
+**Action:** Add durations; optionally write close-listening studies in notes/deep-focus.yaml.
 
 ## Proposals
 
 ### Proposal `breath-19` → stage `breath` (proposed)
 
 - Stage now: 15 selections → proposed: 19 (14 kept, 5 new, 1 retired)
-- Whole playlist: 669 → 673
+- Whole playlist: 670 → 674
 - Ready to apply: **no**
 
 Pending before it can be applied:
@@ -121,22 +121,22 @@ Editorial notes:
 
 | Stage | Guide says | Current |
 |---|---|---|
-| Ground | 1–20 · 20 tracks | 1–20 · 20 tracks |
-| Breath | 21–35 · 15 tracks | 21–35 · 15 tracks |
-| Motion | 36–124 · 89 tracks | 36–124 · 89 tracks |
-| Line | 125–231 · 107 tracks | 125–231 · 107 tracks |
-| Rhetoric | 232–256 · 25 tracks | 232–256 · 25 tracks |
-| Exchange | 257–315 · 59 tracks | 257–315 · 59 tracks |
-| Span | 316–368 · 53 tracks | 316–369 · 54 tracks ⚠ |
-| Order | 369–464 · 96 tracks | 370–465 · 96 tracks ⚠ |
-| Transformation | 465–496 · 32 tracks | 466–497 · 32 tracks ⚠ |
-| Convergence | 497–631 · 135 tracks | 498–632 · 135 tracks ⚠ |
-| Essence | 632–668 · 37 tracks | 633–669 · 37 tracks ⚠ |
+| Ground | 1–20 · 20 tracks | 1–21 · 21 tracks ⚠ |
+| Breath | 21–35 · 15 tracks | 22–36 · 15 tracks ⚠ |
+| Motion | 36–124 · 89 tracks | 37–125 · 89 tracks ⚠ |
+| Line | 125–231 · 107 tracks | 126–232 · 107 tracks ⚠ |
+| Rhetoric | 232–256 · 25 tracks | 233–257 · 25 tracks ⚠ |
+| Exchange | 257–315 · 59 tracks | 258–316 · 59 tracks ⚠ |
+| Span | 316–368 · 53 tracks | 317–370 · 54 tracks ⚠ |
+| Order | 369–464 · 96 tracks | 371–466 · 96 tracks ⚠ |
+| Transformation | 465–496 · 32 tracks | 467–498 · 32 tracks ⚠ |
+| Convergence | 497–631 · 135 tracks | 499–633 · 135 tracks ⚠ |
+| Essence | 632–668 · 37 tracks | 634–670 · 37 tracks ⚠ |
 
 ## Itinerary wording updated (originals preserved)
 
 - **Ground** — was: “Trifonov: Petzold Minuet BWV Anh.114 and Bach BWV511; Hewitt: selected Little Preludes BWV924–943 and BWV999. The Petzold Minuet is not by J. S. Bach.”
-  - now: “Trifonov: Petzold Minuet BWV Anh.114 and the Minuet in A minor BWV Anh.120 (composer uncertain); Hewitt: selected Little Preludes BWV924–943 and BWV999. The Petzold Minuet is not by J. S. Bach.”
+  - now: “Trifonov: Petzold Minuet BWV Anh.114, Minuet in G major BWV Anh.116 and Minuet in C minor BWV Anh.121; Hewitt: selected Little Preludes BWV924–943 and BWV999. The Petzold Minuet is not by J. S. Bach.”
 - **Line** — was: “Yo-Yo Ma: six cello suites; Ehnes: violin sonatas and partitas; BWV140/IV→Perahia BWV645; Schiff: 15 Inventions and 15 Sinfonias; Hewitt: Four Duets; Koopman: BWV527.”
   - now: “Yo-Yo Ma: six cello suites; Ehnes: violin sonatas and partitas; BWV140/IV→Perahia BWV645; Hewitt (Hyperion, 1994): 15 Inventions and 15 Sinfonias; Hewitt: Four Duets; Koopman: BWV527.”
 - **Span** — was: “Suzuki/BCJ: BWV1068 Air only; Hewitt: BWV989; Suzuki: BWV582; Perahia: all six Partitas BWV825–830. Focus Partitas No.2 and No.4 Allemandes.”
@@ -148,5 +148,5 @@ Editorial notes:
 
 ## Selections without a verified Apple song ID (42)
 
-- **Angela Hewitt — Bach: 2-Part Inventions, 3-Part Sinfonias, etc.** (30, #195–224): unmatched_album_link
-- **Víkingur Ólafsson — Johann Sebastian Bach (Deutsche Grammophon, 2018)** (12, #317–328): unmatched_search_link
+- **Angela Hewitt — Bach: 2-Part Inventions, 3-Part Sinfonias, etc.** (30, #196–225): unmatched_album_link
+- **Víkingur Ólafsson — Johann Sebastian Bach (Deutsche Grammophon, 2018)** (12, #318–329): unmatched_search_link

@@ -17,7 +17,7 @@ def test_breath_proposal_is_pending(root: Path, atlas) -> None:  # type: ignore[
     res = check_proposal(atlas, c, yamlio.load(root / PROPOSAL))
     assert res.errors == []
     assert (res.current_count, res.resulting_count, res.kept, res.new, res.retire) == (15, 19, 14, 5, 1)
-    assert (res.playlist_before, res.playlist_after) == (669, 673)
+    assert (res.playlist_before, res.playlist_after) == (670, 674)
     assert not res.ready and len(res.pending) == 5
     assert len(res.notes) == 1 and "close-listening study" in res.notes[0]
 
@@ -72,14 +72,15 @@ def test_apply_complete_proposal(sandbox: Path) -> None:
     breath = c2.stage("breath").selections
     assert len(breath) == 19
     assert "fleisher-two-hands" not in {s.recording for s in breath}
-    assert [r["selection"]["recording"] for r in c2.retired] == ["fleisher-two-hands"]
-    assert "piano transcription" in c2.retired[0]["deep_focus"]["listen"]  # curated study kept, not lost
+    fleisher = [r for r in c2.retired if r.get("proposal") == "breath-19"]
+    assert [r["selection"]["recording"] for r in fleisher] == ["fleisher-two-hands"]
+    assert "piano transcription" in fleisher[0]["deep_focus"]["listen"]  # curated study kept, not lost
     assert {"bwv-147", "bwv-199", "bwv-21", "bwv-127"} <= set(after.works)
-    assert len(c2.selections()) == 673
+    assert len(c2.selections()) == 674
     assert validate.run(sandbox).errors == []
     report = audit.migration_report(sandbox, after, c2)
     assert "| Snapshot rows accounted for (active + retired) | 669 / 669 |" in report
-    assert "| New selections (not in snapshot) | 5 |" in report
+    assert "| New selections (not in snapshot) | 7 |" in report
     assert yamlio.load(sandbox / PROPOSAL)["status"] == "applied"
 
 

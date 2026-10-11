@@ -103,7 +103,8 @@ That's what keeps diffs clean. Moving one selection is a cut-and-paste of its bl
 
 *(Illustration only — this is the open question ED-001 and has **not** been applied.)* `git diff --stat`
 reports `16 insertions(+), 16 deletions(-)`. No other selection changes, and no renumbering. `atlas audit`
-then lists every selection whose computed position moved in `reports/…/migration-report.md`.
+then lists the moved selection under *Reordered* in `reports/…/migration-report.md` (insertions and removals
+only shift position numbers; they are counted, not listed as moves).
 
 ## Validation rules (`atlas validate`)
 

@@ -10,7 +10,7 @@ def _c(atlas):  # type: ignore[no-untyped-def]
 def test_stage_counts(atlas) -> None:  # type: ignore[no-untyped-def]
     counts = {st.name: len(st.selections) for st in _c(atlas).stages}
     assert counts == {
-        "Ground": 20,
+        "Ground": 21,
         "Breath": 15,
         "Motion": 89,
         "Line": 107,
@@ -26,8 +26,12 @@ def test_stage_counts(atlas) -> None:  # type: ignore[no-untyped-def]
 
 def test_hewitt_preludes_not_reordered(atlas) -> None:  # type: ignore[no-untyped-def]
     ground = _c(atlas).stage("ground").selections
-    assert ground[2].work == "bwv-924"  # ED-001: BWV 939 question is open, order unchanged
-    assert ground[14].work == "bwv-939"
+    assert ground[3].work == "bwv-924"  # ED-001: BWV 939 question is open, order unchanged
+    assert ground[15].work == "bwv-939"
+    hewitt = [s.work for s in ground if s.recording == "hewitt-plays-bach-and-more"]
+    assert len(hewitt) == 18 and ground[3:] == [
+        s for s in ground if s.recording == "hewitt-plays-bach-and-more"
+    ]
 
 
 def test_breath_snapshot_is_not_silently_replaced(atlas) -> None:  # type: ignore[no-untyped-def]

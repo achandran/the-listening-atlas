@@ -11,11 +11,11 @@ issues:
   - id: ED-002
     stage: ground
     title: BWV Anh. 120 duration missing
-    status: open
-    detail: Song ID 1577780575 is approved; duration is blank in the snapshot.
+    status: resolved
+    detail: 'Song ID 1577780575 is approved; duration is blank in the snapshot. Resolved 2026-10-11: Anh. 120 retired from Ground (see retired.yaml).'
     selections:
       - s-wrwby3e
-    action: Verify duration from Apple Music.
+    action: None.
   - id: ED-003
     stage: breath
     title: Approved 19-selection Breath sequence not merged
@@ -167,3 +167,12 @@ issues:
       - s-xvjln6k
       - s-fgmnvuj
     action: Decide whether to keep Apple's titles verbatim.
+  - id: ED-015
+    stage: ground
+    title: Durations for Trifonov Anh. 116 and Anh. 121
+    status: open
+    detail: Added 2026-10-11 at the editor's request with song IDs 1577781609 and 1577781863 (titles confirmed on Apple Music). Durations were not shown on the public pages. Anh. 120's close-listening study was kept with its retired record; the new minuets have no curated study yet.
+    selections:
+      - s-uc6qrkj
+      - s-oyh3wl7
+    action: Add durations; optionally write close-listening studies in notes/deep-focus.yaml.

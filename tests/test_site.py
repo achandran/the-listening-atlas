@@ -72,9 +72,10 @@ def test_original_prompts_preserved(site: Path, root: Path) -> None:
     import html as h
 
     text = h.unescape(html)
-    for entry in deep.values():
+    retired = {"2"}  # Anh. 120, retired 2026-10-11; its study is preserved in retired.yaml
+    for pos, entry in deep.items():
         for v in entry.values():
-            assert v in text
+            assert (v in text) is (pos not in retired), pos
     for key, v in notes.items():
         if key != "BWV 511":  # work no longer in the playlist; kept as orphaned note
             assert v in text, key
@@ -82,7 +83,7 @@ def test_original_prompts_preserved(site: Path, root: Path) -> None:
 
 def test_search_index_and_legacy_journal_map(site: Path) -> None:
     data = json.loads((site / "bach-cantabile-harmony/atlas-data.json").read_text())
-    assert data["total"] == 669
+    assert data["total"] == 670
     assert len(data["legacy"]["positions"]) == 669
     assert data["legacy"]["positions"]["1"] == "s-fjvf7ay"
     assert data["legacy"]["storageKey"] == "bachCantabileJournal"

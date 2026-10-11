@@ -57,11 +57,16 @@ def test_committed_data_accounts_for_every_snapshot_row(root: Path) -> None:
     assert not active & retired
 
 
-def test_first_two_ground_song_ids(atlas) -> None:  # type: ignore[no-untyped-def]
-    ground = atlas.collection("bach-cantabile-harmony").stage("ground")
-    assert [s.song_id for s in ground.selections[:2]] == ["1577781357", "1577780575"]
-    assert ground.selections[0].work == "bwv-anh-114"
-    assert ground.selections[1].work == "bwv-anh-120"
-    assert all(s.recording == "trifonov-art-of-life" for s in ground.selections[:2])
+def test_ground_opening_trifonov_minuets(atlas) -> None:  # type: ignore[no-untyped-def]
+    """Editor's decision 2026-10-11: Ground opens Anh. 114 → Anh. 116 → Anh. 121 (Trifonov), then Hewitt.
+    Anh. 120 (snapshot position 2) is retired, not deleted."""
+    c = atlas.collection("bach-cantabile-harmony")
+    ground = c.stage("ground")
+    assert [s.song_id for s in ground.selections[:3]] == ["1577781357", "1577781609", "1577781863"]
+    assert [s.work for s in ground.selections[:3]] == ["bwv-anh-114", "bwv-anh-116", "bwv-anh-121"]
+    assert all(s.recording == "trifonov-art-of-life" for s in ground.selections[:3])
+    assert ground.selections[3].recording == "hewitt-plays-bach-and-more"
     assert atlas.recordings["trifonov-art-of-life"].apple_album_id == "1577776877"
-    assert "bwv-511" not in {s.work for s in ground.selections}
+    assert {"bwv-511", "bwv-anh-120"}.isdisjoint({s.work for s in ground.selections})
+    retired = [r["selection"]["apple_music"]["song_id"] for r in c.retired]
+    assert "1577780575" in retired
