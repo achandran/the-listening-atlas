@@ -25,3 +25,30 @@ retired:
       listen: Compare the A-minor dance with the preceding G-major minuet. Follow the bass and hear how each cadence establishes a different tonal home.
       piano: Play or sing the upper melody, then play the bass alone. Compare the cadence of each minuet before bringing both voices together.
       question: How does the bass make the minor-mode minuet feel different without treating major and minor as mere moods?
+  - selection:
+      id: s-h7qkkv3
+      work: bwv-208
+      movement: No. 9
+      arrangement: Arr. for Piano
+      recording: fleisher-two-hands
+      title: Sheep May Safely Graze, BWV 208/9 (Arr. for Piano)
+      credits: Leon Fleisher
+      duration: 295
+      apple_music:
+        song_id: '1023324571'
+        url: https://music.apple.com/us/song/sheep-may-safely-graze-bwv-208-9-arr-for-piano/1023324571
+        album_url: https://music.apple.com/us/album/sheep-may-safely-graze-bwv-208-9-arr-for-piano/1023324548
+      status: keep
+      verification: snapshot_matched
+      source:
+        snapshot: master-669
+        position: 25
+    former_stage: breath
+    retired_on: '2026-10-11'
+    reason: Replaced by Hewitt's Mary Howe transcription (approved in editorial discussion).
+    proposal: breath-19
+    deep_focus:
+      source_position: 25
+      listen: Compare the piano transcription with the sung pastoral aria immediately before it.
+      piano: Sing the melody while playing the accompaniment quietly.
+      question: What is retained, and what must the piano invent to suggest breath?

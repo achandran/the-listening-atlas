@@ -247,9 +247,9 @@ works:
     catalogue: BWV 645
     title: Wachet auf, ruft uns die Stimme (chorale prelude)
     composer: Johann Sebastian Bach
-  - id: bwv-772a
-    catalogue: BWV 772a
-    title: Two-Part Invention No. 1 in C
+  - id: bwv-772
+    catalogue: BWV 772
+    title: Two-Part Invention No. 1 in C Major
     composer: Johann Sebastian Bach
   - id: bwv-773
     catalogue: BWV 773
@@ -525,7 +525,7 @@ works:
     composer: Johann Sebastian Bach
   - id: bwv-582
     catalogue: BWV 582
-    title: Passacaglia in C Minor
+    title: Passacaglia and Fugue in C Minor
     composer: Johann Sebastian Bach
   - id: bwv-825
     catalogue: BWV 825
@@ -770,4 +770,20 @@ works:
   - id: bwv-668a
     catalogue: BWV 668a
     title: Wenn wir in höchsten Nöten sein (“Vor deinem Thron”)
+    composer: Johann Sebastian Bach
+  - id: bwv-147
+    catalogue: BWV 147
+    title: Herz und Mund und Tat und Leben
+    composer: Johann Sebastian Bach
+  - id: bwv-199
+    catalogue: BWV 199
+    title: Mein Herze schwimmt im Blut
+    composer: Johann Sebastian Bach
+  - id: bwv-21
+    catalogue: BWV 21
+    title: Ich hatte viel Bekümmernis
+    composer: Johann Sebastian Bach
+  - id: bwv-127
+    catalogue: BWV 127
+    title: Herr Jesu Christ, wahr' Mensch und Gott
     composer: Johann Sebastian Bach

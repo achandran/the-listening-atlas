@@ -498,6 +498,11 @@ def migrate(root: Path) -> Migrated:
         "vision": student["The vision"],
         "how_to_use": student["How to use the guide"],
         "beyond_the_sequence": student["Listening beyond the sequence"],
+        "guide": {
+            "title": "Bach Listening Guide",
+            "subtitle": "Cantabile & Harmony · Eleven Hearing Stages",
+            "stages_heading": "The eleven stages",
+        },
         "public_playlist_url": "https://music.apple.com/us/playlist/bach/pl.u-kv9lRpvs7v0a9Yb",
         "public_playlist_note": "Public reference only; not proof that this data and the live playlist are identical.",
         "default_work_focus": "Follow the stage question through the complete work. Notice a change of relationship "

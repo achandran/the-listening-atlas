@@ -31,9 +31,8 @@ def test_removals_and_duplicates() -> None:
 
 def test_unresolved_reported(atlas) -> None:  # type: ignore[no-untyped-def]
     desired, unresolved = am.desired_song_ids(atlas.collection("bach-cantabile-harmony"))
-    assert len(desired) == 628 and len(unresolved) == 42
-    p = am.plan(desired, desired, unresolved)
-    assert not p.in_sync
+    assert len(desired) == 674 and unresolved == []
+    assert am.plan(desired, desired, unresolved).in_sync
 
 
 def test_disabled_without_env(monkeypatch: pytest.MonkeyPatch) -> None:

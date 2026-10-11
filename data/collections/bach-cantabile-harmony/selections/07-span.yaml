@@ -22,229 +22,205 @@ selections:
       work_inferred_from: apple_music_url
   - id: s-xotciql
     work: bwv-989
-    movement: Aria
-    recording: olafsson-dg-2018
-    title: 'Aria variata (alla maniera italiana), BWV 989: Aria'
+    movement: Thema
+    recording: olafsson-johann-sebastian-bach
+    title: 'Aria variata in A Minor, BWV 989 "Alla maniera italiana": Thema'
     credits: Víkingur Ólafsson
-    duration: 111
-    duration_status: approximate
+    duration: 110
     apple_music:
-      song_id: null
-      url: https://music.apple.com/us/search?term=Vikingur%20Olafsson%20Johann%20Sebastian%20Bach%202018
-      album_url: https://music.apple.com/us/search?term=Vikingur%20Olafsson%20Johann%20Sebastian%20Bach%202018
-    status: replacement_selected
-    verification: needs_verification
-    link_kind: search
-    editorial_note: 'Ólafsson DG 2018. Includes the concluding Aria da capo, absent from the former Hewitt selection. Source: DG official tracklist; timings rounded to seconds.'
+      song_id: '1410553936'
+      url: https://music.apple.com/us/album/aria-variata-in-a-minor-bwv-989-alla-maniera-italiana-thema/1410551592?i=1410553936
+      album_url: https://music.apple.com/us/album/aria-variata-in-a-minor-bwv-989-alla-maniera-italiana-thema/1410551592
+    status: keep
+    verification: verified
+    editorial_note: Ólafsson DG 2018, including the concluding Aria da capo (replaced Hewitt's BWV 989). Track matched in Apple's catalogue and confirmed by the editor 2026-10-11.
     source:
       snapshot: master-669
       position: 317
   - id: s-mr7jqed
     work: bwv-989
     movement: Variation I. Largo
-    recording: olafsson-dg-2018
-    title: 'Aria variata (alla maniera italiana), BWV 989: Variation I. Largo'
+    recording: olafsson-johann-sebastian-bach
+    title: 'Aria variata in A Minor, BWV 989 "Alla maniera italiana": Variation I. Largo'
     credits: Víkingur Ólafsson
-    duration: 70
-    duration_status: approximate
+    duration: 69
     apple_music:
-      song_id: null
-      url: https://music.apple.com/us/search?term=Vikingur%20Olafsson%20Johann%20Sebastian%20Bach%202018
-      album_url: https://music.apple.com/us/search?term=Vikingur%20Olafsson%20Johann%20Sebastian%20Bach%202018
-    status: replacement_selected
-    verification: needs_verification
-    link_kind: search
-    editorial_note: 'Ólafsson DG 2018. Includes the concluding Aria da capo, absent from the former Hewitt selection. Source: DG official tracklist; timings rounded to seconds.'
+      song_id: '1410553942'
+      url: https://music.apple.com/us/album/aria-variata-in-a-minor-bwv-989-alla-maniera/1410551592?i=1410553942
+      album_url: https://music.apple.com/us/album/aria-variata-in-a-minor-bwv-989-alla-maniera/1410551592
+    status: keep
+    verification: verified
+    editorial_note: Ólafsson DG 2018, including the concluding Aria da capo (replaced Hewitt's BWV 989). Track matched in Apple's catalogue and confirmed by the editor 2026-10-11.
     source:
       snapshot: master-669
       position: 318
   - id: s-fn24zfn
     work: bwv-989
     movement: Variation II
-    recording: olafsson-dg-2018
-    title: 'Aria variata (alla maniera italiana), BWV 989: Variation II'
+    recording: olafsson-johann-sebastian-bach
+    title: 'Aria variata in A Minor, BWV 989 "Alla maniera italiana": Variation II'
     credits: Víkingur Ólafsson
-    duration: 56
-    duration_status: approximate
+    duration: 55
     apple_music:
-      song_id: null
-      url: https://music.apple.com/us/search?term=Vikingur%20Olafsson%20Johann%20Sebastian%20Bach%202018
-      album_url: https://music.apple.com/us/search?term=Vikingur%20Olafsson%20Johann%20Sebastian%20Bach%202018
-    status: replacement_selected
-    verification: needs_verification
-    link_kind: search
-    editorial_note: 'Ólafsson DG 2018. Includes the concluding Aria da capo, absent from the former Hewitt selection. Source: DG official tracklist; timings rounded to seconds.'
+      song_id: '1410554301'
+      url: https://music.apple.com/us/album/aria-variata-in-a-minor-bwv-989-alla-maniera/1410551592?i=1410554301
+      album_url: https://music.apple.com/us/album/aria-variata-in-a-minor-bwv-989-alla-maniera/1410551592
+    status: keep
+    verification: verified
+    editorial_note: Ólafsson DG 2018, including the concluding Aria da capo (replaced Hewitt's BWV 989). Track matched in Apple's catalogue and confirmed by the editor 2026-10-11.
     source:
       snapshot: master-669
       position: 319
   - id: s-luypvfk
     work: bwv-989
     movement: Variation III
-    recording: olafsson-dg-2018
-    title: 'Aria variata (alla maniera italiana), BWV 989: Variation III'
+    recording: olafsson-johann-sebastian-bach
+    title: 'Aria variata in A Minor, BWV 989 "Alla maniera italiana": Variation III'
     credits: Víkingur Ólafsson
     duration: 55
-    duration_status: approximate
     apple_music:
-      song_id: null
-      url: https://music.apple.com/us/search?term=Vikingur%20Olafsson%20Johann%20Sebastian%20Bach%202018
-      album_url: https://music.apple.com/us/search?term=Vikingur%20Olafsson%20Johann%20Sebastian%20Bach%202018
-    status: replacement_selected
-    verification: needs_verification
-    link_kind: search
-    editorial_note: 'Ólafsson DG 2018. Includes the concluding Aria da capo, absent from the former Hewitt selection. Source: DG official tracklist; timings rounded to seconds.'
+      song_id: '1410554316'
+      url: https://music.apple.com/us/album/aria-variata-in-a-minor-bwv-989-alla-maniera/1410551592?i=1410554316
+      album_url: https://music.apple.com/us/album/aria-variata-in-a-minor-bwv-989-alla-maniera/1410551592
+    status: keep
+    verification: verified
+    editorial_note: Ólafsson DG 2018, including the concluding Aria da capo (replaced Hewitt's BWV 989). Track matched in Apple's catalogue and confirmed by the editor 2026-10-11.
     source:
       snapshot: master-669
       position: 320
   - id: s-hthinje
     work: bwv-989
     movement: Variation IV. Allegro
-    recording: olafsson-dg-2018
-    title: 'Aria variata (alla maniera italiana), BWV 989: Variation IV. Allegro'
+    recording: olafsson-johann-sebastian-bach
+    title: 'Aria variata in A Minor, BWV 989 "Alla maniera italiana": Variation IV. Allegro'
     credits: Víkingur Ólafsson
-    duration: 56
-    duration_status: approximate
+    duration: 55
     apple_music:
-      song_id: null
-      url: https://music.apple.com/us/search?term=Vikingur%20Olafsson%20Johann%20Sebastian%20Bach%202018
-      album_url: https://music.apple.com/us/search?term=Vikingur%20Olafsson%20Johann%20Sebastian%20Bach%202018
-    status: replacement_selected
-    verification: needs_verification
-    link_kind: search
-    editorial_note: 'Ólafsson DG 2018. Includes the concluding Aria da capo, absent from the former Hewitt selection. Source: DG official tracklist; timings rounded to seconds.'
+      song_id: '1410554318'
+      url: https://music.apple.com/us/album/aria-variata-in-a-minor-bwv-989-alla-maniera/1410551592?i=1410554318
+      album_url: https://music.apple.com/us/album/aria-variata-in-a-minor-bwv-989-alla-maniera/1410551592
+    status: keep
+    verification: verified
+    editorial_note: Ólafsson DG 2018, including the concluding Aria da capo (replaced Hewitt's BWV 989). Track matched in Apple's catalogue and confirmed by the editor 2026-10-11.
     source:
       snapshot: master-669
       position: 321
   - id: s-pxiu7zx
     work: bwv-989
     movement: Variation V. Un poco allegro
-    recording: olafsson-dg-2018
-    title: 'Aria variata (alla maniera italiana), BWV 989: Variation V. Un poco allegro'
+    recording: olafsson-johann-sebastian-bach
+    title: 'Aria variata in A Minor, BWV 989 "Alla maniera italiana": Variation V. Un poco allegro'
     credits: Víkingur Ólafsson
     duration: 59
-    duration_status: approximate
     apple_music:
-      song_id: null
-      url: https://music.apple.com/us/search?term=Vikingur%20Olafsson%20Johann%20Sebastian%20Bach%202018
-      album_url: https://music.apple.com/us/search?term=Vikingur%20Olafsson%20Johann%20Sebastian%20Bach%202018
-    status: replacement_selected
-    verification: needs_verification
-    link_kind: search
-    editorial_note: 'Ólafsson DG 2018. Includes the concluding Aria da capo, absent from the former Hewitt selection. Source: DG official tracklist; timings rounded to seconds.'
+      song_id: '1410554502'
+      url: https://music.apple.com/us/album/aria-variata-in-a-minor-bwv-989-alla-maniera/1410551592?i=1410554502
+      album_url: https://music.apple.com/us/album/aria-variata-in-a-minor-bwv-989-alla-maniera/1410551592
+    status: keep
+    verification: verified
+    editorial_note: Ólafsson DG 2018, including the concluding Aria da capo (replaced Hewitt's BWV 989). Track matched in Apple's catalogue and confirmed by the editor 2026-10-11.
     source:
       snapshot: master-669
       position: 322
   - id: s-5sx5jvc
     work: bwv-989
     movement: Variation VI. Andante
-    recording: olafsson-dg-2018
-    title: 'Aria variata (alla maniera italiana), BWV 989: Variation VI. Andante'
+    recording: olafsson-johann-sebastian-bach
+    title: 'Aria variata in A Minor, BWV 989 "Alla maniera italiana": Variation VI. Andante'
     credits: Víkingur Ólafsson
     duration: 126
-    duration_status: approximate
     apple_music:
-      song_id: null
-      url: https://music.apple.com/us/search?term=Vikingur%20Olafsson%20Johann%20Sebastian%20Bach%202018
-      album_url: https://music.apple.com/us/search?term=Vikingur%20Olafsson%20Johann%20Sebastian%20Bach%202018
-    status: replacement_selected
-    verification: needs_verification
-    link_kind: search
-    editorial_note: 'Ólafsson DG 2018. Includes the concluding Aria da capo, absent from the former Hewitt selection. Source: DG official tracklist; timings rounded to seconds.'
+      song_id: '1410554505'
+      url: https://music.apple.com/us/album/aria-variata-in-a-minor-bwv-989-alla-maniera/1410551592?i=1410554505
+      album_url: https://music.apple.com/us/album/aria-variata-in-a-minor-bwv-989-alla-maniera/1410551592
+    status: keep
+    verification: verified
+    editorial_note: Ólafsson DG 2018, including the concluding Aria da capo (replaced Hewitt's BWV 989). Track matched in Apple's catalogue and confirmed by the editor 2026-10-11.
     source:
       snapshot: master-669
       position: 323
   - id: s-e7uh2vl
     work: bwv-989
     movement: Variation VII. Un poco allegro
-    recording: olafsson-dg-2018
-    title: 'Aria variata (alla maniera italiana), BWV 989: Variation VII. Un poco allegro'
+    recording: olafsson-johann-sebastian-bach
+    title: 'Aria variata in A Minor, BWV 989 "Alla maniera italiana": Variation VII. Un poco allegro'
     credits: Víkingur Ólafsson
     duration: 47
-    duration_status: approximate
     apple_music:
-      song_id: null
-      url: https://music.apple.com/us/search?term=Vikingur%20Olafsson%20Johann%20Sebastian%20Bach%202018
-      album_url: https://music.apple.com/us/search?term=Vikingur%20Olafsson%20Johann%20Sebastian%20Bach%202018
-    status: replacement_selected
-    verification: needs_verification
-    link_kind: search
-    editorial_note: 'Ólafsson DG 2018. Includes the concluding Aria da capo, absent from the former Hewitt selection. Source: DG official tracklist; timings rounded to seconds.'
+      song_id: '1410554506'
+      url: https://music.apple.com/us/album/aria-variata-in-a-minor-bwv-989-alla-maniera/1410551592?i=1410554506
+      album_url: https://music.apple.com/us/album/aria-variata-in-a-minor-bwv-989-alla-maniera/1410551592
+    status: keep
+    verification: verified
+    editorial_note: Ólafsson DG 2018, including the concluding Aria da capo (replaced Hewitt's BWV 989). Track matched in Apple's catalogue and confirmed by the editor 2026-10-11.
     source:
       snapshot: master-669
       position: 324
   - id: s-zk7hn4j
     work: bwv-989
     movement: Variation VIII. Allegro
-    recording: olafsson-dg-2018
-    title: 'Aria variata (alla maniera italiana), BWV 989: Variation VIII. Allegro'
+    recording: olafsson-johann-sebastian-bach
+    title: 'Aria variata in A Minor, BWV 989 "Alla maniera italiana": Variation VIII. Allegro'
     credits: Víkingur Ólafsson
     duration: 49
-    duration_status: approximate
     apple_music:
-      song_id: null
-      url: https://music.apple.com/us/search?term=Vikingur%20Olafsson%20Johann%20Sebastian%20Bach%202018
-      album_url: https://music.apple.com/us/search?term=Vikingur%20Olafsson%20Johann%20Sebastian%20Bach%202018
-    status: replacement_selected
-    verification: needs_verification
-    link_kind: search
-    editorial_note: 'Ólafsson DG 2018. Includes the concluding Aria da capo, absent from the former Hewitt selection. Source: DG official tracklist; timings rounded to seconds.'
+      song_id: '1410554513'
+      url: https://music.apple.com/us/album/aria-variata-in-a-minor-bwv-989-alla-maniera/1410551592?i=1410554513
+      album_url: https://music.apple.com/us/album/aria-variata-in-a-minor-bwv-989-alla-maniera/1410551592
+    status: keep
+    verification: verified
+    editorial_note: Ólafsson DG 2018, including the concluding Aria da capo (replaced Hewitt's BWV 989). Track matched in Apple's catalogue and confirmed by the editor 2026-10-11.
     source:
       snapshot: master-669
       position: 325
   - id: s-v4pa6od
     work: bwv-989
     movement: Variation IX
-    recording: olafsson-dg-2018
-    title: 'Aria variata (alla maniera italiana), BWV 989: Variation IX'
+    recording: olafsson-johann-sebastian-bach
+    title: 'Aria variata in A Minor, BWV 989 "Alla maniera italiana": Variation IX'
     credits: Víkingur Ólafsson
     duration: 68
-    duration_status: approximate
     apple_music:
-      song_id: null
-      url: https://music.apple.com/us/search?term=Vikingur%20Olafsson%20Johann%20Sebastian%20Bach%202018
-      album_url: https://music.apple.com/us/search?term=Vikingur%20Olafsson%20Johann%20Sebastian%20Bach%202018
-    status: replacement_selected
-    verification: needs_verification
-    link_kind: search
-    editorial_note: 'Ólafsson DG 2018. Includes the concluding Aria da capo, absent from the former Hewitt selection. Source: DG official tracklist; timings rounded to seconds.'
+      song_id: '1410554523'
+      url: https://music.apple.com/us/album/aria-variata-in-a-minor-bwv-989-alla-maniera/1410551592?i=1410554523
+      album_url: https://music.apple.com/us/album/aria-variata-in-a-minor-bwv-989-alla-maniera/1410551592
+    status: keep
+    verification: verified
+    editorial_note: Ólafsson DG 2018, including the concluding Aria da capo (replaced Hewitt's BWV 989). Track matched in Apple's catalogue and confirmed by the editor 2026-10-11.
     source:
       snapshot: master-669
       position: 326
   - id: s-fivbhxx
     work: bwv-989
     movement: Variation X
-    recording: olafsson-dg-2018
-    title: 'Aria variata (alla maniera italiana), BWV 989: Variation X'
+    recording: olafsson-johann-sebastian-bach
+    title: 'Aria variata in A Minor, BWV 989 "Alla maniera italiana": Variation X'
     credits: Víkingur Ólafsson
-    duration: 107
-    duration_status: approximate
+    duration: 106
     apple_music:
-      song_id: null
-      url: https://music.apple.com/us/search?term=Vikingur%20Olafsson%20Johann%20Sebastian%20Bach%202018
-      album_url: https://music.apple.com/us/search?term=Vikingur%20Olafsson%20Johann%20Sebastian%20Bach%202018
-    status: replacement_selected
-    verification: needs_verification
-    link_kind: search
-    editorial_note: 'Ólafsson DG 2018. Includes the concluding Aria da capo, absent from the former Hewitt selection. Source: DG official tracklist; timings rounded to seconds.'
+      song_id: '1410554735'
+      url: https://music.apple.com/us/album/aria-variata-in-a-minor-bwv-989-alla-maniera/1410551592?i=1410554735
+      album_url: https://music.apple.com/us/album/aria-variata-in-a-minor-bwv-989-alla-maniera/1410551592
+    status: keep
+    verification: verified
+    editorial_note: Ólafsson DG 2018, including the concluding Aria da capo (replaced Hewitt's BWV 989). Track matched in Apple's catalogue and confirmed by the editor 2026-10-11.
     source:
       snapshot: master-669
       position: 327
   - id: s-btos6ux
     work: bwv-989
     movement: Aria da capo
-    recording: olafsson-dg-2018
-    title: 'Aria variata (alla maniera italiana), BWV 989: Aria da capo'
+    recording: olafsson-johann-sebastian-bach
+    title: 'Aria variata in A Minor, BWV 989 "Alla maniera italiana": Aria da capo'
     credits: Víkingur Ólafsson
-    duration: 79
-    duration_status: approximate
+    duration: 78
     apple_music:
-      song_id: null
-      url: https://music.apple.com/us/search?term=Vikingur%20Olafsson%20Johann%20Sebastian%20Bach%202018
-      album_url: https://music.apple.com/us/search?term=Vikingur%20Olafsson%20Johann%20Sebastian%20Bach%202018
-    status: replacement_selected
-    verification: needs_verification
-    link_kind: search
-    editorial_note: 'Ólafsson DG 2018. Includes the concluding Aria da capo, absent from the former Hewitt selection. Source: DG official tracklist; timings rounded to seconds.'
+      song_id: '1410554737'
+      url: https://music.apple.com/us/album/aria-variata-in-a-minor-bwv-989-alla-maniera/1410551592?i=1410554737
+      album_url: https://music.apple.com/us/album/aria-variata-in-a-minor-bwv-989-alla-maniera/1410551592
+    status: keep
+    verification: verified
+    editorial_note: Ólafsson DG 2018, including the concluding Aria da capo (replaced Hewitt's BWV 989). Track matched in Apple's catalogue and confirmed by the editor 2026-10-11.
     source:
       snapshot: master-669
       position: 328
@@ -261,7 +237,7 @@ selections:
       album_url: https://music.apple.com/us/album/passacaglia-in-c-minor-bwv-582/1725554462
     status: keep
     verification: snapshot_matched
-    editorial_note: Track title says Passacaglia only; verify whether fugue is included in audio.
+    editorial_note: Apple titles this track "Passacaglia" only. It is a single 15:08 track with no separate fugue track on the album; the editor confirmed 2026-10-11 that it contains the Passacaglia and Fugue.
     source:
       snapshot: master-669
       position: 329

@@ -16,6 +16,13 @@
     "vision": {"type": "array", "items": {"type": "string"}},
     "how_to_use": {"type": "array", "items": {"type": "string"}},
     "beyond_the_sequence": {"type": "array", "items": {"type": "string"}},
+    "guide": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["title", "stages_heading"],
+      "description": "Headings for the generated student guide (atlas export --format guide).",
+      "properties": {"title": {"type": "string"}, "subtitle": {"type": "string"}, "stages_heading": {"type": "string"}}
+    },
     "public_playlist_url": {"type": "string", "format": "uri"},
     "public_playlist_note": {"type": "string"},
     "default_work_focus": {"type": "string"},

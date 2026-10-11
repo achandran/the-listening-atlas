@@ -11,6 +11,7 @@ uv run atlas export --format csv    # importer CSVs only
 | `stages/NN-<stage>.csv` | One importer CSV per stage (e.g. to build per-stage playlists) |
 | `apple-song-ids.txt` | Exact Apple song IDs, in order, one per line (unmatched selections omitted) |
 | `match-report.md` | Every selection without an exact song ID, with its fallback link |
+| `student-guide.md` | The student guide (vision, stages with current itineraries, track ranges and timings), generated from the data |
 | `legacy-master.csv`, `legacy-transfer.csv` | The handoff's original formats (byte-identical to the archived files while data is unchanged) |
 
 Exports are deterministic: the same data always produces byte-identical files (CI checks this).

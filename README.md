@@ -6,7 +6,7 @@ stages, with listening questions and prompts, published as a read-only static we
 > **Method across the Atlas:** listen to what the music is doing; let expressive understanding arise from
 > audible musical relationships.
 
-The first volume is **Bach: Cantabile & Harmony** — eleven hearing stages, 670 selections. *Cantabile* is
+The first volume is **Bach: Cantabile & Harmony** — eleven hearing stages, 674 selections. *Cantabile* is
 that volume's own principle, not a rule for future volumes: each composer's volume defines its own principles
 and stage structure as data.
 
@@ -42,6 +42,7 @@ only allow over HTTP — use `atlas serve` for a full local preview.
 | Regenerate migration + editorial reports | `uv run atlas audit` (CI runs `atlas audit --check`) |
 | Export playlists (full + per stage CSV, legacy CSVs, song-ID list, match report) | `uv run atlas export` → `exports/` |
 | Export only importer CSVs | `uv run atlas export --format csv` |
+| Generate the student guide (Markdown, always current) | `uv run atlas export --format guide` |
 | Check / dry-run / apply an editorial proposal | `uv run atlas proposal check breath-19` · `apply breath-19` · `apply breath-19 --write` |
 | Mint IDs for new selections | `uv run atlas new-id -n 3` |
 | Plan an Apple Music sync (dry run, no network) | `uv run atlas sync plan --current current-ids.txt` |

@@ -66,23 +66,35 @@ selections:
     source:
       snapshot: master-669
       position: 24
-  - id: s-h7qkkv3
+  - id: s-zqleivh
     work: bwv-208
-    movement: No. 9
-    arrangement: Arr. for Piano
-    recording: fleisher-two-hands
-    title: Sheep May Safely Graze, BWV 208/9 (Arr. for Piano)
-    credits: Leon Fleisher
-    duration: 295
+    movement: No. 9, Schafe können sicher weiden
+    arrangement: Piano transcription by Mary Howe
+    recording: hewitt-bach-arrangements-transcriptions
+    title: 'Was mir behagt, ist nur die muntre Jagd, BWV 208 "Hunting Cantata": X. Sheep May Safely Graze (Arr. Howe for Piano)'
+    credits: Angela Hewitt
+    duration: 347
     apple_music:
-      song_id: '1023324571'
-      url: https://music.apple.com/us/song/sheep-may-safely-graze-bwv-208-9-arr-for-piano/1023324571
-      album_url: https://music.apple.com/us/album/sheep-may-safely-graze-bwv-208-9-arr-for-piano/1023324548
+      song_id: '1721137597'
+      url: https://music.apple.com/us/album/was-mir-behagt-ist-nur-die-muntre-jagd-bwv-208-hunting/1721136730?i=1721137597
+      album_url: https://music.apple.com/us/album/was-mir-behagt-ist-nur-die-muntre-jagd-bwv-208-hunting/1721136730
     status: keep
-    verification: snapshot_matched
-    source:
-      snapshot: master-669
-      position: 25
+    verification: verified
+    editorial_note: Selected by the editor 2026-10-11 from Apple's catalogue; title, credits and duration as listed there. Replaces Leon Fleisher's Egon Petri arrangement.
+  - id: s-i6jv2tv
+    work: bwv-147
+    movement: X. Choral “Jesus bleibet meine Freude”
+    recording: suzuki-cantatas-vol-12
+    title: 'Herz und Mund und Tat und Leben, BWV 147: X. Chorale. Jesus bleibet meine Freude'
+    credits: Yukari Nonoshita, Robin Blaze, Gerd Türk, Peter Kooij, Bach Collegium Japan & Masaaki Suzuki
+    duration: 200
+    apple_music:
+      song_id: '1724264838'
+      url: https://music.apple.com/us/album/herz-und-mund-und-tat-und-leben-bwv-147-x-chorale-jesus/1724264783?i=1724264838
+      album_url: https://music.apple.com/us/album/herz-und-mund-und-tat-und-leben-bwv-147-x-chorale-jesus/1724264783
+    status: keep
+    verification: verified
+    editorial_note: Selected by the editor 2026-10-11 from Apple's catalogue; title, credits and duration as listed there.
   - id: s-f6c6zb5
     work: bwv-170
     movement: Aria. Vergnugte Ruh! Beliebte Seelenlust! (Alto)
@@ -99,6 +111,20 @@ selections:
     source:
       snapshot: master-669
       position: 26
+  - id: s-ibjxak7
+    work: bwv-199
+    movement: “Tief gebückt und voller Reue”
+    recording: hunt-lieberson-cantatas-82-199
+    title: 'Cantata No. 199, "Mein Herze schwimmt im Blut," BWV 199: IV. Aria: Tief gebueckt und voller Reue'
+    credits: Lorraine Hunt Lieberson
+    duration: 539
+    apple_music:
+      song_id: '73238385'
+      url: https://music.apple.com/us/album/cantata-no-199-mein-herze-schwimmt-im-blut-bwv-199/73238424?i=73238385
+      album_url: https://music.apple.com/us/album/cantata-no-199-mein-herze-schwimmt-im-blut-bwv-199/73238424
+    status: keep
+    verification: verified
+    editorial_note: Selected by the editor 2026-10-11 from Apple's catalogue; title, credits and duration as listed there.
   - id: s-dykbvma
     work: bwv-32
     movement: I. Aria. Liebster Jesu, mein Verlangen (Soprano)
@@ -164,6 +190,20 @@ selections:
     source:
       snapshot: master-669
       position: 30
+  - id: s-n3l2c3l
+    work: bwv-21
+    movement: III. Aria “Seufzer, Tränen, Kummer, Not”
+    recording: herreweghe-bwv-21-remastered
+    title: 'Ich hatte viel Bekümmernis, BWV 21: Aria "Seufzer, Tränen" (soprano)'
+    credits: Philippe Herreweghe, Barbara Schlick & Collegium Vocale Gent
+    duration: 256
+    apple_music:
+      song_id: '1707368183'
+      url: https://music.apple.com/us/album/ich-hatte-viel-bek%C3%BCmmernis-bwv-21-aria-seufzer-tr%C3%A4nen/1707368002?i=1707368183
+      album_url: https://music.apple.com/us/album/ich-hatte-viel-bek%C3%BCmmernis-bwv-21-aria-seufzer-tr%C3%A4nen/1707368002
+    status: keep
+    verification: verified
+    editorial_note: Selected by the editor 2026-10-11 from Apple's catalogue; title, credits and duration as listed there.
   - id: s-32yvaoz
     work: bwv-12
     movement: I. Sinfonia
@@ -229,6 +269,20 @@ selections:
     source:
       snapshot: master-669
       position: 34
+  - id: s-gz7v5uo
+    work: bwv-127
+    movement: III. Aria “Die Seele ruht in Jesu Händen”
+    recording: suzuki-cantatas-vol-34
+    title: 'Herr Jesu Christ, wahr'' Mensch und Gott, BWV 127: Aria. Die Seele ruht in Jesu Handen'
+    credits: Carolyn Sampson, Robin Blaze, Gerd Türk, Peter Kooij, Bach Collegium Japan Chorus, Bach Collegium Japan & Masaaki Suzuki
+    duration: 477
+    apple_music:
+      song_id: '1727109118'
+      url: https://music.apple.com/us/album/herr-jesu-christ-wahr-mensch-und-gott-bwv-127-aria/1727108827?i=1727109118
+      album_url: https://music.apple.com/us/album/herr-jesu-christ-wahr-mensch-und-gott-bwv-127-aria/1727108827
+    status: keep
+    verification: verified
+    editorial_note: Selected by the editor 2026-10-11 from Apple's catalogue; title, credits and duration as listed there.
   - id: s-pjnc2ca
     work: bwv-82
     movement: 'I. Aria: Ich habe genug'

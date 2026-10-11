@@ -39,6 +39,7 @@ def selection_search_text(atlas: Atlas, s: Selection) -> str:
     w = atlas.works[s.work]
     return search_text(
         s.title,
+        s.display_title,
         s.movement,
         s.arrangement,
         w.title,
@@ -214,7 +215,7 @@ class SiteBuilder:
                         "p": positions[s.id],
                         "stage": stage_slug(st),
                         "stageName": st.name,
-                        "title": s.title,
+                        "title": s.shown_title,
                         "artist": s.credits,
                         "album": s.album_as_listed or r.album_title,
                         "work": f"{w.catalogue} · {w.title}",

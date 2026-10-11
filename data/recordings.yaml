@@ -91,10 +91,13 @@ recordings:
     principal_artist: Víkingur Ólafsson
     album_title: Johann Sebastian Bach
     apple_album_id: '1410551592'
-    label: null
-    release_year: null
-    version: null
-    verification: snapshot_matched
+    label: Deutsche Grammophon
+    release_year: 2018
+    version: Víkingur Ólafsson, Johann Sebastian Bach (DG, 2018)
+    verification: verified
+    notes: ℗ 2018 Deutsche Grammophon GmbH, Berlin (Apple catalogue). Source of BWV 659 (Breath) and BWV 989 (Span); the BWV 989 tracks were confirmed by the editor 2026-10-11.
+    sources:
+      - https://us-store.deutschegrammophon.com/products/vikingur-olaffson-triad-3cd
   - id: herreweghe-weinen-klagen-cantatas
     principal_artist: Philippe Herreweghe / Collegium Vocale Gent
     album_title: 'Bach: "Weinen, Klagen" (Cantatas BWV 12, 38 & 75)'
@@ -191,10 +194,10 @@ recordings:
     label: Hyperion
     release_year: 1994
     version: Angela Hewitt, Inventions & Sinfonias (Hyperion, 1994)
-    verification: snapshot_matched
+    verification: verified
     sources:
       - https://angelahewitt.com/discography/the-inventions/
-    notes: Replaces András Schiff (Decca) for the Inventions & Sinfonias. Hewitt track-level Apple IDs not yet matched; the same Apple album already supplies BWV 903 song IDs.
+    notes: Replaces András Schiff (Decca) for the Inventions & Sinfonias. All 30 tracks matched in Apple's catalogue (℗ 1994 Hyperion Records Limited) and confirmed by the editor 2026-10-11.
   - id: hewitt-italian-concerto-french-overture-duets
     principal_artist: Angela Hewitt
     album_title: 'Bach: Italian Concerto, French Overture, 4 Duets, Capriccios'
@@ -307,19 +310,8 @@ recordings:
     release_year: null
     version: null
     verification: snapshot_matched
-  - id: olafsson-dg-2018
-    principal_artist: Víkingur Ólafsson
-    album_title: Johann Sebastian Bach (Deutsche Grammophon, 2018)
-    apple_album_id: null
-    label: Deutsche Grammophon
-    release_year: 2018
-    version: Víkingur Ólafsson, Johann Sebastian Bach (Deutsche Grammophon, 2018)
-    verification: needs_verification
-    sources:
-      - https://us-store.deutschegrammophon.com/products/vikingur-olaffson-triad-3cd
-    notes: Track list and timings from the DG catalogue; Apple Music links are a search page. Possibly the same Apple album as Ólafsson's BWV 659 (Apple album 1410551592) — verify before matching song IDs.
   - id: suzuki-organ-works-vol-3
-    principal_artist: Masaaki Suzuki / Bach Collegium Japan
+    principal_artist: Masaaki Suzuki
     album_title: 'Bach: Organ Works, Vol. 3'
     apple_album_id: '1725554462'
     label: null
@@ -346,11 +338,11 @@ recordings:
     principal_artist: Angela Hewitt
     album_title: 'Bach: The Well-Tempered Clavier Books 1 & 2, BWV 846-893'
     apple_album_id: '1721145434'
-    label: null
-    release_year: null
-    version: 'Intended: Angela Hewitt''s later Well-Tempered Clavier (Hyperion; recorded 2008, released 2009), Books I and II'
-    verification: needs_verification
-    notes: Edition and recording date of this Apple album not yet verified against the later cycle.
+    label: Hyperion
+    release_year: 2009
+    version: Angela Hewitt's later Well-Tempered Clavier (Hyperion; recorded 2008, released 2009), Books I and II
+    verification: verified
+    notes: 'Apple album 1721145434: ℗ 2009 Hyperion Records Limited, released 2009-04-01 — the later cycle. The earlier cycle is ℗ 1998/1999 (albums 568749352, 568836051). Verified 2026-10-11.'
   - id: perahia-goldberg-variations
     principal_artist: Murray Perahia
     album_title: 'Bach: Goldberg Variations, BWV 988'
@@ -371,14 +363,6 @@ recordings:
     principal_artist: Philippe Herreweghe / Collegium Vocale Gent
     album_title: 'J.S. Bach: St. Matthew Passion, BWV 244'
     apple_album_id: '251240562'
-    label: null
-    release_year: null
-    version: null
-    verification: snapshot_matched
-  - id: herreweghe-erbarme-dich-old-sotw
-    principal_artist: Philippe Herreweghe / Collegium Vocale Gent
-    album_title: Erbarme Dich - Old SOTW
-    apple_album_id: '276069994'
     label: null
     release_year: null
     version: null
@@ -407,3 +391,39 @@ recordings:
     release_year: null
     version: null
     verification: snapshot_matched
+  - id: hewitt-bach-arrangements-transcriptions
+    principal_artist: Angela Hewitt
+    album_title: Bach Arrangements & Transcriptions for Piano
+    apple_album_id: '1721136730'
+    label: null
+    release_year: null
+    version: null
+    verification: verified
+    notes: Added 2026-10-11 for the Breath reconciliation; album and track confirmed in Apple's catalogue.
+  - id: suzuki-cantatas-vol-12
+    principal_artist: Masaaki Suzuki / Bach Collegium Japan
+    album_title: 'Bach: Cantatas, Vol. 12 - BWV 21 & 147'
+    apple_album_id: '1724264783'
+    label: null
+    release_year: null
+    version: null
+    verification: verified
+    notes: Added 2026-10-11 for the Breath reconciliation; album and track confirmed in Apple's catalogue.
+  - id: herreweghe-bwv-21-remastered
+    principal_artist: Philippe Herreweghe / Collegium Vocale Gent
+    album_title: 'Bach: Ich hatte viel Bekümmernis, BWV 21 (Remastered)'
+    apple_album_id: '1707368002'
+    label: null
+    release_year: null
+    version: null
+    verification: verified
+    notes: Added 2026-10-11 for the Breath reconciliation; album and track confirmed in Apple's catalogue.
+  - id: suzuki-cantatas-vol-34
+    principal_artist: Masaaki Suzuki / Bach Collegium Japan
+    album_title: 'Bach, J.S.: Cantatas, Vol. 34  - Bwv 1, 126, 127'
+    apple_album_id: '1727108827'
+    label: null
+    release_year: null
+    version: null
+    verification: verified
+    notes: Added 2026-10-11 for the Breath reconciliation; album and track confirmed in Apple's catalogue.

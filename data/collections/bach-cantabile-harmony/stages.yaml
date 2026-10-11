@@ -20,10 +20,10 @@ stages:
     question: What makes this phrase need to continue—and what finally allows it to rest?
     direction: Listen to sung phrases before their instrumental reflections. Attend to inhalation, suspension, release, and cadence.
     at_the_piano: Sing a phrase without words; locate the harmony that asks it to continue, and the cadence that lets it rest.
-    itinerary: BWV177/V→BWV639; BWV208 vocal aria→Petri/Fleisher transcription; BWV12 Sinfonia→chorus→Ólafsson; finish with only the opening BWV82 aria sung by Lorraine Hunt Lieberson.
-    editorial_notice: 'Breath reconciliation pending: an approved 19-selection sequence exists but is not yet merged into this playlist. See the editorial status page.'
+    itinerary: BWV177/V→BWV639; BWV208 vocal aria→Mary Howe transcription (Hewitt); BWV12 Sinfonia→chorus→Ólafsson; finish with only the opening BWV82 aria sung by Lorraine Hunt Lieberson.
     constraints:
       max_selections: 19
+    itinerary_source: BWV177/V→BWV639; BWV208 vocal aria→Petri/Fleisher transcription; BWV12 Sinfonia→chorus→Ólafsson; finish with only the opening BWV82 aria sung by Lorraine Hunt Lieberson.
   - id: motion
     number: 3
     name: Motion

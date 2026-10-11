@@ -1293,19 +1293,20 @@ selections:
   - id: s-4nznack
     work: bwv-244
     movement: No. 39. Aria (Alt) "Erbarme Dich"
-    recording: herreweghe-erbarme-dich-old-sotw
+    recording: herreweghe-st-matthew-passion
     title: 'St. Matthew Passion, BWV 244, Part 2 : No. 39. Aria (Alt) "Erbarme Dich"'
     credits: Andreas Scholl; Collegium Vocale Gent; Philippe Herreweghe
     duration: 398
     apple_music:
       song_id: '251245449'
       url: https://music.apple.com/us/song/st-matthew-passion-bwv-244-part-2-no-39-aria-alt-erbarme-dich/251245449
-      album_url: https://music.apple.com/us/album/st-matthew-passion-bwv-244-part-2-no-39-aria-alt-erbarme-dich/276069994
+      album_url: https://music.apple.com/us/album/251240562
     status: keep
-    verification: snapshot_matched
+    verification: verified
     source:
       snapshot: master-669
       position: 576
+    editorial_note: Same song as No. 39 on Herreweghe's St Matthew Passion album (251240562). The playlist export had listed it under a compilation, "Erbarme Dich - Old SOTW" (276069994), whose page no longer exists; refiled 2026-10-11.
   - id: s-ynonabh
     work: bwv-244
     movement: No. 40. Choral "Bin Ich Gleich Von Dir Gewichen"

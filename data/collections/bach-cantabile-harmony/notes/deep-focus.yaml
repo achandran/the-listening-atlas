@@ -114,11 +114,6 @@ deep_focus:
     listen: Hear the vocal line supported by a gently recurring pastoral motion.
     piano: Sing the melody; tap the underlying pulse separately.
     question: Where does the line float over, rather than simply follow, the beat?
-  s-h7qkkv3:
-    source_position: 25
-    listen: Compare the piano transcription with the sung pastoral aria immediately before it.
-    piano: Sing the melody while playing the accompaniment quietly.
-    question: What is retained, and what must the piano invent to suggest breath?
   s-f6c6zb5:
     source_position: 26
     listen: Hear the opening aria’s sustained melodic calm against harmonic movement.
@@ -169,3 +164,7 @@ deep_focus:
     listen: 'Listen to the opening aria only: the voice’s declaration gains meaning through its melodic and harmonic unfolding.'
     piano: Sing the opening “Ich habe genug” gesture and play its supporting harmony.
     question: How does the same thought sound different as the harmony moves?
+  s-zqleivh:
+    listen: Compare the piano transcription with the sung pastoral aria immediately before it.
+    piano: Sing the melody while playing the accompaniment quietly.
+    question: What is retained, and what must the piano invent to suggest breath?

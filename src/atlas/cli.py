@@ -14,7 +14,7 @@ from pathlib import Path
 from . import yamlio
 from .model import Atlas, Collection, load_atlas
 
-EXPORT_FORMATS = ("all", "csv", "legacy", "song-ids", "report")
+EXPORT_FORMATS = ("all", "csv", "legacy", "song-ids", "report", "guide")
 
 
 def find_root(start: Path | None = None) -> Path:
@@ -82,6 +82,8 @@ def cmd_export(args: argparse.Namespace) -> int:
             files = [f for f in files if f.path.suffix == ".txt"]
         elif args.format == "report":
             files = [f for f in files if f.path.name == "match-report.md"]
+        elif args.format == "guide":
+            files = [f for f in files if f.path.name == "student-guide.md"]
         for p in write_exports(files, out):
             print(p)
         total += len(files)

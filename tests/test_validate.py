@@ -19,14 +19,23 @@ def codes(root: Path) -> dict[str, str]:
     return {f.code: f.level for f in validate.run(root).findings}
 
 
-def test_committed_data_has_no_errors(root: Path) -> None:
+def test_committed_data_is_clean(root: Path) -> None:
+    """After the 2026-10-11 editorial review: no errors, no warnings, every song matched, no open issues."""
     report = validate.run(root)
-    assert report.errors == [], "\n".join(f.format() for f in report.errors)
-    assert {f.code for f in report.warnings} == {"UNRESOLVED-SONG-IDS"}
+    assert report.findings == [], "\n".join(f.format() for f in report.findings)
+    assert report.ok(strict=True)
 
 
-def test_strict_mode_fails_on_unresolved_song_ids(root: Path) -> None:
-    assert not validate.run(root).ok(strict=True)
+def test_strict_mode_fails_on_unresolved_song_ids(sandbox: Path) -> None:
+    def drop(s: list[dict[str, Any]]) -> None:
+        s[3]["apple_music"]["song_id"] = None
+        s[3]["apple_music"]["url"] = s[3]["apple_music"]["album_url"].split("?")[0]
+        s[3]["link_kind"] = "album"
+        s[3]["verification"] = "needs_verification"
+
+    _ground(sandbox, drop)
+    report = validate.run(sandbox)
+    assert report.ok() and not report.ok(strict=True)
 
 
 def _ground(sandbox: Path, fn: Any) -> None:

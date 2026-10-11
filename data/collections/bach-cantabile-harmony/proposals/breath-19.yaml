@@ -2,7 +2,7 @@
 # Check with `atlas proposal check breath-19`; apply only after song IDs are verified.
 id: breath-19
 stage: breath
-status: proposed
+status: applied
 source: archive/2026-10-11-handoff/editorial/BREATH_19_APPROVED.md
 principle: Cantabile reveals the truth of musical becoming.
 question: What makes this phrase need to continue—and what finally allows it to rest?
@@ -43,21 +43,31 @@ sequence:
       movement: No. 9, Schafe können sicher weiden
       performers: Angela Hewitt
       apple_music:
-        song_id: null
-        url: null
-      verification: needs_verification
+        song_id: '1721137597'
+        url: https://music.apple.com/us/album/was-mir-behagt-ist-nur-die-muntre-jagd-bwv-208-hunting/1721136730?i=1721137597
+        album_url: https://music.apple.com/us/album/was-mir-behagt-ist-nur-die-muntre-jagd-bwv-208-hunting/1721136730
+      verification: verified
       arrangement: Piano transcription by Mary Howe
-      note: Replaces Leon Fleisher's Egon Petri arrangement; confirm exact track match.
+      note: Selected by the editor 2026-10-11 from Apple's catalogue; title, credits and duration as listed there. Replaces Leon Fleisher's Egon Petri arrangement.
+      recording: hewitt-bach-arrangements-transcriptions
+      title: 'Was mir behagt, ist nur die muntre Jagd, BWV 208 "Hunting Cantata": X. Sheep May Safely Graze (Arr. Howe for Piano)'
+      credits: Angela Hewitt
+      duration: 347
   - n: 6
     new:
       work: bwv-147
       movement: X. Choral “Jesus bleibet meine Freude”
       performers: Masaaki Suzuki / Bach Collegium Japan
       apple_music:
-        song_id: null
-        url: null
-      verification: needs_verification
-      note: Original chorus only; no piano transcription.
+        song_id: '1724264838'
+        url: https://music.apple.com/us/album/herz-und-mund-und-tat-und-leben-bwv-147-x-chorale-jesus/1724264783?i=1724264838
+        album_url: https://music.apple.com/us/album/herz-und-mund-und-tat-und-leben-bwv-147-x-chorale-jesus/1724264783
+      verification: verified
+      note: Selected by the editor 2026-10-11 from Apple's catalogue; title, credits and duration as listed there.
+      recording: suzuki-cantatas-vol-12
+      title: 'Herz und Mund und Tat und Leben, BWV 147: X. Chorale. Jesus bleibet meine Freude'
+      credits: Yukari Nonoshita, Robin Blaze, Gerd Türk, Peter Kooij, Bach Collegium Japan & Masaaki Suzuki
+      duration: 200
   - n: 7
     existing: s-f6c6zb5
   - n: 8
@@ -66,10 +76,15 @@ sequence:
       movement: “Tief gebückt und voller Reue”
       performers: Lorraine Hunt Lieberson
       apple_music:
-        song_id: null
-        url: null
-      verification: needs_verification
-      note: 'Her BWV 82 album (“Bach: Cantatas, BWV 82 & 199”, Apple album 73238424) is a likely source.'
+        song_id: '73238385'
+        url: https://music.apple.com/us/album/cantata-no-199-mein-herze-schwimmt-im-blut-bwv-199/73238424?i=73238385
+        album_url: https://music.apple.com/us/album/cantata-no-199-mein-herze-schwimmt-im-blut-bwv-199/73238424
+      verification: verified
+      note: Selected by the editor 2026-10-11 from Apple's catalogue; title, credits and duration as listed there.
+      recording: hunt-lieberson-cantatas-82-199
+      title: 'Cantata No. 199, "Mein Herze schwimmt im Blut," BWV 199: IV. Aria: Tief gebueckt und voller Reue'
+      credits: Lorraine Hunt Lieberson
+      duration: 539
   - n: 9
     existing: s-dykbvma
   - n: 10
@@ -84,9 +99,15 @@ sequence:
       movement: III. Aria “Seufzer, Tränen, Kummer, Not”
       performers: Barbara Schlick / Philippe Herreweghe
       apple_music:
-        song_id: null
-        url: null
-      verification: needs_verification
+        song_id: '1707368183'
+        url: https://music.apple.com/us/album/ich-hatte-viel-bek%C3%BCmmernis-bwv-21-aria-seufzer-tr%C3%A4nen/1707368002?i=1707368183
+        album_url: https://music.apple.com/us/album/ich-hatte-viel-bek%C3%BCmmernis-bwv-21-aria-seufzer-tr%C3%A4nen/1707368002
+      verification: verified
+      recording: herreweghe-bwv-21-remastered
+      title: 'Ich hatte viel Bekümmernis, BWV 21: Aria "Seufzer, Tränen" (soprano)'
+      credits: Philippe Herreweghe, Barbara Schlick & Collegium Vocale Gent
+      duration: 256
+      note: Selected by the editor 2026-10-11 from Apple's catalogue; title, credits and duration as listed there.
   - n: 14
     existing: s-32yvaoz
   - n: 15
@@ -102,8 +123,13 @@ sequence:
       performers: Masaaki Suzuki / Bach Collegium Japan
       apple_music:
         song_id: '1727109118'
-        url: https://classical.music.apple.com/us/album/1727108827?i=1727109118&l=en-US
-      verification: user_supplied
-      note: URL supplied by the editor; confirm the track.
+        url: https://music.apple.com/us/album/herr-jesu-christ-wahr-mensch-und-gott-bwv-127-aria/1727108827?i=1727109118
+        album_url: https://music.apple.com/us/album/herr-jesu-christ-wahr-mensch-und-gott-bwv-127-aria/1727108827
+      verification: verified
+      note: Selected by the editor 2026-10-11 from Apple's catalogue; title, credits and duration as listed there.
+      recording: suzuki-cantatas-vol-34
+      title: 'Herr Jesu Christ, wahr'' Mensch und Gott, BWV 127: Aria. Die Seele ruht in Jesu Handen'
+      credits: Carolyn Sampson, Robin Blaze, Gerd Türk, Peter Kooij, Bach Collegium Japan Chorus, Bach Collegium Japan & Masaaki Suzuki
+      duration: 477
   - n: 19
     existing: s-pjnc2ca

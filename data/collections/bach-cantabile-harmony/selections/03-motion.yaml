@@ -359,6 +359,7 @@ selections:
     movement: VI. Air
     recording: perahia-french-suites
     title: 'French Suite No. 4 in E-FlA Major, BWV 815: VI. Air'
+    display_title: 'French Suite No. 4 in E-Flat Major, BWV 815: VI. Air'
     credits: Murray Perahia
     duration: 98
     apple_music:
@@ -370,6 +371,7 @@ selections:
     source:
       snapshot: master-669
       position: 58
+    editorial_note: Apple lists this track as "E-FlA Major"; display title corrected 2026-10-11 (title keeps Apple's spelling for matching).
   - id: s-poukpt3
     work: bwv-815
     movement: VII. Gigue

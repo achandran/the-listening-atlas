@@ -44,7 +44,8 @@ update), `editorial_notice`, and `constraints`:
 | `id` | Stable, opaque (`s-` + 7 chars). Never reused, never derived from position. |
 | `work`, `movement`, `arrangement` | What is heard. `movement: null` for single-movement works. |
 | `recording` | Which performance. |
-| `title`, `credits` | Exactly as listed in Apple Music (typos included). |
+| `title`, `credits` | Exactly as listed in Apple Music (typos included); used for matching and exports. |
+| `display_title` | Optional corrected title shown to readers, e.g. fixing a catalogue typo. |
 | `principal_artist`, `album_as_listed` | Only when they differ from the recording's. |
 | `duration` | Seconds, or `null`. `duration_status: approximate` when not from Apple. |
 | `apple_music.song_id` / `url` / `album_url` | Exact Apple identifiers; `song_id: null` if unmatched. |

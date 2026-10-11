@@ -2,12 +2,12 @@ issues:
   - id: ED-001
     stage: ground
     title: BWV 924 vs BWV 939 as first Hewitt prelude
-    status: open
-    detail: A prior discussion floated BWV 939 as the first Hewitt prelude; the snapshot has BWV 924 at position 3 and BWV 939 at position 15 (numerical order). Not reordered.
+    status: resolved
+    detail: 'A prior discussion floated BWV 939 as the first Hewitt prelude; the snapshot has BWV 924 at position 3 and BWV 939 at position 15 (numerical order). Not reordered. Decided 2026-10-11 by the editor: keep BWV 924 first; the Hewitt preludes stay in catalogue order.'
     selections:
       - s-cvmqbut
       - s-amydr6o
-    action: Editor to confirm intended order.
+    action: None.
   - id: ED-002
     stage: ground
     title: BWV Anh. 120 duration missing
@@ -19,17 +19,17 @@ issues:
   - id: ED-003
     stage: breath
     title: Approved 19-selection Breath sequence not merged
-    status: open
-    detail: Snapshot has 15 Breath selections. The approved sequence replaces Fleisher's BWV 208 with Hewitt's Mary Howe transcription and adds BWV 147/X, BWV 199, BWV 21/III and BWV 127/III. Four new items lack song IDs; BWV 127/III has a user-supplied URL.
+    status: resolved
+    detail: 'Snapshot has 15 Breath selections. The approved sequence replaces Fleisher''s BWV 208 with Hewitt''s Mary Howe transcription and adds BWV 147/X, BWV 199, BWV 21/III and BWV 127/III. Four new items lack song IDs; BWV 127/III has a user-supplied URL. Applied 2026-10-11: the editor confirmed all five tracks from Apple''s catalogue (Hewitt/Howe 1721137597; Suzuki BWV 147/X 1724264838; Hunt Lieberson BWV 199/IV 73238385; Schlick/Herreweghe BWV 21/III 1707368183, remastered; Suzuki BWV 127/III 1727109118). Fleisher retired; his close-listening study carried over to the Howe transcription. Breath now has 19 selections.'
     selections:
       - s-h7qkkv3
     proposal: proposals/breath-19.yaml
-    action: Verify song IDs, then apply the proposal.
+    action: None.
   - id: ED-004
     stage: line
     title: 'Hewitt Inventions & Sinfonias: 30 track IDs unresolved'
-    status: open
-    detail: Positions 195–224 link only to Apple album 1721143424 (which also supplies BWV 903 song IDs). Durations are blank; the notes' reference to retained Schiff timings is not reflected in the data.
+    status: resolved
+    detail: 'Positions 195–224 link only to Apple album 1721143424 (which also supplies BWV 903 song IDs). Durations are blank; the notes'' reference to retained Schiff timings is not reflected in the data. Resolved 2026-10-11: all 30 Hewitt tracks matched on Apple album 1721143424 (℗ 1994 Hyperion) and confirmed by the editor; exact song IDs, Apple titles and durations recorded, replacing the album-only links and leftover Schiff titles.'
     selections:
       - s-lff4xdo
       - s-5o4es4o
@@ -61,20 +61,20 @@ issues:
       - s-todjb3j
       - s-mme4enx
       - s-xvjln6k
-    action: Match each Hewitt track on album 1721143424; add song IDs and durations.
+    action: None.
   - id: ED-005
     stage: line
     title: Invention No. 1 labelled BWV 772a
-    status: open
-    detail: Apple labels the track BWV 772a; confirm the intended version of Invention No. 1.
+    status: resolved
+    detail: 'Apple labels the track BWV 772a; confirm the intended version of Invention No. 1. Resolved 2026-10-11: Hewitt''s album labels Invention No. 1 as BWV 772 (the 772a label came from Schiff''s track); the editor chose BWV 772.'
     selections:
       - s-lff4xdo
-    action: Editor to confirm.
+    action: None.
   - id: ED-006
     stage: span
     title: 'Ólafsson BWV 989: 12 track IDs unresolved; durations approximate'
-    status: open
-    detail: Links are an Apple Music search page. Order Aria → Variations I–X → Aria da capo is correct. Ólafsson's BWV 659 (position 30) is on Apple album 1410551592, likely the same DG 2018 album.
+    status: resolved
+    detail: 'Links are an Apple Music search page. Order Aria → Variations I–X → Aria da capo is correct. Ólafsson''s BWV 659 (position 30) is on Apple album 1410551592, likely the same DG 2018 album. Resolved 2026-10-11: all 12 tracks matched on Apple album 1410551592 (℗ 2018 Deutsche Grammophon), the same album as Ólafsson''s BWV 659; exact IDs and Apple durations replace the search links and approximate DG timings. Confirmed by the editor.'
     selections:
       - s-xotciql
       - s-mr7jqed
@@ -88,36 +88,36 @@ issues:
       - s-v4pa6od
       - s-fivbhxx
       - s-btos6ux
-    action: Match each track (check album 1410551592); replace approximate durations.
+    action: None.
   - id: ED-007
     stage: span
     title: 'BWV 582: does the track include the fugue?'
-    status: open
-    detail: Track title says Passacaglia only.
+    status: resolved
+    detail: 'Track title says Passacaglia only. Resolved 2026-10-11: single 15:08 track, last on the album, with no separate fugue track; the editor confirmed it contains Passacaglia and Fugue. Work title corrected; the ''verify movement coverage'' to-do removed from the reader-facing work note.'
     selections:
       - s-fgmnvuj
-    action: Listen and confirm coverage.
+    action: None.
   - id: ED-008
     stage: order
     title: Confirm Hewitt WTC edition is the later (2008/2009) cycle
-    status: open
-    detail: Apple album 1721145434 holds all 96 tracks in order; edition/recording date not verified.
+    status: resolved
+    detail: 'Apple album 1721145434 holds all 96 tracks in order; edition/recording date not verified. Verified 2026-10-11: Apple album 1721145434 is ℗ 2009 Hyperion Records Limited (released 2009-04-01), i.e. Hewitt''s later cycle; the earlier cycle''s albums are ℗ 1998/1999.'
     selections:
       - s-4t7zbnj
-    action: Verify album edition against Hyperion's later WTC release.
+    action: None.
   - id: ED-009
     stage: convergence
     title: “Erbarme dich” comes from a different Apple album
-    status: open
-    detail: Position 576 is on album 276069994 (“Erbarme Dich – Old SOTW”), not the St Matthew Passion album 251240562; its song ID is in the same range, suggesting the same performance.
+    status: resolved
+    detail: 'Position 576 is on album 276069994 (“Erbarme Dich – Old SOTW”), not the St Matthew Passion album 251240562; its song ID is in the same range, suggesting the same performance. Resolved 2026-10-11: song 251245449 is No. 39 on the St Matthew Passion album itself (68-track album page). Refiled under that recording with a working album link; the compilation album (276069994) now returns 404.'
     selections:
       - s-4nznack
-    action: Confirm same performance; consider switching to the Passion album track.
+    action: None.
   - id: ED-010
     stage: essence
     title: Musical Offering order vs “recorded order”
-    status: open
-    detail: The guide calls for the recorded order; the snapshot begins with Canon 1 à 2 and places Ricercar à 3 seventh. Album track order not verified offline.
+    status: resolved
+    detail: 'The guide calls for the recorded order; the snapshot begins with Canon 1 à 2 and places Ricercar à 3 seventh. Album track order not verified offline. Verified 2026-10-11: the 16 selections are exactly tracks 1–16 of Apple album 1724249803 in album order (Canon 1 à 2 first; Ricercar à 3 seventh), so the playlist follows Suzuki''s recorded order. Tracks 17–35 are other works (Aria, BWV 1087 canons, a trio sonata), not BWV 1079.'
     selections:
       - s-cxqmhpu
       - s-qg7crrz
@@ -135,14 +135,14 @@ issues:
       - s-7v2rwhl
       - s-tufa2ey
       - s-lalcygf
-    action: Compare with Apple album 1724249803 track order; do not reorder without approval.
+    action: None.
   - id: ED-011
     stage: null
     title: Student guide and HTML itineraries describe the earlier 668-track playlist
-    status: partially_resolved
-    detail: Guide mentions BWV 511, Petri/Fleisher, Schiff and Hewitt BWV 989; ranges from Stage 7 on are off by one; total running time stale. Stages 1, 4 and 7 itineraries received factual updates (originals kept as itinerary_source). Stage 2 awaits ED-003.
+    status: resolved
+    detail: 'Guide mentions BWV 511, Petri/Fleisher, Schiff and Hewitt BWV 989; ranges from Stage 7 on are off by one; total running time stale. Stages 1, 4 and 7 itineraries received factual updates (originals kept as itinerary_source). Stage 2 awaits ED-003. Resolved 2026-10-11: the Breath itinerary was also updated (Mary Howe transcription), and the guide is now generated from the data by `atlas export --format guide` (exports/<collection>/student-guide.md), with current itineraries, track ranges and timings; a test checks it reproduces the archived guide''s text. The archived guide remains as a historical record.'
     selections: []
-    action: Revise student guide prose after Breath is reconciled.
+    action: None.
   - id: ED-012
     stage: null
     title: Work notes that never displayed in the original HTML
@@ -160,19 +160,19 @@ issues:
   - id: ED-014
     stage: null
     title: Source typos and credits kept verbatim
-    status: open
-    detail: “E-FlA Major” (position 58), “in in B Minor.” (224) are Apple/ source titles kept as-is. Suzuki organ BWV 582 has principal artist “Masaaki Suzuki / Bach Collegium Japan”.
+    status: resolved
+    detail: '“E-FlA Major” (position 58), “in in B Minor.” (224) are Apple/ source titles kept as-is. Suzuki organ BWV 582 has principal artist “Masaaki Suzuki / Bach Collegium Japan”. Resolved 2026-10-11: "E-FlA" is Apple''s own spelling; the title keeps it for matching and a corrected display_title is shown to readers. "in in B Minor." disappeared with Hewitt''s titles (ED-004). Organ recording credited to Masaaki Suzuki, matching Apple.'
     selections:
       - s-otae3ux
       - s-xvjln6k
       - s-fgmnvuj
-    action: Decide whether to keep Apple's titles verbatim.
+    action: None.
   - id: ED-015
     stage: ground
     title: Durations for Trifonov Anh. 116 and Anh. 121
-    status: open
-    detail: Added 2026-10-11 at the editor's request with song IDs 1577781609 and 1577781863 (titles confirmed on Apple Music). Durations were not shown on the public pages. Anh. 120's close-listening study was kept with its retired record; the new minuets have no curated study yet.
+    status: resolved
+    detail: 'Added 2026-10-11 at the editor''s request with song IDs 1577781609 and 1577781863 (titles confirmed on Apple Music). Durations were not shown on the public pages. Anh. 120''s close-listening study was kept with its retired record; the new minuets have no curated study yet. Resolved 2026-10-11: durations from Apple''s catalogue — Anh. 116 1:12, Anh. 121 1:33. (Close-listening studies for the new minuets remain an optional editorial addition.)'
     selections:
       - s-uc6qrkj
       - s-oyh3wl7
-    action: Add durations; optionally write close-listening studies in notes/deep-focus.yaml.
+    action: None.

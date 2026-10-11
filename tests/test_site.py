@@ -55,11 +55,14 @@ def test_internal_links_resolve(site: Path) -> None:
             assert target.exists(), f"{page.relative_to(site)} → {link}"
 
 
-def test_apple_links_are_honest(site: Path) -> None:
-    line = (site / "bach-cantabile-harmony/04-line/index.html").read_text()
-    assert line.count("Track not yet matched — find it on the album") == 30
-    span = (site / "bach-cantabile-harmony/07-span/index.html").read_text()
-    assert span.count("Track not yet matched — search link") == 12
+def test_apple_links_are_honest(site: Path, atlas) -> None:  # type: ignore[no-untyped-def]
+    """Every selection links to its exact Apple track; unmatched tracks would carry a visible badge instead."""
+    html = "".join(p.read_text() for p in (site / "bach-cantabile-harmony").glob("*/index.html"))
+    assert "Track not yet matched" not in html
+    links = re.findall(r'<a class="listen-link" href="([^"]+)"', html)
+    assert len(links) == len(atlas.collection("bach-cantabile-harmony").selections())
+    for s in atlas.collection("bach-cantabile-harmony").selections():
+        assert s.song_id and s.song_id in (s.url or "")
 
 
 def test_original_prompts_preserved(site: Path, root: Path) -> None:
@@ -76,14 +79,17 @@ def test_original_prompts_preserved(site: Path, root: Path) -> None:
     for pos, entry in deep.items():
         for v in entry.values():
             assert (v in text) is (pos not in retired), pos
+    # Deliberate edits: BWV 511 left the playlist (orphaned note kept); BWV 582's trailing editorial to-do was
+    # removed once ED-007 was settled (2026-10-11).
+    edited = {"BWV 582": " Verify movement coverage in this recording."}
     for key, v in notes.items():
-        if key != "BWV 511":  # work no longer in the playlist; kept as orphaned note
-            assert v in text, key
+        if key != "BWV 511":
+            assert v.removesuffix(edited.get(key, "")) in text, key
 
 
 def test_search_index(site: Path) -> None:
     data = json.loads((site / "bach-cantabile-harmony/atlas-data.json").read_text())
-    assert data["total"] == 670 == len(data["selections"])
+    assert data["total"] == 674 == len(data["selections"])
     assert set(data) == {"collection", "title", "total", "selections"}
 
 
@@ -176,15 +182,15 @@ def test_single_recording_work_shows_recording_once(site: Path, atlas) -> None: 
 
 
 def test_mixed_recordings_keep_per_track_details(site: Path, atlas) -> None:  # type: ignore[no-untyped-def]
-    """St Matthew includes one track from another album (ED-009), so nothing is collapsed for that work."""
-    html = (site / "bach-cantabile-harmony/10-convergence/index.html").read_text()
-    smp = [
-        s
-        for s in atlas.collection("bach-cantabile-harmony").stage("convergence").selections
-        if s.work == "bwv-244"
+    """BWV 12 in Breath mixes Herreweghe and Ólafsson, so each track keeps its own performer and album."""
+    html = (site / "bach-cantabile-harmony/02-breath/index.html").read_text()
+    bwv12 = [
+        s for s in atlas.collection("bach-cantabile-harmony").stage("breath").selections if s.work == "bwv-12"
     ]
-    card = _card(html, smp[0].id)
-    assert "t-short" not in card and "J.S. Bach: St. Matthew Passion, BWV 244" in card
+    assert {s.recording for s in bwv12} == {"herreweghe-weinen-klagen-cantatas", "olafsson-continuum-ep"}
+    card = _card(html, bwv12[0].id)
+    assert "t-short" not in card and 'Bach: "Weinen, Klagen"' in card.replace("&#34;", '"')
+    assert "Continuum - EP" in _card(html, bwv12[-1].id)
 
 
 def test_variations_get_the_variation_prompt(atlas) -> None:  # type: ignore[no-untyped-def]
@@ -198,3 +204,20 @@ def test_variations_get_the_variation_prompt(atlas) -> None:  # type: ignore[no-
     span = c.stage("span")
     olafsson = [s for s in span.selections if s.work == "bwv-989"]
     assert all("Hear what changes" in fallback_prompt(c, span, s) for s in olafsson[1:-1])
+
+
+def test_display_title_corrects_typo_but_title_stays_apples(site: Path, atlas, root: Path) -> None:  # type: ignore[no-untyped-def]
+    """ED-014: readers see 'E-Flat'; the stored title (used for matching/exports) keeps Apple's 'E-FlA'."""
+    s = next(x for x in atlas.collection("bach-cantabile-harmony").selections() if x.id == "s-otae3ux")
+    assert "E-FlA" in s.title and s.shown_title == "French Suite No. 4 in E-Flat Major, BWV 815: VI. Air"
+    card = _card((site / "bach-cantabile-harmony/03-motion/index.html").read_text(), s.id)
+    heading = card[card.index("<h3") : card.index("</h3>")]
+    assert "E-Flat Major" in heading and "E-FlA" not in heading
+    from atlas.export import build_exports
+
+    csv_text = next(
+        f.content.decode("utf-8-sig")
+        for f in build_exports(atlas, atlas.collections[0])
+        if f.path.name == "playlist-full.csv"
+    )
+    assert "French Suite No. 4 in E-FlA Major, BWV 815: VI. Air" in csv_text

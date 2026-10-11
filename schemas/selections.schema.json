@@ -68,6 +68,11 @@
           "minLength": 1,
           "description": "Track title exactly as listed in Apple Music."
         },
+        "display_title": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Corrected title shown to readers (e.g. fixing a catalogue typo). `title` keeps Apple's exact text for matching and exports."
+        },
         "credits": {
           "type": "string",
           "description": "Track-level performer credits exactly as listed."

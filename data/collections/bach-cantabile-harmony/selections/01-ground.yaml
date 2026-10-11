@@ -24,28 +24,28 @@ selections:
     recording: trifonov-art-of-life
     title: Minuet in G Major, BWV Anh. 116 (Notebook for Anna Magdalena Bach, 1725)
     credits: Daniil Trifonov
-    duration: null
+    duration: 72
     apple_music:
       song_id: '1577781609'
       url: https://music.apple.com/us/album/minuet-in-g-major-bwv-anh-116-notebook-for-anna-magdalena/1577776877?i=1577781609
       album_url: https://music.apple.com/us/album/1577776877
     status: keep
     verification: verified
-    editorial_note: Song ID and title confirmed on the Apple Music song page (2026-10-11). Duration pending verification.
+    editorial_note: Song ID, title and duration confirmed in Apple's catalogue (2026-10-11).
   - id: s-oyh3wl7
     work: bwv-anh-121
     movement: null
     recording: trifonov-art-of-life
     title: Minuet in C Minor, BWV Anh. 121 (Notebook for Anna Magdalena Bach, 1725)
     credits: Daniil Trifonov
-    duration: null
+    duration: 93
     apple_music:
       song_id: '1577781863'
       url: https://music.apple.com/us/album/minuet-in-c-minor-bwv-anh-121-notebook-for-anna-magdalena/1577776877?i=1577781863
       album_url: https://music.apple.com/us/album/1577776877
     status: keep
     verification: verified
-    editorial_note: Song ID and title confirmed on the Apple Music song page (2026-10-11). Duration pending verification.
+    editorial_note: Song ID, title and duration confirmed in Apple's catalogue (2026-10-11).
   - id: s-cvmqbut
     work: bwv-924
     movement: null

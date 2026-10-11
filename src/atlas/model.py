@@ -60,7 +60,13 @@ class Selection:
     duration_status: str | None = None
     link_kind: str | None = None
     editorial_note: str | None = None
+    display_title: str | None = None
     source_position: int | None = None
+
+    @property
+    def shown_title(self) -> str:
+        """Title for readers: the editor's corrected title if set, else Apple's exact title."""
+        return self.display_title or self.title
 
     @classmethod
     def from_yaml(cls, d: dict[str, Any], stage: str, file: str, index: int) -> Selection:
@@ -89,6 +95,7 @@ class Selection:
             duration_status=d.get("duration_status"),
             link_kind=d.get("link_kind"),
             editorial_note=d.get("editorial_note"),
+            display_title=d.get("display_title"),
             source_position=src.get("position"),
         )
 
