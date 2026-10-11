@@ -1,0 +1,516 @@
+# Stage 9 · Transformation — playlist order is the order of this list.
+# To move a selection, move its whole block. Never reuse or renumber `id` values.
+stage: transformation
+selections:
+  - id: s-i43bnao
+    work: bwv-988
+    movement: Aria (Instrumental)
+    recording: perahia-goldberg-variations
+    title: 'Goldberg Variations, BWV 988: Aria (Instrumental)'
+    credits: Murray Perahia
+    duration: 238
+    apple_music:
+      song_id: '337944718'
+      url: https://music.apple.com/us/song/goldberg-variations-bwv-988-aria-instrumental/337944718
+      album_url: https://music.apple.com/us/album/goldberg-variations-bwv-988-aria-instrumental/337944523
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 466
+  - id: s-fjo6724
+    work: bwv-988
+    movement: Variation 1 a 1 Clav. (Instrumental)
+    recording: perahia-goldberg-variations
+    title: 'Goldberg Variations, BWV 988: Variation 1 a 1 Clav. (Instrumental)'
+    credits: Murray Perahia
+    duration: 110
+    apple_music:
+      song_id: '337944722'
+      url: https://music.apple.com/us/song/goldberg-variations-bwv-988-variation-1-a-1-clav/337944722
+      album_url: https://music.apple.com/us/album/goldberg-variations-bwv-988-variation-1-a-1-clav/337944523
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 467
+  - id: s-5b24kc2
+    work: bwv-988
+    movement: Variation 2 a 1 Clav. (Instrumental)
+    recording: perahia-goldberg-variations
+    title: 'Goldberg Variations, BWV 988: Variation 2 a 1 Clav. (Instrumental)'
+    credits: Murray Perahia
+    duration: 95
+    apple_music:
+      song_id: '337944732'
+      url: https://music.apple.com/us/song/goldberg-variations-bwv-988-variation-2-a-1-clav/337944732
+      album_url: https://music.apple.com/us/album/goldberg-variations-bwv-988-variation-2-a-1-clav/337944523
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 468
+  - id: s-7pfjdrb
+    work: bwv-988
+    movement: Variation 3 a 1 Clav. Canone All' Unisuono (Instrumental)
+    recording: perahia-goldberg-variations
+    title: 'Goldberg Variations, BWV 988: Variation 3 a 1 Clav. Canone All'' Unisuono (Instrumental)'
+    credits: Murray Perahia
+    duration: 116
+    apple_music:
+      song_id: '337944736'
+      url: https://music.apple.com/us/song/goldberg-variations-bwv-988-variation-3-a-1-clav/337944736
+      album_url: https://music.apple.com/us/album/goldberg-variations-bwv-988-variation-3-a-1-clav/337944523
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 469
+  - id: s-pr3ph3o
+    work: bwv-988
+    movement: Variation 4 a 1 Clav. (Instrumental)
+    recording: perahia-goldberg-variations
+    title: 'Goldberg Variations, BWV 988: Variation 4 a 1 Clav. (Instrumental)'
+    credits: Murray Perahia
+    duration: 67
+    apple_music:
+      song_id: '337944739'
+      url: https://music.apple.com/us/song/goldberg-variations-bwv-988-variation-4-a-1-clav/337944739
+      album_url: https://music.apple.com/us/album/goldberg-variations-bwv-988-variation-4-a-1-clav/337944523
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 470
+  - id: s-cu2o75u
+    work: bwv-988
+    movement: Variation 5 a 1 Ovvero 2 Clav. (Instrumental)
+    recording: perahia-goldberg-variations
+    title: 'Goldberg Variations, BWV 988: Variation 5 a 1 Ovvero 2 Clav. (Instrumental)'
+    credits: Murray Perahia
+    duration: 84
+    apple_music:
+      song_id: '337944748'
+      url: https://music.apple.com/us/song/goldberg-variations-bwv-988-variation-5-a-1-ovvero/337944748
+      album_url: https://music.apple.com/us/album/goldberg-variations-bwv-988-variation-5-a-1-ovvero/337944523
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 471
+  - id: s-ofhywl3
+    work: bwv-988
+    movement: Variation 6 a 1 Clav. Canone All Seconda (Instrumental)
+    recording: perahia-goldberg-variations
+    title: 'Goldberg Variations, BWV 988: Variation 6 a 1 Clav. Canone All Seconda (Instrumental)'
+    credits: Murray Perahia
+    duration: 84
+    apple_music:
+      song_id: '337944749'
+      url: https://music.apple.com/us/song/goldberg-variations-bwv-988-variation-6-a-1-clav/337944749
+      album_url: https://music.apple.com/us/album/goldberg-variations-bwv-988-variation-6-a-1-clav/337944523
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 472
+  - id: s-gwcurxb
+    work: bwv-988
+    movement: Variation 7 a 1 Ovvero 2 Clav. (Instrumental)
+    recording: perahia-goldberg-variations
+    title: 'Goldberg Variations, BWV 988: Variation 7 a 1 Ovvero 2 Clav. (Instrumental)'
+    credits: Murray Perahia
+    duration: 106
+    apple_music:
+      song_id: '337944753'
+      url: https://music.apple.com/us/song/goldberg-variations-bwv-988-variation-7-a-1-ovvero/337944753
+      album_url: https://music.apple.com/us/album/goldberg-variations-bwv-988-variation-7-a-1-ovvero/337944523
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 473
+  - id: s-u4jvypu
+    work: bwv-988
+    movement: Variation 8 a 2 Clav. (Instrumental)
+    recording: perahia-goldberg-variations
+    title: 'Goldberg Variations, BWV 988: Variation 8 a 2 Clav. (Instrumental)'
+    credits: Murray Perahia
+    duration: 111
+    apple_music:
+      song_id: '337944757'
+      url: https://music.apple.com/us/song/goldberg-variations-bwv-988-variation-8-a-2-clav/337944757
+      album_url: https://music.apple.com/us/album/goldberg-variations-bwv-988-variation-8-a-2-clav/337944523
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 474
+  - id: s-e2zmsa7
+    work: bwv-988
+    movement: Variation 9 a 1 Clav. Canone Alla Terza (Instrumental)
+    recording: perahia-goldberg-variations
+    title: 'Goldberg Variations, BWV 988: Variation 9 a 1 Clav. Canone Alla Terza (Instrumental)'
+    credits: Murray Perahia
+    duration: 131
+    apple_music:
+      song_id: '337944762'
+      url: https://music.apple.com/us/song/goldberg-variations-bwv-988-variation-9-a-1-clav/337944762
+      album_url: https://music.apple.com/us/album/goldberg-variations-bwv-988-variation-9-a-1-clav/337944523
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 475
+  - id: s-v3bjyab
+    work: bwv-988
+    movement: Variation 10 a 1 Clav. Fughetta (Instrumental)
+    recording: perahia-goldberg-variations
+    title: 'Goldberg Variations, BWV 988: Variation 10 a 1 Clav. Fughetta (Instrumental)'
+    credits: Murray Perahia
+    duration: 93
+    apple_music:
+      song_id: '337944765'
+      url: https://music.apple.com/us/song/goldberg-variations-bwv-988-variation-10-a-1-clav/337944765
+      album_url: https://music.apple.com/us/album/goldberg-variations-bwv-988-variation-10-a-1-clav/337944523
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 476
+  - id: s-4fjvfvo
+    work: bwv-988
+    movement: Variation 11 a 2 Clav. (Instrumental)
+    recording: perahia-goldberg-variations
+    title: 'Goldberg Variations, BWV 988: Variation 11 a 2 Clav. (Instrumental)'
+    credits: Murray Perahia
+    duration: 106
+    apple_music:
+      song_id: '337944769'
+      url: https://music.apple.com/us/song/goldberg-variations-bwv-988-variation-11-a-2-clav/337944769
+      album_url: https://music.apple.com/us/album/goldberg-variations-bwv-988-variation-11-a-2-clav/337944523
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 477
+  - id: s-kqa7nos
+    work: bwv-988
+    movement: Variation 12 Canone Alla Quarta (Instrumental)
+    recording: perahia-goldberg-variations
+    title: 'Goldberg Variations, BWV 988: Variation 12 Canone Alla Quarta (Instrumental)'
+    credits: Murray Perahia
+    duration: 136
+    apple_music:
+      song_id: '337944773'
+      url: https://music.apple.com/us/song/goldberg-variations-bwv-988-variation-12-canone-alla/337944773
+      album_url: https://music.apple.com/us/album/goldberg-variations-bwv-988-variation-12-canone-alla/337944523
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 478
+  - id: s-6kicc3c
+    work: bwv-988
+    movement: Variation 13 a 2 Clav. (Instrumental)
+    recording: perahia-goldberg-variations
+    title: 'Goldberg Variations, BWV 988: Variation 13 a 2 Clav. (Instrumental)'
+    credits: Murray Perahia
+    duration: 299
+    apple_music:
+      song_id: '337944778'
+      url: https://music.apple.com/us/song/goldberg-variations-bwv-988-variation-13-a-2-clav/337944778
+      album_url: https://music.apple.com/us/album/goldberg-variations-bwv-988-variation-13-a-2-clav/337944523
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 479
+  - id: s-gi56z4f
+    work: bwv-988
+    movement: Variation 14 a 2 Clav. (Instrumental)
+    recording: perahia-goldberg-variations
+    title: 'Goldberg Variations, BWV 988: Variation 14 a 2 Clav. (Instrumental)'
+    credits: Murray Perahia
+    duration: 126
+    apple_music:
+      song_id: '337944784'
+      url: https://music.apple.com/us/song/goldberg-variations-bwv-988-variation-14-a-2-clav/337944784
+      album_url: https://music.apple.com/us/album/goldberg-variations-bwv-988-variation-14-a-2-clav/337944523
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 480
+  - id: s-nhxi4wi
+    work: bwv-988
+    movement: Variation 15 a 1 Clav. Canone Alla Quinta In Moto Contrario. a 1 Clav. Andante (Instrumental)
+    recording: perahia-goldberg-variations
+    title: 'Goldberg Variations, BWV 988: Variation 15 a 1 Clav. Canone Alla Quinta In Moto Contrario. a 1 Clav. Andante (Instrumental)'
+    credits: Murray Perahia
+    duration: 259
+    apple_music:
+      song_id: '337944805'
+      url: https://music.apple.com/us/song/goldberg-variations-bwv-988-variation-15-a-1-clav/337944805
+      album_url: https://music.apple.com/us/album/goldberg-variations-bwv-988-variation-15-a-1-clav/337944523
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 481
+  - id: s-juja3vi
+    work: bwv-988
+    movement: Variation 16 Ouverture a 1 Clav. (Instrumental)
+    recording: perahia-goldberg-variations
+    title: 'Goldberg Variations, BWV 988: Variation 16 Ouverture a 1 Clav. (Instrumental)'
+    credits: Murray Perahia
+    duration: 164
+    apple_music:
+      song_id: '337944853'
+      url: https://music.apple.com/us/song/goldberg-variations-bwv-988-variation-16-ouverture/337944853
+      album_url: https://music.apple.com/us/album/goldberg-variations-bwv-988-variation-16-ouverture/337944523
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 482
+  - id: s-oz2jt5e
+    work: bwv-988
+    movement: Variation 17 a 2 Clav. (Instrumental)
+    recording: perahia-goldberg-variations
+    title: 'Goldberg Variations, BWV 988: Variation 17 a 2 Clav. (Instrumental)'
+    credits: Murray Perahia
+    duration: 100
+    apple_music:
+      song_id: '337944855'
+      url: https://music.apple.com/us/song/goldberg-variations-bwv-988-variation-17-a-2-clav/337944855
+      album_url: https://music.apple.com/us/album/goldberg-variations-bwv-988-variation-17-a-2-clav/337944523
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 483
+  - id: s-qyqp2o3
+    work: bwv-988
+    movement: Variation 18 - Canone Alla Sesta a 1 Clav. (Instrumental)
+    recording: perahia-goldberg-variations
+    title: 'Goldberg Variations, BWV 988: Variation 18 - Canone Alla Sesta a 1 Clav. (Instrumental)'
+    credits: Murray Perahia
+    duration: 83
+    apple_music:
+      song_id: '337944858'
+      url: https://music.apple.com/us/song/goldberg-variations-bwv-988-variation-18-canone-alla/337944858
+      album_url: https://music.apple.com/us/album/goldberg-variations-bwv-988-variation-18-canone-alla/337944523
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 484
+  - id: s-smg6nl5
+    work: bwv-988
+    movement: Variation 19 a 1 Clav. (Instrumental)
+    recording: perahia-goldberg-variations
+    title: 'Goldberg Variations, BWV 988: Variation 19 a 1 Clav. (Instrumental)'
+    credits: Murray Perahia
+    duration: 89
+    apple_music:
+      song_id: '337944875'
+      url: https://music.apple.com/us/song/goldberg-variations-bwv-988-variation-19-a-1-clav/337944875
+      album_url: https://music.apple.com/us/album/goldberg-variations-bwv-988-variation-19-a-1-clav/337944523
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 485
+  - id: s-4w2ulym
+    work: bwv-988
+    movement: Variation 20 a 2 Clav. (Instrumental)
+    recording: perahia-goldberg-variations
+    title: 'Goldberg Variations, BWV 988: Variation 20 a 2 Clav. (Instrumental)'
+    credits: Murray Perahia
+    duration: 111
+    apple_music:
+      song_id: '337944883'
+      url: https://music.apple.com/us/song/goldberg-variations-bwv-988-variation-20-a-2-clav/337944883
+      album_url: https://music.apple.com/us/album/goldberg-variations-bwv-988-variation-20-a-2-clav/337944523
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 486
+  - id: s-iewjag4
+    work: bwv-988
+    movement: Variation 21 Canone Alla Settima (Instrumental)
+    recording: perahia-goldberg-variations
+    title: 'Goldberg Variations, BWV 988: Variation 21 Canone Alla Settima (Instrumental)'
+    credits: Murray Perahia
+    duration: 165
+    apple_music:
+      song_id: '337944887'
+      url: https://music.apple.com/us/song/goldberg-variations-bwv-988-variation-21-canone-alla/337944887
+      album_url: https://music.apple.com/us/album/goldberg-variations-bwv-988-variation-21-canone-alla/337944523
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 487
+  - id: s-dclhfyq
+    work: bwv-988
+    movement: Variation 22 Alla Breve a 1 Clav. (Instrumental)
+    recording: perahia-goldberg-variations
+    title: 'Goldberg Variations, BWV 988: Variation 22 Alla Breve a 1 Clav. (Instrumental)'
+    credits: Murray Perahia
+    duration: 88
+    apple_music:
+      song_id: '337944889'
+      url: https://music.apple.com/us/song/goldberg-variations-bwv-988-variation-22-alla-breve/337944889
+      album_url: https://music.apple.com/us/album/goldberg-variations-bwv-988-variation-22-alla-breve/337944523
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 488
+  - id: s-umqxlws
+    work: bwv-988
+    movement: Variation 23 a 2 Clav. (Instrumental)
+    recording: perahia-goldberg-variations
+    title: 'Goldberg Variations, BWV 988: Variation 23 a 2 Clav. (Instrumental)'
+    credits: Murray Perahia
+    duration: 115
+    apple_music:
+      song_id: '337944894'
+      url: https://music.apple.com/us/song/goldberg-variations-bwv-988-variation-23-a-2-clav/337944894
+      album_url: https://music.apple.com/us/album/goldberg-variations-bwv-988-variation-23-a-2-clav/337944523
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 489
+  - id: s-zgvnudx
+    work: bwv-988
+    movement: Variation 24 Canone All' Ottava a 1 Clav. (Instrumental)
+    recording: perahia-goldberg-variations
+    title: 'Goldberg Variations, BWV 988: Variation 24 Canone All'' Ottava a 1 Clav. (Instrumental)'
+    credits: Murray Perahia
+    duration: 152
+    apple_music:
+      song_id: '337944899'
+      url: https://music.apple.com/us/song/goldberg-variations-bwv-988-variation-24-canone-all/337944899
+      album_url: https://music.apple.com/us/album/goldberg-variations-bwv-988-variation-24-canone-all/337944523
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 490
+  - id: s-uat3bu4
+    work: bwv-988
+    movement: Variation 25 a 2 Clav. (Instrumental)
+    recording: perahia-goldberg-variations
+    title: 'Goldberg Variations, BWV 988: Variation 25 a 2 Clav. (Instrumental)'
+    credits: Murray Perahia
+    duration: 444
+    apple_music:
+      song_id: '337944904'
+      url: https://music.apple.com/us/song/goldberg-variations-bwv-988-variation-25-a-2-clav/337944904
+      album_url: https://music.apple.com/us/album/goldberg-variations-bwv-988-variation-25-a-2-clav/337944523
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 491
+  - id: s-rihczpm
+    work: bwv-988
+    movement: Variation 26 a 2 Clav. (Instrumental)
+    recording: perahia-goldberg-variations
+    title: 'Goldberg Variations, BWV 988: Variation 26 a 2 Clav. (Instrumental)'
+    credits: Murray Perahia
+    duration: 118
+    apple_music:
+      song_id: '337944911'
+      url: https://music.apple.com/us/song/goldberg-variations-bwv-988-variation-26-a-2-clav/337944911
+      album_url: https://music.apple.com/us/album/goldberg-variations-bwv-988-variation-26-a-2-clav/337944523
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 492
+  - id: s-p6v3jgo
+    work: bwv-988
+    movement: Variation 27 Canone Alla Nona (Instrumental)
+    recording: perahia-goldberg-variations
+    title: 'Goldberg Variations, BWV 988: Variation 27 Canone Alla Nona (Instrumental)'
+    credits: Murray Perahia
+    duration: 98
+    apple_music:
+      song_id: '337944923'
+      url: https://music.apple.com/us/song/goldberg-variations-bwv-988-variation-27-canone-alla/337944923
+      album_url: https://music.apple.com/us/album/goldberg-variations-bwv-988-variation-27-canone-alla/337944523
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 493
+  - id: s-5rmx6mg
+    work: bwv-988
+    movement: Variation 28 a 2 Clav. (Instrumental)
+    recording: perahia-goldberg-variations
+    title: 'Goldberg Variations, BWV 988: Variation 28 a 2 Clav. (Instrumental)'
+    credits: Murray Perahia
+    duration: 130
+    apple_music:
+      song_id: '337944927'
+      url: https://music.apple.com/us/song/goldberg-variations-bwv-988-variation-28-a-2-clav/337944927
+      album_url: https://music.apple.com/us/album/goldberg-variations-bwv-988-variation-28-a-2-clav/337944523
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 494
+  - id: s-bqh3laf
+    work: bwv-988
+    movement: Variation 29 a 1 Ovvero 2 Clav. (Instrumental)
+    recording: perahia-goldberg-variations
+    title: 'Goldberg Variations, BWV 988: Variation 29 a 1 Ovvero 2 Clav. (Instrumental)'
+    credits: Murray Perahia
+    duration: 129
+    apple_music:
+      song_id: '337944931'
+      url: https://music.apple.com/us/song/goldberg-variations-bwv-988-variation-29-a-1-ovvero/337944931
+      album_url: https://music.apple.com/us/album/goldberg-variations-bwv-988-variation-29-a-1-ovvero/337944523
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 495
+  - id: s-da5k2wg
+    work: bwv-988
+    movement: Quodlibet (Instrumental)
+    recording: perahia-goldberg-variations
+    title: 'Goldberg Variations, BWV 988: Quodlibet (Instrumental)'
+    credits: Murray Perahia
+    duration: 103
+    apple_music:
+      song_id: '337944935'
+      url: https://music.apple.com/us/song/goldberg-variations-bwv-988-quodlibet-instrumental/337944935
+      album_url: https://music.apple.com/us/album/goldberg-variations-bwv-988-quodlibet-instrumental/337944523
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 496
+  - id: s-trhiovf
+    work: bwv-988
+    movement: Aria Da Capo (Instrumental)
+    recording: perahia-goldberg-variations
+    title: 'Goldberg Variations, BWV 988: Aria Da Capo (Instrumental)'
+    credits: Murray Perahia
+    duration: 140
+    apple_music:
+      song_id: '337944984'
+      url: https://music.apple.com/us/song/goldberg-variations-bwv-988-aria-da-capo-instrumental/337944984
+      album_url: https://music.apple.com/us/album/goldberg-variations-bwv-988-aria-da-capo-instrumental/337944523
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 497

@@ -1,0 +1,109 @@
+# PROPOSED PATCH — NOT APPLIED. Approved 19-selection Breath sequence (editorial/BREATH_19_APPROVED.md).
+# Check with `atlas proposal check breath-19`; apply only after song IDs are verified.
+id: breath-19
+stage: breath
+status: proposed
+source: archive/2026-10-11-handoff/editorial/BREATH_19_APPROVED.md
+principle: Cantabile reveals the truth of musical becoming.
+question: What makes this phrase need to continue—and what finally allows it to rest?
+arc: invocation → vocal/piano pairing → different breaths → vulnerability/longing → instability/lament → burden → suspension → sufficiency
+max_selections: 19
+retire:
+  - selection: s-h7qkkv3
+    reason: Replaced by Hewitt's Mary Howe transcription (approved in editorial discussion).
+new_works:
+  - id: bwv-147
+    catalogue: BWV 147
+    title: Herz und Mund und Tat und Leben
+    composer: Johann Sebastian Bach
+  - id: bwv-199
+    catalogue: BWV 199
+    title: Mein Herze schwimmt im Blut
+    composer: Johann Sebastian Bach
+  - id: bwv-21
+    catalogue: BWV 21
+    title: Ich hatte viel Bekümmernis
+    composer: Johann Sebastian Bach
+  - id: bwv-127
+    catalogue: BWV 127
+    title: Herr Jesu Christ, wahr' Mensch und Gott
+    composer: Johann Sebastian Bach
+sequence:
+  - n: 1
+    existing: s-tlw42pr
+  - n: 2
+    existing: s-i24e5dp
+  - n: 3
+    existing: s-6neuf73
+  - n: 4
+    existing: s-wr2abe5
+  - n: 5
+    new:
+      work: bwv-208
+      movement: No. 9, Schafe können sicher weiden
+      performers: Angela Hewitt
+      apple_music:
+        song_id: null
+        url: null
+      verification: needs_verification
+      arrangement: Piano transcription by Mary Howe
+      note: Replaces Leon Fleisher's Egon Petri arrangement; confirm exact track match.
+  - n: 6
+    new:
+      work: bwv-147
+      movement: X. Choral “Jesus bleibet meine Freude”
+      performers: Masaaki Suzuki / Bach Collegium Japan
+      apple_music:
+        song_id: null
+        url: null
+      verification: needs_verification
+      note: Original chorus only; no piano transcription.
+  - n: 7
+    existing: s-f6c6zb5
+  - n: 8
+    new:
+      work: bwv-199
+      movement: “Tief gebückt und voller Reue”
+      performers: Lorraine Hunt Lieberson
+      apple_music:
+        song_id: null
+        url: null
+      verification: needs_verification
+      note: 'Her BWV 82 album (“Bach: Cantatas, BWV 82 & 199”, Apple album 73238424) is a likely source.'
+  - n: 9
+    existing: s-dykbvma
+  - n: 10
+    existing: s-qpw5nju
+  - n: 11
+    existing: s-lbxcqoz
+  - n: 12
+    existing: s-65qhnur
+  - n: 13
+    new:
+      work: bwv-21
+      movement: III. Aria “Seufzer, Tränen, Kummer, Not”
+      performers: Barbara Schlick / Philippe Herreweghe
+      apple_music:
+        song_id: null
+        url: null
+      verification: needs_verification
+  - n: 14
+    existing: s-32yvaoz
+  - n: 15
+    existing: s-ljf7ojn
+  - n: 16
+    existing: s-lbtfu7z
+  - n: 17
+    existing: s-vpyynmu
+  - n: 18
+    new:
+      work: bwv-127
+      movement: III. Aria “Die Seele ruht in Jesu Händen”
+      performers: Masaaki Suzuki / Bach Collegium Japan
+      apple_music:
+        song_id: '1727109118'
+        url: https://classical.music.apple.com/us/album/1727108827?i=1727109118&l=en-US
+      verification: user_supplied
+      note: URL supplied by the editor; confirm the track.
+  - n: 19
+    existing: s-pjnc2ca

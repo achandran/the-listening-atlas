@@ -1,0 +1,325 @@
+# Stage 1 · Ground — playlist order is the order of this list.
+# To move a selection, move its whole block. Never reuse or renumber `id` values.
+stage: ground
+selections:
+  - id: s-fjvf7ay
+    work: bwv-anh-114
+    movement: null
+    recording: trifonov-art-of-life
+    title: Minuet in G Major, BWV Anh. 114 (Notebook for Anna Magdalena Bach, 1725)
+    credits: Daniil Trifonov
+    duration: 105
+    apple_music:
+      song_id: '1577781357'
+      url: https://music.apple.com/us/song/minuet-in-g-major-bwv-anh-114-notebook-for-anna-magdalena/1577781357
+      album_url: https://music.apple.com/us/album/minuet-in-g-major-bwv-anh-114-notebook-for-anna-magdalena/1577776877
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 1
+  - id: s-wrwby3e
+    work: bwv-anh-120
+    movement: null
+    recording: trifonov-art-of-life
+    title: Minuet in A Minor, BWV Anh. 120 (Notebook for Anna Magdalena Bach, 1725)
+    credits: Daniil Trifonov
+    duration: null
+    apple_music:
+      song_id: '1577780575'
+      url: https://music.apple.com/us/album/minuet-in-a-minor-bwv-anh-120-notebook-for-anna/1577776877?i=1577780575
+      album_url: https://music.apple.com/us/album/1577776877
+    status: keep
+    verification: snapshot_matched
+    editorial_note: Composer attribution uncertain; Notebook for Anna Magdalena Bach. Duration pending verification.
+    source:
+      snapshot: master-669
+      position: 2
+  - id: s-cvmqbut
+    work: bwv-924
+    movement: null
+    recording: hewitt-plays-bach-and-more
+    title: Prelude in C Major, BWV 924
+    credits: Angela Hewitt
+    duration: 59
+    apple_music:
+      song_id: '1852229983'
+      url: https://music.apple.com/us/song/prelude-in-c-major-bwv-924/1852229983
+      album_url: https://music.apple.com/us/album/prelude-in-c-major-bwv-924/1852229971
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 3
+  - id: s-3hr4gcl
+    work: bwv-925
+    movement: null
+    recording: hewitt-plays-bach-and-more
+    title: Prelude in D Major, BWV 925
+    credits: Angela Hewitt
+    duration: 58
+    apple_music:
+      song_id: '1852230236'
+      url: https://music.apple.com/us/song/prelude-in-d-major-bwv-925/1852230236
+      album_url: https://music.apple.com/us/album/prelude-in-d-major-bwv-925/1852229971
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 4
+  - id: s-bpqjx5n
+    work: bwv-926
+    movement: null
+    recording: hewitt-plays-bach-and-more
+    title: Prelude in D Minor, BWV 926
+    credits: Angela Hewitt
+    duration: 70
+    apple_music:
+      song_id: '1852229993'
+      url: https://music.apple.com/us/song/prelude-in-d-minor-bwv-926/1852229993
+      album_url: https://music.apple.com/us/album/prelude-in-d-minor-bwv-926/1852229971
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 5
+  - id: s-vccqn62
+    work: bwv-927
+    movement: null
+    recording: hewitt-plays-bach-and-more
+    title: Prelude in F Major, BWV 927
+    credits: Angela Hewitt
+    duration: 30
+    apple_music:
+      song_id: '1852230237'
+      url: https://music.apple.com/us/song/prelude-in-f-major-bwv-927/1852230237
+      album_url: https://music.apple.com/us/album/prelude-in-f-major-bwv-927/1852229971
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 6
+  - id: s-hqcmptz
+    work: bwv-928
+    movement: null
+    recording: hewitt-plays-bach-and-more
+    title: Prelude in F Major, BWV 928
+    credits: Angela Hewitt
+    duration: 80
+    apple_music:
+      song_id: '1852230238'
+      url: https://music.apple.com/us/song/prelude-in-f-major-bwv-928/1852230238
+      album_url: https://music.apple.com/us/album/prelude-in-f-major-bwv-928/1852229971
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 7
+  - id: s-ludgfr6
+    work: bwv-930
+    movement: null
+    recording: hewitt-plays-bach-and-more
+    title: Prelude in G Minor, BWV 930
+    credits: Angela Hewitt
+    duration: 132
+    apple_music:
+      song_id: '1852230260'
+      url: https://music.apple.com/us/song/prelude-in-g-minor-bwv-930/1852230260
+      album_url: https://music.apple.com/us/album/prelude-in-g-minor-bwv-930/1852229971
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 8
+  - id: s-26gdzh6
+    work: bwv-933
+    movement: null
+    recording: hewitt-plays-bach-and-more
+    title: Prelude in C Major, BWV 933
+    credits: Angela Hewitt
+    duration: 96
+    apple_music:
+      song_id: '1852229992'
+      url: https://music.apple.com/us/song/prelude-in-c-major-bwv-933/1852229992
+      album_url: https://music.apple.com/us/album/prelude-in-c-major-bwv-933/1852229971
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 9
+  - id: s-pvv5am6
+    work: bwv-934
+    movement: null
+    recording: hewitt-plays-bach-and-more
+    title: Prelude in C Minor, BWV 934
+    credits: Angela Hewitt
+    duration: 129
+    apple_music:
+      song_id: '1852230262'
+      url: https://music.apple.com/us/song/prelude-in-c-minor-bwv-934/1852230262
+      album_url: https://music.apple.com/us/album/prelude-in-c-minor-bwv-934/1852229971
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 10
+  - id: s-afnpt67
+    work: bwv-935
+    movement: null
+    recording: hewitt-plays-bach-and-more
+    title: Prelude in D Minor, BWV 935
+    credits: Angela Hewitt
+    duration: 91
+    apple_music:
+      song_id: '1852230242'
+      url: https://music.apple.com/us/song/prelude-in-d-minor-bwv-935/1852230242
+      album_url: https://music.apple.com/us/album/prelude-in-d-minor-bwv-935/1852229971
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 11
+  - id: s-n4n5zpe
+    work: bwv-936
+    movement: null
+    recording: hewitt-plays-bach-and-more
+    title: Prelude in D Major, BWV 936
+    credits: Angela Hewitt
+    duration: 131
+    apple_music:
+      song_id: '1852230252'
+      url: https://music.apple.com/us/song/prelude-in-d-major-bwv-936/1852230252
+      album_url: https://music.apple.com/us/album/prelude-in-d-major-bwv-936/1852229971
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 12
+  - id: s-jpvdshu
+    work: bwv-937
+    movement: null
+    recording: hewitt-plays-bach-and-more
+    title: Prelude in E Major, BWV 937
+    credits: Angela Hewitt
+    duration: 91
+    apple_music:
+      song_id: '1852230240'
+      url: https://music.apple.com/us/song/prelude-in-e-major-bwv-937/1852230240
+      album_url: https://music.apple.com/us/album/prelude-in-e-major-bwv-937/1852229971
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 13
+  - id: s-n7vqw4p
+    work: bwv-938
+    movement: null
+    recording: hewitt-plays-bach-and-more
+    title: Prelude in E Minor, BWV 938
+    credits: Angela Hewitt
+    duration: 109
+    apple_music:
+      song_id: '1852230243'
+      url: https://music.apple.com/us/song/prelude-in-e-minor-bwv-938/1852230243
+      album_url: https://music.apple.com/us/album/prelude-in-e-minor-bwv-938/1852229971
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 14
+  - id: s-amydr6o
+    work: bwv-939
+    movement: null
+    recording: hewitt-plays-bach-and-more
+    title: Prelude in C Major, BWV 939
+    credits: Angela Hewitt
+    duration: 37
+    apple_music:
+      song_id: '1852229990'
+      url: https://music.apple.com/us/song/prelude-in-c-major-bwv-939/1852229990
+      album_url: https://music.apple.com/us/album/prelude-in-c-major-bwv-939/1852229971
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 15
+  - id: s-dsy5uzw
+    work: bwv-940
+    movement: null
+    recording: hewitt-plays-bach-and-more
+    title: Prelude in D Minor, BWV 940
+    credits: Angela Hewitt
+    duration: 54
+    apple_music:
+      song_id: '1852229987'
+      url: https://music.apple.com/us/song/prelude-in-d-minor-bwv-940/1852229987
+      album_url: https://music.apple.com/us/album/prelude-in-d-minor-bwv-940/1852229971
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 16
+  - id: s-7qesmh6
+    work: bwv-941
+    movement: null
+    recording: hewitt-plays-bach-and-more
+    title: Prelude in E Minor, BWV 941
+    credits: Angela Hewitt
+    duration: 42
+    apple_music:
+      song_id: '1852229979'
+      url: https://music.apple.com/us/song/prelude-in-e-minor-bwv-941/1852229979
+      album_url: https://music.apple.com/us/album/prelude-in-e-minor-bwv-941/1852229971
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 17
+  - id: s-cbfdfvq
+    work: bwv-942
+    movement: null
+    recording: hewitt-plays-bach-and-more
+    title: Prelude in A Minor, BWV 942
+    credits: Angela Hewitt
+    duration: 38
+    apple_music:
+      song_id: '1852229991'
+      url: https://music.apple.com/us/song/prelude-in-a-minor-bwv-942/1852229991
+      album_url: https://music.apple.com/us/album/prelude-in-a-minor-bwv-942/1852229971
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 18
+  - id: s-jkrkmus
+    work: bwv-943
+    movement: null
+    recording: hewitt-plays-bach-and-more
+    title: Prelude in C Major, BWV 943
+    credits: Angela Hewitt
+    duration: 99
+    apple_music:
+      song_id: '1852230241'
+      url: https://music.apple.com/us/song/prelude-in-c-major-bwv-943/1852230241
+      album_url: https://music.apple.com/us/album/prelude-in-c-major-bwv-943/1852229971
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 19
+  - id: s-ov65sbm
+    work: bwv-999
+    movement: null
+    recording: hewitt-plays-bach-and-more
+    title: Prelude in C Minor, BWV 999
+    credits: Angela Hewitt
+    duration: 92
+    apple_music:
+      song_id: '1852229986'
+      url: https://music.apple.com/us/song/prelude-in-c-minor-bwv-999/1852229986
+      album_url: https://music.apple.com/us/album/prelude-in-c-minor-bwv-999/1852229971
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 20

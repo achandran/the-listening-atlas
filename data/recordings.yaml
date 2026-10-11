@@ -1,0 +1,409 @@
+recordings:
+  - id: trifonov-art-of-life
+    principal_artist: Daniil Trifonov
+    album_title: 'BACH: The Art of Life'
+    apple_album_id: '1577776877'
+    label: null
+    release_year: null
+    version: null
+    verification: snapshot_matched
+  - id: hewitt-plays-bach-and-more
+    principal_artist: Angela Hewitt
+    album_title: '"Angela Hewitt plays Bach & more"'
+    apple_album_id: '1852229971'
+    label: null
+    release_year: null
+    version: null
+    verification: snapshot_matched
+  - id: suzuki-cantatas-vol-53
+    principal_artist: Masaaki Suzuki / Bach Collegium Japan
+    album_title: 'Bach: Cantatas, Vol. 53'
+    apple_album_id: '1724250501'
+    label: null
+    release_year: null
+    version: null
+    verification: snapshot_matched
+  - id: perahia-songs-without-words
+    principal_artist: Murray Perahia
+    album_title: 'Bach/Busoni, Mendelssohn, Schubert/Liszt: Songs Without Words'
+    apple_album_id: '597604194'
+    label: null
+    release_year: null
+    version: null
+    verification: snapshot_matched
+  - id: herreweghe-motets
+    principal_artist: Philippe Herreweghe / Collegium Vocale Gent
+    album_title: 'Bach: Motets'
+    apple_album_id: '1212393692'
+    label: null
+    release_year: null
+    version: null
+    verification: snapshot_matched
+  - id: suzuki-secular-cantatas-vol-2
+    principal_artist: Masaaki Suzuki / Bach Collegium Japan
+    album_title: 'Bach: Secular Cantatas, Vol. 2'
+    apple_album_id: '1727120243'
+    label: null
+    release_year: null
+    version: null
+    verification: snapshot_matched
+  - id: fleisher-two-hands
+    principal_artist: Leon Fleisher
+    album_title: Two Hands
+    apple_album_id: '1023324548'
+    label: null
+    release_year: null
+    version: null
+    verification: snapshot_matched
+  - id: suzuki-cantatas-vol-37
+    principal_artist: Masaaki Suzuki / Bach Collegium Japan
+    album_title: 'Bach, J.S.: Cantatas, Vol. 37  - Bwv 35, 169, 170, 200'
+    apple_album_id: '1727101422'
+    label: null
+    release_year: null
+    version: null
+    verification: snapshot_matched
+  - id: suzuki-cantatas-vol-42
+    principal_artist: Masaaki Suzuki / Bach Collegium Japan
+    album_title: 'Bach: Cantatas, Vol. 42  - BWV 13, 16, 32, 72'
+    apple_album_id: '1724258470'
+    label: null
+    release_year: null
+    version: null
+    verification: snapshot_matched
+  - id: herreweghe-christmas-cantatas
+    principal_artist: Philippe Herreweghe / Collegium Vocale Gent
+    album_title: 'J.S. Bach: Christmas Cantatas'
+    apple_album_id: '251161194'
+    label: null
+    release_year: null
+    version: null
+    verification: snapshot_matched
+  - id: herreweghe-ach-suer-trost
+    principal_artist: Philippe Herreweghe / Collegium Vocale Gent
+    album_title: 'Bach: Ach süßer Trost!'
+    apple_album_id: '1572121291'
+    label: null
+    release_year: null
+    version: null
+    verification: snapshot_matched
+  - id: olafsson-johann-sebastian-bach
+    principal_artist: Víkingur Ólafsson
+    album_title: Johann Sebastian Bach
+    apple_album_id: '1410551592'
+    label: null
+    release_year: null
+    version: null
+    verification: snapshot_matched
+  - id: herreweghe-weinen-klagen-cantatas
+    principal_artist: Philippe Herreweghe / Collegium Vocale Gent
+    album_title: 'Bach: "Weinen, Klagen" (Cantatas BWV 12, 38 & 75)'
+    apple_album_id: '207672419'
+    label: null
+    release_year: null
+    version: null
+    verification: snapshot_matched
+  - id: olafsson-continuum-ep
+    principal_artist: Víkingur Ólafsson
+    album_title: Continuum - EP
+    apple_album_id: '1766083236'
+    label: null
+    release_year: 2024
+    version: null
+    verification: snapshot_matched
+    notes: Víkingur Ólafsson, Continuum EP (2024).
+  - id: herreweghe-cantatas-for-bass
+    principal_artist: Philippe Herreweghe / Collegium Vocale Gent
+    album_title: 'Bach: Cantatas for Bass (Remastered)'
+    apple_album_id: '1707369107'
+    label: null
+    release_year: null
+    version: null
+    verification: snapshot_matched
+  - id: hunt-lieberson-cantatas-82-199
+    principal_artist: Lorraine Hunt Lieberson
+    album_title: 'Lorraine Hunt Lieberson - Bach: Cantatas, BWV 82 & 199'
+    apple_album_id: '73238424'
+    label: null
+    release_year: null
+    version: null
+    verification: snapshot_matched
+  - id: perahia-french-suites
+    principal_artist: Murray Perahia
+    album_title: 'Johann Sebastian Bach: The French Suites'
+    apple_album_id: '1440762426'
+    label: null
+    release_year: null
+    version: null
+    verification: snapshot_matched
+  - id: suzuki-brandenburg-orchestral-suites
+    principal_artist: Masaaki Suzuki / Bach Collegium Japan
+    album_title: 'Bach: Brandenburg Concertos Nos. 1-6 / Orchestral Suites Nos. 1-4'
+    apple_album_id: '1724251065'
+    label: null
+    release_year: null
+    version: null
+    verification: snapshot_matched
+  - id: perahia-english-suites-1-3-6
+    principal_artist: Murray Perahia
+    album_title: 'Bach: English Suites Nos. 1, 3 & 6 (Expanded Edition)'
+    apple_album_id: '354034192'
+    label: null
+    release_year: null
+    version: null
+    verification: snapshot_matched
+  - id: perahia-english-suites-2-4-5
+    principal_artist: Murray Perahia
+    album_title: 'Bach: English Suites Nos. 2, 4 & 5'
+    apple_album_id: '158519795'
+    label: null
+    release_year: null
+    version: null
+    verification: snapshot_matched
+  - id: ma-six-evolutions-cello-suites
+    principal_artist: Yo-Yo Ma
+    album_title: 'Six Evolutions - Bach: Cello Suites'
+    apple_album_id: '1398580507'
+    label: null
+    release_year: null
+    version: null
+    verification: snapshot_matched
+  - id: ehnes-sonatas-partitas-solo-violin
+    principal_artist: James Ehnes
+    album_title: 'Bach: Sonatas & Partitas for Solo Violin'
+    apple_album_id: '1589995094'
+    label: null
+    release_year: null
+    version: null
+    verification: snapshot_matched
+  - id: suzuki-cantatas-vol-52
+    principal_artist: Masaaki Suzuki / Bach Collegium Japan
+    album_title: 'Bach: Cantatas, Vol. 52'
+    apple_album_id: '1724251650'
+    label: null
+    release_year: null
+    version: null
+    verification: snapshot_matched
+  - id: hewitt-inventions-sinfonias-1994
+    principal_artist: Angela Hewitt
+    album_title: 'Bach: 2-Part Inventions, 3-Part Sinfonias, etc.'
+    apple_album_id: '1721143424'
+    label: Hyperion
+    release_year: 1994
+    version: Angela Hewitt, Inventions & Sinfonias (Hyperion, 1994)
+    verification: snapshot_matched
+    sources:
+      - https://angelahewitt.com/discography/the-inventions/
+    notes: Replaces András Schiff (Decca) for the Inventions & Sinfonias. Hewitt track-level Apple IDs not yet matched; the same Apple album already supplies BWV 903 song IDs.
+  - id: hewitt-italian-concerto-french-overture-duets
+    principal_artist: Angela Hewitt
+    album_title: 'Bach: Italian Concerto, French Overture, 4 Duets, Capriccios'
+    apple_album_id: '1721137911'
+    label: null
+    release_year: null
+    version: null
+    verification: snapshot_matched
+  - id: koopman-trio-sonatas
+    principal_artist: Ton Koopman
+    album_title: 'J.S. Bach: Trio Sonatas'
+    apple_album_id: '1452616491'
+    label: null
+    release_year: null
+    version: null
+    verification: snapshot_matched
+  - id: hewitt-toccatas
+    principal_artist: Angela Hewitt
+    album_title: 'Bach: The Toccatas, BWV 910–916'
+    apple_album_id: '1721142200'
+    label: null
+    release_year: null
+    version: null
+    verification: snapshot_matched
+  - id: hewitt-aria-variata-other-keyboard
+    principal_artist: Angela Hewitt
+    album_title: 'Bach: Aria variata & Other Keyboard Works'
+    apple_album_id: '1721137532'
+    label: null
+    release_year: null
+    version: null
+    verification: snapshot_matched
+  - id: koopman-organ-works
+    principal_artist: Ton Koopman
+    album_title: 'Bach, J.S.: Organ Works'
+    apple_album_id: '337062299'
+    label: null
+    release_year: null
+    version: null
+    verification: snapshot_matched
+  - id: suzuki-cantatas-vol-25
+    principal_artist: Masaaki Suzuki / Bach Collegium Japan
+    album_title: 'Bach: Cantatas, Vol. 25  - BWV 78, 99, 114'
+    apple_album_id: '1724260101'
+    label: null
+    release_year: null
+    version: null
+    verification: snapshot_matched
+  - id: koopman-buxtehude-telemann
+    principal_artist: Ton Koopman
+    album_title: Bach, Buxtehude & Telemann
+    apple_album_id: '1744064038'
+    label: null
+    release_year: null
+    version: null
+    verification: snapshot_matched
+  - id: hewitt-6-flute-sonatas
+    principal_artist: Angela Hewitt / Andrea Oliva
+    album_title: 'Bach: 6 Flute Sonatas'
+    apple_album_id: '1721139164'
+    label: null
+    release_year: null
+    version: null
+    verification: snapshot_matched
+  - id: pahud-complete-flute-sonatas
+    principal_artist: Emmanuel Pahud / ensemble
+    album_title: 'Bach: Complete Flute Sonatas'
+    apple_album_id: '698830978'
+    label: null
+    release_year: null
+    version: null
+    verification: snapshot_matched
+  - id: hewitt-viola-da-gamba-sonatas
+    principal_artist: Angela Hewitt / Daniel Müller-Schott
+    album_title: 'Bach: Viola da gamba Sonatas'
+    apple_album_id: '1155582523'
+    label: null
+    release_year: null
+    version: null
+    verification: snapshot_matched
+  - id: ehnes-complete-violin-concertos
+    principal_artist: James Ehnes
+    album_title: 'J. S. Bach: The Complete Violin Concertos'
+    apple_album_id: '1793826493'
+    label: null
+    release_year: null
+    version: null
+    verification: snapshot_matched
+  - id: perahia-piano-concertos
+    principal_artist: Murray Perahia
+    album_title: Murray Perahia - Bach Piano Concertos
+    apple_album_id: '429782087'
+    label: null
+    release_year: null
+    version: null
+    verification: snapshot_matched
+  - id: suzuki-cantatas-vol-49
+    principal_artist: Masaaki Suzuki / Bach Collegium Japan
+    album_title: 'Bach: Cantatas, Vol. 49'
+    apple_album_id: '1727080405'
+    label: null
+    release_year: null
+    version: null
+    verification: snapshot_matched
+  - id: faust-brandenburg-concertos
+    principal_artist: Isabelle Faust / Akademie für Alte Musik Berlin
+    album_title: 'J.S. Bach: Brandenburg Concertos'
+    apple_album_id: '1582007762'
+    label: null
+    release_year: null
+    version: null
+    verification: snapshot_matched
+  - id: olafsson-dg-2018
+    principal_artist: Víkingur Ólafsson
+    album_title: Johann Sebastian Bach (Deutsche Grammophon, 2018)
+    apple_album_id: null
+    label: Deutsche Grammophon
+    release_year: 2018
+    version: Víkingur Ólafsson, Johann Sebastian Bach (Deutsche Grammophon, 2018)
+    verification: needs_verification
+    sources:
+      - https://us-store.deutschegrammophon.com/products/vikingur-olaffson-triad-3cd
+    notes: Track list and timings from the DG catalogue; Apple Music links are a search page. Possibly the same Apple album as Ólafsson's BWV 659 (Apple album 1410551592) — verify before matching song IDs.
+  - id: suzuki-organ-works-vol-3
+    principal_artist: Masaaki Suzuki / Bach Collegium Japan
+    album_title: 'Bach: Organ Works, Vol. 3'
+    apple_album_id: '1725554462'
+    label: null
+    release_year: null
+    version: null
+    verification: snapshot_matched
+  - id: perahia-partitas-1-5-6
+    principal_artist: Murray Perahia
+    album_title: 'Bach: Partitas Nos. 1, 5 & 6'
+    apple_album_id: '328344829'
+    label: null
+    release_year: null
+    version: null
+    verification: snapshot_matched
+  - id: perahia-partitas-2-3-4
+    principal_artist: Murray Perahia
+    album_title: 'Bach: Partitas 2, 3 & 4'
+    apple_album_id: '378454353'
+    label: null
+    release_year: null
+    version: null
+    verification: snapshot_matched
+  - id: hewitt-wtc
+    principal_artist: Angela Hewitt
+    album_title: 'Bach: The Well-Tempered Clavier Books 1 & 2, BWV 846-893'
+    apple_album_id: '1721145434'
+    label: null
+    release_year: null
+    version: 'Intended: Angela Hewitt''s later Well-Tempered Clavier (Hyperion; recorded 2008, released 2009), Books I and II'
+    verification: needs_verification
+    notes: Edition and recording date of this Apple album not yet verified against the later cycle.
+  - id: perahia-goldberg-variations
+    principal_artist: Murray Perahia
+    album_title: 'Bach: Goldberg Variations, BWV 988'
+    apple_album_id: '337944523'
+    label: null
+    release_year: null
+    version: null
+    verification: snapshot_matched
+  - id: herreweghe-st-john-passion
+    principal_artist: Philippe Herreweghe / Collegium Vocale Gent
+    album_title: 'Bach: Johannes-Passion, BWV 245'
+    apple_album_id: '1572120521'
+    label: null
+    release_year: null
+    version: null
+    verification: snapshot_matched
+  - id: herreweghe-st-matthew-passion
+    principal_artist: Philippe Herreweghe / Collegium Vocale Gent
+    album_title: 'J.S. Bach: St. Matthew Passion, BWV 244'
+    apple_album_id: '251240562'
+    label: null
+    release_year: null
+    version: null
+    verification: snapshot_matched
+  - id: herreweghe-erbarme-dich-old-sotw
+    principal_artist: Philippe Herreweghe / Collegium Vocale Gent
+    album_title: Erbarme Dich - Old SOTW
+    apple_album_id: '276069994'
+    label: null
+    release_year: null
+    version: null
+    verification: snapshot_matched
+  - id: suzuki-mass-in-b-minor
+    principal_artist: Masaaki Suzuki / Bach Collegium Japan
+    album_title: 'Bach: Mass in B minor'
+    apple_album_id: '1724255882'
+    label: null
+    release_year: null
+    version: null
+    verification: snapshot_matched
+  - id: suzuki-musikalisches-opfer
+    principal_artist: Masaaki Suzuki / Bach Collegium Japan
+    album_title: 'Bach: Musikalisches Opfer'
+    apple_album_id: '1724249803'
+    label: null
+    release_year: null
+    version: null
+    verification: snapshot_matched
+  - id: hewitt-art-of-fugue
+    principal_artist: Angela Hewitt
+    album_title: 'Bach: The Art of Fugue, BWV 1080'
+    apple_album_id: '1697993912'
+    label: null
+    release_year: null
+    version: null
+    verification: snapshot_matched

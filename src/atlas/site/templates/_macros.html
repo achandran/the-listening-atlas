@@ -1,0 +1,22 @@
+{% macro collection_nav(c, rel, current='') %}
+<nav class="collection-nav" aria-label="{{ c.title }}">
+  <a href="{{ rel }}{{ c.id }}/index.html"{% if current == 'overview' %} aria-current="page"{% endif %}>Overview</a>
+  <a href="{{ rel }}{{ c.id }}/search/index.html"{% if current == 'search' %} aria-current="page"{% endif %}>Search</a>
+  <a href="{{ rel }}{{ c.id }}/journal/index.html"{% if current == 'journal' %} aria-current="page"{% endif %}>Journal</a>
+  <a href="{{ rel }}{{ c.id }}/status/index.html"{% if current == 'status' %} aria-current="page"{% endif %}>Editorial status</a>
+</nav>
+{% endmacro %}
+
+{% macro stage_list(c, rel, current_id=None, totals=None) %}
+<ol class="stage-list" role="list">
+{% for st in c.stages %}
+  <li>
+    <a class="stage-link" href="{{ rel }}{{ c.id }}/{{ stage_slug(st) }}/index.html"{% if st.id == current_id %} aria-current="page"{% endif %} data-stage-link="{{ stage_slug(st) }}">
+      <span class="stage-num" aria-hidden="true">{{ '%02d' % st.number }}</span>
+      <span class="stage-name">{{ st.name }}</span>
+      <span class="stage-progress js-only" data-stage-progress="{{ stage_slug(st) }}" data-total="{{ st.selections|length }}"></span>
+    </a>
+  </li>
+{% endfor %}
+</ol>
+{% endmacro %}

@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Collection stages",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["stages"],
+  "properties": {
+    "stages": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "number", "name", "principle", "question", "direction", "at_the_piano", "itinerary"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^[a-z0-9-]+$"},
+          "number": {"type": "integer", "minimum": 1},
+          "name": {"type": "string", "minLength": 1},
+          "principle": {"type": "string"},
+          "question": {"type": "string"},
+          "direction": {"type": "string"},
+          "at_the_piano": {"type": "string"},
+          "itinerary": {"type": "string"},
+          "itinerary_source": {"type": "string", "description": "Original wording before an approved factual update."},
+          "editorial_notice": {"type": "string"},
+          "constraints": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "max_selections": {"type": "integer", "minimum": 1},
+              "pinned_opening_song_ids": {"type": "array", "items": {"type": "string", "pattern": "^[0-9]+$"}}
+            }
+          }
+        }
+      }
+    }
+  }
+}

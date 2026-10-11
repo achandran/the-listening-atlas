@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block main %}
+<section class="hero">
+  <div class="wrap">
+    <p class="eyebrow">A curated listening atlas</p>
+    <h1>{{ atlas.meta.title }}</h1>
+    <p class="lead">{{ atlas.meta.method }}</p>
+  </div>
+</section>
+<section class="wrap">
+  <h2>Volumes</h2>
+  <ul class="cards" role="list">
+  {% for c in atlas.collections %}
+    <li class="card">
+      <h3><a href="{{ c.id }}/index.html">{{ c.title }}</a></h3>
+      {% if c.meta.subtitle %}<p class="muted">{{ c.meta.subtitle }} · {{ c.selections()|length }} selections</p>{% endif %}
+      {% if c.meta.epigraph %}<blockquote>“{{ c.meta.epigraph }}”</blockquote>{% endif %}
+      {% if c.meta.volume_principle %}<p class="small">{{ c.meta.volume_principle }}</p>{% endif %}
+    </li>
+  {% endfor %}
+  </ul>
+  <p class="muted small">Each volume has its own principles and stage structure. Further composers will be added as their curricula are written.</p>
+</section>
+{% endblock %}

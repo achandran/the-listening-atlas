@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Listening notes (work focus or deep focus)",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "work_focus": {"type": "object", "additionalProperties": {"type": "string"}},
+    "orphaned": {"type": "array", "items": {"type": "object"}},
+    "deep_focus": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["listen", "piano", "question"],
+        "properties": {
+          "source_position": {"type": "integer"},
+          "listen": {"type": "string"},
+          "piano": {"type": "string"},
+          "question": {"type": "string"}
+        }
+      }
+    }
+  }
+}

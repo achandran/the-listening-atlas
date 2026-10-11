@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% from "_macros.html" import collection_nav %}
+{% block title %}Editorial status · {{ c.title }}{% endblock %}
+{% block header_nav %}{{ collection_nav(c, rel, 'status') }}{% endblock %}
+{% block main %}
+{% set sels = c.selections() %}
+{% set unmatched = sels|rejectattr('song_id')|list %}
+<section class="wrap narrow prose">
+  <h1>Editorial status</h1>
+  <p>This volume is a work in progress. The playlist below reflects the current canonical data; approved changes that have not yet been merged are listed here rather than silently applied.</p>
+  <ul>
+    <li>{{ sels|length }} selections in {{ c.stages|length }} stages.</li>
+    <li>{{ sels|length - unmatched|length }} linked to an exact Apple Music track; {{ unmatched|length }} still link to an album or search page.</li>
+    <li>{{ sels|selectattr('duration', 'none')|list|length }} without a duration; {{ sels|selectattr('duration_status', 'equalto', 'approximate')|list|length }} with approximate durations.</li>
+  </ul>
+  <h2>Open questions</h2>
+  {% for i in c.issues if i.status in ('open', 'partially_resolved') %}
+  <section class="issue">
+    <h3>{{ i.title }}</h3>
+    <p class="muted small">{{ i.id }}{% if i.stage %} · {{ i.stage|title }}{% endif %} · {{ i.status|replace('_', ' ') }}</p>
+    <p>{{ i.detail }}</p>
+  </section>
+  {% endfor %}
+</section>
+{% endblock %}

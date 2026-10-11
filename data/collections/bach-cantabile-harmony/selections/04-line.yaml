@@ -1,0 +1,1806 @@
+# Stage 4 · Line — playlist order is the order of this list.
+# To move a selection, move its whole block. Never reuse or renumber `id` values.
+stage: line
+selections:
+  - id: s-swgagxs
+    work: bwv-1007
+    movement: I. Prélude
+    recording: ma-six-evolutions-cello-suites
+    title: 'Cello Suite No. 1 in G Major, BWV 1007: I. Prélude'
+    credits: Yo-Yo Ma
+    duration: 150
+    apple_music:
+      song_id: '1398581234'
+      url: https://music.apple.com/us/song/cello-suite-no-1-in-g-major-bwv-1007-i-pr%C3%A9lude/1398581234
+      album_url: https://music.apple.com/us/album/cello-suite-no-1-in-g-major-bwv-1007-i-pr%C3%A9lude/1398580507
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 125
+  - id: s-m65bl6l
+    work: bwv-1007
+    movement: II. Allemande
+    recording: ma-six-evolutions-cello-suites
+    title: 'Cello Suite No. 1 in G Major, BWV 1007: II. Allemande'
+    credits: Yo-Yo Ma
+    duration: 255
+    apple_music:
+      song_id: '1398581235'
+      url: https://music.apple.com/us/song/cello-suite-no-1-in-g-major-bwv-1007-ii-allemande/1398581235
+      album_url: https://music.apple.com/us/album/cello-suite-no-1-in-g-major-bwv-1007-ii-allemande/1398580507
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 126
+  - id: s-trhxhef
+    work: bwv-1007
+    movement: III. Courante
+    recording: ma-six-evolutions-cello-suites
+    title: 'Cello Suite No. 1 in G Major, BWV 1007: III. Courante'
+    credits: Yo-Yo Ma
+    duration: 154
+    apple_music:
+      song_id: '1398581236'
+      url: https://music.apple.com/us/song/cello-suite-no-1-in-g-major-bwv-1007-iii-courante/1398581236
+      album_url: https://music.apple.com/us/album/cello-suite-no-1-in-g-major-bwv-1007-iii-courante/1398580507
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 127
+  - id: s-gwyyjpb
+    work: bwv-1007
+    movement: IV. Sarabande
+    recording: ma-six-evolutions-cello-suites
+    title: 'Cello Suite No. 1 in G Major, BWV 1007: IV. Sarabande'
+    credits: Yo-Yo Ma
+    duration: 150
+    apple_music:
+      song_id: '1398581237'
+      url: https://music.apple.com/us/song/cello-suite-no-1-in-g-major-bwv-1007-iv-sarabande/1398581237
+      album_url: https://music.apple.com/us/album/cello-suite-no-1-in-g-major-bwv-1007-iv-sarabande/1398580507
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 128
+  - id: s-7yyauke
+    work: bwv-1007
+    movement: V. Menuetts I & II
+    recording: ma-six-evolutions-cello-suites
+    title: 'Cello Suite No. 1 in G Major, BWV 1007: V. Menuetts I & II'
+    credits: Yo-Yo Ma
+    duration: 207
+    apple_music:
+      song_id: '1398581239'
+      url: https://music.apple.com/us/song/cello-suite-no-1-in-g-major-bwv-1007-v-menuetts-i-ii/1398581239
+      album_url: https://music.apple.com/us/album/cello-suite-no-1-in-g-major-bwv-1007-v-menuetts-i-ii/1398580507
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 129
+  - id: s-m6oygcc
+    work: bwv-1007
+    movement: VI. Gigue
+    recording: ma-six-evolutions-cello-suites
+    title: 'Cello Suite No. 1 in G Major, BWV 1007: VI. Gigue'
+    credits: Yo-Yo Ma
+    duration: 117
+    apple_music:
+      song_id: '1398581240'
+      url: https://music.apple.com/us/song/cello-suite-no-1-in-g-major-bwv-1007-vi-gigue/1398581240
+      album_url: https://music.apple.com/us/album/cello-suite-no-1-in-g-major-bwv-1007-vi-gigue/1398580507
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 130
+  - id: s-72x7zpe
+    work: bwv-1008
+    movement: I. Prélude
+    recording: ma-six-evolutions-cello-suites
+    title: 'Cello Suite No. 2 in D Minor, BWV 1008: I. Prélude'
+    credits: Yo-Yo Ma
+    duration: 252
+    apple_music:
+      song_id: '1398581242'
+      url: https://music.apple.com/us/song/cello-suite-no-2-in-d-minor-bwv-1008-i-pr%C3%A9lude/1398581242
+      album_url: https://music.apple.com/us/album/cello-suite-no-2-in-d-minor-bwv-1008-i-pr%C3%A9lude/1398580507
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 131
+  - id: s-xor3fr3
+    work: bwv-1008
+    movement: II. Allemande
+    recording: ma-six-evolutions-cello-suites
+    title: 'Cello Suite No. 2 in D Minor, BWV 1008: II. Allemande'
+    credits: Yo-Yo Ma
+    duration: 207
+    apple_music:
+      song_id: '1398581243'
+      url: https://music.apple.com/us/song/cello-suite-no-2-in-d-minor-bwv-1008-ii-allemande/1398581243
+      album_url: https://music.apple.com/us/album/cello-suite-no-2-in-d-minor-bwv-1008-ii-allemande/1398580507
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 132
+  - id: s-y2dp52p
+    work: bwv-1008
+    movement: III. Courante
+    recording: ma-six-evolutions-cello-suites
+    title: 'Cello Suite No. 2 in D Minor, BWV 1008: III. Courante'
+    credits: Yo-Yo Ma
+    duration: 108
+    apple_music:
+      song_id: '1398581245'
+      url: https://music.apple.com/us/song/cello-suite-no-2-in-d-minor-bwv-1008-iii-courante/1398581245
+      album_url: https://music.apple.com/us/album/cello-suite-no-2-in-d-minor-bwv-1008-iii-courante/1398580507
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 133
+  - id: s-icb2gzt
+    work: bwv-1008
+    movement: IV. Sarabande
+    recording: ma-six-evolutions-cello-suites
+    title: 'Cello Suite No. 2 in D Minor, BWV 1008: IV. Sarabande'
+    credits: Yo-Yo Ma
+    duration: 247
+    apple_music:
+      song_id: '1398581246'
+      url: https://music.apple.com/us/song/cello-suite-no-2-in-d-minor-bwv-1008-iv-sarabande/1398581246
+      album_url: https://music.apple.com/us/album/cello-suite-no-2-in-d-minor-bwv-1008-iv-sarabande/1398580507
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 134
+  - id: s-maj36cu
+    work: bwv-1008
+    movement: V. Menuetts I & II
+    recording: ma-six-evolutions-cello-suites
+    title: 'Cello Suite No. 2 in D Minor, BWV 1008: V. Menuetts I & II'
+    credits: Yo-Yo Ma
+    duration: 181
+    apple_music:
+      song_id: '1398581247'
+      url: https://music.apple.com/us/song/cello-suite-no-2-in-d-minor-bwv-1008-v-menuetts-i-ii/1398581247
+      album_url: https://music.apple.com/us/album/cello-suite-no-2-in-d-minor-bwv-1008-v-menuetts-i-ii/1398580507
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 135
+  - id: s-2cqzvg6
+    work: bwv-1008
+    movement: VI. Gigue
+    recording: ma-six-evolutions-cello-suites
+    title: 'Cello Suite No. 2 in D Minor, BWV 1008: VI. Gigue'
+    credits: Yo-Yo Ma
+    duration: 147
+    apple_music:
+      song_id: '1398581250'
+      url: https://music.apple.com/us/song/cello-suite-no-2-in-d-minor-bwv-1008-vi-gigue/1398581250
+      album_url: https://music.apple.com/us/album/cello-suite-no-2-in-d-minor-bwv-1008-vi-gigue/1398580507
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 136
+  - id: s-r2izgln
+    work: bwv-1009
+    movement: I. Prélude
+    recording: ma-six-evolutions-cello-suites
+    title: 'Cello Suite No. 3 in C Major, BWV 1009: I. Prélude'
+    credits: Yo-Yo Ma
+    duration: 194
+    apple_music:
+      song_id: '1398581252'
+      url: https://music.apple.com/us/song/cello-suite-no-3-in-c-major-bwv-1009-i-pr%C3%A9lude/1398581252
+      album_url: https://music.apple.com/us/album/cello-suite-no-3-in-c-major-bwv-1009-i-pr%C3%A9lude/1398580507
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 137
+  - id: s-7sdwidr
+    work: bwv-1009
+    movement: II. Allemande
+    recording: ma-six-evolutions-cello-suites
+    title: 'Cello Suite No. 3 in C Major, BWV 1009: II. Allemande'
+    credits: Yo-Yo Ma
+    duration: 224
+    apple_music:
+      song_id: '1398581253'
+      url: https://music.apple.com/us/song/cello-suite-no-3-in-c-major-bwv-1009-ii-allemande/1398581253
+      album_url: https://music.apple.com/us/album/cello-suite-no-3-in-c-major-bwv-1009-ii-allemande/1398580507
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 138
+  - id: s-mutp6oj
+    work: bwv-1009
+    movement: III. Courante
+    recording: ma-six-evolutions-cello-suites
+    title: 'Cello Suite No. 3 in C Major, BWV 1009: III. Courante'
+    credits: Yo-Yo Ma
+    duration: 188
+    apple_music:
+      song_id: '1398581254'
+      url: https://music.apple.com/us/song/cello-suite-no-3-in-c-major-bwv-1009-iii-courante/1398581254
+      album_url: https://music.apple.com/us/album/cello-suite-no-3-in-c-major-bwv-1009-iii-courante/1398580507
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 139
+  - id: s-tigmssz
+    work: bwv-1009
+    movement: IV. Sarabande
+    recording: ma-six-evolutions-cello-suites
+    title: 'Cello Suite No. 3 in C Major, BWV 1009: IV. Sarabande'
+    credits: Yo-Yo Ma
+    duration: 216
+    apple_music:
+      song_id: '1398581255'
+      url: https://music.apple.com/us/song/cello-suite-no-3-in-c-major-bwv-1009-iv-sarabande/1398581255
+      album_url: https://music.apple.com/us/album/cello-suite-no-3-in-c-major-bwv-1009-iv-sarabande/1398580507
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 140
+  - id: s-stiabfu
+    work: bwv-1009
+    movement: V. Bourrées I & II
+    recording: ma-six-evolutions-cello-suites
+    title: 'Cello Suite No. 3 in C Major, BWV 1009: V. Bourrées I & II'
+    credits: Yo-Yo Ma
+    duration: 219
+    apple_music:
+      song_id: '1398581256'
+      url: https://music.apple.com/us/song/cello-suite-no-3-in-c-major-bwv-1009-v-bourr%C3%A9es-i-ii/1398581256
+      album_url: https://music.apple.com/us/album/cello-suite-no-3-in-c-major-bwv-1009-v-bourr%C3%A9es-i-ii/1398580507
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 141
+  - id: s-4oyzfvs
+    work: bwv-1009
+    movement: VI. Gigue
+    recording: ma-six-evolutions-cello-suites
+    title: 'Cello Suite No. 3 in C Major, BWV 1009: VI. Gigue'
+    credits: Yo-Yo Ma
+    duration: 177
+    apple_music:
+      song_id: '1398581257'
+      url: https://music.apple.com/us/song/cello-suite-no-3-in-c-major-bwv-1009-vi-gigue/1398581257
+      album_url: https://music.apple.com/us/album/cello-suite-no-3-in-c-major-bwv-1009-vi-gigue/1398580507
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 142
+  - id: s-4p3udry
+    work: bwv-1010
+    movement: I. Prélude
+    recording: ma-six-evolutions-cello-suites
+    title: 'Cello Suite No. 4 in E-Flat Major, BWV 1010: I. Prélude'
+    credits: Yo-Yo Ma
+    duration: 292
+    apple_music:
+      song_id: '1398581259'
+      url: https://music.apple.com/us/song/cello-suite-no-4-in-e-flat-major-bwv-1010-i-pr%C3%A9lude/1398581259
+      album_url: https://music.apple.com/us/album/cello-suite-no-4-in-e-flat-major-bwv-1010-i-pr%C3%A9lude/1398580507
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 143
+  - id: s-xfb2mqv
+    work: bwv-1010
+    movement: II. Allemande
+    recording: ma-six-evolutions-cello-suites
+    title: 'Cello Suite No. 4 in E-Flat Major, BWV 1010: II. Allemande'
+    credits: Yo-Yo Ma
+    duration: 263
+    apple_music:
+      song_id: '1398581260'
+      url: https://music.apple.com/us/song/cello-suite-no-4-in-e-flat-major-bwv-1010-ii-allemande/1398581260
+      album_url: https://music.apple.com/us/album/cello-suite-no-4-in-e-flat-major-bwv-1010-ii-allemande/1398580507
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 144
+  - id: s-pdt2hiu
+    work: bwv-1010
+    movement: III. Courante
+    recording: ma-six-evolutions-cello-suites
+    title: 'Cello Suite No. 4 in E-Flat Major, BWV 1010: III. Courante'
+    credits: Yo-Yo Ma
+    duration: 231
+    apple_music:
+      song_id: '1398581411'
+      url: https://music.apple.com/us/song/cello-suite-no-4-in-e-flat-major-bwv-1010-iii-courante/1398581411
+      album_url: https://music.apple.com/us/album/cello-suite-no-4-in-e-flat-major-bwv-1010-iii-courante/1398580507
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 145
+  - id: s-ril552p
+    work: bwv-1010
+    movement: IV. Sarabande
+    recording: ma-six-evolutions-cello-suites
+    title: 'Cello Suite No. 4 in E-Flat Major, BWV 1010: IV. Sarabande'
+    credits: Yo-Yo Ma
+    duration: 248
+    apple_music:
+      song_id: '1398581416'
+      url: https://music.apple.com/us/song/cello-suite-no-4-in-e-flat-major-bwv-1010-iv-sarabande/1398581416
+      album_url: https://music.apple.com/us/album/cello-suite-no-4-in-e-flat-major-bwv-1010-iv-sarabande/1398580507
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 146
+  - id: s-tbtgwhx
+    work: bwv-1010
+    movement: V. Bourrées I & II
+    recording: ma-six-evolutions-cello-suites
+    title: 'Cello Suite No. 4 in E-Flat Major, BWV 1010: V. Bourrées I & II'
+    credits: Yo-Yo Ma
+    duration: 296
+    apple_music:
+      song_id: '1398581417'
+      url: https://music.apple.com/us/song/cello-suite-no-4-in-e-flat-major-bwv-1010-v-bourr%C3%A9es-i-ii/1398581417
+      album_url: https://music.apple.com/us/album/cello-suite-no-4-in-e-flat-major-bwv-1010-v-bourr%C3%A9es-i-ii/1398580507
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 147
+  - id: s-calsl7m
+    work: bwv-1010
+    movement: VI. Gigue
+    recording: ma-six-evolutions-cello-suites
+    title: 'Cello Suite No. 4 in E-Flat Major, BWV 1010: VI. Gigue'
+    credits: Yo-Yo Ma
+    duration: 182
+    apple_music:
+      song_id: '1398581418'
+      url: https://music.apple.com/us/song/cello-suite-no-4-in-e-flat-major-bwv-1010-vi-gigue/1398581418
+      album_url: https://music.apple.com/us/album/cello-suite-no-4-in-e-flat-major-bwv-1010-vi-gigue/1398580507
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 148
+  - id: s-npdi3bs
+    work: bwv-1011
+    movement: I. Prélude
+    recording: ma-six-evolutions-cello-suites
+    title: 'Cello Suite No. 5 in C Minor, BWV 1011: I. Prélude'
+    credits: Yo-Yo Ma
+    duration: 397
+    apple_music:
+      song_id: '1398581420'
+      url: https://music.apple.com/us/song/cello-suite-no-5-in-c-minor-bwv-1011-i-pr%C3%A9lude/1398581420
+      album_url: https://music.apple.com/us/album/cello-suite-no-5-in-c-minor-bwv-1011-i-pr%C3%A9lude/1398580507
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 149
+  - id: s-fftuo7b
+    work: bwv-1011
+    movement: II. Allemande
+    recording: ma-six-evolutions-cello-suites
+    title: 'Cello Suite No. 5 in C Minor, BWV 1011: II. Allemande'
+    credits: Yo-Yo Ma
+    duration: 346
+    apple_music:
+      song_id: '1398581421'
+      url: https://music.apple.com/us/song/cello-suite-no-5-in-c-minor-bwv-1011-ii-allemande/1398581421
+      album_url: https://music.apple.com/us/album/cello-suite-no-5-in-c-minor-bwv-1011-ii-allemande/1398580507
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 150
+  - id: s-m6m5zqg
+    work: bwv-1011
+    movement: III. Courante
+    recording: ma-six-evolutions-cello-suites
+    title: 'Cello Suite No. 5 in C Minor, BWV 1011: III. Courante'
+    credits: Yo-Yo Ma
+    duration: 128
+    apple_music:
+      song_id: '1398581593'
+      url: https://music.apple.com/us/song/cello-suite-no-5-in-c-minor-bwv-1011-iii-courante/1398581593
+      album_url: https://music.apple.com/us/album/cello-suite-no-5-in-c-minor-bwv-1011-iii-courante/1398580507
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 151
+  - id: s-2bgzzon
+    work: bwv-1011
+    movement: IV. Sarabande
+    recording: ma-six-evolutions-cello-suites
+    title: 'Cello Suite No. 5 in C Minor, BWV 1011: IV. Sarabande'
+    credits: Yo-Yo Ma
+    duration: 190
+    apple_music:
+      song_id: '1398581594'
+      url: https://music.apple.com/us/song/cello-suite-no-5-in-c-minor-bwv-1011-iv-sarabande/1398581594
+      album_url: https://music.apple.com/us/album/cello-suite-no-5-in-c-minor-bwv-1011-iv-sarabande/1398580507
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 152
+  - id: s-tig23jh
+    work: bwv-1011
+    movement: V. Gavottes I & II
+    recording: ma-six-evolutions-cello-suites
+    title: 'Cello Suite No. 5 in C Minor, BWV 1011: V. Gavottes I & II'
+    credits: Yo-Yo Ma
+    duration: 268
+    apple_music:
+      song_id: '1398581596'
+      url: https://music.apple.com/us/song/cello-suite-no-5-in-c-minor-bwv-1011-v-gavottes-i-ii/1398581596
+      album_url: https://music.apple.com/us/album/cello-suite-no-5-in-c-minor-bwv-1011-v-gavottes-i-ii/1398580507
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 153
+  - id: s-wx6h3gn
+    work: bwv-1011
+    movement: VI. Gigue
+    recording: ma-six-evolutions-cello-suites
+    title: 'Cello Suite No. 5 in C Minor, BWV 1011: VI. Gigue'
+    credits: Yo-Yo Ma
+    duration: 167
+    apple_music:
+      song_id: '1398581601'
+      url: https://music.apple.com/us/song/cello-suite-no-5-in-c-minor-bwv-1011-vi-gigue/1398581601
+      album_url: https://music.apple.com/us/album/cello-suite-no-5-in-c-minor-bwv-1011-vi-gigue/1398580507
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 154
+  - id: s-tfcpzmu
+    work: bwv-1012
+    movement: I. Prélude
+    recording: ma-six-evolutions-cello-suites
+    title: 'Cello Suite No. 6 in D Major, BWV 1012: I. Prélude'
+    credits: Yo-Yo Ma
+    duration: 284
+    apple_music:
+      song_id: '1398581603'
+      url: https://music.apple.com/us/song/cello-suite-no-6-in-d-major-bwv-1012-i-pr%C3%A9lude/1398581603
+      album_url: https://music.apple.com/us/album/cello-suite-no-6-in-d-major-bwv-1012-i-pr%C3%A9lude/1398580507
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 155
+  - id: s-7x3xffr
+    work: bwv-1012
+    movement: II. Allemande
+    recording: ma-six-evolutions-cello-suites
+    title: 'Cello Suite No. 6 in D Major, BWV 1012: II. Allemande'
+    credits: Yo-Yo Ma
+    duration: 399
+    apple_music:
+      song_id: '1398581604'
+      url: https://music.apple.com/us/song/cello-suite-no-6-in-d-major-bwv-1012-ii-allemande/1398581604
+      album_url: https://music.apple.com/us/album/cello-suite-no-6-in-d-major-bwv-1012-ii-allemande/1398580507
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 156
+  - id: s-52qpb26
+    work: bwv-1012
+    movement: III. Courante
+    recording: ma-six-evolutions-cello-suites
+    title: 'Cello Suite No. 6 in D Major, BWV 1012: III. Courante'
+    credits: Yo-Yo Ma
+    duration: 231
+    apple_music:
+      song_id: '1398581605'
+      url: https://music.apple.com/us/song/cello-suite-no-6-in-d-major-bwv-1012-iii-courante/1398581605
+      album_url: https://music.apple.com/us/album/cello-suite-no-6-in-d-major-bwv-1012-iii-courante/1398580507
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 157
+  - id: s-unpbodw
+    work: bwv-1012
+    movement: IV. Sarabande
+    recording: ma-six-evolutions-cello-suites
+    title: 'Cello Suite No. 6 in D Major, BWV 1012: IV. Sarabande'
+    credits: Yo-Yo Ma
+    duration: 241
+    apple_music:
+      song_id: '1398581611'
+      url: https://music.apple.com/us/song/cello-suite-no-6-in-d-major-bwv-1012-iv-sarabande/1398581611
+      album_url: https://music.apple.com/us/album/cello-suite-no-6-in-d-major-bwv-1012-iv-sarabande/1398580507
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 158
+  - id: s-4a6nnbj
+    work: bwv-1012
+    movement: V. Gavottes I & II
+    recording: ma-six-evolutions-cello-suites
+    title: 'Cello Suite No. 6 in D Major, BWV 1012: V. Gavottes I & II'
+    credits: Yo-Yo Ma
+    duration: 218
+    apple_music:
+      song_id: '1398581612'
+      url: https://music.apple.com/us/song/cello-suite-no-6-in-d-major-bwv-1012-v-gavottes-i-ii/1398581612
+      album_url: https://music.apple.com/us/album/cello-suite-no-6-in-d-major-bwv-1012-v-gavottes-i-ii/1398580507
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 159
+  - id: s-ot4bhvo
+    work: bwv-1012
+    movement: VI. Gigue
+    recording: ma-six-evolutions-cello-suites
+    title: 'Cello Suite No. 6 in D Major, BWV 1012: VI. Gigue'
+    credits: Yo-Yo Ma
+    duration: 225
+    apple_music:
+      song_id: '1398581613'
+      url: https://music.apple.com/us/song/cello-suite-no-6-in-d-major-bwv-1012-vi-gigue/1398581613
+      album_url: https://music.apple.com/us/album/cello-suite-no-6-in-d-major-bwv-1012-vi-gigue/1398580507
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 160
+  - id: s-lf7phsr
+    work: bwv-1001
+    movement: I. Adagio
+    recording: ehnes-sonatas-partitas-solo-violin
+    title: 'Sonata No. 1 for Violin Solo in G Minor, BWV 1001: I. Adagio'
+    credits: James Ehnes
+    duration: 294
+    apple_music:
+      song_id: '1589995235'
+      url: https://music.apple.com/us/song/sonata-no-1-for-violin-solo-in-g-minor-bwv-1001-i-adagio/1589995235
+      album_url: https://music.apple.com/us/album/sonata-no-1-for-violin-solo-in-g-minor-bwv-1001-i-adagio/1589995094
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 161
+  - id: s-ue5f2hy
+    work: bwv-1001
+    movement: II. Fuga (Allegro)
+    recording: ehnes-sonatas-partitas-solo-violin
+    title: 'Sonata No. 1 for Violin Solo in G Minor, BWV 1001: II. Fuga (Allegro)'
+    credits: James Ehnes
+    duration: 344
+    apple_music:
+      song_id: '1589995337'
+      url: https://music.apple.com/us/song/sonata-no-1-for-violin-solo-in-g-minor-bwv-1001-ii-fuga-allegro/1589995337
+      album_url: https://music.apple.com/us/album/sonata-no-1-for-violin-solo-in-g-minor-bwv-1001-ii-fuga-allegro/1589995094
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 162
+  - id: s-7o7sp24
+    work: bwv-1001
+    movement: III. Siciliana
+    recording: ehnes-sonatas-partitas-solo-violin
+    title: 'Sonata No. 1 for Violin Solo in G Minor, BWV 1001: III. Siciliana'
+    credits: James Ehnes
+    duration: 170
+    apple_music:
+      song_id: '1589995341'
+      url: https://music.apple.com/us/song/sonata-no-1-for-violin-solo-in-g-minor-bwv-1001-iii-siciliana/1589995341
+      album_url: https://music.apple.com/us/album/sonata-no-1-for-violin-solo-in-g-minor-bwv-1001-iii-siciliana/1589995094
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 163
+  - id: s-wqul7ve
+    work: bwv-1001
+    movement: IV. Presto
+    recording: ehnes-sonatas-partitas-solo-violin
+    title: 'Sonata No. 1 for Violin Solo in G Minor, BWV 1001: IV. Presto'
+    credits: James Ehnes
+    duration: 191
+    apple_music:
+      song_id: '1589995345'
+      url: https://music.apple.com/us/song/sonata-no-1-for-violin-solo-in-g-minor-bwv-1001-iv-presto/1589995345
+      album_url: https://music.apple.com/us/album/sonata-no-1-for-violin-solo-in-g-minor-bwv-1001-iv-presto/1589995094
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 164
+  - id: s-2b4rkoo
+    work: bwv-1002
+    movement: I. Allemanda
+    recording: ehnes-sonatas-partitas-solo-violin
+    title: 'Partita No. 1 for Violin Solo in B Minor, BWV 1002: I. Allemanda'
+    credits: James Ehnes
+    duration: 375
+    apple_music:
+      song_id: '1589995637'
+      url: https://music.apple.com/us/song/partita-no-1-for-violin-solo-in-b-minor-bwv-1002-i-allemanda/1589995637
+      album_url: https://music.apple.com/us/album/partita-no-1-for-violin-solo-in-b-minor-bwv-1002-i-allemanda/1589995094
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 165
+  - id: s-mseecfi
+    work: bwv-1002
+    movement: II. Double
+    recording: ehnes-sonatas-partitas-solo-violin
+    title: 'Partita No. 1 for Violin Solo in B Minor, BWV 1002: II. Double'
+    credits: James Ehnes
+    duration: 178
+    apple_music:
+      song_id: '1589995645'
+      url: https://music.apple.com/us/song/partita-no-1-for-violin-solo-in-b-minor-bwv-1002-ii-double/1589995645
+      album_url: https://music.apple.com/us/album/partita-no-1-for-violin-solo-in-b-minor-bwv-1002-ii-double/1589995094
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 166
+  - id: s-fwrryht
+    work: bwv-1002
+    movement: III. Corrente
+    recording: ehnes-sonatas-partitas-solo-violin
+    title: 'Partita No. 1 for Violin Solo in B Minor, BWV 1002: III. Corrente'
+    credits: James Ehnes
+    duration: 210
+    apple_music:
+      song_id: '1589995650'
+      url: https://music.apple.com/us/song/partita-no-1-for-violin-solo-in-b-minor-bwv-1002-iii-corrente/1589995650
+      album_url: https://music.apple.com/us/album/partita-no-1-for-violin-solo-in-b-minor-bwv-1002-iii-corrente/1589995094
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 167
+  - id: s-wr6brve
+    work: bwv-1002
+    movement: IV. Double (Presto)
+    recording: ehnes-sonatas-partitas-solo-violin
+    title: 'Partita No. 1 for Violin Solo in B Minor, BWV 1002: IV. Double (Presto)'
+    credits: James Ehnes
+    duration: 188
+    apple_music:
+      song_id: '1589995850'
+      url: https://music.apple.com/us/song/partita-no-1-for-violin-solo-in-b-minor-bwv-1002-iv/1589995850
+      album_url: https://music.apple.com/us/album/partita-no-1-for-violin-solo-in-b-minor-bwv-1002-iv/1589995094
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 168
+  - id: s-6vuwmpc
+    work: bwv-1002
+    movement: V. Sarabande
+    recording: ehnes-sonatas-partitas-solo-violin
+    title: 'Partita No. 1 for Violin Solo in B Minor, BWV 1002: V. Sarabande'
+    credits: James Ehnes
+    duration: 251
+    apple_music:
+      song_id: '1589995855'
+      url: https://music.apple.com/us/song/partita-no-1-for-violin-solo-in-b-minor-bwv-1002-v-sarabande/1589995855
+      album_url: https://music.apple.com/us/album/partita-no-1-for-violin-solo-in-b-minor-bwv-1002-v-sarabande/1589995094
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 169
+  - id: s-pua7fgs
+    work: bwv-1002
+    movement: VI. Double
+    recording: ehnes-sonatas-partitas-solo-violin
+    title: 'Partita No. 1 for Violin Solo in B Minor, BWV 1002: VI. Double'
+    credits: James Ehnes
+    duration: 128
+    apple_music:
+      song_id: '1589996047'
+      url: https://music.apple.com/us/song/partita-no-1-for-violin-solo-in-b-minor-bwv-1002-vi-double/1589996047
+      album_url: https://music.apple.com/us/album/partita-no-1-for-violin-solo-in-b-minor-bwv-1002-vi-double/1589995094
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 170
+  - id: s-5torwh4
+    work: bwv-1002
+    movement: VII. Tempo di Borea
+    recording: ehnes-sonatas-partitas-solo-violin
+    title: 'Partita No. 1 for Violin Solo in B Minor, BWV 1002: VII. Tempo di Borea'
+    credits: James Ehnes
+    duration: 189
+    apple_music:
+      song_id: '1589996073'
+      url: https://music.apple.com/us/song/partita-no-1-for-violin-solo-in-b-minor-bwv-1002-vii/1589996073
+      album_url: https://music.apple.com/us/album/partita-no-1-for-violin-solo-in-b-minor-bwv-1002-vii/1589995094
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 171
+  - id: s-xhwyhf3
+    work: bwv-1002
+    movement: VIII. Double
+    recording: ehnes-sonatas-partitas-solo-violin
+    title: 'Partita No. 1 for Violin Solo in B Minor, BWV 1002: VIII. Double'
+    credits: James Ehnes
+    duration: 197
+    apple_music:
+      song_id: '1589996287'
+      url: https://music.apple.com/us/song/partita-no-1-for-violin-solo-in-b-minor-bwv-1002-viii-double/1589996287
+      album_url: https://music.apple.com/us/album/partita-no-1-for-violin-solo-in-b-minor-bwv-1002-viii-double/1589995094
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 172
+  - id: s-q6r65nw
+    work: bwv-1003
+    movement: I. Grave
+    recording: ehnes-sonatas-partitas-solo-violin
+    title: 'Sonata No. 2 for Violin Solo in A Minor, BWV 1003: I. Grave'
+    credits: James Ehnes
+    duration: 295
+    apple_music:
+      song_id: '1589996294'
+      url: https://music.apple.com/us/song/sonata-no-2-for-violin-solo-in-a-minor-bwv-1003-i-grave/1589996294
+      album_url: https://music.apple.com/us/album/sonata-no-2-for-violin-solo-in-a-minor-bwv-1003-i-grave/1589995094
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 173
+  - id: s-jxvjzhb
+    work: bwv-1003
+    movement: II. Fuga (Allegro)
+    recording: ehnes-sonatas-partitas-solo-violin
+    title: 'Sonata No. 2 for Violin Solo in A Minor, BWV 1003: II. Fuga (Allegro)'
+    credits: James Ehnes
+    duration: 469
+    apple_music:
+      song_id: '1589996296'
+      url: https://music.apple.com/us/song/sonata-no-2-for-violin-solo-in-a-minor-bwv-1003-ii-fuga-allegro/1589996296
+      album_url: https://music.apple.com/us/album/sonata-no-2-for-violin-solo-in-a-minor-bwv-1003-ii-fuga-allegro/1589995094
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 174
+  - id: s-qckhxrx
+    work: bwv-1003
+    movement: III. Andante con moto
+    recording: ehnes-sonatas-partitas-solo-violin
+    title: 'Sonata No. 2 for Violin Solo in A Minor, BWV 1003: III. Andante con moto'
+    credits: James Ehnes
+    duration: 362
+    apple_music:
+      song_id: '1589996300'
+      url: https://music.apple.com/us/song/sonata-no-2-for-violin-solo-in-a-minor-bwv-1003-iii/1589996300
+      album_url: https://music.apple.com/us/album/sonata-no-2-for-violin-solo-in-a-minor-bwv-1003-iii/1589995094
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 175
+  - id: s-5xxgsup
+    work: bwv-1003
+    movement: IV. Allegro
+    recording: ehnes-sonatas-partitas-solo-violin
+    title: 'Sonata No. 2 for Violin Solo in A Minor, BWV 1003: IV. Allegro'
+    credits: James Ehnes
+    duration: 334
+    apple_music:
+      song_id: '1589996312'
+      url: https://music.apple.com/us/song/sonata-no-2-for-violin-solo-in-a-minor-bwv-1003-iv-allegro/1589996312
+      album_url: https://music.apple.com/us/album/sonata-no-2-for-violin-solo-in-a-minor-bwv-1003-iv-allegro/1589995094
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 176
+  - id: s-bwgunrd
+    work: bwv-1004
+    movement: I. Allemanda
+    recording: ehnes-sonatas-partitas-solo-violin
+    title: 'Partita No. 2 for Violin Solo in D Minor, BWV 1004: I. Allemanda'
+    credits: James Ehnes
+    duration: 282
+    apple_music:
+      song_id: '1589996648'
+      url: https://music.apple.com/us/song/partita-no-2-for-violin-solo-in-d-minor-bwv-1004-i-allemanda/1589996648
+      album_url: https://music.apple.com/us/album/partita-no-2-for-violin-solo-in-d-minor-bwv-1004-i-allemanda/1589995094
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 177
+  - id: s-wu7lti7
+    work: bwv-1004
+    movement: II. Corrente
+    recording: ehnes-sonatas-partitas-solo-violin
+    title: 'Partita No. 2 for Violin Solo in D Minor, BWV 1004: II. Corrente'
+    credits: James Ehnes
+    duration: 148
+    apple_music:
+      song_id: '1589996669'
+      url: https://music.apple.com/us/song/partita-no-2-for-violin-solo-in-d-minor-bwv-1004-ii-corrente/1589996669
+      album_url: https://music.apple.com/us/album/partita-no-2-for-violin-solo-in-d-minor-bwv-1004-ii-corrente/1589995094
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 178
+  - id: s-cvg7vsq
+    work: bwv-1004
+    movement: III. Sarabande
+    recording: ehnes-sonatas-partitas-solo-violin
+    title: 'Partita No. 2 for Violin Solo in D Minor, BWV 1004: III. Sarabande'
+    credits: James Ehnes
+    duration: 252
+    apple_music:
+      song_id: '1589996675'
+      url: https://music.apple.com/us/song/partita-no-2-for-violin-solo-in-d-minor-bwv-1004-iii-sarabande/1589996675
+      album_url: https://music.apple.com/us/album/partita-no-2-for-violin-solo-in-d-minor-bwv-1004-iii-sarabande/1589995094
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 179
+  - id: s-j64usi4
+    work: bwv-1004
+    movement: IV. Giga
+    recording: ehnes-sonatas-partitas-solo-violin
+    title: 'Partita No. 2 for Violin Solo in D Minor, BWV 1004: IV. Giga'
+    credits: James Ehnes
+    duration: 221
+    apple_music:
+      song_id: '1589996875'
+      url: https://music.apple.com/us/song/partita-no-2-for-violin-solo-in-d-minor-bwv-1004-iv-giga/1589996875
+      album_url: https://music.apple.com/us/album/partita-no-2-for-violin-solo-in-d-minor-bwv-1004-iv-giga/1589995094
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 180
+  - id: s-wnmlqzp
+    work: bwv-1004
+    movement: V. Chaconne
+    recording: ehnes-sonatas-partitas-solo-violin
+    title: 'Partita No. 2 for Violin Solo in D Minor, BWV 1004: V. Chaconne'
+    credits: James Ehnes
+    duration: 975
+    apple_music:
+      song_id: '1589996882'
+      url: https://music.apple.com/us/song/partita-no-2-for-violin-solo-in-d-minor-bwv-1004-v-chaconne/1589996882
+      album_url: https://music.apple.com/us/album/partita-no-2-for-violin-solo-in-d-minor-bwv-1004-v-chaconne/1589995094
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 181
+  - id: s-binyfnb
+    work: bwv-1005
+    movement: I. Adagio
+    recording: ehnes-sonatas-partitas-solo-violin
+    title: 'Sonata No. 3 for Violin Solo in C Major, BWV 1005: I. Adagio'
+    credits: James Ehnes
+    duration: 305
+    apple_music:
+      song_id: '1589997138'
+      url: https://music.apple.com/us/song/sonata-no-3-for-violin-solo-in-c-major-bwv-1005-i-adagio/1589997138
+      album_url: https://music.apple.com/us/album/sonata-no-3-for-violin-solo-in-c-major-bwv-1005-i-adagio/1589995094
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 182
+  - id: s-pcyf2ho
+    work: bwv-1005
+    movement: II. Fuga (Allegro)
+    recording: ehnes-sonatas-partitas-solo-violin
+    title: 'Sonata No. 3 for Violin Solo in C Major, BWV 1005: II. Fuga (Allegro)'
+    credits: James Ehnes
+    duration: 592
+    apple_music:
+      song_id: '1589997142'
+      url: https://music.apple.com/us/song/sonata-no-3-for-violin-solo-in-c-major-bwv-1005-ii-fuga-allegro/1589997142
+      album_url: https://music.apple.com/us/album/sonata-no-3-for-violin-solo-in-c-major-bwv-1005-ii-fuga-allegro/1589995094
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 183
+  - id: s-7vxsayx
+    work: bwv-1005
+    movement: III. Largo
+    recording: ehnes-sonatas-partitas-solo-violin
+    title: 'Sonata No. 3 for Violin Solo in C Major, BWV 1005: III. Largo'
+    credits: James Ehnes
+    duration: 208
+    apple_music:
+      song_id: '1589997150'
+      url: https://music.apple.com/us/song/sonata-no-3-for-violin-solo-in-c-major-bwv-1005-iii-largo/1589997150
+      album_url: https://music.apple.com/us/album/sonata-no-3-for-violin-solo-in-c-major-bwv-1005-iii-largo/1589995094
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 184
+  - id: s-mwtzxgn
+    work: bwv-1005
+    movement: IV. Allegro Assai
+    recording: ehnes-sonatas-partitas-solo-violin
+    title: 'Sonata No. 3 for Violin Solo in C Major, BWV 1005: IV. Allegro Assai'
+    credits: James Ehnes
+    duration: 307
+    apple_music:
+      song_id: '1589997151'
+      url: https://music.apple.com/us/song/sonata-no-3-for-violin-solo-in-c-major-bwv-1005-iv/1589997151
+      album_url: https://music.apple.com/us/album/sonata-no-3-for-violin-solo-in-c-major-bwv-1005-iv/1589995094
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 185
+  - id: s-qby44ln
+    work: bwv-1006
+    movement: I. Preludio
+    recording: ehnes-sonatas-partitas-solo-violin
+    title: 'Partita No. 3 for Violin Solo in E Major, BWV 1006: I. Preludio'
+    credits: James Ehnes
+    duration: 236
+    apple_music:
+      song_id: '1589997561'
+      url: https://music.apple.com/us/song/partita-no-3-for-violin-solo-in-e-major-bwv-1006-i-preludio/1589997561
+      album_url: https://music.apple.com/us/album/partita-no-3-for-violin-solo-in-e-major-bwv-1006-i-preludio/1589995094
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 186
+  - id: s-h5v2gjd
+    work: bwv-1006
+    movement: II. Loure
+    recording: ehnes-sonatas-partitas-solo-violin
+    title: 'Partita No. 3 for Violin Solo in E Major, BWV 1006: II. Loure'
+    credits: James Ehnes
+    duration: 218
+    apple_music:
+      song_id: '1589997568'
+      url: https://music.apple.com/us/song/partita-no-3-for-violin-solo-in-e-major-bwv-1006-ii-loure/1589997568
+      album_url: https://music.apple.com/us/album/partita-no-3-for-violin-solo-in-e-major-bwv-1006-ii-loure/1589995094
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 187
+  - id: s-7mvbjla
+    work: bwv-1006
+    movement: III. Gavotte en rondeau
+    recording: ehnes-sonatas-partitas-solo-violin
+    title: 'Partita No. 3 for Violin Solo in E Major, BWV 1006: III. Gavotte en rondeau'
+    credits: James Ehnes
+    duration: 173
+    apple_music:
+      song_id: '1589997708'
+      url: https://music.apple.com/us/song/partita-no-3-for-violin-solo-in-e-major-bwv-1006-iii/1589997708
+      album_url: https://music.apple.com/us/album/partita-no-3-for-violin-solo-in-e-major-bwv-1006-iii/1589995094
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 188
+  - id: s-siemlrv
+    work: bwv-1006
+    movement: IV. Menuett I
+    recording: ehnes-sonatas-partitas-solo-violin
+    title: 'Partita No. 3 for Violin Solo in E Major, BWV 1006: IV. Menuett I'
+    credits: James Ehnes
+    duration: 107
+    apple_music:
+      song_id: '1589997849'
+      url: https://music.apple.com/us/song/partita-no-3-for-violin-solo-in-e-major-bwv-1006-iv-menuett-i/1589997849
+      album_url: https://music.apple.com/us/album/partita-no-3-for-violin-solo-in-e-major-bwv-1006-iv-menuett-i/1589995094
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 189
+  - id: s-olgri5m
+    work: bwv-1006
+    movement: V. Menuet II
+    recording: ehnes-sonatas-partitas-solo-violin
+    title: 'Partita No. 3 for Violin Solo in E Major, BWV 1006: V. Menuet II'
+    credits: James Ehnes
+    duration: 100
+    apple_music:
+      song_id: '1589997853'
+      url: https://music.apple.com/us/song/partita-no-3-for-violin-solo-in-e-major-bwv-1006-v-menuet-ii/1589997853
+      album_url: https://music.apple.com/us/album/partita-no-3-for-violin-solo-in-e-major-bwv-1006-v-menuet-ii/1589995094
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 190
+  - id: s-fjnef5e
+    work: bwv-1006
+    movement: VI. Bourrée
+    recording: ehnes-sonatas-partitas-solo-violin
+    title: 'Partita No. 3 for Violin Solo in E Major, BWV 1006: VI. Bourrée'
+    credits: James Ehnes
+    duration: 85
+    apple_music:
+      song_id: '1589998086'
+      url: https://music.apple.com/us/song/partita-no-3-for-violin-solo-in-e-major-bwv-1006-vi-bourr%C3%A9e/1589998086
+      album_url: https://music.apple.com/us/album/partita-no-3-for-violin-solo-in-e-major-bwv-1006-vi-bourr%C3%A9e/1589995094
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 191
+  - id: s-66o7whd
+    work: bwv-1006
+    movement: VII. Gigue
+    recording: ehnes-sonatas-partitas-solo-violin
+    title: 'Partita No. 3 for Violin Solo in E Major, BWV 1006: VII. Gigue'
+    credits: James Ehnes
+    duration: 102
+    apple_music:
+      song_id: '1589998096'
+      url: https://music.apple.com/us/song/partita-no-3-for-violin-solo-in-e-major-bwv-1006-vii-gigue/1589998096
+      album_url: https://music.apple.com/us/album/partita-no-3-for-violin-solo-in-e-major-bwv-1006-vii-gigue/1589995094
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 192
+  - id: s-equaojn
+    work: bwv-140
+    movement: IV. Chorale. Zion hort die Wachter singen (Tenor)
+    recording: suzuki-cantatas-vol-52
+    title: 'Wachet auf, ruft uns die Stimme, BWV 140: IV. Chorale. Zion hort die Wachter singen (Tenor)'
+    credits: Gerd Türk; Bach Collegium Japan; Masaaki Suzuki
+    duration: 235
+    apple_music:
+      song_id: '1724251666'
+      url: https://music.apple.com/us/song/wachet-auf-ruft-uns-die-stimme-bwv-140-iv-chorale-zion/1724251666
+      album_url: https://music.apple.com/us/album/wachet-auf-ruft-uns-die-stimme-bwv-140-iv-chorale-zion/1724251650
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 193
+  - id: s-3upryaj
+    work: bwv-645
+    movement: null
+    recording: perahia-songs-without-words
+    title: Wachet auf, ruft uns die Stimme, No. 2, BWV 645
+    credits: Murray Perahia
+    duration: 204
+    apple_music:
+      song_id: '597604520'
+      url: https://music.apple.com/us/song/wachet-auf-ruft-uns-die-stimme-no-2-bwv-645/597604520
+      album_url: https://music.apple.com/us/album/wachet-auf-ruft-uns-die-stimme-no-2-bwv-645/597604194
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 194
+  - id: s-lff4xdo
+    work: bwv-772a
+    movement: null
+    recording: hewitt-inventions-sinfonias-1994
+    title: Two-Part Invention No. 1 in C, BWV 772a
+    credits: Angela Hewitt
+    album_as_listed: 'Bach: The Inventions (Hyperion, 1994)'
+    duration: null
+    apple_music:
+      song_id: null
+      url: https://music.apple.com/us/album/bach-2-part-inventions-3-part-sinfonias-etc/1721143424
+      album_url: https://music.apple.com/us/album/bach-2-part-inventions-3-part-sinfonias-etc/1721143424
+    status: replacement_selected
+    verification: needs_verification
+    link_kind: album
+    editorial_note: Replaces András Schiff Decca. Track timing retained from Schiff only as an unverified placeholder; do not treat as Hewitt duration. Apple track labelled BWV 772a; confirm intended Invention No.1 version.
+    source:
+      snapshot: master-669
+      position: 195
+  - id: s-5o4es4o
+    work: bwv-773
+    movement: null
+    recording: hewitt-inventions-sinfonias-1994
+    title: Two-Part Invention No. 2 in C Minor, BWV 773
+    credits: Angela Hewitt
+    album_as_listed: 'Bach: The Inventions (Hyperion, 1994)'
+    duration: null
+    apple_music:
+      song_id: null
+      url: https://music.apple.com/us/album/bach-2-part-inventions-3-part-sinfonias-etc/1721143424
+      album_url: https://music.apple.com/us/album/bach-2-part-inventions-3-part-sinfonias-etc/1721143424
+    status: replacement_selected
+    verification: needs_verification
+    link_kind: album
+    editorial_note: 'Replaces András Schiff Decca. Track timing retained from Schiff only as an unverified placeholder; do not treat as Hewitt duration. '
+    source:
+      snapshot: master-669
+      position: 196
+  - id: s-65ge4oi
+    work: bwv-774
+    movement: null
+    recording: hewitt-inventions-sinfonias-1994
+    title: Two-Part Invention No. 3 in D, BWV 774
+    credits: Angela Hewitt
+    album_as_listed: 'Bach: The Inventions (Hyperion, 1994)'
+    duration: null
+    apple_music:
+      song_id: null
+      url: https://music.apple.com/us/album/bach-2-part-inventions-3-part-sinfonias-etc/1721143424
+      album_url: https://music.apple.com/us/album/bach-2-part-inventions-3-part-sinfonias-etc/1721143424
+    status: replacement_selected
+    verification: needs_verification
+    link_kind: album
+    editorial_note: 'Replaces András Schiff Decca. Track timing retained from Schiff only as an unverified placeholder; do not treat as Hewitt duration. '
+    source:
+      snapshot: master-669
+      position: 197
+  - id: s-ulrxv24
+    work: bwv-775
+    movement: null
+    recording: hewitt-inventions-sinfonias-1994
+    title: Two-Part Invention No. 4 in D Minor, BWV 775
+    credits: Angela Hewitt
+    album_as_listed: 'Bach: The Inventions (Hyperion, 1994)'
+    duration: null
+    apple_music:
+      song_id: null
+      url: https://music.apple.com/us/album/bach-2-part-inventions-3-part-sinfonias-etc/1721143424
+      album_url: https://music.apple.com/us/album/bach-2-part-inventions-3-part-sinfonias-etc/1721143424
+    status: replacement_selected
+    verification: needs_verification
+    link_kind: album
+    editorial_note: 'Replaces András Schiff Decca. Track timing retained from Schiff only as an unverified placeholder; do not treat as Hewitt duration. '
+    source:
+      snapshot: master-669
+      position: 198
+  - id: s-oh3k54p
+    work: bwv-776
+    movement: null
+    recording: hewitt-inventions-sinfonias-1994
+    title: Two-Part Invention No. 5 in E-Flat, BWV 776
+    credits: Angela Hewitt
+    album_as_listed: 'Bach: The Inventions (Hyperion, 1994)'
+    duration: null
+    apple_music:
+      song_id: null
+      url: https://music.apple.com/us/album/bach-2-part-inventions-3-part-sinfonias-etc/1721143424
+      album_url: https://music.apple.com/us/album/bach-2-part-inventions-3-part-sinfonias-etc/1721143424
+    status: replacement_selected
+    verification: needs_verification
+    link_kind: album
+    editorial_note: 'Replaces András Schiff Decca. Track timing retained from Schiff only as an unverified placeholder; do not treat as Hewitt duration. '
+    source:
+      snapshot: master-669
+      position: 199
+  - id: s-crh54oa
+    work: bwv-777
+    movement: null
+    recording: hewitt-inventions-sinfonias-1994
+    title: Two-Part Invention No. 6 in E, BWV 777
+    credits: Angela Hewitt
+    album_as_listed: 'Bach: The Inventions (Hyperion, 1994)'
+    duration: null
+    apple_music:
+      song_id: null
+      url: https://music.apple.com/us/album/bach-2-part-inventions-3-part-sinfonias-etc/1721143424
+      album_url: https://music.apple.com/us/album/bach-2-part-inventions-3-part-sinfonias-etc/1721143424
+    status: replacement_selected
+    verification: needs_verification
+    link_kind: album
+    editorial_note: 'Replaces András Schiff Decca. Track timing retained from Schiff only as an unverified placeholder; do not treat as Hewitt duration. '
+    source:
+      snapshot: master-669
+      position: 200
+  - id: s-4qunpkt
+    work: bwv-778
+    movement: null
+    recording: hewitt-inventions-sinfonias-1994
+    title: Two-Part Invention No. 7 in E Minor, BWV 778
+    credits: Angela Hewitt
+    album_as_listed: 'Bach: The Inventions (Hyperion, 1994)'
+    duration: null
+    apple_music:
+      song_id: null
+      url: https://music.apple.com/us/album/bach-2-part-inventions-3-part-sinfonias-etc/1721143424
+      album_url: https://music.apple.com/us/album/bach-2-part-inventions-3-part-sinfonias-etc/1721143424
+    status: replacement_selected
+    verification: needs_verification
+    link_kind: album
+    editorial_note: 'Replaces András Schiff Decca. Track timing retained from Schiff only as an unverified placeholder; do not treat as Hewitt duration. '
+    source:
+      snapshot: master-669
+      position: 201
+  - id: s-krfytnl
+    work: bwv-779
+    movement: null
+    recording: hewitt-inventions-sinfonias-1994
+    title: Two-Part Invention No. 8 in F, BWV 779
+    credits: Angela Hewitt
+    album_as_listed: 'Bach: The Inventions (Hyperion, 1994)'
+    duration: null
+    apple_music:
+      song_id: null
+      url: https://music.apple.com/us/album/bach-2-part-inventions-3-part-sinfonias-etc/1721143424
+      album_url: https://music.apple.com/us/album/bach-2-part-inventions-3-part-sinfonias-etc/1721143424
+    status: replacement_selected
+    verification: needs_verification
+    link_kind: album
+    editorial_note: 'Replaces András Schiff Decca. Track timing retained from Schiff only as an unverified placeholder; do not treat as Hewitt duration. '
+    source:
+      snapshot: master-669
+      position: 202
+  - id: s-5hkmstj
+    work: bwv-780
+    movement: null
+    recording: hewitt-inventions-sinfonias-1994
+    title: Two-Part Invention No. 9 in F Minor, BWV 780
+    credits: Angela Hewitt
+    album_as_listed: 'Bach: The Inventions (Hyperion, 1994)'
+    duration: null
+    apple_music:
+      song_id: null
+      url: https://music.apple.com/us/album/bach-2-part-inventions-3-part-sinfonias-etc/1721143424
+      album_url: https://music.apple.com/us/album/bach-2-part-inventions-3-part-sinfonias-etc/1721143424
+    status: replacement_selected
+    verification: needs_verification
+    link_kind: album
+    editorial_note: 'Replaces András Schiff Decca. Track timing retained from Schiff only as an unverified placeholder; do not treat as Hewitt duration. '
+    source:
+      snapshot: master-669
+      position: 203
+  - id: s-lr35jnl
+    work: bwv-781
+    movement: null
+    recording: hewitt-inventions-sinfonias-1994
+    title: Two-Part Invention No. 10 in G, BWV 781
+    credits: Angela Hewitt
+    album_as_listed: 'Bach: The Inventions (Hyperion, 1994)'
+    duration: null
+    apple_music:
+      song_id: null
+      url: https://music.apple.com/us/album/bach-2-part-inventions-3-part-sinfonias-etc/1721143424
+      album_url: https://music.apple.com/us/album/bach-2-part-inventions-3-part-sinfonias-etc/1721143424
+    status: replacement_selected
+    verification: needs_verification
+    link_kind: album
+    editorial_note: 'Replaces András Schiff Decca. Track timing retained from Schiff only as an unverified placeholder; do not treat as Hewitt duration. '
+    source:
+      snapshot: master-669
+      position: 204
+  - id: s-l7uldap
+    work: bwv-782
+    movement: null
+    recording: hewitt-inventions-sinfonias-1994
+    title: Two-Part Invention No. 11 in G Minor, BWV 782
+    credits: Angela Hewitt
+    album_as_listed: 'Bach: The Inventions (Hyperion, 1994)'
+    duration: null
+    apple_music:
+      song_id: null
+      url: https://music.apple.com/us/album/bach-2-part-inventions-3-part-sinfonias-etc/1721143424
+      album_url: https://music.apple.com/us/album/bach-2-part-inventions-3-part-sinfonias-etc/1721143424
+    status: replacement_selected
+    verification: needs_verification
+    link_kind: album
+    editorial_note: 'Replaces András Schiff Decca. Track timing retained from Schiff only as an unverified placeholder; do not treat as Hewitt duration. '
+    source:
+      snapshot: master-669
+      position: 205
+  - id: s-dplljaa
+    work: bwv-783
+    movement: null
+    recording: hewitt-inventions-sinfonias-1994
+    title: Two-Part Invention No. 12 in A, BWV 783
+    credits: Angela Hewitt
+    album_as_listed: 'Bach: The Inventions (Hyperion, 1994)'
+    duration: null
+    apple_music:
+      song_id: null
+      url: https://music.apple.com/us/album/bach-2-part-inventions-3-part-sinfonias-etc/1721143424
+      album_url: https://music.apple.com/us/album/bach-2-part-inventions-3-part-sinfonias-etc/1721143424
+    status: replacement_selected
+    verification: needs_verification
+    link_kind: album
+    editorial_note: 'Replaces András Schiff Decca. Track timing retained from Schiff only as an unverified placeholder; do not treat as Hewitt duration. '
+    source:
+      snapshot: master-669
+      position: 206
+  - id: s-hhzlkhe
+    work: bwv-784
+    movement: null
+    recording: hewitt-inventions-sinfonias-1994
+    title: Two-Part Invention No. 13 in A Minor, BWV 784
+    credits: Angela Hewitt
+    album_as_listed: 'Bach: The Inventions (Hyperion, 1994)'
+    duration: null
+    apple_music:
+      song_id: null
+      url: https://music.apple.com/us/album/bach-2-part-inventions-3-part-sinfonias-etc/1721143424
+      album_url: https://music.apple.com/us/album/bach-2-part-inventions-3-part-sinfonias-etc/1721143424
+    status: replacement_selected
+    verification: needs_verification
+    link_kind: album
+    editorial_note: 'Replaces András Schiff Decca. Track timing retained from Schiff only as an unverified placeholder; do not treat as Hewitt duration. '
+    source:
+      snapshot: master-669
+      position: 207
+  - id: s-bcyrqrq
+    work: bwv-785
+    movement: null
+    recording: hewitt-inventions-sinfonias-1994
+    title: Two-Part Invention No. 14 in B-Flat, BWV 785
+    credits: Angela Hewitt
+    album_as_listed: 'Bach: The Inventions (Hyperion, 1994)'
+    duration: null
+    apple_music:
+      song_id: null
+      url: https://music.apple.com/us/album/bach-2-part-inventions-3-part-sinfonias-etc/1721143424
+      album_url: https://music.apple.com/us/album/bach-2-part-inventions-3-part-sinfonias-etc/1721143424
+    status: replacement_selected
+    verification: needs_verification
+    link_kind: album
+    editorial_note: 'Replaces András Schiff Decca. Track timing retained from Schiff only as an unverified placeholder; do not treat as Hewitt duration. '
+    source:
+      snapshot: master-669
+      position: 208
+  - id: s-djwpznl
+    work: bwv-786
+    movement: null
+    recording: hewitt-inventions-sinfonias-1994
+    title: Two-Part Invention No. 15 in B Minor, BWV 786
+    credits: Angela Hewitt
+    album_as_listed: 'Bach: The Inventions (Hyperion, 1994)'
+    duration: null
+    apple_music:
+      song_id: null
+      url: https://music.apple.com/us/album/bach-2-part-inventions-3-part-sinfonias-etc/1721143424
+      album_url: https://music.apple.com/us/album/bach-2-part-inventions-3-part-sinfonias-etc/1721143424
+    status: replacement_selected
+    verification: needs_verification
+    link_kind: album
+    editorial_note: 'Replaces András Schiff Decca. Track timing retained from Schiff only as an unverified placeholder; do not treat as Hewitt duration. '
+    source:
+      snapshot: master-669
+      position: 209
+  - id: s-ontivus
+    work: bwv-787
+    movement: null
+    recording: hewitt-inventions-sinfonias-1994
+    title: Three-Part Invention No. 1 in C, BWV 787
+    credits: Angela Hewitt
+    album_as_listed: 'Bach: The Inventions (Hyperion, 1994)'
+    duration: null
+    apple_music:
+      song_id: null
+      url: https://music.apple.com/us/album/bach-2-part-inventions-3-part-sinfonias-etc/1721143424
+      album_url: https://music.apple.com/us/album/bach-2-part-inventions-3-part-sinfonias-etc/1721143424
+    status: replacement_selected
+    verification: needs_verification
+    link_kind: album
+    editorial_note: 'Replaces András Schiff Decca. Track timing retained from Schiff only as an unverified placeholder; do not treat as Hewitt duration. '
+    source:
+      snapshot: master-669
+      position: 210
+  - id: s-76adx6l
+    work: bwv-788
+    movement: null
+    recording: hewitt-inventions-sinfonias-1994
+    title: Three-Part Invention No. 2 in C Minor, BWV 788
+    credits: Angela Hewitt
+    album_as_listed: 'Bach: The Inventions (Hyperion, 1994)'
+    duration: null
+    apple_music:
+      song_id: null
+      url: https://music.apple.com/us/album/bach-2-part-inventions-3-part-sinfonias-etc/1721143424
+      album_url: https://music.apple.com/us/album/bach-2-part-inventions-3-part-sinfonias-etc/1721143424
+    status: replacement_selected
+    verification: needs_verification
+    link_kind: album
+    editorial_note: 'Replaces András Schiff Decca. Track timing retained from Schiff only as an unverified placeholder; do not treat as Hewitt duration. '
+    source:
+      snapshot: master-669
+      position: 211
+  - id: s-kyhi52b
+    work: bwv-789
+    movement: null
+    recording: hewitt-inventions-sinfonias-1994
+    title: Three-Part Invention No. 3 in D, BWV 789
+    credits: Angela Hewitt
+    album_as_listed: 'Bach: The Inventions (Hyperion, 1994)'
+    duration: null
+    apple_music:
+      song_id: null
+      url: https://music.apple.com/us/album/bach-2-part-inventions-3-part-sinfonias-etc/1721143424
+      album_url: https://music.apple.com/us/album/bach-2-part-inventions-3-part-sinfonias-etc/1721143424
+    status: replacement_selected
+    verification: needs_verification
+    link_kind: album
+    editorial_note: 'Replaces András Schiff Decca. Track timing retained from Schiff only as an unverified placeholder; do not treat as Hewitt duration. '
+    source:
+      snapshot: master-669
+      position: 212
+  - id: s-6fnqjhl
+    work: bwv-790
+    movement: null
+    recording: hewitt-inventions-sinfonias-1994
+    title: Three-Part Invention No. 4 in D Minor, BWV 790
+    credits: Angela Hewitt
+    album_as_listed: 'Bach: The Inventions (Hyperion, 1994)'
+    duration: null
+    apple_music:
+      song_id: null
+      url: https://music.apple.com/us/album/bach-2-part-inventions-3-part-sinfonias-etc/1721143424
+      album_url: https://music.apple.com/us/album/bach-2-part-inventions-3-part-sinfonias-etc/1721143424
+    status: replacement_selected
+    verification: needs_verification
+    link_kind: album
+    editorial_note: 'Replaces András Schiff Decca. Track timing retained from Schiff only as an unverified placeholder; do not treat as Hewitt duration. '
+    source:
+      snapshot: master-669
+      position: 213
+  - id: s-eb55lr6
+    work: bwv-791
+    movement: null
+    recording: hewitt-inventions-sinfonias-1994
+    title: Three-Part Invention No. 5 in E-Flat, BWV 791
+    credits: Angela Hewitt
+    album_as_listed: 'Bach: The Inventions (Hyperion, 1994)'
+    duration: null
+    apple_music:
+      song_id: null
+      url: https://music.apple.com/us/album/bach-2-part-inventions-3-part-sinfonias-etc/1721143424
+      album_url: https://music.apple.com/us/album/bach-2-part-inventions-3-part-sinfonias-etc/1721143424
+    status: replacement_selected
+    verification: needs_verification
+    link_kind: album
+    editorial_note: 'Replaces András Schiff Decca. Track timing retained from Schiff only as an unverified placeholder; do not treat as Hewitt duration. '
+    source:
+      snapshot: master-669
+      position: 214
+  - id: s-kmkx5n5
+    work: bwv-792
+    movement: null
+    recording: hewitt-inventions-sinfonias-1994
+    title: Three-Part Invention No. 6 in E, BWV 792
+    credits: Angela Hewitt
+    album_as_listed: 'Bach: The Inventions (Hyperion, 1994)'
+    duration: null
+    apple_music:
+      song_id: null
+      url: https://music.apple.com/us/album/bach-2-part-inventions-3-part-sinfonias-etc/1721143424
+      album_url: https://music.apple.com/us/album/bach-2-part-inventions-3-part-sinfonias-etc/1721143424
+    status: replacement_selected
+    verification: needs_verification
+    link_kind: album
+    editorial_note: 'Replaces András Schiff Decca. Track timing retained from Schiff only as an unverified placeholder; do not treat as Hewitt duration. '
+    source:
+      snapshot: master-669
+      position: 215
+  - id: s-cydys5y
+    work: bwv-793
+    movement: null
+    recording: hewitt-inventions-sinfonias-1994
+    title: Three-Part Invention No. 7 in E Minor, BWV 793
+    credits: Angela Hewitt
+    album_as_listed: 'Bach: The Inventions (Hyperion, 1994)'
+    duration: null
+    apple_music:
+      song_id: null
+      url: https://music.apple.com/us/album/bach-2-part-inventions-3-part-sinfonias-etc/1721143424
+      album_url: https://music.apple.com/us/album/bach-2-part-inventions-3-part-sinfonias-etc/1721143424
+    status: replacement_selected
+    verification: needs_verification
+    link_kind: album
+    editorial_note: 'Replaces András Schiff Decca. Track timing retained from Schiff only as an unverified placeholder; do not treat as Hewitt duration. '
+    source:
+      snapshot: master-669
+      position: 216
+  - id: s-24galqe
+    work: bwv-794
+    movement: null
+    recording: hewitt-inventions-sinfonias-1994
+    title: Three-Part Invention No. 8 in F, BWV 794
+    credits: Angela Hewitt
+    album_as_listed: 'Bach: The Inventions (Hyperion, 1994)'
+    duration: null
+    apple_music:
+      song_id: null
+      url: https://music.apple.com/us/album/bach-2-part-inventions-3-part-sinfonias-etc/1721143424
+      album_url: https://music.apple.com/us/album/bach-2-part-inventions-3-part-sinfonias-etc/1721143424
+    status: replacement_selected
+    verification: needs_verification
+    link_kind: album
+    editorial_note: 'Replaces András Schiff Decca. Track timing retained from Schiff only as an unverified placeholder; do not treat as Hewitt duration. '
+    source:
+      snapshot: master-669
+      position: 217
+  - id: s-3cacrop
+    work: bwv-795
+    movement: null
+    recording: hewitt-inventions-sinfonias-1994
+    title: Three-Part Invention No. 9 in F Minor, BWV 795
+    credits: Angela Hewitt
+    album_as_listed: 'Bach: The Inventions (Hyperion, 1994)'
+    duration: null
+    apple_music:
+      song_id: null
+      url: https://music.apple.com/us/album/bach-2-part-inventions-3-part-sinfonias-etc/1721143424
+      album_url: https://music.apple.com/us/album/bach-2-part-inventions-3-part-sinfonias-etc/1721143424
+    status: replacement_selected
+    verification: needs_verification
+    link_kind: album
+    editorial_note: 'Replaces András Schiff Decca. Track timing retained from Schiff only as an unverified placeholder; do not treat as Hewitt duration. '
+    source:
+      snapshot: master-669
+      position: 218
+  - id: s-ej4d7y6
+    work: bwv-796
+    movement: null
+    recording: hewitt-inventions-sinfonias-1994
+    title: Three-Part Invention No. 10 in G, BWV 796
+    credits: Angela Hewitt
+    album_as_listed: 'Bach: The Inventions (Hyperion, 1994)'
+    duration: null
+    apple_music:
+      song_id: null
+      url: https://music.apple.com/us/album/bach-2-part-inventions-3-part-sinfonias-etc/1721143424
+      album_url: https://music.apple.com/us/album/bach-2-part-inventions-3-part-sinfonias-etc/1721143424
+    status: replacement_selected
+    verification: needs_verification
+    link_kind: album
+    editorial_note: 'Replaces András Schiff Decca. Track timing retained from Schiff only as an unverified placeholder; do not treat as Hewitt duration. '
+    source:
+      snapshot: master-669
+      position: 219
+  - id: s-cpuomvk
+    work: bwv-797
+    movement: null
+    recording: hewitt-inventions-sinfonias-1994
+    title: Three-Part Invention No. 11 in G Minor, BWV 797
+    credits: Angela Hewitt
+    album_as_listed: 'Bach: The Inventions (Hyperion, 1994)'
+    duration: null
+    apple_music:
+      song_id: null
+      url: https://music.apple.com/us/album/bach-2-part-inventions-3-part-sinfonias-etc/1721143424
+      album_url: https://music.apple.com/us/album/bach-2-part-inventions-3-part-sinfonias-etc/1721143424
+    status: replacement_selected
+    verification: needs_verification
+    link_kind: album
+    editorial_note: 'Replaces András Schiff Decca. Track timing retained from Schiff only as an unverified placeholder; do not treat as Hewitt duration. '
+    source:
+      snapshot: master-669
+      position: 220
+  - id: s-ushhxax
+    work: bwv-798
+    movement: null
+    recording: hewitt-inventions-sinfonias-1994
+    title: Three-Part Invention No. 12 in A, BWV 798
+    credits: Angela Hewitt
+    album_as_listed: 'Bach: The Inventions (Hyperion, 1994)'
+    duration: null
+    apple_music:
+      song_id: null
+      url: https://music.apple.com/us/album/bach-2-part-inventions-3-part-sinfonias-etc/1721143424
+      album_url: https://music.apple.com/us/album/bach-2-part-inventions-3-part-sinfonias-etc/1721143424
+    status: replacement_selected
+    verification: needs_verification
+    link_kind: album
+    editorial_note: 'Replaces András Schiff Decca. Track timing retained from Schiff only as an unverified placeholder; do not treat as Hewitt duration. '
+    source:
+      snapshot: master-669
+      position: 221
+  - id: s-todjb3j
+    work: bwv-799
+    movement: null
+    recording: hewitt-inventions-sinfonias-1994
+    title: Three-Part Invention No. 13 in A Minor, BWV 799
+    credits: Angela Hewitt
+    album_as_listed: 'Bach: The Inventions (Hyperion, 1994)'
+    duration: null
+    apple_music:
+      song_id: null
+      url: https://music.apple.com/us/album/bach-2-part-inventions-3-part-sinfonias-etc/1721143424
+      album_url: https://music.apple.com/us/album/bach-2-part-inventions-3-part-sinfonias-etc/1721143424
+    status: replacement_selected
+    verification: needs_verification
+    link_kind: album
+    editorial_note: 'Replaces András Schiff Decca. Track timing retained from Schiff only as an unverified placeholder; do not treat as Hewitt duration. '
+    source:
+      snapshot: master-669
+      position: 222
+  - id: s-mme4enx
+    work: bwv-800
+    movement: null
+    recording: hewitt-inventions-sinfonias-1994
+    title: Three-Part Invention No. 14 in B-Flat, BWV 800
+    credits: Angela Hewitt
+    album_as_listed: 'Bach: The Inventions (Hyperion, 1994)'
+    duration: null
+    apple_music:
+      song_id: null
+      url: https://music.apple.com/us/album/bach-2-part-inventions-3-part-sinfonias-etc/1721143424
+      album_url: https://music.apple.com/us/album/bach-2-part-inventions-3-part-sinfonias-etc/1721143424
+    status: replacement_selected
+    verification: needs_verification
+    link_kind: album
+    editorial_note: 'Replaces András Schiff Decca. Track timing retained from Schiff only as an unverified placeholder; do not treat as Hewitt duration. '
+    source:
+      snapshot: master-669
+      position: 223
+  - id: s-xvjln6k
+    work: bwv-801
+    movement: null
+    recording: hewitt-inventions-sinfonias-1994
+    title: Three-Part Invention No. 15 in in B Minor. BWV 801
+    credits: Angela Hewitt
+    album_as_listed: 'Bach: The Inventions (Hyperion, 1994)'
+    duration: null
+    apple_music:
+      song_id: null
+      url: https://music.apple.com/us/album/bach-2-part-inventions-3-part-sinfonias-etc/1721143424
+      album_url: https://music.apple.com/us/album/bach-2-part-inventions-3-part-sinfonias-etc/1721143424
+    status: replacement_selected
+    verification: needs_verification
+    link_kind: album
+    editorial_note: 'Replaces András Schiff Decca. Track timing retained from Schiff only as an unverified placeholder; do not treat as Hewitt duration. '
+    source:
+      snapshot: master-669
+      position: 224
+  - id: s-2qx3syi
+    work: bwv-802
+    movement: null
+    recording: hewitt-italian-concerto-french-overture-duets
+    title: Duet No. 1 in E Minor, BWV 802
+    credits: Angela Hewitt
+    duration: 165
+    apple_music:
+      song_id: '1721138266'
+      url: https://music.apple.com/us/song/duet-no-1-in-e-minor-bwv-802/1721138266
+      album_url: https://music.apple.com/us/album/duet-no-1-in-e-minor-bwv-802/1721137911
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 225
+  - id: s-u42zxad
+    work: bwv-803
+    movement: null
+    recording: hewitt-italian-concerto-french-overture-duets
+    title: Duet No. 2 in F Major, BWV 803
+    credits: Angela Hewitt
+    duration: 152
+    apple_music:
+      song_id: '1721138576'
+      url: https://music.apple.com/us/song/duet-no-2-in-f-major-bwv-803/1721138576
+      album_url: https://music.apple.com/us/album/duet-no-2-in-f-major-bwv-803/1721137911
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 226
+  - id: s-arqljwu
+    work: bwv-804
+    movement: null
+    recording: hewitt-italian-concerto-french-overture-duets
+    title: Duet No. 3 in G Major, BWV 804
+    credits: Angela Hewitt
+    duration: 204
+    apple_music:
+      song_id: '1721138590'
+      url: https://music.apple.com/us/song/duet-no-3-in-g-major-bwv-804/1721138590
+      album_url: https://music.apple.com/us/album/duet-no-3-in-g-major-bwv-804/1721137911
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 227
+  - id: s-xgtaden
+    work: bwv-805
+    movement: null
+    recording: hewitt-italian-concerto-french-overture-duets
+    title: Duet No. 4 in A Minor, BWV 805
+    credits: Angela Hewitt
+    duration: 121
+    apple_music:
+      song_id: '1721138901'
+      url: https://music.apple.com/us/song/duet-no-4-in-a-minor-bwv-805/1721138901
+      album_url: https://music.apple.com/us/album/duet-no-4-in-a-minor-bwv-805/1721137911
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 228
+  - id: s-i26wzxt
+    work: bwv-527
+    movement: I. Andante
+    recording: koopman-trio-sonatas
+    title: 'Sonata No. 3 in D Minor, BWV 527: I. Andante'
+    credits: Ton Koopman
+    duration: 353
+    apple_music:
+      song_id: '1452617968'
+      url: https://music.apple.com/us/song/sonata-no-3-in-d-minor-bwv-527-i-andante/1452617968
+      album_url: https://music.apple.com/us/album/sonata-no-3-in-d-minor-bwv-527-i-andante/1452616491
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 229
+  - id: s-nikyrnf
+    work: bwv-527
+    movement: II. Adagio e dolce
+    recording: koopman-trio-sonatas
+    title: 'Sonata No. 3 in D Minor, BWV 527: II. Adagio e dolce'
+    credits: Ton Koopman
+    duration: 293
+    apple_music:
+      song_id: '1452617691'
+      url: https://music.apple.com/us/song/sonata-no-3-in-d-minor-bwv-527-ii-adagio-e-dolce/1452617691
+      album_url: https://music.apple.com/us/album/sonata-no-3-in-d-minor-bwv-527-ii-adagio-e-dolce/1452616491
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 230
+  - id: s-oqi3vtp
+    work: bwv-527
+    movement: III. Vivace
+    recording: koopman-trio-sonatas
+    title: 'Sonata No. 3 in D Minor, BWV 527: III. Vivace'
+    credits: Ton Koopman
+    duration: 236
+    apple_music:
+      song_id: '1452617688'
+      url: https://music.apple.com/us/song/sonata-no-3-in-d-minor-bwv-527-iii-vivace/1452617688
+      album_url: https://music.apple.com/us/album/sonata-no-3-in-d-minor-bwv-527-iii-vivace/1452616491
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 231

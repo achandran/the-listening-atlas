@@ -1,0 +1,1428 @@
+# Stage 3 · Motion — playlist order is the order of this list.
+# To move a selection, move its whole block. Never reuse or renumber `id` values.
+stage: motion
+selections:
+  - id: s-ykkwaix
+    work: bwv-812
+    movement: I. Allemande
+    recording: perahia-french-suites
+    title: 'French Suite No. 1 in D Minor, BWV 812: I. Allemande'
+    credits: Murray Perahia
+    duration: 210
+    apple_music:
+      song_id: '1440762430'
+      url: https://music.apple.com/us/song/french-suite-no-1-in-d-minor-bwv-812-i-allemande/1440762430
+      album_url: https://music.apple.com/us/album/french-suite-no-1-in-d-minor-bwv-812-i-allemande/1440762426
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 36
+  - id: s-yyo3tss
+    work: bwv-812
+    movement: II. Courante
+    recording: perahia-french-suites
+    title: 'French Suite No. 1 in D Minor, BWV 812: II. Courante'
+    credits: Murray Perahia
+    duration: 114
+    apple_music:
+      song_id: '1440763422'
+      url: https://music.apple.com/us/song/french-suite-no-1-in-d-minor-bwv-812-ii-courante/1440763422
+      album_url: https://music.apple.com/us/album/french-suite-no-1-in-d-minor-bwv-812-ii-courante/1440762426
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 37
+  - id: s-3qx24bh
+    work: bwv-812
+    movement: III. Sarabande
+    recording: perahia-french-suites
+    title: 'French Suite No. 1 in D Minor, BWV 812: III. Sarabande'
+    credits: Murray Perahia
+    duration: 174
+    apple_music:
+      song_id: '1440763423'
+      url: https://music.apple.com/us/song/french-suite-no-1-in-d-minor-bwv-812-iii-sarabande/1440763423
+      album_url: https://music.apple.com/us/album/french-suite-no-1-in-d-minor-bwv-812-iii-sarabande/1440762426
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 38
+  - id: s-mclaiaq
+    work: bwv-812
+    movement: IV. Menuets I-II
+    recording: perahia-french-suites
+    title: 'French Suite No. 1 in D Minor, BWV 812: IV. Menuets I-II'
+    credits: Murray Perahia
+    duration: 182
+    apple_music:
+      song_id: '1440763425'
+      url: https://music.apple.com/us/song/french-suite-no-1-in-d-minor-bwv-812-iv-menuets-i-ii/1440763425
+      album_url: https://music.apple.com/us/album/french-suite-no-1-in-d-minor-bwv-812-iv-menuets-i-ii/1440762426
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 39
+  - id: s-glqshzg
+    work: bwv-812
+    movement: V. Gigue
+    recording: perahia-french-suites
+    title: 'French Suite No. 1 in D Minor, BWV 812: V. Gigue'
+    credits: Murray Perahia
+    duration: 178
+    apple_music:
+      song_id: '1440763426'
+      url: https://music.apple.com/us/song/french-suite-no-1-in-d-minor-bwv-812-v-gigue/1440763426
+      album_url: https://music.apple.com/us/album/french-suite-no-1-in-d-minor-bwv-812-v-gigue/1440762426
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 40
+  - id: s-dbjrmch
+    work: bwv-813
+    movement: I. Allemande
+    recording: perahia-french-suites
+    title: 'French Suite No. 2 in C Minor, BWV 813: I. Allemande'
+    credits: Murray Perahia
+    duration: 170
+    apple_music:
+      song_id: '1440763430'
+      url: https://music.apple.com/us/song/french-suite-no-2-in-c-minor-bwv-813-i-allemande/1440763430
+      album_url: https://music.apple.com/us/album/french-suite-no-2-in-c-minor-bwv-813-i-allemande/1440762426
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 41
+  - id: s-ry5bb45
+    work: bwv-813
+    movement: II. Courante
+    recording: perahia-french-suites
+    title: 'French Suite No. 2 in C Minor, BWV 813: II. Courante'
+    credits: Murray Perahia
+    duration: 103
+    apple_music:
+      song_id: '1440763437'
+      url: https://music.apple.com/us/song/french-suite-no-2-in-c-minor-bwv-813-ii-courante/1440763437
+      album_url: https://music.apple.com/us/album/french-suite-no-2-in-c-minor-bwv-813-ii-courante/1440762426
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 42
+  - id: s-ewvldbr
+    work: bwv-813
+    movement: III. Sarabande
+    recording: perahia-french-suites
+    title: 'French Suite No. 2 in C Minor, BWV 813: III. Sarabande'
+    credits: Murray Perahia
+    duration: 187
+    apple_music:
+      song_id: '1440763434'
+      url: https://music.apple.com/us/song/french-suite-no-2-in-c-minor-bwv-813-iii-sarabande/1440763434
+      album_url: https://music.apple.com/us/album/french-suite-no-2-in-c-minor-bwv-813-iii-sarabande/1440762426
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 43
+  - id: s-pbev2z2
+    work: bwv-813
+    movement: IV. Air
+    recording: perahia-french-suites
+    title: 'French Suite No. 2 in C Minor, BWV 813: IV. Air'
+    credits: Murray Perahia
+    duration: 81
+    apple_music:
+      song_id: '1440763439'
+      url: https://music.apple.com/us/song/french-suite-no-2-in-c-minor-bwv-813-iv-air/1440763439
+      album_url: https://music.apple.com/us/album/french-suite-no-2-in-c-minor-bwv-813-iv-air/1440762426
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 44
+  - id: s-56nii2x
+    work: bwv-813
+    movement: V. Menuets I-II
+    recording: perahia-french-suites
+    title: 'French Suite No. 2 in C Minor, BWV 813: V. Menuets I-II'
+    credits: Murray Perahia
+    duration: 187
+    apple_music:
+      song_id: '1440763442'
+      url: https://music.apple.com/us/song/french-suite-no-2-in-c-minor-bwv-813-v-menuets-i-ii/1440763442
+      album_url: https://music.apple.com/us/album/french-suite-no-2-in-c-minor-bwv-813-v-menuets-i-ii/1440762426
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 45
+  - id: s-stdhaux
+    work: bwv-813
+    movement: VI. Gigue
+    recording: perahia-french-suites
+    title: 'French Suite No. 2 in C Minor, BWV 813: VI. Gigue'
+    credits: Murray Perahia
+    duration: 123
+    apple_music:
+      song_id: '1440763431'
+      url: https://music.apple.com/us/song/french-suite-no-2-in-c-minor-bwv-813-vi-gigue/1440763431
+      album_url: https://music.apple.com/us/album/french-suite-no-2-in-c-minor-bwv-813-vi-gigue/1440762426
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 46
+  - id: s-4uo5js3
+    work: bwv-814
+    movement: I. Allemande
+    recording: perahia-french-suites
+    title: 'French Suite No. 3 in B Minor, BWV 814: I. Allemande'
+    credits: Murray Perahia
+    duration: 190
+    apple_music:
+      song_id: '1440763694'
+      url: https://music.apple.com/us/song/french-suite-no-3-in-b-minor-bwv-814-i-allemande/1440763694
+      album_url: https://music.apple.com/us/album/french-suite-no-3-in-b-minor-bwv-814-i-allemande/1440762426
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 47
+  - id: s-5mnzjpy
+    work: bwv-814
+    movement: II. Courante
+    recording: perahia-french-suites
+    title: 'French Suite No. 3 in B Minor, BWV 814: II. Courante'
+    credits: Murray Perahia
+    duration: 120
+    apple_music:
+      song_id: '1440763700'
+      url: https://music.apple.com/us/song/french-suite-no-3-in-b-minor-bwv-814-ii-courante/1440763700
+      album_url: https://music.apple.com/us/album/french-suite-no-3-in-b-minor-bwv-814-ii-courante/1440762426
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 48
+  - id: s-layh5ag
+    work: bwv-814
+    movement: III. Sarabande
+    recording: perahia-french-suites
+    title: 'French Suite No. 3 in B Minor, BWV 814: III. Sarabande'
+    credits: Murray Perahia
+    duration: 170
+    apple_music:
+      song_id: '1440763692'
+      url: https://music.apple.com/us/song/french-suite-no-3-in-b-minor-bwv-814-iii-sarabande/1440763692
+      album_url: https://music.apple.com/us/album/french-suite-no-3-in-b-minor-bwv-814-iii-sarabande/1440762426
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 49
+  - id: s-j6cfief
+    work: bwv-814
+    movement: IV. Anglaise
+    recording: perahia-french-suites
+    title: 'French Suite No. 3 in B Minor, BWV 814: IV. Anglaise'
+    credits: Murray Perahia
+    duration: 79
+    apple_music:
+      song_id: '1440763693'
+      url: https://music.apple.com/us/song/french-suite-no-3-in-b-minor-bwv-814-iv-anglaise/1440763693
+      album_url: https://music.apple.com/us/album/french-suite-no-3-in-b-minor-bwv-814-iv-anglaise/1440762426
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 50
+  - id: s-mdux4km
+    work: bwv-814
+    movement: V. Menuets I-II
+    recording: perahia-french-suites
+    title: 'French Suite No. 3 in B Minor, BWV 814: V. Menuets I-II'
+    credits: Murray Perahia
+    duration: 187
+    apple_music:
+      song_id: '1440763699'
+      url: https://music.apple.com/us/song/french-suite-no-3-in-b-minor-bwv-814-v-menuets-i-ii/1440763699
+      album_url: https://music.apple.com/us/album/french-suite-no-3-in-b-minor-bwv-814-v-menuets-i-ii/1440762426
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 51
+  - id: s-c3fx6g2
+    work: bwv-814
+    movement: VI. Gigue
+    recording: perahia-french-suites
+    title: 'French Suite No. 3 in B Minor, BWV 814: VI. Gigue'
+    credits: Murray Perahia
+    duration: 136
+    apple_music:
+      song_id: '1440763703'
+      url: https://music.apple.com/us/song/french-suite-no-3-in-b-minor-bwv-814-vi-gigue/1440763703
+      album_url: https://music.apple.com/us/album/french-suite-no-3-in-b-minor-bwv-814-vi-gigue/1440762426
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 52
+  - id: s-gg7ft53
+    work: bwv-815
+    movement: I. Allemande
+    recording: perahia-french-suites
+    title: 'French Suite No. 4 in E-Flat Major, BWV 815: I. Allemande'
+    credits: Murray Perahia
+    duration: 170
+    apple_music:
+      song_id: '1440763965'
+      url: https://music.apple.com/us/song/french-suite-no-4-in-e-flat-major-bwv-815-i-allemande/1440763965
+      album_url: https://music.apple.com/us/album/french-suite-no-4-in-e-flat-major-bwv-815-i-allemande/1440762426
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 53
+  - id: s-4jxtxqc
+    work: bwv-815
+    movement: II. Courante
+    recording: perahia-french-suites
+    title: 'French Suite No. 4 in E-Flat Major, BWV 815: II. Courante'
+    credits: Murray Perahia
+    duration: 109
+    apple_music:
+      song_id: '1440763708'
+      url: https://music.apple.com/us/song/french-suite-no-4-in-e-flat-major-bwv-815-ii-courante/1440763708
+      album_url: https://music.apple.com/us/album/french-suite-no-4-in-e-flat-major-bwv-815-ii-courante/1440762426
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 54
+  - id: s-hv3peyx
+    work: bwv-815
+    movement: III. Sarabande
+    recording: perahia-french-suites
+    title: 'French Suite No. 4 in E-Flat Major, BWV 815: III. Sarabande'
+    credits: Murray Perahia
+    duration: 159
+    apple_music:
+      song_id: '1440763967'
+      url: https://music.apple.com/us/song/french-suite-no-4-in-e-flat-major-bwv-815-iii-sarabande/1440763967
+      album_url: https://music.apple.com/us/album/french-suite-no-4-in-e-flat-major-bwv-815-iii-sarabande/1440762426
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 55
+  - id: s-w77hntk
+    work: bwv-815
+    movement: IV. Gavottes I-II
+    recording: perahia-french-suites
+    title: 'French Suite No. 4 in E-Flat Major, BWV 815: IV. Gavottes I-II'
+    credits: Murray Perahia
+    duration: 227
+    apple_music:
+      song_id: '1440763716'
+      url: https://music.apple.com/us/song/french-suite-no-4-in-e-flat-major-bwv-815-iv-gavottes-i-ii/1440763716
+      album_url: https://music.apple.com/us/album/french-suite-no-4-in-e-flat-major-bwv-815-iv-gavottes-i-ii/1440762426
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 56
+  - id: s-pk3lpan
+    work: bwv-815
+    movement: V. Menuet
+    recording: perahia-french-suites
+    title: 'French Suite No. 4 in E-Flat Major, BWV 815: V. Menuet'
+    credits: Murray Perahia
+    duration: 57
+    apple_music:
+      song_id: '1440763970'
+      url: https://music.apple.com/us/song/french-suite-no-4-in-e-flat-major-bwv-815-v-menuet/1440763970
+      album_url: https://music.apple.com/us/album/french-suite-no-4-in-e-flat-major-bwv-815-v-menuet/1440762426
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 57
+  - id: s-otae3ux
+    work: bwv-815
+    movement: VI. Air
+    recording: perahia-french-suites
+    title: 'French Suite No. 4 in E-FlA Major, BWV 815: VI. Air'
+    credits: Murray Perahia
+    duration: 98
+    apple_music:
+      song_id: '1440763717'
+      url: https://music.apple.com/us/song/french-suite-no-4-in-e-fla-major-bwv-815-vi-air/1440763717
+      album_url: https://music.apple.com/us/album/french-suite-no-4-in-e-fla-major-bwv-815-vi-air/1440762426
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 58
+  - id: s-poukpt3
+    work: bwv-815
+    movement: VII. Gigue
+    recording: perahia-french-suites
+    title: 'French Suite No. 4 in E-Flat Major, BWV 815: VII. Gigue'
+    credits: Murray Perahia
+    duration: 144
+    apple_music:
+      song_id: '1440763713'
+      url: https://music.apple.com/us/song/french-suite-no-4-in-e-flat-major-bwv-815-vii-gigue/1440763713
+      album_url: https://music.apple.com/us/album/french-suite-no-4-in-e-flat-major-bwv-815-vii-gigue/1440762426
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 59
+  - id: s-7gf673d
+    work: bwv-816
+    movement: I. Allemande
+    recording: perahia-french-suites
+    title: 'French Suite No. 5 in G Major, BWV 816: I. Allemande'
+    credits: Murray Perahia
+    duration: 188
+    apple_music:
+      song_id: '1440763985'
+      url: https://music.apple.com/us/song/french-suite-no-5-in-g-major-bwv-816-i-allemande/1440763985
+      album_url: https://music.apple.com/us/album/french-suite-no-5-in-g-major-bwv-816-i-allemande/1440762426
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 60
+  - id: s-swtpfd4
+    work: bwv-816
+    movement: II. Courante
+    recording: perahia-french-suites
+    title: 'French Suite No. 5 in G Major, BWV 816: II. Courante'
+    credits: Murray Perahia
+    duration: 103
+    apple_music:
+      song_id: '1440764210'
+      url: https://music.apple.com/us/song/french-suite-no-5-in-g-major-bwv-816-ii-courante/1440764210
+      album_url: https://music.apple.com/us/album/french-suite-no-5-in-g-major-bwv-816-ii-courante/1440762426
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 61
+  - id: s-w3kin7d
+    work: bwv-816
+    movement: III. Sarabande
+    recording: perahia-french-suites
+    title: 'French Suite No. 5 in G Major, BWV 816: III. Sarabande'
+    credits: Murray Perahia
+    duration: 249
+    apple_music:
+      song_id: '1440764206'
+      url: https://music.apple.com/us/song/french-suite-no-5-in-g-major-bwv-816-iii-sarabande/1440764206
+      album_url: https://music.apple.com/us/album/french-suite-no-5-in-g-major-bwv-816-iii-sarabande/1440762426
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 62
+  - id: s-bkcfric
+    work: bwv-816
+    movement: IV. Gavotte
+    recording: perahia-french-suites
+    title: 'French Suite No. 5 in G Major, BWV 816: IV. Gavotte'
+    credits: Murray Perahia
+    duration: 74
+    apple_music:
+      song_id: '1440763983'
+      url: https://music.apple.com/us/song/french-suite-no-5-in-g-major-bwv-816-iv-gavotte/1440763983
+      album_url: https://music.apple.com/us/album/french-suite-no-5-in-g-major-bwv-816-iv-gavotte/1440762426
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 63
+  - id: s-7gusiaa
+    work: bwv-816
+    movement: V. Bourrée
+    recording: perahia-french-suites
+    title: 'French Suite No. 5 in G Major, BWV 816: V. Bourrée'
+    credits: Murray Perahia
+    duration: 79
+    apple_music:
+      song_id: '1440763978'
+      url: https://music.apple.com/us/song/french-suite-no-5-in-g-major-bwv-816-v-bourr%C3%A9e/1440763978
+      album_url: https://music.apple.com/us/album/french-suite-no-5-in-g-major-bwv-816-v-bourr%C3%A9e/1440762426
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 64
+  - id: s-tobmuss
+    work: bwv-816
+    movement: VI. Loure
+    recording: perahia-french-suites
+    title: 'French Suite No. 5 in G Major, BWV 816: VI. Loure'
+    credits: Murray Perahia
+    duration: 115
+    apple_music:
+      song_id: '1440763982'
+      url: https://music.apple.com/us/song/french-suite-no-5-in-g-major-bwv-816-vi-loure/1440763982
+      album_url: https://music.apple.com/us/album/french-suite-no-5-in-g-major-bwv-816-vi-loure/1440762426
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 65
+  - id: s-zz3py5m
+    work: bwv-816
+    movement: VII. Gigue
+    recording: perahia-french-suites
+    title: 'French Suite No. 5 in G Major, BWV 816: VII. Gigue'
+    credits: Murray Perahia
+    duration: 207
+    apple_music:
+      song_id: '1440764207'
+      url: https://music.apple.com/us/song/french-suite-no-5-in-g-major-bwv-816-vii-gigue/1440764207
+      album_url: https://music.apple.com/us/album/french-suite-no-5-in-g-major-bwv-816-vii-gigue/1440762426
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 66
+  - id: s-vb6crbd
+    work: bwv-817
+    movement: I. Allemande
+    recording: perahia-french-suites
+    title: 'French Suite No. 6 in E Major, BWV 817: I. Allemande'
+    credits: Murray Perahia
+    duration: 163
+    apple_music:
+      song_id: '1440764228'
+      url: https://music.apple.com/us/song/french-suite-no-6-in-e-major-bwv-817-i-allemande/1440764228
+      album_url: https://music.apple.com/us/album/french-suite-no-6-in-e-major-bwv-817-i-allemande/1440762426
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 67
+  - id: s-draas4l
+    work: bwv-817
+    movement: II. Courante
+    recording: perahia-french-suites
+    title: 'French Suite No. 6 in E Major, BWV 817: II. Courante'
+    credits: Murray Perahia
+    duration: 100
+    apple_music:
+      song_id: '1440764360'
+      url: https://music.apple.com/us/song/french-suite-no-6-in-e-major-bwv-817-ii-courante/1440764360
+      album_url: https://music.apple.com/us/album/french-suite-no-6-in-e-major-bwv-817-ii-courante/1440762426
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 68
+  - id: s-26xozfb
+    work: bwv-817
+    movement: III. Sarabande
+    recording: perahia-french-suites
+    title: 'French Suite No. 6 in E Major, BWV 817: III. Sarabande'
+    credits: Murray Perahia
+    duration: 197
+    apple_music:
+      song_id: '1440764217'
+      url: https://music.apple.com/us/song/french-suite-no-6-in-e-major-bwv-817-iii-sarabande/1440764217
+      album_url: https://music.apple.com/us/album/french-suite-no-6-in-e-major-bwv-817-iii-sarabande/1440762426
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 69
+  - id: s-rvkt2hb
+    work: bwv-817
+    movement: IV. Gavotte
+    recording: perahia-french-suites
+    title: 'French Suite No. 6 in E Major, BWV 817: IV. Gavotte'
+    credits: Murray Perahia
+    duration: 65
+    apple_music:
+      song_id: '1440764351'
+      url: https://music.apple.com/us/song/french-suite-no-6-in-e-major-bwv-817-iv-gavotte/1440764351
+      album_url: https://music.apple.com/us/album/french-suite-no-6-in-e-major-bwv-817-iv-gavotte/1440762426
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 70
+  - id: s-lpsrqkz
+    work: bwv-817
+    movement: V. Polonaise
+    recording: perahia-french-suites
+    title: 'French Suite No. 6 in E Major, BWV 817: V. Polonaise'
+    credits: Murray Perahia
+    duration: 88
+    apple_music:
+      song_id: '1440764358'
+      url: https://music.apple.com/us/song/french-suite-no-6-in-e-major-bwv-817-v-polonaise/1440764358
+      album_url: https://music.apple.com/us/album/french-suite-no-6-in-e-major-bwv-817-v-polonaise/1440762426
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 71
+  - id: s-46u5bbc
+    work: bwv-817
+    movement: VI. Petit menuet
+    recording: perahia-french-suites
+    title: 'French Suite No. 6 in E Major, BWV 817: VI. Petit menuet'
+    credits: Murray Perahia
+    duration: 59
+    apple_music:
+      song_id: '1440764221'
+      url: https://music.apple.com/us/song/french-suite-no-6-in-e-major-bwv-817-vi-petit-menuet/1440764221
+      album_url: https://music.apple.com/us/album/french-suite-no-6-in-e-major-bwv-817-vi-petit-menuet/1440762426
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 72
+  - id: s-xldatkg
+    work: bwv-817
+    movement: VII. Bourrée
+    recording: perahia-french-suites
+    title: 'French Suite No. 6 in E Major, BWV 817: VII. Bourrée'
+    credits: Murray Perahia
+    duration: 83
+    apple_music:
+      song_id: '1440764223'
+      url: https://music.apple.com/us/song/french-suite-no-6-in-e-major-bwv-817-vii-bourr%C3%A9e/1440764223
+      album_url: https://music.apple.com/us/album/french-suite-no-6-in-e-major-bwv-817-vii-bourr%C3%A9e/1440762426
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 73
+  - id: s-flob27v
+    work: bwv-817
+    movement: VIII. Gigue
+    recording: perahia-french-suites
+    title: 'French Suite No. 6 in E Major, BWV 817: VIII. Gigue'
+    credits: Murray Perahia
+    duration: 151
+    apple_music:
+      song_id: '1440764355'
+      url: https://music.apple.com/us/song/french-suite-no-6-in-e-major-bwv-817-viii-gigue/1440764355
+      album_url: https://music.apple.com/us/album/french-suite-no-6-in-e-major-bwv-817-viii-gigue/1440762426
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 74
+  - id: s-vsa5wcj
+    work: bwv-1067
+    movement: I. Overture
+    recording: suzuki-brandenburg-orchestral-suites
+    title: 'Orchestral Suite No. 2 in B Minor, BWV 1067: I. Overture'
+    credits: 前田りり子; Bach Collegium Japan; Masaaki Suzuki
+    duration: 644
+    apple_music:
+      song_id: '1724251262'
+      url: https://music.apple.com/us/song/orchestral-suite-no-2-in-b-minor-bwv-1067-i-overture/1724251262
+      album_url: https://music.apple.com/us/album/orchestral-suite-no-2-in-b-minor-bwv-1067-i-overture/1724251065
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 75
+  - id: s-gimv6i5
+    work: bwv-1067
+    movement: II. Rondeau
+    recording: suzuki-brandenburg-orchestral-suites
+    title: 'Orchestral Suite No. 2 in B Minor, BWV 1067: II. Rondeau'
+    credits: 前田りり子; Bach Collegium Japan; Masaaki Suzuki
+    duration: 114
+    apple_music:
+      song_id: '1724251263'
+      url: https://music.apple.com/us/song/orchestral-suite-no-2-in-b-minor-bwv-1067-ii-rondeau/1724251263
+      album_url: https://music.apple.com/us/album/orchestral-suite-no-2-in-b-minor-bwv-1067-ii-rondeau/1724251065
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 76
+  - id: s-4k5zuzc
+    work: bwv-1067
+    movement: III. Sarabande
+    recording: suzuki-brandenburg-orchestral-suites
+    title: 'Orchestral Suite No. 2 in B Minor, BWV 1067: III. Sarabande'
+    credits: 前田りり子; Bach Collegium Japan; Masaaki Suzuki
+    duration: 175
+    apple_music:
+      song_id: '1724251264'
+      url: https://music.apple.com/us/song/orchestral-suite-no-2-in-b-minor-bwv-1067-iii-sarabande/1724251264
+      album_url: https://music.apple.com/us/album/orchestral-suite-no-2-in-b-minor-bwv-1067-iii-sarabande/1724251065
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 77
+  - id: s-vfksxs6
+    work: bwv-1067
+    movement: IV. Bourree I-II-I
+    recording: suzuki-brandenburg-orchestral-suites
+    title: 'Orchestral Suite No. 2 in B Minor, BWV 1067: IV. Bourree I-II-I'
+    credits: 前田りり子; Bach Collegium Japan; Masaaki Suzuki
+    duration: 127
+    apple_music:
+      song_id: '1724251265'
+      url: https://music.apple.com/us/song/orchestral-suite-no-2-in-b-minor-bwv-1067-iv-bourree-i-ii-i/1724251265
+      album_url: https://music.apple.com/us/album/orchestral-suite-no-2-in-b-minor-bwv-1067-iv-bourree-i-ii-i/1724251065
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 78
+  - id: s-qdkekbd
+    work: bwv-1067
+    movement: V. Polonaise - Double - Polonaise
+    recording: suzuki-brandenburg-orchestral-suites
+    title: 'Orchestral Suite No. 2 in B Minor, BWV 1067: V. Polonaise - Double - Polonaise'
+    credits: 前田りり子; Bach Collegium Japan; Masaaki Suzuki
+    duration: 233
+    apple_music:
+      song_id: '1724251266'
+      url: https://music.apple.com/us/song/orchestral-suite-no-2-in-b-minor-bwv-1067-v-polonaise/1724251266
+      album_url: https://music.apple.com/us/album/orchestral-suite-no-2-in-b-minor-bwv-1067-v-polonaise/1724251065
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 79
+  - id: s-hffu2fi
+    work: bwv-1067
+    movement: VI. Menuet
+    recording: suzuki-brandenburg-orchestral-suites
+    title: 'Orchestral Suite No. 2 in B Minor, BWV 1067: VI. Menuet'
+    credits: 前田りり子; Bach Collegium Japan; Masaaki Suzuki
+    duration: 77
+    apple_music:
+      song_id: '1724251267'
+      url: https://music.apple.com/us/song/orchestral-suite-no-2-in-b-minor-bwv-1067-vi-menuet/1724251267
+      album_url: https://music.apple.com/us/album/orchestral-suite-no-2-in-b-minor-bwv-1067-vi-menuet/1724251065
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 80
+  - id: s-25eety5
+    work: bwv-1067
+    movement: VII. Badinerie
+    recording: suzuki-brandenburg-orchestral-suites
+    title: 'Orchestral Suite No. 2 in B Minor, BWV 1067: VII. Badinerie'
+    credits: 前田りり子; Bach Collegium Japan; Masaaki Suzuki
+    duration: 107
+    apple_music:
+      song_id: '1724251269'
+      url: https://music.apple.com/us/song/orchestral-suite-no-2-in-b-minor-bwv-1067-vii-badinerie/1724251269
+      album_url: https://music.apple.com/us/album/orchestral-suite-no-2-in-b-minor-bwv-1067-vii-badinerie/1724251065
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 81
+  - id: s-2iz4lnz
+    work: bwv-806
+    movement: I. Prélude
+    recording: perahia-english-suites-1-3-6
+    title: 'English Suite No. 1 in A Major, BWV 806: I. Prélude'
+    credits: Murray Perahia
+    duration: 124
+    apple_music:
+      song_id: '354034202'
+      url: https://music.apple.com/us/song/english-suite-no-1-in-a-major-bwv-806-i-pr%C3%A9lude/354034202
+      album_url: https://music.apple.com/us/album/english-suite-no-1-in-a-major-bwv-806-i-pr%C3%A9lude/354034192
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 82
+  - id: s-y2ynuzo
+    work: bwv-806
+    movement: II. Allemande
+    recording: perahia-english-suites-1-3-6
+    title: 'English Suite No. 1 in A Major, BWV 806: II. Allemande'
+    credits: Murray Perahia
+    duration: 247
+    apple_music:
+      song_id: '354034219'
+      url: https://music.apple.com/us/song/english-suite-no-1-in-a-major-bwv-806-ii-allemande/354034219
+      album_url: https://music.apple.com/us/album/english-suite-no-1-in-a-major-bwv-806-ii-allemande/354034192
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 83
+  - id: s-xurk7k4
+    work: bwv-806
+    movement: III. Courante I
+    recording: perahia-english-suites-1-3-6
+    title: 'English Suite No. 1 in A Major, BWV 806: III. Courante I'
+    credits: Murray Perahia
+    duration: 88
+    apple_music:
+      song_id: '354034221'
+      url: https://music.apple.com/us/song/english-suite-no-1-in-a-major-bwv-806-iii-courante-i/354034221
+      album_url: https://music.apple.com/us/album/english-suite-no-1-in-a-major-bwv-806-iii-courante-i/354034192
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 84
+  - id: s-yqaghje
+    work: bwv-806
+    movement: IV. Courante II avec deux Doubles
+    recording: perahia-english-suites-1-3-6
+    title: 'English Suite No. 1 in A Major, BWV 806: IV. Courante II avec deux Doubles'
+    credits: Murray Perahia
+    duration: 254
+    apple_music:
+      song_id: '354034237'
+      url: https://music.apple.com/us/song/english-suite-no-1-in-a-major-bwv-806-iv-courante/354034237
+      album_url: https://music.apple.com/us/album/english-suite-no-1-in-a-major-bwv-806-iv-courante/354034192
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 85
+  - id: s-5mmh6bv
+    work: bwv-806
+    movement: V. Sarabande
+    recording: perahia-english-suites-1-3-6
+    title: 'English Suite No. 1 in A Major, BWV 806: V. Sarabande'
+    credits: Murray Perahia
+    duration: 244
+    apple_music:
+      song_id: '354034243'
+      url: https://music.apple.com/us/song/english-suite-no-1-in-a-major-bwv-806-v-sarabande/354034243
+      album_url: https://music.apple.com/us/album/english-suite-no-1-in-a-major-bwv-806-v-sarabande/354034192
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 86
+  - id: s-mi366hu
+    work: bwv-806
+    movement: VI. Bourrée I
+    recording: perahia-english-suites-1-3-6
+    title: 'English Suite No. 1 in A Major, BWV 806: VI. Bourrée I'
+    credits: Murray Perahia
+    duration: 106
+    apple_music:
+      song_id: '354034250'
+      url: https://music.apple.com/us/song/english-suite-no-1-in-a-major-bwv-806-vi-bourr%C3%A9e-i/354034250
+      album_url: https://music.apple.com/us/album/english-suite-no-1-in-a-major-bwv-806-vi-bourr%C3%A9e-i/354034192
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 87
+  - id: s-f6pspjf
+    work: bwv-806
+    movement: VII. Bourrée II
+    recording: perahia-english-suites-1-3-6
+    title: 'English Suite No. 1 in A Major, BWV 806: VII. Bourrée II'
+    credits: Murray Perahia
+    duration: 136
+    apple_music:
+      song_id: '354034257'
+      url: https://music.apple.com/us/song/english-suite-no-1-in-a-major-bwv-806-vii-bourr%C3%A9e-ii/354034257
+      album_url: https://music.apple.com/us/album/english-suite-no-1-in-a-major-bwv-806-vii-bourr%C3%A9e-ii/354034192
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 88
+  - id: s-qhwwx7z
+    work: bwv-806
+    movement: VIII. Gigue
+    recording: perahia-english-suites-1-3-6
+    title: 'English Suite No. 1 in A Major, BWV 806: VIII. Gigue'
+    credits: Murray Perahia
+    duration: 138
+    apple_music:
+      song_id: '354034265'
+      url: https://music.apple.com/us/song/english-suite-no-1-in-a-major-bwv-806-viii-gigue/354034265
+      album_url: https://music.apple.com/us/album/english-suite-no-1-in-a-major-bwv-806-viii-gigue/354034192
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 89
+  - id: s-2hn55ab
+    work: bwv-807
+    movement: I. Prélude
+    recording: perahia-english-suites-2-4-5
+    title: 'English Suite No. 2 in A Minor, BWV 807: I. Prélude'
+    credits: Murray Perahia
+    duration: 286
+    apple_music:
+      song_id: '158519832'
+      url: https://music.apple.com/us/song/english-suite-no-2-in-a-minor-bwv-807-i-pr%C3%A9lude/158519832
+      album_url: https://music.apple.com/us/album/english-suite-no-2-in-a-minor-bwv-807-i-pr%C3%A9lude/158519795
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 90
+  - id: s-mzex42o
+    work: bwv-807
+    movement: II. Allemande
+    recording: perahia-english-suites-2-4-5
+    title: 'English Suite No. 2 in A Minor, BWV 807: II. Allemande'
+    credits: Murray Perahia
+    duration: 219
+    apple_music:
+      song_id: '158519859'
+      url: https://music.apple.com/us/song/english-suite-no-2-in-a-minor-bwv-807-ii-allemande/158519859
+      album_url: https://music.apple.com/us/album/english-suite-no-2-in-a-minor-bwv-807-ii-allemande/158519795
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 91
+  - id: s-ui4lj23
+    work: bwv-807
+    movement: III. Courante
+    recording: perahia-english-suites-2-4-5
+    title: 'English Suite No. 2 in A Minor, BWV 807: III. Courante'
+    credits: Murray Perahia
+    duration: 97
+    apple_music:
+      song_id: '158519881'
+      url: https://music.apple.com/us/song/english-suite-no-2-in-a-minor-bwv-807-iii-courante/158519881
+      album_url: https://music.apple.com/us/album/english-suite-no-2-in-a-minor-bwv-807-iii-courante/158519795
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 92
+  - id: s-veb66gq
+    work: bwv-807
+    movement: IV. Sarabande
+    recording: perahia-english-suites-2-4-5
+    title: 'English Suite No. 2 in A Minor, BWV 807: IV. Sarabande'
+    credits: Murray Perahia
+    duration: 234
+    apple_music:
+      song_id: '158519896'
+      url: https://music.apple.com/us/song/english-suite-no-2-in-a-minor-bwv-807-iv-sarabande/158519896
+      album_url: https://music.apple.com/us/album/english-suite-no-2-in-a-minor-bwv-807-iv-sarabande/158519795
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 93
+  - id: s-wclmbbp
+    work: bwv-807
+    movement: V. Bourrée
+    recording: perahia-english-suites-2-4-5
+    title: 'English Suite No. 2 in A Minor, BWV 807: V. Bourrée'
+    credits: Murray Perahia
+    duration: 128
+    apple_music:
+      song_id: '158519919'
+      url: https://music.apple.com/us/song/english-suite-no-2-in-a-minor-bwv-807-v-bourr%C3%A9e/158519919
+      album_url: https://music.apple.com/us/album/english-suite-no-2-in-a-minor-bwv-807-v-bourr%C3%A9e/158519795
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 94
+  - id: s-7seyntx
+    work: bwv-807
+    movement: VI. Bourrée II
+    recording: perahia-english-suites-2-4-5
+    title: 'English Suite No. 2 in A Minor, BWV 807: VI. Bourrée II'
+    credits: Murray Perahia
+    duration: 130
+    apple_music:
+      song_id: '158519938'
+      url: https://music.apple.com/us/song/english-suite-no-2-in-a-minor-bwv-807-vi-bourr%C3%A9e-ii/158519938
+      album_url: https://music.apple.com/us/album/english-suite-no-2-in-a-minor-bwv-807-vi-bourr%C3%A9e-ii/158519795
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 95
+  - id: s-bz4hi2r
+    work: bwv-807
+    movement: VII. Gigue
+    recording: perahia-english-suites-2-4-5
+    title: 'English Suite No. 2 in A Minor, BWV 807: VII. Gigue'
+    credits: Murray Perahia
+    duration: 191
+    apple_music:
+      song_id: '158519956'
+      url: https://music.apple.com/us/song/english-suite-no-2-in-a-minor-bwv-807-vii-gigue/158519956
+      album_url: https://music.apple.com/us/album/english-suite-no-2-in-a-minor-bwv-807-vii-gigue/158519795
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 96
+  - id: s-tvsruv5
+    work: bwv-808
+    movement: I. Prélude
+    recording: perahia-english-suites-1-3-6
+    title: 'English Suite No. 3 in G minor, BWV 808: I. Prélude'
+    credits: Murray Perahia
+    duration: 176
+    apple_music:
+      song_id: '354034269'
+      url: https://music.apple.com/us/song/english-suite-no-3-in-g-minor-bwv-808-i-pr%C3%A9lude/354034269
+      album_url: https://music.apple.com/us/album/english-suite-no-3-in-g-minor-bwv-808-i-pr%C3%A9lude/354034192
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 97
+  - id: s-rltfdw5
+    work: bwv-808
+    movement: II. Allemande
+    recording: perahia-english-suites-1-3-6
+    title: 'English Suite No. 3 in G minor, BWV 808: II. Allemande'
+    credits: Murray Perahia
+    duration: 200
+    apple_music:
+      song_id: '354034271'
+      url: https://music.apple.com/us/song/english-suite-no-3-in-g-minor-bwv-808-ii-allemande/354034271
+      album_url: https://music.apple.com/us/album/english-suite-no-3-in-g-minor-bwv-808-ii-allemande/354034192
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 98
+  - id: s-36nithf
+    work: bwv-808
+    movement: III. Courante
+    recording: perahia-english-suites-1-3-6
+    title: 'English Suite No. 3 in G minor, BWV 808: III. Courante'
+    credits: Murray Perahia
+    duration: 126
+    apple_music:
+      song_id: '354034273'
+      url: https://music.apple.com/us/song/english-suite-no-3-in-g-minor-bwv-808-iii-courante/354034273
+      album_url: https://music.apple.com/us/album/english-suite-no-3-in-g-minor-bwv-808-iii-courante/354034192
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 99
+  - id: s-plcmswr
+    work: bwv-808
+    movement: IV. Sarabande
+    recording: perahia-english-suites-1-3-6
+    title: 'English Suite No. 3 in G minor, BWV 808: IV. Sarabande'
+    credits: Murray Perahia
+    duration: 200
+    apple_music:
+      song_id: '354034283'
+      url: https://music.apple.com/us/song/english-suite-no-3-in-g-minor-bwv-808-iv-sarabande/354034283
+      album_url: https://music.apple.com/us/album/english-suite-no-3-in-g-minor-bwv-808-iv-sarabande/354034192
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 100
+  - id: s-aenrvwc
+    work: bwv-808
+    movement: V. Gavotte I
+    recording: perahia-english-suites-1-3-6
+    title: 'English Suite No. 3 in G minor, BWV 808: V. Gavotte I'
+    credits: Murray Perahia
+    duration: 92
+    apple_music:
+      song_id: '354034284'
+      url: https://music.apple.com/us/song/english-suite-no-3-in-g-minor-bwv-808-v-gavotte-i/354034284
+      album_url: https://music.apple.com/us/album/english-suite-no-3-in-g-minor-bwv-808-v-gavotte-i/354034192
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 101
+  - id: s-kps4k3g
+    work: bwv-808
+    movement: VI. Gavotte II (ou la Musette)
+    recording: perahia-english-suites-1-3-6
+    title: 'English Suite No. 3 in G minor, BWV 808: VI. Gavotte II (ou la Musette)'
+    credits: Murray Perahia
+    duration: 98
+    apple_music:
+      song_id: '354034313'
+      url: https://music.apple.com/us/song/english-suite-no-3-in-g-minor-bwv-808-vi-gavotte-ii/354034313
+      album_url: https://music.apple.com/us/album/english-suite-no-3-in-g-minor-bwv-808-vi-gavotte-ii/354034192
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 102
+  - id: s-njzr5vu
+    work: bwv-808
+    movement: VII. Gigue
+    recording: perahia-english-suites-1-3-6
+    title: 'English Suite No. 3 in G minor, BWV 808: VII. Gigue'
+    credits: Murray Perahia
+    duration: 165
+    apple_music:
+      song_id: '354034319'
+      url: https://music.apple.com/us/song/english-suite-no-3-in-g-minor-bwv-808-vii-gigue/354034319
+      album_url: https://music.apple.com/us/album/english-suite-no-3-in-g-minor-bwv-808-vii-gigue/354034192
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 103
+  - id: s-gjg7dnk
+    work: bwv-809
+    movement: I. Prélude
+    recording: perahia-english-suites-2-4-5
+    title: 'English Suite No. 4 in F Major, BWV 809: I. Prélude'
+    credits: Murray Perahia
+    duration: 268
+    apple_music:
+      song_id: '158519979'
+      url: https://music.apple.com/us/song/english-suite-no-4-in-f-major-bwv-809-i-pr%C3%A9lude/158519979
+      album_url: https://music.apple.com/us/album/english-suite-no-4-in-f-major-bwv-809-i-pr%C3%A9lude/158519795
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 104
+  - id: s-qoy36gd
+    work: bwv-809
+    movement: II. Allemande
+    recording: perahia-english-suites-2-4-5
+    title: 'English Suite No. 4 in F Major, BWV 809: II. Allemande'
+    credits: Murray Perahia
+    duration: 222
+    apple_music:
+      song_id: '158520044'
+      url: https://music.apple.com/us/song/english-suite-no-4-in-f-major-bwv-809-ii-allemande/158520044
+      album_url: https://music.apple.com/us/album/english-suite-no-4-in-f-major-bwv-809-ii-allemande/158519795
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 105
+  - id: s-nmhqepi
+    work: bwv-809
+    movement: III. Courante
+    recording: perahia-english-suites-2-4-5
+    title: 'English Suite No. 4 in F Major, BWV 809: III. Courante'
+    credits: Murray Perahia
+    duration: 85
+    apple_music:
+      song_id: '158520071'
+      url: https://music.apple.com/us/song/english-suite-no-4-in-f-major-bwv-809-iii-courante/158520071
+      album_url: https://music.apple.com/us/album/english-suite-no-4-in-f-major-bwv-809-iii-courante/158519795
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 106
+  - id: s-ylbc3wy
+    work: bwv-809
+    movement: IV. Sarabande
+    recording: perahia-english-suites-2-4-5
+    title: 'English Suite No. 4 in F Major, BWV 809: IV. Sarabande'
+    credits: Murray Perahia
+    duration: 208
+    apple_music:
+      song_id: '158520087'
+      url: https://music.apple.com/us/song/english-suite-no-4-in-f-major-bwv-809-iv-sarabande/158520087
+      album_url: https://music.apple.com/us/album/english-suite-no-4-in-f-major-bwv-809-iv-sarabande/158519795
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 107
+  - id: s-tcde7zb
+    work: bwv-809
+    movement: V. Menuett I
+    recording: perahia-english-suites-2-4-5
+    title: 'English Suite No. 4 in F Major, BWV 809: V. Menuett I'
+    credits: Murray Perahia
+    duration: 77
+    apple_music:
+      song_id: '158520109'
+      url: https://music.apple.com/us/song/english-suite-no-4-in-f-major-bwv-809-v-menuett-i/158520109
+      album_url: https://music.apple.com/us/album/english-suite-no-4-in-f-major-bwv-809-v-menuett-i/158519795
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 108
+  - id: s-ji4yzsp
+    work: bwv-809
+    movement: VI. Menuett II
+    recording: perahia-english-suites-2-4-5
+    title: 'English Suite No. 4 in F Major, BWV 809: VI. Menuett II'
+    credits: Murray Perahia
+    duration: 122
+    apple_music:
+      song_id: '158520343'
+      url: https://music.apple.com/us/song/english-suite-no-4-in-f-major-bwv-809-vi-menuett-ii/158520343
+      album_url: https://music.apple.com/us/album/english-suite-no-4-in-f-major-bwv-809-vi-menuett-ii/158519795
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 109
+  - id: s-6ne7764
+    work: bwv-809
+    movement: VII. Gigue
+    recording: perahia-english-suites-2-4-5
+    title: 'English Suite No. 4 in F Major, BWV 809: VII. Gigue'
+    credits: Murray Perahia
+    duration: 190
+    apple_music:
+      song_id: '158520363'
+      url: https://music.apple.com/us/song/english-suite-no-4-in-f-major-bwv-809-vii-gigue/158520363
+      album_url: https://music.apple.com/us/album/english-suite-no-4-in-f-major-bwv-809-vii-gigue/158519795
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 110
+  - id: s-6htq3jf
+    work: bwv-810
+    movement: I. Prélude
+    recording: perahia-english-suites-2-4-5
+    title: 'English Suite No. 5 in E Minor, BWV 810: I. Prélude'
+    credits: Murray Perahia
+    duration: 311
+    apple_music:
+      song_id: '158520379'
+      url: https://music.apple.com/us/song/english-suite-no-5-in-e-minor-bwv-810-i-pr%C3%A9lude/158520379
+      album_url: https://music.apple.com/us/album/english-suite-no-5-in-e-minor-bwv-810-i-pr%C3%A9lude/158519795
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 111
+  - id: s-xmg7omd
+    work: bwv-810
+    movement: II. Allemande
+    recording: perahia-english-suites-2-4-5
+    title: 'English Suite No. 5 in E Minor, BWV 810: II. Allemande'
+    credits: Murray Perahia
+    duration: 238
+    apple_music:
+      song_id: '158520532'
+      url: https://music.apple.com/us/song/english-suite-no-5-in-e-minor-bwv-810-ii-allemande/158520532
+      album_url: https://music.apple.com/us/album/english-suite-no-5-in-e-minor-bwv-810-ii-allemande/158519795
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 112
+  - id: s-uhegmud
+    work: bwv-810
+    movement: III. Courante
+    recording: perahia-english-suites-2-4-5
+    title: 'English Suite No. 5 in E Minor, BWV 810: III. Courante'
+    credits: Murray Perahia
+    duration: 110
+    apple_music:
+      song_id: '158520808'
+      url: https://music.apple.com/us/song/english-suite-no-5-in-e-minor-bwv-810-iii-courante/158520808
+      album_url: https://music.apple.com/us/album/english-suite-no-5-in-e-minor-bwv-810-iii-courante/158519795
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 113
+  - id: s-fx7tehd
+    work: bwv-810
+    movement: IV. Sarabande
+    recording: perahia-english-suites-2-4-5
+    title: 'English Suite No. 5 in E Minor, BWV 810: IV. Sarabande'
+    credits: Murray Perahia
+    duration: 214
+    apple_music:
+      song_id: '158520836'
+      url: https://music.apple.com/us/song/english-suite-no-5-in-e-minor-bwv-810-iv-sarabande/158520836
+      album_url: https://music.apple.com/us/album/english-suite-no-5-in-e-minor-bwv-810-iv-sarabande/158519795
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 114
+  - id: s-sgqofb3
+    work: bwv-810
+    movement: V. Passepied I (en Rondeau)
+    recording: perahia-english-suites-2-4-5
+    title: 'English Suite No. 5 in E Minor, BWV 810: V. Passepied I (en Rondeau)'
+    credits: Murray Perahia
+    duration: 66
+    apple_music:
+      song_id: '158520861'
+      url: https://music.apple.com/us/song/english-suite-no-5-in-e-minor-bwv-810-v-passepied-i-en-rondeau/158520861
+      album_url: https://music.apple.com/us/album/english-suite-no-5-in-e-minor-bwv-810-v-passepied-i-en-rondeau/158519795
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 115
+  - id: s-2wi5cdp
+    work: bwv-810
+    movement: VI. Passepied II
+    recording: perahia-english-suites-2-4-5
+    title: 'English Suite No. 5 in E Minor, BWV 810: VI. Passepied II'
+    credits: Murray Perahia
+    duration: 113
+    apple_music:
+      song_id: '158520874'
+      url: https://music.apple.com/us/song/english-suite-no-5-in-e-minor-bwv-810-vi-passepied-ii/158520874
+      album_url: https://music.apple.com/us/album/english-suite-no-5-in-e-minor-bwv-810-vi-passepied-ii/158519795
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 116
+  - id: s-m62q66d
+    work: bwv-810
+    movement: VII. Gigue
+    recording: perahia-english-suites-2-4-5
+    title: 'English Suite No. 5 in E Minor, BWV 810: VII. Gigue'
+    credits: Murray Perahia
+    duration: 181
+    apple_music:
+      song_id: '158520889'
+      url: https://music.apple.com/us/song/english-suite-no-5-in-e-minor-bwv-810-vii-gigue/158520889
+      album_url: https://music.apple.com/us/album/english-suite-no-5-in-e-minor-bwv-810-vii-gigue/158519795
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 117
+  - id: s-3ptqkt2
+    work: bwv-811
+    movement: I. Prélude; Allegro
+    recording: perahia-english-suites-1-3-6
+    title: 'English Suite No. 6 in D minor, BWV 811: I. Prélude; Allegro'
+    credits: Murray Perahia
+    duration: 416
+    apple_music:
+      song_id: '354034508'
+      url: https://music.apple.com/us/song/english-suite-no-6-in-d-minor-bwv-811-i-pr%C3%A9lude-allegro/354034508
+      album_url: https://music.apple.com/us/album/english-suite-no-6-in-d-minor-bwv-811-i-pr%C3%A9lude-allegro/354034192
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 118
+  - id: s-wlcfwhn
+    work: bwv-811
+    movement: II. Allemande
+    recording: perahia-english-suites-1-3-6
+    title: 'English Suite No. 6 in D minor, BWV 811: II. Allemande'
+    credits: Murray Perahia
+    duration: 227
+    apple_music:
+      song_id: '354034616'
+      url: https://music.apple.com/us/song/english-suite-no-6-in-d-minor-bwv-811-ii-allemande/354034616
+      album_url: https://music.apple.com/us/album/english-suite-no-6-in-d-minor-bwv-811-ii-allemande/354034192
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 119
+  - id: s-xcsjaui
+    work: bwv-811
+    movement: III. Courante
+    recording: perahia-english-suites-1-3-6
+    title: 'English Suite No. 6 in D minor, BWV 811: III. Courante'
+    credits: Murray Perahia
+    duration: 124
+    apple_music:
+      song_id: '354034645'
+      url: https://music.apple.com/us/song/english-suite-no-6-in-d-minor-bwv-811-iii-courante/354034645
+      album_url: https://music.apple.com/us/album/english-suite-no-6-in-d-minor-bwv-811-iii-courante/354034192
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 120
+  - id: s-5fx5pac
+    work: bwv-811
+    movement: IV. Sarabande - IVa. Double
+    recording: perahia-english-suites-1-3-6
+    title: 'English Suite No. 6 in D minor, BWV 811: IV. Sarabande - IVa. Double'
+    credits: Murray Perahia
+    duration: 269
+    apple_music:
+      song_id: '354034692'
+      url: https://music.apple.com/us/song/english-suite-no-6-in-d-minor-bwv-811-iv-sarabande-iva-double/354034692
+      album_url: https://music.apple.com/us/album/english-suite-no-6-in-d-minor-bwv-811-iv-sarabande-iva-double/354034192
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 121
+  - id: s-wmuqjtm
+    work: bwv-811
+    movement: V. Gavotte I
+    recording: perahia-english-suites-1-3-6
+    title: 'English Suite No. 6 in D minor, BWV 811: V. Gavotte I'
+    credits: Murray Perahia
+    duration: 96
+    apple_music:
+      song_id: '354034736'
+      url: https://music.apple.com/us/song/english-suite-no-6-in-d-minor-bwv-811-v-gavotte-i/354034736
+      album_url: https://music.apple.com/us/album/english-suite-no-6-in-d-minor-bwv-811-v-gavotte-i/354034192
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 122
+  - id: s-wflbmjk
+    work: bwv-811
+    movement: VI. Gavotte II
+    recording: perahia-english-suites-1-3-6
+    title: 'English Suite No. 6 in D minor, BWV 811: VI. Gavotte II'
+    credits: Murray Perahia
+    duration: 130
+    apple_music:
+      song_id: '354034784'
+      url: https://music.apple.com/us/song/english-suite-no-6-in-d-minor-bwv-811-vi-gavotte-ii/354034784
+      album_url: https://music.apple.com/us/album/english-suite-no-6-in-d-minor-bwv-811-vi-gavotte-ii/354034192
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 123
+  - id: s-wbonfss
+    work: bwv-811
+    movement: VII. Gigue
+    recording: perahia-english-suites-1-3-6
+    title: 'English Suite No. 6 in D minor, BWV 811: VII. Gigue'
+    credits: Murray Perahia
+    duration: 187
+    apple_music:
+      song_id: '354034834'
+      url: https://music.apple.com/us/song/english-suite-no-6-in-d-minor-bwv-811-vii-gigue/354034834
+      album_url: https://music.apple.com/us/album/english-suite-no-6-in-d-minor-bwv-811-vii-gigue/354034192
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 124

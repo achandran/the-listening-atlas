@@ -1,0 +1,53 @@
+id: bach-cantabile-harmony
+title: 'Bach: Cantabile & Harmony'
+subtitle: Eleven hearing stages
+composers:
+  - Johann Sebastian Bach
+volume_principle: Cantabile — making the musical line sing — is this volume's way into Bach's musical relationships. It is specific to this Bach volume, not a rule for the Atlas.
+epigraph: Cantabile is the way we come to hear Truth in Bach.
+lead: 'Truth is heard in relationships: bass, harmony, rhythm, voice-leading, counterpoint, phrase and form. Every voice must be capable of singing. The recordings are listening lenses, not authorities.'
+how_to_listen:
+  - First hear the work without interruption. On the next hearing, follow the score or text; sing a voice, then follow the bass, cadences, entrances and returns. Record one specific audible event, not simply whether the performance felt expressive.
+  - Use the stage question as an inquiry, not an exam. At the piano, sing one voice while playing another. Beauty is not pursued directly; it emerges when the musical relationships are heard clearly.
+vision:
+  - 'The purpose of this guide is not to collect beautiful performances, but to cultivate truthful hearing. Truth means the relationships from which Bach’s expression arises: bass, harmony, voice-leading, rhythm, phrase, counterpoint, proportion, form, and transformation. Cantabile—making the musical line sing—is our way into those relationships. Singing is not an imposed sentiment or an instruction to make every note lyrical in the same way. Every voice must be capable of singing, even when one voice rightly stands in the foreground.'
+  - The chosen recordings are listening lenses, not authorities. They are selected for how clearly they reveal musical causes. Tone, touch, articulation, tempo, and instrumental color are structural means, not decorative ends. Beauty emerges when the relationships are not obscured. Listen first for why the music moves, then for how it moves you.
+how_to_use:
+  - Follow the stages in order, but do not rush. Some stages contain complete cycles and large vocal works; they invite return visits.
+  - Listen first without interruption. On a second hearing, follow the score and, for vocal works, a translation. Track the bass, cadences, entrances, meter and large-scale returns.
+  - Sing one line, even imperfectly. At the keyboard, play a different line while singing the first. Listen for the harmony and rhythmic necessity connecting them.
+  - 'Use each stage’s question as an inquiry, not an exam. Write down one concrete event you heard: a bass turn, suspension, entrance, cadence, changed return or formal proportion.'
+  - Compare performances only after identifying what the composition asks to be heard. The curated artists provide a starting point, not a final verdict.
+  - For each stage, complete the listening experiment before moving on. The goal is a more discriminating ear, not the completion of a checklist.
+beyond_the_sequence:
+  - The stages are cumulative rather than exclusive. In a fugue, hear Ground, Breath, Motion, Line, Rhetoric, Exchange and Span at once. In a Passion, hear the words as inseparable from harmonic and contrapuntal causes. In the final contrapuntal works, let the relationships themselves sing. Return to the opening Minuet after the final chorale; the first question should sound different.
+public_playlist_url: https://music.apple.com/us/playlist/bach/pl.u-kv9lRpvs7v0a9Yb
+public_playlist_note: Public reference only; not proof that this data and the live playlist are identical.
+default_work_focus: Follow the stage question through the complete work. Notice a change of relationship between voices, harmony or rhythm; test it by singing one line.
+journal_placeholder: What exactly did you hear? Name a bass turn, cadence, entrance, suspension or return…
+fallback_prompts:
+  - match: fugue|fuga|contrapunctus
+    prompt: Follow one subject entry, then sing a different voice. What makes the voices belong together?
+  - match: sarabande|allemande|courante|gigue|menuet|gavotte|bourr[eé]e
+    prompt: Feel the dance pulse; locate one point where the singing phrase leans against the meter.
+  - match: aria|choral|chorale|chorus|recitative
+    prompt: Listen for the phrase’s breath, harmonic tension and cadence; follow the words if sung.
+  - match: prelude|pr[eé]lude
+    prompt: Trace the bass and harmonic direction. What does the figuration make audible?
+  - match: variation|var\.
+    prompt: Hear what changes and what remains recognizable in the underlying pattern.
+stage_files:
+  - selections/01-ground.yaml
+  - selections/02-breath.yaml
+  - selections/03-motion.yaml
+  - selections/04-line.yaml
+  - selections/05-rhetoric.yaml
+  - selections/06-exchange.yaml
+  - selections/07-span.yaml
+  - selections/08-order.yaml
+  - selections/09-transformation.yaml
+  - selections/10-convergence.yaml
+  - selections/11-essence.yaml
+legacy:
+  journal_storage_key: bachCantabileJournal
+  journal_keyed_by: master-669

@@ -1,0 +1,2231 @@
+# Stage 10 · Convergence — playlist order is the order of this list.
+# To move a selection, move its whole block. Never reuse or renumber `id` values.
+stage: convergence
+selections:
+  - id: s-lpm5tun
+    work: bwv-245
+    movement: I. Herr, unser Herrscher (Chorus)
+    recording: herreweghe-st-john-passion
+    title: I. Herr, unser Herrscher (Chorus)
+    credits: Collegium Vocale Gent; Philippe Herreweghe
+    duration: 559
+    apple_music:
+      song_id: '1572120760'
+      url: https://music.apple.com/us/song/johannes-passion-bwv-245-pt-1-i-herr-unser-herrscher-chorus/1572120760
+      album_url: https://music.apple.com/us/album/johannes-passion-bwv-245-pt-1-i-herr-unser-herrscher-chorus/1572120521
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 498
+      work_inferred_from: apple_music_url
+  - id: s-pwnhydo
+    work: bwv-245
+    movement: II. Jesus ging mit seinen Jüngern (Recitative)
+    recording: herreweghe-st-john-passion
+    title: II. Jesus ging mit seinen Jüngern (Recitative)
+    credits: Collegium Vocale Gent; Philippe Herreweghe; Maximilian Schmitt; Krešimir Stražanac
+    duration: 143
+    apple_music:
+      song_id: '1572120761'
+      url: https://music.apple.com/us/song/johannes-passion-bwv-245-pt-1-ii-jesus-ging-mit-seinen/1572120761
+      album_url: https://music.apple.com/us/album/johannes-passion-bwv-245-pt-1-ii-jesus-ging-mit-seinen/1572120521
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 499
+      work_inferred_from: apple_music_url
+  - id: s-y3kokvg
+    work: bwv-245
+    movement: III. O große Lieb (Chorale)
+    recording: herreweghe-st-john-passion
+    title: III. O große Lieb (Chorale)
+    credits: Collegium Vocale Gent; Philippe Herreweghe
+    duration: 44
+    apple_music:
+      song_id: '1572120762'
+      url: https://music.apple.com/us/song/johannes-passion-bwv-245-pt-1-iii-o-gro%C3%9Fe-lieb-chorale/1572120762
+      album_url: https://music.apple.com/us/album/johannes-passion-bwv-245-pt-1-iii-o-gro%C3%9Fe-lieb-chorale/1572120521
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 500
+      work_inferred_from: apple_music_url
+  - id: s-k4np74k
+    work: bwv-245
+    movement: IV. Auf dass das Wort (Recitative)
+    recording: herreweghe-st-john-passion
+    title: IV. Auf dass das Wort (Recitative)
+    credits: Collegium Vocale Gent; Philippe Herreweghe; Maximilian Schmitt; Krešimir Stražanac
+    duration: 58
+    apple_music:
+      song_id: '1572120763'
+      url: https://music.apple.com/us/song/johannes-passion-bwv-245-pt-1-iv-auf-dass-das-wort-recitative/1572120763
+      album_url: https://music.apple.com/us/album/johannes-passion-bwv-245-pt-1-iv-auf-dass-das-wort-recitative/1572120521
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 501
+      work_inferred_from: apple_music_url
+  - id: s-liwnkym
+    work: bwv-245
+    movement: V. Dein Will gescheh, Herr Gott (Chorale)
+    recording: herreweghe-st-john-passion
+    title: V. Dein Will gescheh, Herr Gott (Chorale)
+    credits: Collegium Vocale Gent; Philippe Herreweghe
+    duration: 45
+    apple_music:
+      song_id: '1572120764'
+      url: https://music.apple.com/us/song/johannes-passion-bwv-245-pt-1-v-dein-will-gescheh-herr/1572120764
+      album_url: https://music.apple.com/us/album/johannes-passion-bwv-245-pt-1-v-dein-will-gescheh-herr/1572120521
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 502
+      work_inferred_from: apple_music_url
+  - id: s-lrf2ah2
+    work: bwv-245
+    movement: VI. Die Schar aber (Recitative)
+    recording: herreweghe-st-john-passion
+    title: VI. Die Schar aber (Recitative)
+    credits: Collegium Vocale Gent; Philippe Herreweghe; Maximilian Schmitt
+    duration: 42
+    apple_music:
+      song_id: '1572120765'
+      url: https://music.apple.com/us/song/johannes-passion-bwv-245-pt-1-vi-die-schar-aber-recitative/1572120765
+      album_url: https://music.apple.com/us/album/johannes-passion-bwv-245-pt-1-vi-die-schar-aber-recitative/1572120521
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 503
+      work_inferred_from: apple_music_url
+  - id: s-nwcqsgn
+    work: bwv-245
+    movement: VII. Von den Stricken meiner Sünden (Aria)
+    recording: herreweghe-st-john-passion
+    title: VII. Von den Stricken meiner Sünden (Aria)
+    credits: Collegium Vocale Gent; Philippe Herreweghe; Damien Guillon
+    duration: 272
+    apple_music:
+      song_id: '1572120766'
+      url: https://music.apple.com/us/song/johannes-passion-bwv-245-pt-1-vii-von-den-stricken/1572120766
+      album_url: https://music.apple.com/us/album/johannes-passion-bwv-245-pt-1-vii-von-den-stricken/1572120521
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 504
+      work_inferred_from: apple_music_url
+  - id: s-dqssnqh
+    work: bwv-245
+    movement: VIII. Simon Petrus aber folgete Jesu nach (Recitative)
+    recording: herreweghe-st-john-passion
+    title: VIII. Simon Petrus aber folgete Jesu nach (Recitative)
+    credits: Collegium Vocale Gent; Philippe Herreweghe; Maximilian Schmitt
+    duration: 13
+    apple_music:
+      song_id: '1572120767'
+      url: https://music.apple.com/us/song/johannes-passion-bwv-245-pt-1-viii-simon-petrus-aber/1572120767
+      album_url: https://music.apple.com/us/album/johannes-passion-bwv-245-pt-1-viii-simon-petrus-aber/1572120521
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 505
+      work_inferred_from: apple_music_url
+  - id: s-sdgadab
+    work: bwv-245
+    movement: IX. Ich folge dir gleichfalls (Aria)
+    recording: herreweghe-st-john-passion
+    title: IX. Ich folge dir gleichfalls (Aria)
+    credits: Collegium Vocale Gent; Philippe Herreweghe; Dorothee Mields
+    duration: 223
+    apple_music:
+      song_id: '1572120768'
+      url: https://music.apple.com/us/song/johannes-passion-bwv-245-pt-1-ix-ich-folge-dir-gleichfalls/1572120768
+      album_url: https://music.apple.com/us/album/johannes-passion-bwv-245-pt-1-ix-ich-folge-dir-gleichfalls/1572120521
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 506
+      work_inferred_from: apple_music_url
+  - id: s-p4jo4v6
+    work: bwv-245
+    movement: X. Derselbige Jünger (Recitative)
+    recording: herreweghe-st-john-passion
+    title: X. Derselbige Jünger (Recitative)
+    credits: Collegium Vocale Gent; Philippe Herreweghe; Maximilian Schmitt; Magdalena Podkoscielna; Philipp Kaven; Krešimir Stražanac; Stephan Gähler
+    duration: 163
+    apple_music:
+      song_id: '1572120769'
+      url: https://music.apple.com/us/song/johannes-passion-bwv-245-pt-1-x-derselbige-ju-nger/1572120769
+      album_url: https://music.apple.com/us/album/johannes-passion-bwv-245-pt-1-x-derselbige-ju-nger/1572120521
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 507
+      work_inferred_from: apple_music_url
+  - id: s-f2ydhhu
+    work: bwv-245
+    movement: XI. Wer hat dich so geschlagen (Chorale)
+    recording: herreweghe-st-john-passion
+    title: XI. Wer hat dich so geschlagen (Chorale)
+    credits: Collegium Vocale Gent; Philippe Herreweghe
+    duration: 86
+    apple_music:
+      song_id: '1572120770'
+      url: https://music.apple.com/us/song/johannes-passion-bwv-245-pt-1-xi-wer-hat-dich-so-geschlagen/1572120770
+      album_url: https://music.apple.com/us/album/johannes-passion-bwv-245-pt-1-xi-wer-hat-dich-so-geschlagen/1572120521
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 508
+      work_inferred_from: apple_music_url
+  - id: s-rewhxmx
+    work: bwv-245
+    movement: XII. Und Hannas sandte ihn gebunden (Recitative)
+    recording: herreweghe-st-john-passion
+    title: XII. Und Hannas sandte ihn gebunden (Recitative)
+    credits: Collegium Vocale Gent; Philippe Herreweghe; Maximilian Schmitt; Philipp Kaven; Stephan Gähler
+    duration: 122
+    apple_music:
+      song_id: '1572120771'
+      url: https://music.apple.com/us/song/johannes-passion-bwv-245-pt-1-xii-und-hannas-sandte/1572120771
+      album_url: https://music.apple.com/us/album/johannes-passion-bwv-245-pt-1-xii-und-hannas-sandte/1572120521
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 509
+      work_inferred_from: apple_music_url
+  - id: s-mbwomyp
+    work: bwv-245
+    movement: XIII. Ach, mein Sinn (Aria)
+    recording: herreweghe-st-john-passion
+    title: XIII. Ach, mein Sinn (Aria)
+    credits: Collegium Vocale Gent; Philippe Herreweghe; Robin Tritschler
+    duration: 158
+    apple_music:
+      song_id: '1572120772'
+      url: https://music.apple.com/us/song/johannes-passion-bwv-245-pt-1-xiii-ach-mein-sinn-aria/1572120772
+      album_url: https://music.apple.com/us/album/johannes-passion-bwv-245-pt-1-xiii-ach-mein-sinn-aria/1572120521
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 510
+      work_inferred_from: apple_music_url
+  - id: s-wjaylcr
+    work: bwv-245
+    movement: XIV. Petrus, der nicht denkt zurück (Chorale)
+    recording: herreweghe-st-john-passion
+    title: XIV. Petrus, der nicht denkt zurück (Chorale)
+    credits: Collegium Vocale Gent; Philippe Herreweghe
+    duration: 71
+    apple_music:
+      song_id: '1572120773'
+      url: https://music.apple.com/us/song/johannes-passion-bwv-245-pt-1-xiv-petrus-der-nicht/1572120773
+      album_url: https://music.apple.com/us/album/johannes-passion-bwv-245-pt-1-xiv-petrus-der-nicht/1572120521
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 511
+      work_inferred_from: apple_music_url
+  - id: s-lhyp2bh
+    work: bwv-245
+    movement: XV. Christus, der uns selig macht (Chorale)
+    recording: herreweghe-st-john-passion
+    title: XV. Christus, der uns selig macht (Chorale)
+    credits: Collegium Vocale Gent; Philippe Herreweghe
+    duration: 60
+    apple_music:
+      song_id: '1572120523'
+      url: https://music.apple.com/us/song/johannes-passion-bwv-245-pt-2-xv-christus-der-uns-selig/1572120523
+      album_url: https://music.apple.com/us/album/johannes-passion-bwv-245-pt-2-xv-christus-der-uns-selig/1572120521
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 512
+      work_inferred_from: apple_music_url
+  - id: s-zeoyi4c
+    work: bwv-245
+    movement: XVI. Da führeten sie Jesum (Recitative)
+    recording: herreweghe-st-john-passion
+    title: XVI. Da führeten sie Jesum (Recitative)
+    credits: Collegium Vocale Gent; Philippe Herreweghe; Maximilian Schmitt; Peter Kooij; Krešimir Stražanac
+    duration: 250
+    apple_music:
+      song_id: '1572120524'
+      url: https://music.apple.com/us/song/johannes-passion-bwv-245-pt-2-xvi-da-fu-hreten-sie/1572120524
+      album_url: https://music.apple.com/us/album/johannes-passion-bwv-245-pt-2-xvi-da-fu-hreten-sie/1572120521
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 513
+      work_inferred_from: apple_music_url
+  - id: s-mlbtno4
+    work: bwv-245
+    movement: XVII. Ach großer König (Chorale)
+    recording: herreweghe-st-john-passion
+    title: XVII. Ach großer König (Chorale)
+    credits: Collegium Vocale Gent; Philippe Herreweghe
+    duration: 85
+    apple_music:
+      song_id: '1572120525'
+      url: https://music.apple.com/us/song/johannes-passion-bwv-245-pt-2-xvii-ach-gro%C3%9Fer-k%C3%B6nig-chorale/1572120525
+      album_url: https://music.apple.com/us/album/johannes-passion-bwv-245-pt-2-xvii-ach-gro%C3%9Fer-k%C3%B6nig-chorale/1572120521
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 514
+      work_inferred_from: apple_music_url
+  - id: s-kdtcmov
+    work: bwv-245
+    movement: XVIII. Da sprach Pilatus zu ihm (Recitative)
+    recording: herreweghe-st-john-passion
+    title: XVIII. Da sprach Pilatus zu ihm (Recitative)
+    credits: Collegium Vocale Gent; Philippe Herreweghe; Maximilian Schmitt; Peter Kooij; Krešimir Stražanac
+    duration: 113
+    apple_music:
+      song_id: '1572120526'
+      url: https://music.apple.com/us/song/johannes-passion-bwv-245-pt-2-xviii-da-sprach-pilatus/1572120526
+      album_url: https://music.apple.com/us/album/johannes-passion-bwv-245-pt-2-xviii-da-sprach-pilatus/1572120521
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 515
+      work_inferred_from: apple_music_url
+  - id: s-6mvisyr
+    work: bwv-245
+    movement: XIX. Betrachte, meine Seel (Arioso)
+    recording: herreweghe-st-john-passion
+    title: XIX. Betrachte, meine Seel (Arioso)
+    credits: Collegium Vocale Gent; Philippe Herreweghe; Peter Kooij
+    duration: 124
+    apple_music:
+      song_id: '1572120527'
+      url: https://music.apple.com/us/song/johannes-passion-bwv-245-pt-2-xix-betrachte-meine-seel/1572120527
+      album_url: https://music.apple.com/us/album/johannes-passion-bwv-245-pt-2-xix-betrachte-meine-seel/1572120521
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 516
+      work_inferred_from: apple_music_url
+  - id: s-gxkhn4q
+    work: bwv-245
+    movement: XX. Erwäge, wie sein blutgefärbter Rücken (Aria)
+    recording: herreweghe-st-john-passion
+    title: XX. Erwäge, wie sein blutgefärbter Rücken (Aria)
+    credits: Collegium Vocale Gent; Philippe Herreweghe; Robin Tritschler
+    duration: 455
+    apple_music:
+      song_id: '1572120528'
+      url: https://music.apple.com/us/song/johannes-passion-bwv-245-pt-2-xx-erw%C3%A4ge-wie-sein-blutgef%C3%A4rbter/1572120528
+      album_url: https://music.apple.com/us/album/johannes-passion-bwv-245-pt-2-xx-erw%C3%A4ge-wie-sein-blutgef%C3%A4rbter/1572120521
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 517
+      work_inferred_from: apple_music_url
+  - id: s-lzaikxl
+    work: bwv-245
+    movement: XXI. Und die Kriegsknechte flochten (Recitative)
+    recording: herreweghe-st-john-passion
+    title: XXI. Und die Kriegsknechte flochten (Recitative)
+    credits: Collegium Vocale Gent; Philippe Herreweghe; Maximilian Schmitt; Peter Kooij; Krešimir Stražanac
+    duration: 340
+    apple_music:
+      song_id: '1572120529'
+      url: https://music.apple.com/us/song/johannes-passion-bwv-245-pt-2-xxi-und-die-kriegsknechte/1572120529
+      album_url: https://music.apple.com/us/album/johannes-passion-bwv-245-pt-2-xxi-und-die-kriegsknechte/1572120521
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 518
+      work_inferred_from: apple_music_url
+  - id: s-sket7kh
+    work: bwv-245
+    movement: XXII. Durch dein Gefängnis, Gottes Sohn (Chorale)
+    recording: herreweghe-st-john-passion
+    title: XXII. Durch dein Gefängnis, Gottes Sohn (Chorale)
+    credits: Collegium Vocale Gent; Philippe Herreweghe
+    duration: 52
+    apple_music:
+      song_id: '1572120530'
+      url: https://music.apple.com/us/song/johannes-passion-bwv-245-pt-2-xxii-durch-dein-gef%C3%A4ngnis/1572120530
+      album_url: https://music.apple.com/us/album/johannes-passion-bwv-245-pt-2-xxii-durch-dein-gef%C3%A4ngnis/1572120521
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 519
+      work_inferred_from: apple_music_url
+  - id: s-3b6hnif
+    work: bwv-245
+    movement: XXIII. Die Jüden aber schrieen (Recitative)
+    recording: herreweghe-st-john-passion
+    title: XXIII. Die Jüden aber schrieen (Recitative)
+    credits: Collegium Vocale Gent; Philippe Herreweghe; Maximilian Schmitt; Peter Kooij
+    duration: 255
+    apple_music:
+      song_id: '1572120531'
+      url: https://music.apple.com/us/song/johannes-passion-bwv-245-pt-2-xxiii-die-ju-den-aber/1572120531
+      album_url: https://music.apple.com/us/album/johannes-passion-bwv-245-pt-2-xxiii-die-ju-den-aber/1572120521
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 520
+      work_inferred_from: apple_music_url
+  - id: s-zzrnb3m
+    work: bwv-245
+    movement: XXIV. Eilt, ihr angefochtnen Seelen (Aria and Chorus)
+    recording: herreweghe-st-john-passion
+    title: XXIV. Eilt, ihr angefochtnen Seelen (Aria and Chorus)
+    credits: Collegium Vocale Gent; Philippe Herreweghe; Peter Kooij
+    duration: 236
+    apple_music:
+      song_id: '1572120532'
+      url: https://music.apple.com/us/song/johannes-passion-bwv-245-pt-2-xxiv-eilt-ihr-angefochtnen/1572120532
+      album_url: https://music.apple.com/us/album/johannes-passion-bwv-245-pt-2-xxiv-eilt-ihr-angefochtnen/1572120521
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 521
+      work_inferred_from: apple_music_url
+  - id: s-jdrwzrf
+    work: bwv-245
+    movement: XXV. Allda kreuzigten sie ihn (Recitative)
+    recording: herreweghe-st-john-passion
+    title: XXV. Allda kreuzigten sie ihn (Recitative)
+    credits: Collegium Vocale Gent; Philippe Herreweghe; Maximilian Schmitt; Peter Kooij
+    duration: 119
+    apple_music:
+      song_id: '1572120533'
+      url: https://music.apple.com/us/song/johannes-passion-bwv-245-pt-2-xxv-allda-kreuzigten/1572120533
+      album_url: https://music.apple.com/us/album/johannes-passion-bwv-245-pt-2-xxv-allda-kreuzigten/1572120521
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 522
+      work_inferred_from: apple_music_url
+  - id: s-wbc7sxb
+    work: bwv-245
+    movement: XXVI. In meines Herzens Grunde (Chorale)
+    recording: herreweghe-st-john-passion
+    title: XXVI. In meines Herzens Grunde (Chorale)
+    credits: Collegium Vocale Gent; Philippe Herreweghe
+    duration: 52
+    apple_music:
+      song_id: '1572120534'
+      url: https://music.apple.com/us/song/johannes-passion-bwv-245-pt-2-xxvi-in-meines-herzens/1572120534
+      album_url: https://music.apple.com/us/album/johannes-passion-bwv-245-pt-2-xxvi-in-meines-herzens/1572120521
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 523
+      work_inferred_from: apple_music_url
+  - id: s-aopyzsb
+    work: bwv-245
+    movement: XXVII. Die Kriegsknechte aber (Recitative)
+    recording: herreweghe-st-john-passion
+    title: XXVII. Die Kriegsknechte aber (Recitative)
+    credits: Collegium Vocale Gent; Philippe Herreweghe; Maximilian Schmitt; Krešimir Stražanac
+    duration: 210
+    apple_music:
+      song_id: '1572120535'
+      url: https://music.apple.com/us/song/johannes-passion-bwv-245-pt-2-xxvii-die-kriegsknechte/1572120535
+      album_url: https://music.apple.com/us/album/johannes-passion-bwv-245-pt-2-xxvii-die-kriegsknechte/1572120521
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 524
+      work_inferred_from: apple_music_url
+  - id: s-7wf7gp2
+    work: bwv-245
+    movement: XXVIII. Er nahm alles wohl in acht (Chorale)
+    recording: herreweghe-st-john-passion
+    title: XXVIII. Er nahm alles wohl in acht (Chorale)
+    credits: Collegium Vocale Gent; Philippe Herreweghe
+    duration: 64
+    apple_music:
+      song_id: '1572120536'
+      url: https://music.apple.com/us/song/johannes-passion-bwv-245-pt-2-xxviii-er-nahm-alles/1572120536
+      album_url: https://music.apple.com/us/album/johannes-passion-bwv-245-pt-2-xxviii-er-nahm-alles/1572120521
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 525
+      work_inferred_from: apple_music_url
+  - id: s-bdh6uhn
+    work: bwv-245
+    movement: XXIX. Und von Stund (Recitative)
+    recording: herreweghe-st-john-passion
+    title: XXIX. Und von Stund (Recitative)
+    credits: Collegium Vocale Gent; Philippe Herreweghe; Maximilian Schmitt; Krešimir Stražanac
+    duration: 76
+    apple_music:
+      song_id: '1572120537'
+      url: https://music.apple.com/us/song/johannes-passion-bwv-245-pt-2-xxix-und-von-stund-recitative/1572120537
+      album_url: https://music.apple.com/us/album/johannes-passion-bwv-245-pt-2-xxix-und-von-stund-recitative/1572120521
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 526
+      work_inferred_from: apple_music_url
+  - id: s-5c5w5jz
+    work: bwv-245
+    movement: XXX. Es ist vollbracht! (Aria)
+    recording: herreweghe-st-john-passion
+    title: XXX. Es ist vollbracht! (Aria)
+    credits: Collegium Vocale Gent; Philippe Herreweghe; Damien Guillon
+    duration: 285
+    apple_music:
+      song_id: '1572120538'
+      url: https://music.apple.com/us/song/johannes-passion-bwv-245-pt-2-xxx-es-ist-vollbracht-aria/1572120538
+      album_url: https://music.apple.com/us/album/johannes-passion-bwv-245-pt-2-xxx-es-ist-vollbracht-aria/1572120521
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 527
+      work_inferred_from: apple_music_url
+  - id: s-wnb75k6
+    work: bwv-245
+    movement: XXXI. Und neiget das Haupt (Recitative)
+    recording: herreweghe-st-john-passion
+    title: XXXI. Und neiget das Haupt (Recitative)
+    credits: Collegium Vocale Gent; Philippe Herreweghe; Maximilian Schmitt
+    duration: 16
+    apple_music:
+      song_id: '1572120539'
+      url: https://music.apple.com/us/song/johannes-passion-bwv-245-pt-2-xxxi-und-neiget-das-haupt/1572120539
+      album_url: https://music.apple.com/us/album/johannes-passion-bwv-245-pt-2-xxxi-und-neiget-das-haupt/1572120521
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 528
+      work_inferred_from: apple_music_url
+  - id: s-72j3vfw
+    work: bwv-245
+    movement: XXXII. Mein teurer Heiland (Aria and Chorale)
+    recording: herreweghe-st-john-passion
+    title: XXXII. Mein teurer Heiland (Aria and Chorale)
+    credits: Collegium Vocale Gent; Philippe Herreweghe; Peter Kooij
+    duration: 251
+    apple_music:
+      song_id: '1572120540'
+      url: https://music.apple.com/us/song/johannes-passion-bwv-245-pt-2-xxxii-mein-teurer-heiland/1572120540
+      album_url: https://music.apple.com/us/album/johannes-passion-bwv-245-pt-2-xxxii-mein-teurer-heiland/1572120521
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 529
+      work_inferred_from: apple_music_url
+  - id: s-rjgbhxh
+    work: bwv-245
+    movement: XXXIII. Und siehe da (Recitative)
+    recording: herreweghe-st-john-passion
+    title: XXXIII. Und siehe da (Recitative)
+    credits: Collegium Vocale Gent; Philippe Herreweghe; Maximilian Schmitt
+    duration: 30
+    apple_music:
+      song_id: '1572120541'
+      url: https://music.apple.com/us/song/johannes-passion-bwv-245-pt-2-xxxiii-und-siehe-da-recitative/1572120541
+      album_url: https://music.apple.com/us/album/johannes-passion-bwv-245-pt-2-xxxiii-und-siehe-da-recitative/1572120521
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 530
+      work_inferred_from: apple_music_url
+  - id: s-z2citdv
+    work: bwv-245
+    movement: XXXIV. Mein Herz, in dem die ganze Welt (Arioso)
+    recording: herreweghe-st-john-passion
+    title: XXXIV. Mein Herz, in dem die ganze Welt (Arioso)
+    credits: Collegium Vocale Gent; Philippe Herreweghe; Robin Tritschler
+    duration: 49
+    apple_music:
+      song_id: '1572120542'
+      url: https://music.apple.com/us/song/johannes-passion-bwv-245-pt-2-xxxiv-mein-herz-in-dem/1572120542
+      album_url: https://music.apple.com/us/album/johannes-passion-bwv-245-pt-2-xxxiv-mein-herz-in-dem/1572120521
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 531
+      work_inferred_from: apple_music_url
+  - id: s-wgofhdn
+    work: bwv-245
+    movement: XXXV. Zerfließe, mein Herze (Aria)
+    recording: herreweghe-st-john-passion
+    title: XXXV. Zerfließe, mein Herze (Aria)
+    credits: Collegium Vocale Gent; Philippe Herreweghe; Dorothee Mields
+    duration: 413
+    apple_music:
+      song_id: '1572120543'
+      url: https://music.apple.com/us/song/johannes-passion-bwv-245-pt-2-xxxv-zerflie%C3%9Fe-mein-herze-aria/1572120543
+      album_url: https://music.apple.com/us/album/johannes-passion-bwv-245-pt-2-xxxv-zerflie%C3%9Fe-mein-herze-aria/1572120521
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 532
+      work_inferred_from: apple_music_url
+  - id: s-uljhh7x
+    work: bwv-245
+    movement: XXXVI. Die Jüden aber (Recitative)
+    recording: herreweghe-st-john-passion
+    title: XXXVI. Die Jüden aber (Recitative)
+    credits: Collegium Vocale Gent; Philippe Herreweghe; Maximilian Schmitt
+    duration: 121
+    apple_music:
+      song_id: '1572120544'
+      url: https://music.apple.com/us/song/johannes-passion-bwv-245-pt-2-xxxvi-die-ju-den-aber/1572120544
+      album_url: https://music.apple.com/us/album/johannes-passion-bwv-245-pt-2-xxxvi-die-ju-den-aber/1572120521
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 533
+      work_inferred_from: apple_music_url
+  - id: s-uzusscb
+    work: bwv-245
+    movement: XXXVII. O hilf, Christe, Gottes Sohn (Chorale)
+    recording: herreweghe-st-john-passion
+    title: XXXVII. O hilf, Christe, Gottes Sohn (Chorale)
+    credits: Collegium Vocale Gent; Philippe Herreweghe
+    duration: 62
+    apple_music:
+      song_id: '1572120545'
+      url: https://music.apple.com/us/song/johannes-passion-bwv-245-pt-2-xxxvii-o-hilf-christe/1572120545
+      album_url: https://music.apple.com/us/album/johannes-passion-bwv-245-pt-2-xxxvii-o-hilf-christe/1572120521
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 534
+      work_inferred_from: apple_music_url
+  - id: s-qkmfzpu
+    work: bwv-245
+    movement: XXXVIII. Darnach bat Pilatum (Recitative)
+    recording: herreweghe-st-john-passion
+    title: XXXVIII. Darnach bat Pilatum (Recitative)
+    credits: Collegium Vocale Gent; Philippe Herreweghe; Maximilian Schmitt
+    duration: 115
+    apple_music:
+      song_id: '1572120756'
+      url: https://music.apple.com/us/song/johannes-passion-bwv-245-pt-2-xxxviii-darnach-bat-pilatum/1572120756
+      album_url: https://music.apple.com/us/album/johannes-passion-bwv-245-pt-2-xxxviii-darnach-bat-pilatum/1572120521
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 535
+      work_inferred_from: apple_music_url
+  - id: s-apdxbkq
+    work: bwv-245
+    movement: XXXIX. Ruht wohl, ihr heiligen Gebeine (Chorus)
+    recording: herreweghe-st-john-passion
+    title: XXXIX. Ruht wohl, ihr heiligen Gebeine (Chorus)
+    credits: Collegium Vocale Gent; Philippe Herreweghe
+    duration: 444
+    apple_music:
+      song_id: '1572120757'
+      url: https://music.apple.com/us/song/johannes-passion-bwv-245-pt-2-xxxix-ruht-wohl-ihr-heiligen/1572120757
+      album_url: https://music.apple.com/us/album/johannes-passion-bwv-245-pt-2-xxxix-ruht-wohl-ihr-heiligen/1572120521
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 536
+      work_inferred_from: apple_music_url
+  - id: s-rth3lly
+    work: bwv-245
+    movement: XL. Ach Herr, lass dein lieb Engelein (Chorale)
+    recording: herreweghe-st-john-passion
+    title: XL. Ach Herr, lass dein lieb Engelein (Chorale)
+    credits: Collegium Vocale Gent; Philippe Herreweghe
+    duration: 125
+    apple_music:
+      song_id: '1572120758'
+      url: https://music.apple.com/us/song/johannes-passion-bwv-245-pt-2-xl-ach-herr-lass-dein/1572120758
+      album_url: https://music.apple.com/us/album/johannes-passion-bwv-245-pt-2-xl-ach-herr-lass-dein/1572120521
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 537
+      work_inferred_from: apple_music_url
+  - id: s-xdmgzzw
+    work: bwv-244
+    movement: No. 1. Chorus I & II "Kommt, Ihr Töchter, Helft Mir Klagen"
+    recording: herreweghe-st-matthew-passion
+    title: 'St. Matthew Passion, BWV 244, Part 1 : No. 1. Chorus I & II "Kommt, Ihr Töchter, Helft Mir Klagen"'
+    credits: Collegium Vocale Gent; Philippe Herreweghe
+    duration: 418
+    apple_music:
+      song_id: '251240568'
+      url: https://music.apple.com/us/song/st-matthew-passion-bwv-244-part-1-no-1-chorus-i-ii/251240568
+      album_url: https://music.apple.com/us/album/st-matthew-passion-bwv-244-part-1-no-1-chorus-i-ii/251240562
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 538
+  - id: s-a44kclm
+    work: bwv-244
+    movement: No. 2. Evangelista, Jesus "Da Jesus Diese Rede Vollendet Hatte"
+    recording: herreweghe-st-matthew-passion
+    title: 'St. Matthew Passion, BWV 244, Part 1 : No. 2. Evangelista, Jesus "Da Jesus Diese Rede Vollendet Hatte"'
+    credits: Collegium Vocale Gent; Franz-Josef Selig; Ian Bostridge; Philippe Herreweghe
+    duration: 42
+    apple_music:
+      song_id: '251241134'
+      url: https://music.apple.com/us/song/st-matthew-passion-bwv-244-part-1-no-2-evangelista/251241134
+      album_url: https://music.apple.com/us/album/st-matthew-passion-bwv-244-part-1-no-2-evangelista/251240562
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 539
+  - id: s-qwj4pr6
+    work: bwv-244
+    movement: No. 3. Choral "Herzliebster Jesu, Was Hast Du Verbrochen"
+    recording: herreweghe-st-matthew-passion
+    title: 'St. Matthew Passion, BWV 244, Part 1 : No. 3. Choral "Herzliebster Jesu, Was Hast Du Verbrochen"'
+    credits: Collegium Vocale Gent; Philippe Herreweghe
+    duration: 44
+    apple_music:
+      song_id: '251241248'
+      url: https://music.apple.com/us/song/st-matthew-passion-bwv-244-part-1-no-3-choral-herzliebster/251241248
+      album_url: https://music.apple.com/us/album/st-matthew-passion-bwv-244-part-1-no-3-choral-herzliebster/251240562
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 540
+  - id: s-3a4j4es
+    work: bwv-244
+    movement: No. 4a. Evangelista "Da Versammleten Sich Die Hohenpriester" - 4b. Chorus I & II "Ja Nicht Auf Das Fest" - 4c. Evangelista "Da Nun Jesus War Zu Bethanien" - 4d. Chorus I "Wozu Dienet Dieser Unrat" - 4e. Evan
+    recording: herreweghe-st-matthew-passion
+    title: 'St. Matthew Passion, BWV 244, Part 1 : No. 4a. Evangelista "Da Versammleten Sich Die Hohenpriester" - 4b. Chorus I & II "Ja Nicht Auf Das Fest" - 4c. Evangelista "Da Nun Jesus War Zu Bethanien" - 4d. Chorus I "Wozu Dienet Dieser Unrat" - 4e. Evan'
+    credits: Collegium Vocale Gent; Franz-Josef Selig; Ian Bostridge; Philippe Herreweghe
+    duration: 179
+    apple_music:
+      song_id: '251241273'
+      url: https://music.apple.com/us/song/st-matthew-passion-bwv-244-part-1-no-4a-evangelista/251241273
+      album_url: https://music.apple.com/us/album/st-matthew-passion-bwv-244-part-1-no-4a-evangelista/251240562
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 541
+  - id: s-447s3ni
+    work: bwv-244
+    movement: No. 5. Recitativo (Alt) "Du Lieber Heiland Du"
+    recording: herreweghe-st-matthew-passion
+    title: 'St. Matthew Passion, BWV 244, Part 1 : No. 5. Recitativo (Alt) "Du Lieber Heiland Du"'
+    credits: Andreas Scholl; Collegium Vocale Gent; Philippe Herreweghe
+    duration: 54
+    apple_music:
+      song_id: '251241484'
+      url: https://music.apple.com/us/song/st-matthew-passion-bwv-244-part-1-no-5-recitativo-alt/251241484
+      album_url: https://music.apple.com/us/album/st-matthew-passion-bwv-244-part-1-no-5-recitativo-alt/251240562
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 542
+  - id: s-r5lwese
+    work: bwv-244
+    movement: No. 6. Aria (Alt) "Buß Und Reu"
+    recording: herreweghe-st-matthew-passion
+    title: 'St. Matthew Passion, BWV 244, Part 1 : No. 6. Aria (Alt) "Buß Und Reu"'
+    credits: Andreas Scholl; Collegium Vocale Gent; Philippe Herreweghe
+    duration: 261
+    apple_music:
+      song_id: '251241536'
+      url: https://music.apple.com/us/song/st-matthew-passion-bwv-244-part-1-no-6-aria-alt-bu%C3%9F-und-reu/251241536
+      album_url: https://music.apple.com/us/album/st-matthew-passion-bwv-244-part-1-no-6-aria-alt-bu%C3%9F-und-reu/251240562
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 543
+  - id: s-wit5awa
+    work: bwv-244
+    movement: No. 7. Evangelista, Judas "Da Ging Hin Der Zwölfen Einer"
+    recording: herreweghe-st-matthew-passion
+    title: 'St. Matthew Passion, BWV 244, Part 1 : No. 7. Evangelista, Judas "Da Ging Hin Der Zwölfen Einer"'
+    credits: Collegium Vocale Gent; Franz-Josef Selig; Ian Bostridge; Philippe Herreweghe
+    duration: 32
+    apple_music:
+      song_id: '251241640'
+      url: https://music.apple.com/us/song/st-matthew-passion-bwv-244-part-1-no-7-evangelista/251241640
+      album_url: https://music.apple.com/us/album/st-matthew-passion-bwv-244-part-1-no-7-evangelista/251240562
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 544
+  - id: s-mudbkyb
+    work: bwv-244
+    movement: No. 8. Aria (Sopran) "Blute Nur, Du Liebes Herz"
+    recording: herreweghe-st-matthew-passion
+    title: 'St. Matthew Passion, BWV 244, Part 1 : No. 8. Aria (Sopran) "Blute Nur, Du Liebes Herz"'
+    credits: Collegium Vocale Gent; Philippe Herreweghe; Sibylla Rubens
+    duration: 265
+    apple_music:
+      song_id: '251241668'
+      url: https://music.apple.com/us/song/st-matthew-passion-bwv-244-part-1-no-8-aria-sopran/251241668
+      album_url: https://music.apple.com/us/album/st-matthew-passion-bwv-244-part-1-no-8-aria-sopran/251240562
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 545
+  - id: s-5vqbl4r
+    work: bwv-244
+    movement: 'No. 9a. Evangelista "Aber Am Ersten Tag Der Süßen Brot" - 9b. Chorus I "Wo Willst Du, Daß Wir Dir Bereiten" - 9c. Evangelista, Jesus "Er Sprach: Gehet Hin In Die Stadt" - 9d. Evangelista "Und Sie Wurden Sehr"'
+    recording: herreweghe-st-matthew-passion
+    title: 'St. Matthew Passion, BWV 244, Part 1 : No. 9a. Evangelista "Aber Am Ersten Tag Der Süßen Brot" - 9b. Chorus I "Wo Willst Du, Daß Wir Dir Bereiten" - 9c. Evangelista, Jesus "Er Sprach: Gehet Hin In Die Stadt" - 9d. Evangelista "Und Sie Wurden Sehr"'
+    credits: Collegium Vocale Gent; Franz-Josef Selig; Ian Bostridge; Philippe Herreweghe
+    duration: 130
+    apple_music:
+      song_id: '251241774'
+      url: https://music.apple.com/us/song/st-matthew-passion-bwv-244-part-1-no-9a-evangelista/251241774
+      album_url: https://music.apple.com/us/album/st-matthew-passion-bwv-244-part-1-no-9a-evangelista/251240562
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 546
+  - id: s-2xhcfig
+    work: bwv-244
+    movement: No. 10. Choral "Ich Bin's, Ich Sollte Büßen"
+    recording: herreweghe-st-matthew-passion
+    title: 'St. Matthew Passion, BWV 244, Part 1 : No. 10. Choral "Ich Bin''s, Ich Sollte Büßen"'
+    credits: Collegium Vocale Gent; Philippe Herreweghe
+    duration: 48
+    apple_music:
+      song_id: '251242004'
+      url: https://music.apple.com/us/song/st-matthew-passion-bwv-244-part-1-no-10-choral-ich/251242004
+      album_url: https://music.apple.com/us/album/st-matthew-passion-bwv-244-part-1-no-10-choral-ich/251240562
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 547
+  - id: s-k5g2orv
+    work: bwv-244
+    movement: No. 11. Evangelista, Jesus, Judas "Er Antwortete Und Sprach"
+    recording: herreweghe-st-matthew-passion
+    title: 'St. Matthew Passion, BWV 244, Part 1 : No. 11. Evangelista, Jesus, Judas "Er Antwortete Und Sprach"'
+    credits: Collegium Vocale Gent; Franz-Josef Selig; Frits Vanhulle; Ian Bostridge; Philippe Herreweghe
+    duration: 177
+    apple_music:
+      song_id: '251242040'
+      url: https://music.apple.com/us/song/st-matthew-passion-bwv-244-part-1-no-11-evangelista/251242040
+      album_url: https://music.apple.com/us/album/st-matthew-passion-bwv-244-part-1-no-11-evangelista/251240562
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 548
+  - id: s-jeogqtj
+    work: bwv-244
+    movement: No. 12. Recitativo (Sopran) "Wiewohl Mein Herz In Tränen Schwimmt"
+    recording: herreweghe-st-matthew-passion
+    title: 'St. Matthew Passion, BWV 244, Part 1 : No. 12. Recitativo (Sopran) "Wiewohl Mein Herz In Tränen Schwimmt"'
+    credits: Collegium Vocale Gent; Philippe Herreweghe; Sibylla Rubens
+    duration: 77
+    apple_music:
+      song_id: '251242244'
+      url: https://music.apple.com/us/song/st-matthew-passion-bwv-244-part-1-no-12-recitativo/251242244
+      album_url: https://music.apple.com/us/album/st-matthew-passion-bwv-244-part-1-no-12-recitativo/251240562
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 549
+  - id: s-jeq62ig
+    work: bwv-244
+    movement: No. 13. Aria (Sopran) "Ich Will Dir Mein Herze Schenken"
+    recording: herreweghe-st-matthew-passion
+    title: 'St. Matthew Passion, BWV 244, Part 1 : No. 13. Aria (Sopran) "Ich Will Dir Mein Herze Schenken"'
+    credits: Collegium Vocale Gent; Philippe Herreweghe; Sibylla Rubens
+    duration: 207
+    apple_music:
+      song_id: '251242338'
+      url: https://music.apple.com/us/song/st-matthew-passion-bwv-244-part-1-no-13-aria-sopran/251242338
+      album_url: https://music.apple.com/us/album/st-matthew-passion-bwv-244-part-1-no-13-aria-sopran/251240562
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 550
+  - id: s-drj64ac
+    work: bwv-244
+    movement: No. 14. Evangelista, Jesus "Und Da Sie Den Lobgesang Gesprochen Hatten"
+    recording: herreweghe-st-matthew-passion
+    title: 'St. Matthew Passion, BWV 244, Part 1 : No. 14. Evangelista, Jesus "Und Da Sie Den Lobgesang Gesprochen Hatten"'
+    credits: Collegium Vocale Gent; Franz-Josef Selig; Ian Bostridge; Philippe Herreweghe
+    duration: 61
+    apple_music:
+      song_id: '251242539'
+      url: https://music.apple.com/us/song/st-matthew-passion-bwv-244-part-1-no-14-evangelista/251242539
+      album_url: https://music.apple.com/us/album/st-matthew-passion-bwv-244-part-1-no-14-evangelista/251240562
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 551
+  - id: s-zjns2xg
+    work: bwv-244
+    movement: No. 15. Choral "Erkenne Mich, Mein Hüter"
+    recording: herreweghe-st-matthew-passion
+    title: 'St. Matthew Passion, BWV 244, Part 1 : No. 15. Choral "Erkenne Mich, Mein Hüter"'
+    credits: Collegium Vocale Gent; Philippe Herreweghe
+    duration: 59
+    apple_music:
+      song_id: '251242618'
+      url: https://music.apple.com/us/song/st-matthew-passion-bwv-244-part-1-no-15-choral-erkenne/251242618
+      album_url: https://music.apple.com/us/album/st-matthew-passion-bwv-244-part-1-no-15-choral-erkenne/251240562
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 552
+  - id: s-drrc6nc
+    work: bwv-244
+    movement: No. 16. Evangelista, Petrus, Jesus "Petrus Aber Antwortete"
+    recording: herreweghe-st-matthew-passion
+    title: 'St. Matthew Passion, BWV 244, Part 1 : No. 16. Evangelista, Petrus, Jesus "Petrus Aber Antwortete"'
+    credits: Collegium Vocale Gent; Dominik Wörner; Franz-Josef Selig; Ian Bostridge; Philippe Herreweghe
+    duration: 59
+    apple_music:
+      song_id: '251242719'
+      url: https://music.apple.com/us/song/st-matthew-passion-bwv-244-part-1-no-16-evangelista/251242719
+      album_url: https://music.apple.com/us/album/st-matthew-passion-bwv-244-part-1-no-16-evangelista/251240562
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 553
+  - id: s-bzqcv4n
+    work: bwv-244
+    movement: No. 17. Choral "Ich Will Hier Bei Dir Stehen"
+    recording: herreweghe-st-matthew-passion
+    title: 'St. Matthew Passion, BWV 244, Part 1 : No. 17. Choral "Ich Will Hier Bei Dir Stehen"'
+    credits: Collegium Vocale Gent; Philippe Herreweghe
+    duration: 61
+    apple_music:
+      song_id: '251242794'
+      url: https://music.apple.com/us/song/st-matthew-passion-bwv-244-part-1-no-17-choral-ich/251242794
+      album_url: https://music.apple.com/us/album/st-matthew-passion-bwv-244-part-1-no-17-choral-ich/251240562
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 554
+  - id: s-rfb345t
+    work: bwv-244
+    movement: No. 18. Evangelista, Jesus "Da Kam Jesus Mit Ihnen Zu Einem Hofe"
+    recording: herreweghe-st-matthew-passion
+    title: 'St. Matthew Passion, BWV 244, Part 1 : No. 18. Evangelista, Jesus "Da Kam Jesus Mit Ihnen Zu Einem Hofe"'
+    credits: Collegium Vocale Gent; Franz-Josef Selig; Ian Bostridge; Philippe Herreweghe
+    duration: 104
+    apple_music:
+      song_id: '251242865'
+      url: https://music.apple.com/us/song/st-matthew-passion-bwv-244-part-1-no-18-evangelista/251242865
+      album_url: https://music.apple.com/us/album/st-matthew-passion-bwv-244-part-1-no-18-evangelista/251240562
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 555
+  - id: s-3xrtrrh
+    work: bwv-244
+    movement: No. 19. Recitativo a Doi Cori (Tenor) "O Schmerz! Hier Zittert Das Gequälte Herz"
+    recording: herreweghe-st-matthew-passion
+    title: 'St. Matthew Passion, BWV 244, Part 1 : No. 19. Recitativo a Doi Cori (Tenor) "O Schmerz! Hier Zittert Das Gequälte Herz"'
+    credits: Collegium Vocale Gent; Philippe Herreweghe; Werner Güra
+    duration: 99
+    apple_music:
+      song_id: '251242921'
+      url: https://music.apple.com/us/song/st-matthew-passion-bwv-244-part-1-no-19-recitativo/251242921
+      album_url: https://music.apple.com/us/album/st-matthew-passion-bwv-244-part-1-no-19-recitativo/251240562
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 556
+  - id: s-ink4xwh
+    work: bwv-244
+    movement: No. 20. Aria a Doi Cori (Tenor) "Ich Will Bei Meinem Jesu Wachen"
+    recording: herreweghe-st-matthew-passion
+    title: 'St. Matthew Passion, BWV 244, Part 1 : No. 20. Aria a Doi Cori (Tenor) "Ich Will Bei Meinem Jesu Wachen"'
+    credits: Collegium Vocale Gent; Philippe Herreweghe; Werner Güra
+    duration: 291
+    apple_music:
+      song_id: '251242980'
+      url: https://music.apple.com/us/song/st-matthew-passion-bwv-244-part-1-no-20-aria-a-doi/251242980
+      album_url: https://music.apple.com/us/album/st-matthew-passion-bwv-244-part-1-no-20-aria-a-doi/251240562
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 557
+  - id: s-ehg7cpg
+    work: bwv-244
+    movement: No. 21. Evangelista, Jesus "Und Ging Hin Ein Wenig"
+    recording: herreweghe-st-matthew-passion
+    title: 'St. Matthew Passion, BWV 244, Part 1 : No. 21. Evangelista, Jesus "Und Ging Hin Ein Wenig"'
+    credits: Collegium Vocale Gent; Franz-Josef Selig; Ian Bostridge; Philippe Herreweghe
+    duration: 40
+    apple_music:
+      song_id: '251243183'
+      url: https://music.apple.com/us/song/st-matthew-passion-bwv-244-part-1-no-21-evangelista/251243183
+      album_url: https://music.apple.com/us/album/st-matthew-passion-bwv-244-part-1-no-21-evangelista/251240562
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 558
+  - id: s-dsxxfuc
+    work: bwv-244
+    movement: No. 22. Recitativo (Baß) "Der Heiland Fällt Vor Seinem Vater Nieder"
+    recording: herreweghe-st-matthew-passion
+    title: 'St. Matthew Passion, BWV 244, Part 1 : No. 22. Recitativo (Baß) "Der Heiland Fällt Vor Seinem Vater Nieder"'
+    credits: Collegium Vocale Gent; Dietrich Henschel; Philippe Herreweghe
+    duration: 57
+    apple_music:
+      song_id: '251243199'
+      url: https://music.apple.com/us/song/st-matthew-passion-bwv-244-part-1-no-22-recitativo/251243199
+      album_url: https://music.apple.com/us/album/st-matthew-passion-bwv-244-part-1-no-22-recitativo/251240562
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 559
+  - id: s-oncmar5
+    work: bwv-244
+    movement: No. 23. Aria (Baß) "Gerne Will Ich Mich Bequemen"
+    recording: herreweghe-st-matthew-passion
+    title: 'St. Matthew Passion, BWV 244, Part 1 : No. 23. Aria (Baß) "Gerne Will Ich Mich Bequemen"'
+    credits: Collegium Vocale Gent; Dietrich Henschel; Philippe Herreweghe
+    duration: 254
+    apple_music:
+      song_id: '251243221'
+      url: https://music.apple.com/us/song/st-matthew-passion-bwv-244-part-1-no-23-aria-ba%C3%9F-gerne/251243221
+      album_url: https://music.apple.com/us/album/st-matthew-passion-bwv-244-part-1-no-23-aria-ba%C3%9F-gerne/251240562
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 560
+  - id: s-gazpfhf
+    work: bwv-244
+    movement: No. 24. Evangelista, Jesus "Und Er Kam Zu Seinen Jüngern"
+    recording: herreweghe-st-matthew-passion
+    title: 'St. Matthew Passion, BWV 244, Part 1 : No. 24. Evangelista, Jesus "Und Er Kam Zu Seinen Jüngern"'
+    credits: Collegium Vocale Gent; Franz-Josef Selig; Ian Bostridge; Philippe Herreweghe
+    duration: 79
+    apple_music:
+      song_id: '251243602'
+      url: https://music.apple.com/us/song/st-matthew-passion-bwv-244-part-1-no-24-evangelista/251243602
+      album_url: https://music.apple.com/us/album/st-matthew-passion-bwv-244-part-1-no-24-evangelista/251240562
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 561
+  - id: s-hdjicxh
+    work: bwv-244
+    movement: No. 25. Choral "Was Mein Gott Will, Das G'scheh' Allzeit"
+    recording: herreweghe-st-matthew-passion
+    title: 'St. Matthew Passion, BWV 244, Part 1 : No. 25. Choral "Was Mein Gott Will, Das G''scheh'' Allzeit"'
+    credits: Collegium Vocale Gent; Philippe Herreweghe
+    duration: 69
+    apple_music:
+      song_id: '251243647'
+      url: https://music.apple.com/us/song/st-matthew-passion-bwv-244-part-1-no-25-choral-was/251243647
+      album_url: https://music.apple.com/us/album/st-matthew-passion-bwv-244-part-1-no-25-choral-was/251240562
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 562
+  - id: s-r5mbnts
+    work: bwv-244
+    movement: No. 26. Evangelista, Jesus, Judas "Und Er Kam Und Fand Sie Aber Schlafend"
+    recording: herreweghe-st-matthew-passion
+    title: 'St. Matthew Passion, BWV 244, Part 1 : No. 26. Evangelista, Jesus, Judas "Und Er Kam Und Fand Sie Aber Schlafend"'
+    credits: Collegium Vocale Gent; Franz-Josef Selig; Frits Vanhulle; Ian Bostridge; Philippe Herreweghe
+    duration: 140
+    apple_music:
+      song_id: '251243696'
+      url: https://music.apple.com/us/song/st-matthew-passion-bwv-244-part-1-no-26-evangelista/251243696
+      album_url: https://music.apple.com/us/album/st-matthew-passion-bwv-244-part-1-no-26-evangelista/251240562
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 563
+  - id: s-h6p7t3n
+    work: bwv-244
+    movement: No. 27a. Aria a Doi Cori (Sopran, Alt) "So Ist Mein Jesus Nun Gefangen" - 27b. Chorus I & II "Sind Blitze, Sind Donner In Wolken Verschwunden"
+    recording: herreweghe-st-matthew-passion
+    title: 'St. Matthew Passion, BWV 244, Part 1 : No. 27a. Aria a Doi Cori (Sopran, Alt) "So Ist Mein Jesus Nun Gefangen" - 27b. Chorus I & II "Sind Blitze, Sind Donner In Wolken Verschwunden"'
+    credits: Andreas Scholl; Collegium Vocale Gent; Philippe Herreweghe; Sibylla Rubens
+    duration: 273
+    apple_music:
+      song_id: '251243891'
+      url: https://music.apple.com/us/song/st-matthew-passion-bwv-244-part-1-no-27a-aria-a-doi/251243891
+      album_url: https://music.apple.com/us/album/st-matthew-passion-bwv-244-part-1-no-27a-aria-a-doi/251240562
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 564
+  - id: s-n7aejr5
+    work: bwv-244
+    movement: No. 28. Evangelista, Jesus "Und Siehe, Einer Aus Denen"
+    recording: herreweghe-st-matthew-passion
+    title: 'St. Matthew Passion, BWV 244, Part 1 : No. 28. Evangelista, Jesus "Und Siehe, Einer Aus Denen"'
+    credits: Collegium Vocale Gent; Franz-Josef Selig; Ian Bostridge; Philippe Herreweghe
+    duration: 143
+    apple_music:
+      song_id: '251244212'
+      url: https://music.apple.com/us/song/st-matthew-passion-bwv-244-part-1-no-28-evangelista/251244212
+      album_url: https://music.apple.com/us/album/st-matthew-passion-bwv-244-part-1-no-28-evangelista/251240562
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 565
+  - id: s-4quqpih
+    work: bwv-244
+    movement: No. 29. Choral "O Mensch, Bewein' Dein Sünde Groß"
+    recording: herreweghe-st-matthew-passion
+    title: 'St. Matthew Passion, BWV 244, Part 1 : No. 29. Choral "O Mensch, Bewein'' Dein Sünde Groß"'
+    credits: Collegium Vocale Gent; Philippe Herreweghe
+    duration: 339
+    apple_music:
+      song_id: '251244394'
+      url: https://music.apple.com/us/song/st-matthew-passion-bwv-244-part-1-no-29-choral-o-mensch/251244394
+      album_url: https://music.apple.com/us/album/st-matthew-passion-bwv-244-part-1-no-29-choral-o-mensch/251240562
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 566
+  - id: s-iyl7xq5
+    work: bwv-244
+    movement: No. 30. Aria (Alt, Chorus I & II) "Ach! Nun Ist Mein Jesus Hin"
+    recording: herreweghe-st-matthew-passion
+    title: 'St. Matthew Passion, BWV 244, Part 2 : No. 30. Aria (Alt, Chorus I & II) "Ach! Nun Ist Mein Jesus Hin"'
+    credits: Andreas Scholl; Collegium Vocale Gent; Philippe Herreweghe
+    duration: 228
+    apple_music:
+      song_id: '251244530'
+      url: https://music.apple.com/us/song/st-matthew-passion-bwv-244-part-2-no-30-aria-alt-chorus/251244530
+      album_url: https://music.apple.com/us/album/st-matthew-passion-bwv-244-part-2-no-30-aria-alt-chorus/251240562
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 567
+  - id: s-2rfeq3n
+    work: bwv-244
+    movement: No. 31. Evangelista "Die Aber Jesum Gegriffen Hatten"
+    recording: herreweghe-st-matthew-passion
+    title: 'St. Matthew Passion, BWV 244, Part 2 : No. 31. Evangelista "Die Aber Jesum Gegriffen Hatten"'
+    credits: Collegium Vocale Gent; Ian Bostridge; Philippe Herreweghe
+    duration: 57
+    apple_music:
+      song_id: '251244727'
+      url: https://music.apple.com/us/song/st-matthew-passion-bwv-244-part-2-no-31-evangelista/251244727
+      album_url: https://music.apple.com/us/album/st-matthew-passion-bwv-244-part-2-no-31-evangelista/251240562
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 568
+  - id: s-qqgf5hm
+    work: bwv-244
+    movement: No. 32. Choral "Mir Hat Die Welt Trüglich Gericht't"
+    recording: herreweghe-st-matthew-passion
+    title: 'St. Matthew Passion, BWV 244, Part 2 : No. 32. Choral "Mir Hat Die Welt Trüglich Gericht''t"'
+    credits: Collegium Vocale Gent; Philippe Herreweghe
+    duration: 48
+    apple_music:
+      song_id: '251244800'
+      url: https://music.apple.com/us/song/st-matthew-passion-bwv-244-part-2-no-32-choral-mir/251244800
+      album_url: https://music.apple.com/us/album/st-matthew-passion-bwv-244-part-2-no-32-choral-mir/251240562
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 569
+  - id: s-buofcdq
+    work: bwv-244
+    movement: No. 33. Evangelista, Testis I & II, Pontifex "Und Wiewohl Viel Falsche Zeugen Herzutraten"
+    recording: herreweghe-st-matthew-passion
+    title: 'St. Matthew Passion, BWV 244, Part 2 : No. 33. Evangelista, Testis I & II, Pontifex "Und Wiewohl Viel Falsche Zeugen Herzutraten"'
+    credits: Andreas Scholl; Collegium Vocale Gent; Frits Vanhulle; Ian Bostridge; Philippe Herreweghe; Werner Güra
+    duration: 68
+    apple_music:
+      song_id: '251244877'
+      url: https://music.apple.com/us/song/st-matthew-passion-bwv-244-part-2-no-33-evangelista/251244877
+      album_url: https://music.apple.com/us/album/st-matthew-passion-bwv-244-part-2-no-33-evangelista/251240562
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 570
+  - id: s-oecr4u4
+    work: bwv-244
+    movement: No. 34. Recitativo (Tenor) "Mein Jesus Schweigt Zu Falschen Lügen Stille"
+    recording: herreweghe-st-matthew-passion
+    title: 'St. Matthew Passion, BWV 244, Part 2 : No. 34. Recitativo (Tenor) "Mein Jesus Schweigt Zu Falschen Lügen Stille"'
+    credits: Collegium Vocale Gent; Philippe Herreweghe; Werner Güra
+    duration: 72
+    apple_music:
+      song_id: '251245153'
+      url: https://music.apple.com/us/song/st-matthew-passion-bwv-244-part-2-no-34-recitativo/251245153
+      album_url: https://music.apple.com/us/album/st-matthew-passion-bwv-244-part-2-no-34-recitativo/251240562
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 571
+  - id: s-tv55ost
+    work: bwv-244
+    movement: No. 35. Aria (Tenor) "Geduld, Geduld!"
+    recording: herreweghe-st-matthew-passion
+    title: 'St. Matthew Passion, BWV 244, Part 2 : No. 35. Aria (Tenor) "Geduld, Geduld!"'
+    credits: Collegium Vocale Gent; Philippe Herreweghe; Werner Güra
+    duration: 223
+    apple_music:
+      song_id: '251245173'
+      url: https://music.apple.com/us/song/st-matthew-passion-bwv-244-part-2-no-35-aria-tenor/251245173
+      album_url: https://music.apple.com/us/album/st-matthew-passion-bwv-244-part-2-no-35-aria-tenor/251240562
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 572
+  - id: s-aoih2ih
+    work: bwv-244
+    movement: No. 36a. Evangelista, Pontifex, Jesus "Und Der Hohepriester Antwortete" - 36b. Chorus I & II "Er Ist Des Todes Schuldig" - 36c. Evangelista "Da Speieten Sie Aus In Sein Angesicht" - 36d. Chorus I & II "Weissa"
+    recording: herreweghe-st-matthew-passion
+    title: 'St. Matthew Passion, BWV 244, Part 2 : No. 36a. Evangelista, Pontifex, Jesus "Und Der Hohepriester Antwortete" - 36b. Chorus I & II "Er Ist Des Todes Schuldig" - 36c. Evangelista "Da Speieten Sie Aus In Sein Angesicht" - 36d. Chorus I & II "Weissa"'
+    credits: Collegium Vocale Gent; Frans-Josef Selig; Frits Vanhulle; Ian Bostridge; Philippe Herreweghe
+    duration: 121
+    apple_music:
+      song_id: '251245249'
+      url: https://music.apple.com/us/song/st-matthew-passion-bwv-244-part-2-no-36a-evangelista/251245249
+      album_url: https://music.apple.com/us/album/st-matthew-passion-bwv-244-part-2-no-36a-evangelista/251240562
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 573
+  - id: s-2bbkw6y
+    work: bwv-244
+    movement: No. 37. Choral "Wer Hat Dich So Geschlagen"
+    recording: herreweghe-st-matthew-passion
+    title: 'St. Matthew Passion, BWV 244, Part 2 : No. 37. Choral "Wer Hat Dich So Geschlagen"'
+    credits: Collegium Vocale Gent; Philippe Herreweghe
+    duration: 52
+    apple_music:
+      song_id: '251245288'
+      url: https://music.apple.com/us/song/st-matthew-passion-bwv-244-part-2-no-37-choral-wer/251245288
+      album_url: https://music.apple.com/us/album/st-matthew-passion-bwv-244-part-2-no-37-choral-wer/251240562
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 574
+  - id: s-getcsfe
+    work: bwv-244
+    movement: No. 38a. Evangelista, Ancilla I & II, Petrus "Petrus Aber Saß Draußen Im Palast" - 38b. Chorus II, Evangelista, Petrus "Wahrlich, Du Bist Auch Einer Von Denen"
+    recording: herreweghe-st-matthew-passion
+    title: 'St. Matthew Passion, BWV 244, Part 2 : No. 38a. Evangelista, Ancilla I & II, Petrus "Petrus Aber Saß Draußen Im Palast" - 38b. Chorus II, Evangelista, Petrus "Wahrlich, Du Bist Auch Einer Von Denen"'
+    credits: Collegium Vocale Gent; Dominik Wörner; Elisabeth Hermans; Ian Bostridge; Philippe Herreweghe; Susan Hamilton
+    duration: 134
+    apple_music:
+      song_id: '251245342'
+      url: https://music.apple.com/us/song/st-matthew-passion-bwv-244-part-2-no-38a-evangelista/251245342
+      album_url: https://music.apple.com/us/album/st-matthew-passion-bwv-244-part-2-no-38a-evangelista/251240562
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 575
+  - id: s-4nznack
+    work: bwv-244
+    movement: No. 39. Aria (Alt) "Erbarme Dich"
+    recording: herreweghe-erbarme-dich-old-sotw
+    title: 'St. Matthew Passion, BWV 244, Part 2 : No. 39. Aria (Alt) "Erbarme Dich"'
+    credits: Andreas Scholl; Collegium Vocale Gent; Philippe Herreweghe
+    duration: 398
+    apple_music:
+      song_id: '251245449'
+      url: https://music.apple.com/us/song/st-matthew-passion-bwv-244-part-2-no-39-aria-alt-erbarme-dich/251245449
+      album_url: https://music.apple.com/us/album/st-matthew-passion-bwv-244-part-2-no-39-aria-alt-erbarme-dich/276069994
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 576
+  - id: s-ynonabh
+    work: bwv-244
+    movement: No. 40. Choral "Bin Ich Gleich Von Dir Gewichen"
+    recording: herreweghe-st-matthew-passion
+    title: 'St. Matthew Passion, BWV 244, Part 2 : No. 40. Choral "Bin Ich Gleich Von Dir Gewichen"'
+    credits: Collegium Vocale Gent; Philippe Herreweghe
+    duration: 69
+    apple_music:
+      song_id: '251245668'
+      url: https://music.apple.com/us/song/st-matthew-passion-bwv-244-part-2-no-40-choral-bin/251245668
+      album_url: https://music.apple.com/us/album/st-matthew-passion-bwv-244-part-2-no-40-choral-bin/251240562
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 577
+  - id: s-gkpgseu
+    work: bwv-244
+    movement: No. 41a. Evangelista, Judas "Des Morgens Aber Hielten Alle Hohenpriester" - 41b. Chorus I & II "Was Gehet Uns An" - 41c. Evangelista, Pontifex I & II "Und Er Warf Die Silberlinge In Den Tempel"
+    recording: herreweghe-st-matthew-passion
+    title: 'St. Matthew Passion, BWV 244, Part 2 : No. 41a. Evangelista, Judas "Des Morgens Aber Hielten Alle Hohenpriester" - 41b. Chorus I & II "Was Gehet Uns An" - 41c. Evangelista, Pontifex I & II "Und Er Warf Die Silberlinge In Den Tempel"'
+    credits: Collegium Vocale Gent; Dietrich Henschel; Dominik Wörner; Frits Vanhulle; Ian Bostridge; Philippe Herreweghe
+    duration: 99
+    apple_music:
+      song_id: '251245678'
+      url: https://music.apple.com/us/song/st-matthew-passion-bwv-244-part-2-no-41a-evangelista/251245678
+      album_url: https://music.apple.com/us/album/st-matthew-passion-bwv-244-part-2-no-41a-evangelista/251240562
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 578
+  - id: s-qd7ist3
+    work: bwv-244
+    movement: No. 42. Aria (Baß) "Gebt Mir Meinen Jesum Wieder"
+    recording: herreweghe-st-matthew-passion
+    title: 'St. Matthew Passion, BWV 244, Part 2 : No. 42. Aria (Baß) "Gebt Mir Meinen Jesum Wieder"'
+    credits: Collegium Vocale Gent; Dietrich Henschel; Philippe Herreweghe
+    duration: 168
+    apple_music:
+      song_id: '251245762'
+      url: https://music.apple.com/us/song/st-matthew-passion-bwv-244-part-2-no-42-aria-ba%C3%9F-gebt/251245762
+      album_url: https://music.apple.com/us/album/st-matthew-passion-bwv-244-part-2-no-42-aria-ba%C3%9F-gebt/251240562
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 579
+  - id: s-o5esxeh
+    work: bwv-244
+    movement: No. 43. Evangelista, Pilatus, Jesus "Sie Hielten Aber Einen Rat"
+    recording: herreweghe-st-matthew-passion
+    title: 'St. Matthew Passion, BWV 244, Part 2 : No. 43. Evangelista, Pilatus, Jesus "Sie Hielten Aber Einen Rat"'
+    credits: Collegium Vocale Gent; Dietrich Henschel; Frans-Josef Selig; Ian Bostridge; Philippe Herreweghe
+    duration: 131
+    apple_music:
+      song_id: '251245782'
+      url: https://music.apple.com/us/song/st-matthew-passion-bwv-244-part-2-no-43-evangelista/251245782
+      album_url: https://music.apple.com/us/album/st-matthew-passion-bwv-244-part-2-no-43-evangelista/251240562
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 580
+  - id: s-snha2vc
+    work: bwv-244
+    movement: No. 44. Choral "Befiehl Du Deine Wege"
+    recording: herreweghe-st-matthew-passion
+    title: 'St. Matthew Passion, BWV 244, Part 2 : No. 44. Choral "Befiehl Du Deine Wege"'
+    credits: Collegium Vocale Gent; Philippe Herreweghe
+    duration: 62
+    apple_music:
+      song_id: '251245910'
+      url: https://music.apple.com/us/song/st-matthew-passion-bwv-244-part-2-no-44-choral-befiehl/251245910
+      album_url: https://music.apple.com/us/album/st-matthew-passion-bwv-244-part-2-no-44-choral-befiehl/251240562
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 581
+  - id: s-a2zrtgl
+    work: bwv-244
+    movement: No. 45a. Evangelista, Pilatus, Uxor Pilatus, Chorus I & II "Auf Das Fest Aber Hatte Der Landpfleger" - 45b. Chorus I & II "Laß Ihn Kreuzigen!"
+    recording: herreweghe-st-matthew-passion
+    title: 'St. Matthew Passion, BWV 244, Part 2 : No. 45a. Evangelista, Pilatus, Uxor Pilatus, Chorus I & II "Auf Das Fest Aber Hatte Der Landpfleger" - 45b. Chorus I & II "Laß Ihn Kreuzigen!"'
+    credits: Collegium Vocale Gent; Dietrich Henschel; Ian Bostridge; Philippe Herreweghe; Sibylla Rubens
+    duration: 137
+    apple_music:
+      song_id: '251246018'
+      url: https://music.apple.com/us/song/st-matthew-passion-bwv-244-part-2-no-45a-evangelista/251246018
+      album_url: https://music.apple.com/us/album/st-matthew-passion-bwv-244-part-2-no-45a-evangelista/251240562
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 582
+  - id: s-n734vs3
+    work: bwv-244
+    movement: No. 46. Choral "Wie Wunderbarlich Ist Doch Diese Strafe"
+    recording: herreweghe-st-matthew-passion
+    title: 'St. Matthew Passion, BWV 244, Part 2 : No. 46. Choral "Wie Wunderbarlich Ist Doch Diese Strafe"'
+    credits: Collegium Vocale Gent; Philippe Herreweghe
+    duration: 48
+    apple_music:
+      song_id: '251246068'
+      url: https://music.apple.com/us/song/st-matthew-passion-bwv-244-part-2-no-46-choral-wie/251246068
+      album_url: https://music.apple.com/us/album/st-matthew-passion-bwv-244-part-2-no-46-choral-wie/251240562
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 583
+  - id: s-tqntfgb
+    work: bwv-244
+    movement: No. 47. Evangelista, Pilatus "Der Landpfleger Sagte"
+    recording: herreweghe-st-matthew-passion
+    title: 'St. Matthew Passion, BWV 244, Part 2 : No. 47. Evangelista, Pilatus "Der Landpfleger Sagte"'
+    credits: Collegium Vocale Gent; Dietrich Henschel; Ian Bostridge; Philippe Herreweghe
+    duration: 15
+    apple_music:
+      song_id: '251246203'
+      url: https://music.apple.com/us/song/st-matthew-passion-bwv-244-part-2-no-47-evangelista/251246203
+      album_url: https://music.apple.com/us/album/st-matthew-passion-bwv-244-part-2-no-47-evangelista/251240562
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 584
+  - id: s-dlpkvqm
+    work: bwv-244
+    movement: No. 48. Recitativo (Sopran) "Er Hat Uns Allen Wohlgetan"
+    recording: herreweghe-st-matthew-passion
+    title: 'St. Matthew Passion, BWV 244, Part 2 : No. 48. Recitativo (Sopran) "Er Hat Uns Allen Wohlgetan"'
+    credits: Collegium Vocale Gent; Philippe Herreweghe; Sibylla Rubens
+    duration: 65
+    apple_music:
+      song_id: '251246300'
+      url: https://music.apple.com/us/song/st-matthew-passion-bwv-244-part-2-no-48-recitativo/251246300
+      album_url: https://music.apple.com/us/album/st-matthew-passion-bwv-244-part-2-no-48-recitativo/251240562
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 585
+  - id: s-lzhlud7
+    work: bwv-244
+    movement: No. 49. Aria (Sopran) "Aus Liebe Will Mein Heiland Sterben"
+    recording: herreweghe-st-matthew-passion
+    title: 'St. Matthew Passion, BWV 244, Part 2 : No. 49. Aria (Sopran) "Aus Liebe Will Mein Heiland Sterben"'
+    credits: Collegium Vocale Gent; Philippe Herreweghe; Sibylla Rubens
+    duration: 284
+    apple_music:
+      song_id: '251246358'
+      url: https://music.apple.com/us/song/st-matthew-passion-bwv-244-part-2-no-49-aria-sopran/251246358
+      album_url: https://music.apple.com/us/album/st-matthew-passion-bwv-244-part-2-no-49-aria-sopran/251240562
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 586
+  - id: s-pauhwud
+    work: bwv-244
+    movement: No. 50a. Evangelista "Sie Schrieen Aber Noch Mehr" - 50b. Chorus I & II "Laß Ihn Kreuzigen!" - 50c. Evangelista, Pilatus "Da Aber Pilatus Sahe" - 50d. Chorus I & II "Sein Blut Komme Über Uns" - 50e. Evangeli
+    recording: herreweghe-st-matthew-passion
+    title: 'St. Matthew Passion, BWV 244, Part 2 : No. 50a. Evangelista "Sie Schrieen Aber Noch Mehr" - 50b. Chorus I & II "Laß Ihn Kreuzigen!" - 50c. Evangelista, Pilatus "Da Aber Pilatus Sahe" - 50d. Chorus I & II "Sein Blut Komme Über Uns" - 50e. Evangeli'
+    credits: Collegium Vocale Gent; Dietrich Henschel; Ian Bostridge; Philippe Herreweghe
+    duration: 110
+    apple_music:
+      song_id: '251246556'
+      url: https://music.apple.com/us/song/st-matthew-passion-bwv-244-part-2-no-50a-evangelista/251246556
+      album_url: https://music.apple.com/us/album/st-matthew-passion-bwv-244-part-2-no-50a-evangelista/251240562
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 587
+  - id: s-x7zuoee
+    work: bwv-244
+    movement: No. 51. Recitativo (Alt) "Erbarm Es Gott"
+    recording: herreweghe-st-matthew-passion
+    title: 'St. Matthew Passion, BWV 244, Part 2 : No. 51. Recitativo (Alt) "Erbarm Es Gott"'
+    credits: Andreas Scholl; Collegium Vocale Gent; Philippe Herreweghe
+    duration: 57
+    apple_music:
+      song_id: '251246650'
+      url: https://music.apple.com/us/song/st-matthew-passion-bwv-244-part-2-no-51-recitativo/251246650
+      album_url: https://music.apple.com/us/album/st-matthew-passion-bwv-244-part-2-no-51-recitativo/251240562
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 588
+  - id: s-woq4fqj
+    work: bwv-244
+    movement: No. 52. Aria (Alt) "Können Tränen Meiner Wangen"
+    recording: herreweghe-st-matthew-passion
+    title: 'St. Matthew Passion, BWV 244, Part 2 : No. 52. Aria (Alt) "Können Tränen Meiner Wangen"'
+    credits: Andreas Scholl; Collegium Vocale Gent; Philippe Herreweghe
+    duration: 406
+    apple_music:
+      song_id: '251246666'
+      url: https://music.apple.com/us/song/st-matthew-passion-bwv-244-part-2-no-52-aria-alt-k%C3%B6nnen/251246666
+      album_url: https://music.apple.com/us/album/st-matthew-passion-bwv-244-part-2-no-52-aria-alt-k%C3%B6nnen/251240562
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 589
+  - id: s-z5kbotn
+    work: bwv-244
+    movement: No. 53a. Evangelista "Da Nahmen Die Kriegsknechte" - 53b. Chorus I & II "Gegrüßet Seist Du, Judenkönig" - 53c. Evangelista "Und Speieten Ihn An"
+    recording: herreweghe-st-matthew-passion
+    title: 'St. Matthew Passion, BWV 244, Part 2 : No. 53a. Evangelista "Da Nahmen Die Kriegsknechte" - 53b. Chorus I & II "Gegrüßet Seist Du, Judenkönig" - 53c. Evangelista "Und Speieten Ihn An"'
+    credits: Collegium Vocale Gent; Ian Bostridge; Philippe Herreweghe
+    duration: 66
+    apple_music:
+      song_id: '251247039'
+      url: https://music.apple.com/us/song/st-matthew-passion-bwv-244-part-2-no-53a-evangelista/251247039
+      album_url: https://music.apple.com/us/album/st-matthew-passion-bwv-244-part-2-no-53a-evangelista/251240562
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 590
+  - id: s-upmn6ft
+    work: bwv-244
+    movement: No. 54. Choral "O Haupt Voll Blut Und Wunden"
+    recording: herreweghe-st-matthew-passion
+    title: 'St. Matthew Passion, BWV 244, Part 2 : No. 54. Choral "O Haupt Voll Blut Und Wunden"'
+    credits: Collegium Vocale Gent; Philippe Herreweghe
+    duration: 132
+    apple_music:
+      song_id: '251247096'
+      url: https://music.apple.com/us/song/st-matthew-passion-bwv-244-part-2-no-54-choral-o-haupt/251247096
+      album_url: https://music.apple.com/us/album/st-matthew-passion-bwv-244-part-2-no-54-choral-o-haupt/251240562
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 591
+  - id: s-zya4o2s
+    work: bwv-244
+    movement: No. 55. Evangelista "Und Da Sie Ihn Verspottet Hatten"
+    recording: herreweghe-st-matthew-passion
+    title: 'St. Matthew Passion, BWV 244, Part 2 : No. 55. Evangelista "Und Da Sie Ihn Verspottet Hatten"'
+    credits: Collegium Vocale Gent; Ian Bostridge; Philippe Herreweghe
+    duration: 50
+    apple_music:
+      song_id: '251247257'
+      url: https://music.apple.com/us/song/st-matthew-passion-bwv-244-part-2-no-55-evangelista/251247257
+      album_url: https://music.apple.com/us/album/st-matthew-passion-bwv-244-part-2-no-55-evangelista/251240562
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 592
+  - id: s-w37nsqi
+    work: bwv-244
+    movement: No. 56. Recitativo (Baß) "Ja! Freilich Will In Uns Das Fleisch Und Blut"
+    recording: herreweghe-st-matthew-passion
+    title: 'St. Matthew Passion, BWV 244, Part 2 : No. 56. Recitativo (Baß) "Ja! Freilich Will In Uns Das Fleisch Und Blut"'
+    credits: Collegium Vocale Gent; Dietrich Henschel; Philippe Herreweghe
+    duration: 36
+    apple_music:
+      song_id: '251247335'
+      url: https://music.apple.com/us/song/st-matthew-passion-bwv-244-part-2-no-56-recitativo/251247335
+      album_url: https://music.apple.com/us/album/st-matthew-passion-bwv-244-part-2-no-56-recitativo/251240562
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 593
+  - id: s-fgvcacw
+    work: bwv-244
+    movement: No. 57. Aria (Baß) "Komm, Süßes Kreuz"
+    recording: herreweghe-st-matthew-passion
+    title: 'St. Matthew Passion, BWV 244, Part 2 : No. 57. Aria (Baß) "Komm, Süßes Kreuz"'
+    credits: Collegium Vocale Gent; Dietrich Henschel; Philippe Herreweghe
+    duration: 346
+    apple_music:
+      song_id: '251247583'
+      url: https://music.apple.com/us/song/st-matthew-passion-bwv-244-part-2-no-57-aria-ba%C3%9F-komm/251247583
+      album_url: https://music.apple.com/us/album/st-matthew-passion-bwv-244-part-2-no-57-aria-ba%C3%9F-komm/251240562
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 594
+  - id: s-lw7brdp
+    work: bwv-244
+    movement: No. 58a. Evangelista "Und Da Sie an Die Stätte Kamen" - 58b. Chorus I & II "Der Du Den Tempel Gottes Zerbrichst" - 58c. Evangelista "Desgleichen Auch Die Hohenpriester" - 58d. Chorus I & II ""Andern Hat Er Geh"
+    recording: herreweghe-st-matthew-passion
+    title: 'St. Matthew Passion, BWV 244, Part 2 : No. 58a. Evangelista "Und Da Sie an Die Stätte Kamen" - 58b. Chorus I & II "Der Du Den Tempel Gottes Zerbrichst" - 58c. Evangelista "Desgleichen Auch Die Hohenpriester" - 58d. Chorus I & II ""Andern Hat Er Geh"'
+    credits: Collegium Vocale Gent; Ian Bostridge; Philippe Herreweghe
+    duration: 210
+    apple_music:
+      song_id: '251248115'
+      url: https://music.apple.com/us/song/st-matthew-passion-bwv-244-part-2-no-58a-evangelista/251248115
+      album_url: https://music.apple.com/us/album/st-matthew-passion-bwv-244-part-2-no-58a-evangelista/251240562
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 595
+  - id: s-ekonvzx
+    work: bwv-244
+    movement: No. 59. Recitativo (Alt) "Ach, Golgatha, Unsel'ges Golgatha"
+    recording: herreweghe-st-matthew-passion
+    title: 'St. Matthew Passion, BWV 244, Part 2 : No. 59. Recitativo (Alt) "Ach, Golgatha, Unsel''ges Golgatha"'
+    credits: Andreas Scholl; Collegium Vocale Gent; Philippe Herreweghe
+    duration: 96
+    apple_music:
+      song_id: '251248306'
+      url: https://music.apple.com/us/song/st-matthew-passion-bwv-244-part-2-no-59-recitativo/251248306
+      album_url: https://music.apple.com/us/album/st-matthew-passion-bwv-244-part-2-no-59-recitativo/251240562
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 596
+  - id: s-sop4qx5
+    work: bwv-244
+    movement: No. 60. Aria (Alt, Chorus II) "Sehet, Jesus Hat Die Hand"
+    recording: herreweghe-st-matthew-passion
+    title: 'St. Matthew Passion, BWV 244, Part 2 : No. 60. Aria (Alt, Chorus II) "Sehet, Jesus Hat Die Hand"'
+    credits: Andreas Scholl; Collegium Vocale Gent; Philippe Herreweghe
+    duration: 175
+    apple_music:
+      song_id: '251248378'
+      url: https://music.apple.com/us/song/st-matthew-passion-bwv-244-part-2-no-60-aria-alt-chorus/251248378
+      album_url: https://music.apple.com/us/album/st-matthew-passion-bwv-244-part-2-no-60-aria-alt-chorus/251240562
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 597
+  - id: s-eeucjsi
+    work: bwv-244
+    movement: No. 61a. Evangelista, Jesus "Und Von Der Sechsten Stunde" - 61b. Chorus I "Der Rufet Dem Elias" - 61c. Evangelista "Und Bald Lief Einer Unter Ihnen" - 61d. Chorus II "Halt, Laß Sehen" - 61e. Evangelista "Ab
+    recording: herreweghe-st-matthew-passion
+    title: 'St. Matthew Passion, BWV 244, Part 2 : No. 61a. Evangelista, Jesus "Und Von Der Sechsten Stunde" - 61b. Chorus I "Der Rufet Dem Elias" - 61c. Evangelista "Und Bald Lief Einer Unter Ihnen" - 61d. Chorus II "Halt, Laß Sehen" - 61e. Evangelista "Ab'
+    credits: Collegium Vocale Gent; Frans-Josef Selig; Ian Bostridge; Philippe Herreweghe
+    duration: 147
+    apple_music:
+      song_id: '251248451'
+      url: https://music.apple.com/us/song/st-matthew-passion-bwv-244-part-2-no-61a-evangelista/251248451
+      album_url: https://music.apple.com/us/album/st-matthew-passion-bwv-244-part-2-no-61a-evangelista/251240562
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 598
+  - id: s-6ue4f3i
+    work: bwv-244
+    movement: No. 62. Choral "Wenn Ich Einmal Soll Scheiden"
+    recording: herreweghe-st-matthew-passion
+    title: 'St. Matthew Passion, BWV 244, Part 2 : No. 62. Choral "Wenn Ich Einmal Soll Scheiden"'
+    credits: Collegium Vocale Gent; Philippe Herreweghe
+    duration: 76
+    apple_music:
+      song_id: '251248645'
+      url: https://music.apple.com/us/song/st-matthew-passion-bwv-244-part-2-no-62-choral-wenn/251248645
+      album_url: https://music.apple.com/us/album/st-matthew-passion-bwv-244-part-2-no-62-choral-wenn/251240562
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 599
+  - id: s-ho6c2v7
+    work: bwv-244
+    movement: No. 63a. Evangelista "Und Siehe Da, Der Vorhang Im Tempel Zerriß" - 63b. Chorus I & II "Wahrlich, Dieser Ist Gottes Sohn Gewesen" - 63c. Evangelista "Und Es Waren Viel Weiber Da"
+    recording: herreweghe-st-matthew-passion
+    title: 'St. Matthew Passion, BWV 244, Part 2 : No. 63a. Evangelista "Und Siehe Da, Der Vorhang Im Tempel Zerriß" - 63b. Chorus I & II "Wahrlich, Dieser Ist Gottes Sohn Gewesen" - 63c. Evangelista "Und Es Waren Viel Weiber Da"'
+    credits: Collegium Vocale Gent; Ian Bostridge; Philippe Herreweghe
+    duration: 150
+    apple_music:
+      song_id: '251248806'
+      url: https://music.apple.com/us/song/st-matthew-passion-bwv-244-part-2-no-63a-evangelista/251248806
+      album_url: https://music.apple.com/us/album/st-matthew-passion-bwv-244-part-2-no-63a-evangelista/251240562
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 600
+  - id: s-7akuz3k
+    work: bwv-244
+    movement: No. 64. Recitativo (Baß) "Am Abend Da Es Kühle War"
+    recording: herreweghe-st-matthew-passion
+    title: 'St. Matthew Passion, BWV 244, Part 2 : No. 64. Recitativo (Baß) "Am Abend Da Es Kühle War"'
+    credits: Collegium Vocale Gent; Dietrich Henschel; Philippe Herreweghe
+    duration: 113
+    apple_music:
+      song_id: '251248861'
+      url: https://music.apple.com/us/song/st-matthew-passion-bwv-244-part-2-no-64-recitativo/251248861
+      album_url: https://music.apple.com/us/album/st-matthew-passion-bwv-244-part-2-no-64-recitativo/251240562
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 601
+  - id: s-bdui37e
+    work: bwv-244
+    movement: No. 65. Aria (Baß) "Mache Dich, Mein Herze, Rein"
+    recording: herreweghe-st-matthew-passion
+    title: 'St. Matthew Passion, BWV 244, Part 2 : No. 65. Aria (Baß) "Mache Dich, Mein Herze, Rein"'
+    credits: Collegium Vocale Gent; Dietrich Henschel; Philippe Herreweghe
+    duration: 349
+    apple_music:
+      song_id: '251248903'
+      url: https://music.apple.com/us/song/st-matthew-passion-bwv-244-part-2-no-65-aria-ba%C3%9F-mache/251248903
+      album_url: https://music.apple.com/us/album/st-matthew-passion-bwv-244-part-2-no-65-aria-ba%C3%9F-mache/251240562
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 602
+  - id: s-v2uiuxi
+    work: bwv-244
+    movement: No. 66a. Evangelista "Und Joseph Nahm Den Leib" - 66b. Chorus I & II "Herr, Wir Haben Gedacht" - 66c. Evangelista, Pilatus "Pilatus Sprach Zu Ihnen"
+    recording: herreweghe-st-matthew-passion
+    title: 'St. Matthew Passion, BWV 244, Part 2 : No. 66a. Evangelista "Und Joseph Nahm Den Leib" - 66b. Chorus I & II "Herr, Wir Haben Gedacht" - 66c. Evangelista, Pilatus "Pilatus Sprach Zu Ihnen"'
+    credits: Collegium Vocale Gent; Dietrich Henschel; Ian Bostridge; Philippe Herreweghe
+    duration: 149
+    apple_music:
+      song_id: '251249119'
+      url: https://music.apple.com/us/song/st-matthew-passion-bwv-244-part-2-no-66a-evangelista/251249119
+      album_url: https://music.apple.com/us/album/st-matthew-passion-bwv-244-part-2-no-66a-evangelista/251240562
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 603
+  - id: s-f2tua2t
+    work: bwv-244
+    movement: No. 67. Recitativo (Sopran, Alt, Tenor, Baß, Chorus I & II) "Nun Ist Der Herr Zur Ruh Gebracht"
+    recording: herreweghe-st-matthew-passion
+    title: 'St. Matthew Passion, BWV 244, Part 2 : No. 67. Recitativo (Sopran, Alt, Tenor, Baß, Chorus I & II) "Nun Ist Der Herr Zur Ruh Gebracht"'
+    credits: Andreas Scholl; Collegium Vocale Gent; Dietrich Henschel; Philippe Herreweghe; Sibylla Rubens; Werner Güra
+    duration: 116
+    apple_music:
+      song_id: '251249195'
+      url: https://music.apple.com/us/song/st-matthew-passion-bwv-244-part-2-no-67-recitativo/251249195
+      album_url: https://music.apple.com/us/album/st-matthew-passion-bwv-244-part-2-no-67-recitativo/251240562
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 604
+  - id: s-ado4q45
+    work: bwv-244
+    movement: No. 68. Chorus I & II "Wir Setzen Uns Mit Tränen Nieder"
+    recording: herreweghe-st-matthew-passion
+    title: 'St. Matthew Passion, BWV 244, Part 2 : No. 68. Chorus I & II "Wir Setzen Uns Mit Tränen Nieder"'
+    credits: Collegium Vocale Gent; Philippe Herreweghe
+    duration: 318
+    apple_music:
+      song_id: '251249285'
+      url: https://music.apple.com/us/song/st-matthew-passion-bwv-244-part-2-no-68-chorus-i-ii/251249285
+      album_url: https://music.apple.com/us/album/st-matthew-passion-bwv-244-part-2-no-68-chorus-i-ii/251240562
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 605
+  - id: s-fnzlpc3
+    work: bwv-232
+    movement: I. Kyrie. Kyrie eleison (Chorus)
+    recording: suzuki-mass-in-b-minor
+    title: I. Kyrie. Kyrie eleison (Chorus)
+    credits: Bach Collegium Japan; Masaaki Suzuki; Carolyn Sampson; Rachel Nicholls; Robin Blaze; Gerd Türk; Peter Kooij
+    duration: 639
+    apple_music:
+      song_id: '1724255884'
+      url: https://music.apple.com/us/song/mass-in-b-minor-bwv-232-kyrie-kyrie-eleison-chorus/1724255884
+      album_url: https://music.apple.com/us/album/mass-in-b-minor-bwv-232-kyrie-kyrie-eleison-chorus/1724255882
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 606
+      work_inferred_from: apple_music_url
+  - id: s-llgn37g
+    work: bwv-232
+    movement: II. Kyrie. Christe eleison (Soprano I and II)
+    recording: suzuki-mass-in-b-minor
+    title: II. Kyrie. Christe eleison (Soprano I and II)
+    credits: Carolyn Sampson; Rachel Nicholls; Bach Collegium Japan; Masaaki Suzuki; Robin Blaze; Gerd Türk; Peter Kooij
+    duration: 289
+    apple_music:
+      song_id: '1724255885'
+      url: https://music.apple.com/us/song/mass-in-b-minor-bwv-232-kyrie-christe-eleison-soprano-i-and-ii/1724255885
+      album_url: https://music.apple.com/us/album/mass-in-b-minor-bwv-232-kyrie-christe-eleison-soprano-i-and-ii/1724255882
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 607
+      work_inferred_from: apple_music_url
+  - id: s-a5yxjj5
+    work: bwv-232
+    movement: III. Kyrie. Kyrie eleison (Chorus)
+    recording: suzuki-mass-in-b-minor
+    title: III. Kyrie. Kyrie eleison (Chorus)
+    credits: Bach Collegium Japan; Masaaki Suzuki; Carolyn Sampson; Rachel Nicholls; Robin Blaze; Gerd Türk; Peter Kooij
+    duration: 193
+    apple_music:
+      song_id: '1724255886'
+      url: https://music.apple.com/us/song/mass-in-b-minor-bwv-232-kyrie-kyrie-eleison-chorus/1724255886
+      album_url: https://music.apple.com/us/album/mass-in-b-minor-bwv-232-kyrie-kyrie-eleison-chorus/1724255882
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 608
+      work_inferred_from: apple_music_url
+  - id: s-gm23o6j
+    work: bwv-232
+    movement: IV. Gloria. Gloria in excelsis Deo (Chorus)
+    recording: suzuki-mass-in-b-minor
+    title: IV. Gloria. Gloria in excelsis Deo (Chorus)
+    credits: Bach Collegium Japan; Masaaki Suzuki; Carolyn Sampson; Rachel Nicholls; Robin Blaze; Gerd Türk; Peter Kooij
+    duration: 101
+    apple_music:
+      song_id: '1724255887'
+      url: https://music.apple.com/us/song/mass-in-b-minor-bwv-232-gloria-gloria-in-excelsis-deo-chorus/1724255887
+      album_url: https://music.apple.com/us/album/mass-in-b-minor-bwv-232-gloria-gloria-in-excelsis-deo-chorus/1724255882
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 609
+      work_inferred_from: apple_music_url
+  - id: s-l3hdoxy
+    work: bwv-232
+    movement: V. Gloria. Et in terra pax (Chorus)
+    recording: suzuki-mass-in-b-minor
+    title: V. Gloria. Et in terra pax (Chorus)
+    credits: Bach Collegium Japan; Masaaki Suzuki; Carolyn Sampson; Rachel Nicholls; Robin Blaze; Gerd Türk; Peter Kooij
+    duration: 296
+    apple_music:
+      song_id: '1724255888'
+      url: https://music.apple.com/us/song/mass-in-b-minor-bwv-232-gloria-et-in-terra-pax-chorus/1724255888
+      album_url: https://music.apple.com/us/album/mass-in-b-minor-bwv-232-gloria-et-in-terra-pax-chorus/1724255882
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 610
+      work_inferred_from: apple_music_url
+  - id: s-jpvho6i
+    work: bwv-232
+    movement: VI. Gloria. Laudamus te (Soprano II)
+    recording: suzuki-mass-in-b-minor
+    title: VI. Gloria. Laudamus te (Soprano II)
+    credits: Rachel Nicholls; Bach Collegium Japan; Masaaki Suzuki; Carolyn Sampson; Robin Blaze; Gerd Türk; Peter Kooij
+    duration: 243
+    apple_music:
+      song_id: '1724255889'
+      url: https://music.apple.com/us/song/mass-in-b-minor-bwv-232-gloria-laudamus-te-soprano-ii/1724255889
+      album_url: https://music.apple.com/us/album/mass-in-b-minor-bwv-232-gloria-laudamus-te-soprano-ii/1724255882
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 611
+      work_inferred_from: apple_music_url
+  - id: s-6etzl6s
+    work: bwv-232
+    movement: VII. Gloria. Gratias agimus tibi (Chorus)
+    recording: suzuki-mass-in-b-minor
+    title: VII. Gloria. Gratias agimus tibi (Chorus)
+    credits: Bach Collegium Japan; Masaaki Suzuki; Carolyn Sampson; Rachel Nicholls; Robin Blaze; Gerd Türk; Peter Kooij
+    duration: 195
+    apple_music:
+      song_id: '1724255890'
+      url: https://music.apple.com/us/song/mass-in-b-minor-bwv-232-gloria-gratias-agimus-tibi-chorus/1724255890
+      album_url: https://music.apple.com/us/album/mass-in-b-minor-bwv-232-gloria-gratias-agimus-tibi-chorus/1724255882
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 612
+      work_inferred_from: apple_music_url
+  - id: s-fti2lf6
+    work: bwv-232
+    movement: VIII. Gloria. Domine Deus, Rex coelestis (Soprano I and Tenor)
+    recording: suzuki-mass-in-b-minor
+    title: VIII. Gloria. Domine Deus, Rex coelestis (Soprano I and Tenor)
+    credits: Carolyn Sampson; Gerd Türk; Bach Collegium Japan; Masaaki Suzuki; Rachel Nicholls; Robin Blaze; Peter Kooij
+    duration: 308
+    apple_music:
+      song_id: '1724255891'
+      url: https://music.apple.com/us/song/mass-in-b-minor-bwv-232-gloria-domine-deus-rex-coelestis/1724255891
+      album_url: https://music.apple.com/us/album/mass-in-b-minor-bwv-232-gloria-domine-deus-rex-coelestis/1724255882
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 613
+      work_inferred_from: apple_music_url
+  - id: s-kdzvjf7
+    work: bwv-232
+    movement: IX. Gloria. Qui tollis peccata mundi (Chorus)
+    recording: suzuki-mass-in-b-minor
+    title: IX. Gloria. Qui tollis peccata mundi (Chorus)
+    credits: Bach Collegium Japan; Masaaki Suzuki; Carolyn Sampson; Rachel Nicholls; Robin Blaze; Gerd Türk; Peter Kooij
+    duration: 185
+    apple_music:
+      song_id: '1724255892'
+      url: https://music.apple.com/us/song/mass-in-b-minor-bwv-232-gloria-qui-tollis-peccata-mundi/1724255892
+      album_url: https://music.apple.com/us/album/mass-in-b-minor-bwv-232-gloria-qui-tollis-peccata-mundi/1724255882
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 614
+      work_inferred_from: apple_music_url
+  - id: s-hpubm7w
+    work: bwv-232
+    movement: X. Gloria. Qui sedes ad dextram Patris (Alto)
+    recording: suzuki-mass-in-b-minor
+    title: X. Gloria. Qui sedes ad dextram Patris (Alto)
+    credits: Robin Blaze; Bach Collegium Japan; Masaaki Suzuki; Carolyn Sampson; Rachel Nicholls; Gerd Türk; Peter Kooij
+    duration: 264
+    apple_music:
+      song_id: '1724255893'
+      url: https://music.apple.com/us/song/mass-in-b-minor-bwv-232-gloria-qui-sedes-ad-dextram/1724255893
+      album_url: https://music.apple.com/us/album/mass-in-b-minor-bwv-232-gloria-qui-sedes-ad-dextram/1724255882
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 615
+      work_inferred_from: apple_music_url
+  - id: s-gqsw2i3
+    work: bwv-232
+    movement: XI. Gloria. Quoniam tu solus sanctus (Bass)
+    recording: suzuki-mass-in-b-minor
+    title: XI. Gloria. Quoniam tu solus sanctus (Bass)
+    credits: Peter Kooij; Bach Collegium Japan; Masaaki Suzuki; Carolyn Sampson; Rachel Nicholls; Robin Blaze; Gerd Türk
+    duration: 259
+    apple_music:
+      song_id: '1724255894'
+      url: https://music.apple.com/us/song/mass-in-b-minor-bwv-232-gloria-quoniam-tu-solus-sanctus-bass/1724255894
+      album_url: https://music.apple.com/us/album/mass-in-b-minor-bwv-232-gloria-quoniam-tu-solus-sanctus-bass/1724255882
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 616
+      work_inferred_from: apple_music_url
+  - id: s-bciafn4
+    work: bwv-232
+    movement: XII. Gloria. Cum Sancto Spiritu (Chorus)
+    recording: suzuki-mass-in-b-minor
+    title: XII. Gloria. Cum Sancto Spiritu (Chorus)
+    credits: Bach Collegium Japan; Masaaki Suzuki; Carolyn Sampson; Rachel Nicholls; Robin Blaze; Gerd Türk; Peter Kooij
+    duration: 260
+    apple_music:
+      song_id: '1724255895'
+      url: https://music.apple.com/us/song/mass-in-b-minor-bwv-232-gloria-cum-sancto-spiritu-chorus/1724255895
+      album_url: https://music.apple.com/us/album/mass-in-b-minor-bwv-232-gloria-cum-sancto-spiritu-chorus/1724255882
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 617
+      work_inferred_from: apple_music_url
+  - id: s-jja7lzh
+    work: bwv-232
+    movement: XIII. Credo. Credo in unum Deum (Chorus)
+    recording: suzuki-mass-in-b-minor
+    title: XIII. Credo. Credo in unum Deum (Chorus)
+    credits: Bach Collegium Japan; Masaaki Suzuki; Carolyn Sampson; Rachel Nicholls; Robin Blaze; Gerd Türk; Peter Kooij
+    duration: 107
+    apple_music:
+      song_id: '1724256077'
+      url: https://music.apple.com/us/song/mass-in-b-minor-bwv-232-credo-credo-in-unum-deum-chorus/1724256077
+      album_url: https://music.apple.com/us/album/mass-in-b-minor-bwv-232-credo-credo-in-unum-deum-chorus/1724255882
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 618
+      work_inferred_from: apple_music_url
+  - id: s-rpmqimi
+    work: bwv-232
+    movement: XIV. Credo. Patrem omnipotentem (Chorus)
+    recording: suzuki-mass-in-b-minor
+    title: XIV. Credo. Patrem omnipotentem (Chorus)
+    credits: Bach Collegium Japan; Masaaki Suzuki; Carolyn Sampson; Rachel Nicholls; Robin Blaze; Gerd Türk; Peter Kooij
+    duration: 117
+    apple_music:
+      song_id: '1724256078'
+      url: https://music.apple.com/us/song/mass-in-b-minor-bwv-232-credo-patrem-omnipotentem-chorus/1724256078
+      album_url: https://music.apple.com/us/album/mass-in-b-minor-bwv-232-credo-patrem-omnipotentem-chorus/1724255882
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 619
+      work_inferred_from: apple_music_url
+  - id: s-c6dovvr
+    work: bwv-232
+    movement: XV. Credo. Et in unum Dominum Jesum Christum (Soprano I and Alto)
+    recording: suzuki-mass-in-b-minor
+    title: XV. Credo. Et in unum Dominum Jesum Christum (Soprano I and Alto)
+    credits: Carolyn Sampson; Robin Blaze; Bach Collegium Japan; Masaaki Suzuki; Rachel Nicholls; Gerd Türk; Peter Kooij
+    duration: 260
+    apple_music:
+      song_id: '1724256079'
+      url: https://music.apple.com/us/song/mass-in-b-minor-bwv-232-credo-et-in-unum-dominum-jesum/1724256079
+      album_url: https://music.apple.com/us/album/mass-in-b-minor-bwv-232-credo-et-in-unum-dominum-jesum/1724255882
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 620
+      work_inferred_from: apple_music_url
+  - id: s-uy3cmbk
+    work: bwv-232
+    movement: XVI. Credo. Et incarnatus est (Chorus)
+    recording: suzuki-mass-in-b-minor
+    title: XVI. Credo. Et incarnatus est (Chorus)
+    credits: Bach Collegium Japan; Masaaki Suzuki; Carolyn Sampson; Rachel Nicholls; Robin Blaze; Gerd Türk; Peter Kooij
+    duration: 217
+    apple_music:
+      song_id: '1724256080'
+      url: https://music.apple.com/us/song/mass-in-b-minor-bwv-232-credo-et-incarnatus-est-chorus/1724256080
+      album_url: https://music.apple.com/us/album/mass-in-b-minor-bwv-232-credo-et-incarnatus-est-chorus/1724255882
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 621
+      work_inferred_from: apple_music_url
+  - id: s-zalna26
+    work: bwv-232
+    movement: XVII. Credo. Crucifixus etiam pro nobis (Chorus)
+    recording: suzuki-mass-in-b-minor
+    title: XVII. Credo. Crucifixus etiam pro nobis (Chorus)
+    credits: Bach Collegium Japan; Masaaki Suzuki; Carolyn Sampson; Rachel Nicholls; Robin Blaze; Gerd Türk; Peter Kooij
+    duration: 197
+    apple_music:
+      song_id: '1724256081'
+      url: https://music.apple.com/us/song/mass-in-b-minor-bwv-232-credo-crucifixus-etiam-pro/1724256081
+      album_url: https://music.apple.com/us/album/mass-in-b-minor-bwv-232-credo-crucifixus-etiam-pro/1724255882
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 622
+      work_inferred_from: apple_music_url
+  - id: s-tsulmka
+    work: bwv-232
+    movement: XVIII. Credo. Et resurrexit tertia die (Chorus)
+    recording: suzuki-mass-in-b-minor
+    title: XVIII. Credo. Et resurrexit tertia die (Chorus)
+    credits: Bach Collegium Japan; Masaaki Suzuki; Carolyn Sampson; Rachel Nicholls; Robin Blaze; Gerd Türk; Peter Kooij
+    duration: 234
+    apple_music:
+      song_id: '1724256082'
+      url: https://music.apple.com/us/song/mass-in-b-minor-bwv-232-credo-et-resurrexit-tertia-die-chorus/1724256082
+      album_url: https://music.apple.com/us/album/mass-in-b-minor-bwv-232-credo-et-resurrexit-tertia-die-chorus/1724255882
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 623
+      work_inferred_from: apple_music_url
+  - id: s-yl4yu5s
+    work: bwv-232
+    movement: XIX. Credo. Et in Spiritum Sanctum (Bass)
+    recording: suzuki-mass-in-b-minor
+    title: XIX. Credo. Et in Spiritum Sanctum (Bass)
+    credits: Peter Kooij; Bach Collegium Japan; Masaaki Suzuki; Carolyn Sampson; Rachel Nicholls; Robin Blaze; Gerd Türk
+    duration: 289
+    apple_music:
+      song_id: '1724256083'
+      url: https://music.apple.com/us/song/mass-in-b-minor-bwv-232-credo-et-in-spiritum-sanctum-bass/1724256083
+      album_url: https://music.apple.com/us/album/mass-in-b-minor-bwv-232-credo-et-in-spiritum-sanctum-bass/1724255882
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 624
+      work_inferred_from: apple_music_url
+  - id: s-oenl7t2
+    work: bwv-232
+    movement: XX. Credo. Confiteor unum baptisma (Chorus a cappella)
+    recording: suzuki-mass-in-b-minor
+    title: XX. Credo. Confiteor unum baptisma (Chorus a cappella)
+    credits: Bach Collegium Japan; Masaaki Suzuki; Carolyn Sampson; Rachel Nicholls; Robin Blaze; Gerd Türk; Peter Kooij
+    duration: 235
+    apple_music:
+      song_id: '1724256084'
+      url: https://music.apple.com/us/song/mass-in-b-minor-bwv-232-credo-confiteor-unum-baptisma/1724256084
+      album_url: https://music.apple.com/us/album/mass-in-b-minor-bwv-232-credo-confiteor-unum-baptisma/1724255882
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 625
+      work_inferred_from: apple_music_url
+  - id: s-zhclxir
+    work: bwv-232
+    movement: XXI. Credo. Et exspecto resurrectionem mortuorum (Chorus)
+    recording: suzuki-mass-in-b-minor
+    title: XXI. Credo. Et exspecto resurrectionem mortuorum (Chorus)
+    credits: Bach Collegium Japan; Masaaki Suzuki; Carolyn Sampson; Rachel Nicholls; Robin Blaze; Gerd Türk; Peter Kooij
+    duration: 126
+    apple_music:
+      song_id: '1724256086'
+      url: https://music.apple.com/us/song/mass-in-b-minor-bwv-232-credo-et-exspecto-resurrectionem/1724256086
+      album_url: https://music.apple.com/us/album/mass-in-b-minor-bwv-232-credo-et-exspecto-resurrectionem/1724255882
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 626
+      work_inferred_from: apple_music_url
+  - id: s-zzavisw
+    work: bwv-232
+    movement: 'XXII. Sanctus: Sanctus Dominus Deus Sabaoth (Chorus)'
+    recording: suzuki-mass-in-b-minor
+    title: 'XXII. Sanctus: Sanctus Dominus Deus Sabaoth (Chorus)'
+    credits: Bach Collegium Japan; Masaaki Suzuki; Carolyn Sampson; Rachel Nicholls; Robin Blaze; Gerd Türk; Peter Kooij
+    duration: 352
+    apple_music:
+      song_id: '1724256087'
+      url: https://music.apple.com/us/song/mass-in-b-minor-bwv-232-sanctus-sanctus-dominus-deus/1724256087
+      album_url: https://music.apple.com/us/album/mass-in-b-minor-bwv-232-sanctus-sanctus-dominus-deus/1724255882
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 627
+      work_inferred_from: apple_music_url
+  - id: s-vkr3rcv
+    work: bwv-232
+    movement: 'XXIII. Osanna: Osanna in excelsis (Chorus)'
+    recording: suzuki-mass-in-b-minor
+    title: 'XXIII. Osanna: Osanna in excelsis (Chorus)'
+    credits: Bach Collegium Japan; Masaaki Suzuki; Carolyn Sampson; Rachel Nicholls; Robin Blaze; Gerd Türk; Peter Kooij
+    duration: 157
+    apple_music:
+      song_id: '1724256088'
+      url: https://music.apple.com/us/song/mass-in-b-minor-bwv-232-osanna-osanna-in-excelsis-chorus/1724256088
+      album_url: https://music.apple.com/us/album/mass-in-b-minor-bwv-232-osanna-osanna-in-excelsis-chorus/1724255882
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 628
+      work_inferred_from: apple_music_url
+  - id: s-cvn25nr
+    work: bwv-232
+    movement: 'XXIV. Benedictus: Benedictus qui venit (Tenor)'
+    recording: suzuki-mass-in-b-minor
+    title: 'XXIV. Benedictus: Benedictus qui venit (Tenor)'
+    credits: Gerd Türk; Bach Collegium Japan; Masaaki Suzuki; Carolyn Sampson; Rachel Nicholls; Robin Blaze; Peter Kooij
+    duration: 245
+    apple_music:
+      song_id: '1724256089'
+      url: https://music.apple.com/us/song/mass-in-b-minor-bwv-232-benedictus-benedictus-qui-venit/1724256089
+      album_url: https://music.apple.com/us/album/mass-in-b-minor-bwv-232-benedictus-benedictus-qui-venit/1724255882
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 629
+      work_inferred_from: apple_music_url
+  - id: s-kz35mo2
+    work: bwv-232
+    movement: 'XXV. Benedictus: Osanna in excelsis (Chorus)'
+    recording: suzuki-mass-in-b-minor
+    title: 'XXV. Benedictus: Osanna in excelsis (Chorus)'
+    credits: Robin Blaze; Bach Collegium Japan; Masaaki Suzuki; Carolyn Sampson; Rachel Nicholls; Gerd Türk; Peter Kooij
+    duration: 160
+    apple_music:
+      song_id: '1724256090'
+      url: https://music.apple.com/us/song/mass-in-b-minor-bwv-232-benedictus-osanna-in-excelsis-chorus/1724256090
+      album_url: https://music.apple.com/us/album/mass-in-b-minor-bwv-232-benedictus-osanna-in-excelsis-chorus/1724255882
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 630
+      work_inferred_from: apple_music_url
+  - id: s-s3qvfpv
+    work: bwv-232
+    movement: 'XXVI. Agnus Dei: Agnus Dei (Alto)'
+    recording: suzuki-mass-in-b-minor
+    title: 'XXVI. Agnus Dei: Agnus Dei (Alto)'
+    credits: Bach Collegium Japan; Masaaki Suzuki; Carolyn Sampson; Rachel Nicholls; Robin Blaze; Gerd Türk; Peter Kooij
+    duration: 319
+    apple_music:
+      song_id: '1724256091'
+      url: https://music.apple.com/us/song/mass-in-b-minor-bwv-232-agnus-dei-agnus-dei-alto/1724256091
+      album_url: https://music.apple.com/us/album/mass-in-b-minor-bwv-232-agnus-dei-agnus-dei-alto/1724255882
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 631
+      work_inferred_from: apple_music_url
+  - id: s-vwgq4p4
+    work: bwv-232
+    movement: XXVII. Dona nobis pacem
+    recording: suzuki-mass-in-b-minor
+    title: XXVII. Dona nobis pacem
+    credits: Bach Collegium Japan; Masaaki Suzuki; Carolyn Sampson; Rachel Nicholls; Robin Blaze; Gerd Türk; Peter Kooij
+    duration: 252
+    apple_music:
+      song_id: '1724256092'
+      url: https://music.apple.com/us/song/mass-in-b-minor-bwv-232-dona-nobis-pacem/1724256092
+      album_url: https://music.apple.com/us/album/mass-in-b-minor-bwv-232-dona-nobis-pacem/1724255882
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 632
+      work_inferred_from: apple_music_url

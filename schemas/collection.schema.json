@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Collection (one composer volume or other curated sequence)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "title", "composers", "stage_files"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^[a-z0-9-]+$"},
+    "title": {"type": "string"},
+    "subtitle": {"type": "string"},
+    "composers": {"type": "array", "items": {"type": "string"}},
+    "volume_principle": {"type": "string", "description": "This volume's own principle; not a rule for other volumes."},
+    "epigraph": {"type": "string"},
+    "lead": {"type": "string"},
+    "how_to_listen": {"type": "array", "items": {"type": "string"}},
+    "vision": {"type": "array", "items": {"type": "string"}},
+    "how_to_use": {"type": "array", "items": {"type": "string"}},
+    "beyond_the_sequence": {"type": "array", "items": {"type": "string"}},
+    "public_playlist_url": {"type": "string", "format": "uri"},
+    "public_playlist_note": {"type": "string"},
+    "default_work_focus": {"type": "string"},
+    "journal_placeholder": {"type": "string"},
+    "fallback_prompts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["match", "prompt"],
+        "properties": {"match": {"type": "string", "description": "Case-insensitive regex on the track title."}, "prompt": {"type": "string"}}
+      }
+    },
+    "stage_files": {"type": "array", "items": {"type": "string"}, "minItems": 1},
+    "legacy": {"type": "object"}
+  }
+}

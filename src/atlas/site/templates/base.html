@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% block title %}{{ atlas.meta.title }}{% endblock %}</title>
+<meta name="description" content="{% block description %}{{ atlas.meta.method }}{% endblock %}">
+<meta name="color-scheme" content="light dark">
+<link rel="stylesheet" href="{{ rel }}assets/atlas.css">
+<script>document.documentElement.classList.add('js')</script>
+</head>
+<body{% block body_attrs %}{% endblock %}>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap header-row">
+    <a class="brand" href="{{ rel }}index.html">{{ atlas.meta.title }}</a>
+    {% block header_nav %}{% endblock %}
+  </div>
+</header>
+{% block before_main %}{% endblock %}
+<main id="main" tabindex="-1">
+{% block main %}{% endblock %}
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <p>{{ atlas.meta.method }}</p>
+    <p class="muted small">Recordings are listening lenses, not authorities. Links open Apple Music; this site stores your notes only in this browser.</p>
+  </div>
+</footer>
+<script src="{{ rel }}assets/atlas.js" defer></script>
+</body>
+</html>

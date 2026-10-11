@@ -1,0 +1,633 @@
+# Stage 11 · Essence — playlist order is the order of this list.
+# To move a selection, move its whole block. Never reuse or renumber `id` values.
+stage: essence
+selections:
+  - id: s-cxqmhpu
+    work: bwv-1079
+    movement: Canon 1 à 2 cancrizans
+    recording: suzuki-musikalisches-opfer
+    title: Canon 1 à 2 cancrizans
+    credits: Masaaki Suzuki
+    duration: 118
+    apple_music:
+      song_id: '1724250111'
+      url: https://music.apple.com/us/song/musikalisches-opfer-op-6-bwv-1079-canon-1-%C3%A0-2-cancrizans/1724250111
+      album_url: https://music.apple.com/us/album/musikalisches-opfer-op-6-bwv-1079-canon-1-%C3%A0-2-cancrizans/1724249803
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 633
+      work_inferred_from: apple_music_url
+  - id: s-qg7crrz
+    work: bwv-1079
+    movement: Canon 2 à 2 violini in unisono
+    recording: suzuki-musikalisches-opfer
+    title: Canon 2 à 2 violini in unisono
+    credits: Ryo Terakado; Yukie Yamaguchi; Emmanuel Balssa; Masaaki Suzuki
+    duration: 53
+    apple_music:
+      song_id: '1724250112'
+      url: https://music.apple.com/us/song/musikalisches-opfer-op-6-bwv-1079-canon-2-%C3%A0-2-violini/1724250112
+      album_url: https://music.apple.com/us/album/musikalisches-opfer-op-6-bwv-1079-canon-2-%C3%A0-2-violini/1724249803
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 634
+      work_inferred_from: apple_music_url
+  - id: s-xxcanxj
+    work: bwv-1079
+    movement: Canon 3 à 2 per motum contrarium
+    recording: suzuki-musikalisches-opfer
+    title: Canon 3 à 2 per motum contrarium
+    credits: Kiyomi Suga; Ryo Terakado; Yukie Yamaguchi
+    principal_artist: Kiyomi Suga; Ryo Terakado; Yukie Yamaguchi
+    duration: 56
+    apple_music:
+      song_id: '1724250114'
+      url: https://music.apple.com/us/song/musikalisches-opfer-op-6-bwv-1079-canon-3-%C3%A0-2-per-motum/1724250114
+      album_url: https://music.apple.com/us/album/musikalisches-opfer-op-6-bwv-1079-canon-3-%C3%A0-2-per-motum/1724249803
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 635
+      work_inferred_from: apple_music_url
+  - id: s-jxbkutk
+    work: bwv-1079
+    movement: Canon 4 à 2 per augmentationem, contrario motu
+    recording: suzuki-musikalisches-opfer
+    title: Canon 4 à 2 per augmentationem, contrario motu
+    credits: Ryo Terakado; Yukie Yamaguchi; Emmanuel Balssa; Masaaki Suzuki
+    duration: 76
+    apple_music:
+      song_id: '1724250115'
+      url: https://music.apple.com/us/song/musikalisches-opfer-op-6-bwv-1079-canon-4-%C3%A0-2-per-augmentationem/1724250115
+      album_url: https://music.apple.com/us/album/musikalisches-opfer-op-6-bwv-1079-canon-4-%C3%A0-2-per-augmentationem/1724249803
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 636
+      work_inferred_from: apple_music_url
+  - id: s-6owluyf
+    work: bwv-1079
+    movement: Canon 5 à 2 per tonos
+    recording: suzuki-musikalisches-opfer
+    title: Canon 5 à 2 per tonos
+    credits: Kiyomi Suga; Ryo Terakado; Yukie Yamaguchi; Emmanuel Balssa; Masaaki Suzuki
+    duration: 359
+    apple_music:
+      song_id: '1724250116'
+      url: https://music.apple.com/us/song/musikalisches-opfer-op-6-bwv-1079-canon-5-%C3%A0-2-per-tonos/1724250116
+      album_url: https://music.apple.com/us/album/musikalisches-opfer-op-6-bwv-1079-canon-5-%C3%A0-2-per-tonos/1724249803
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 637
+      work_inferred_from: apple_music_url
+  - id: s-2ahd2ow
+    work: bwv-1079
+    movement: Fuga canonica in epidiapente
+    recording: suzuki-musikalisches-opfer
+    title: Fuga canonica in epidiapente
+    credits: Ryo Terakado; Yukie Yamaguchi; Emmanuel Balssa; Masaaki Suzuki
+    duration: 152
+    apple_music:
+      song_id: '1724250117'
+      url: https://music.apple.com/us/song/musikalisches-opfer-op-6-bwv-1079-fuga-canonica-in/1724250117
+      album_url: https://music.apple.com/us/album/musikalisches-opfer-op-6-bwv-1079-fuga-canonica-in/1724249803
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 638
+      work_inferred_from: apple_music_url
+  - id: s-krui7cd
+    work: bwv-1079
+    movement: Ricercar à 3
+    recording: suzuki-musikalisches-opfer
+    title: Ricercar à 3
+    credits: Masaaki Suzuki
+    duration: 372
+    apple_music:
+      song_id: '1724250118'
+      url: https://music.apple.com/us/song/musikalisches-opfer-op-6-bwv-1079-ricercar-%C3%A0-3/1724250118
+      album_url: https://music.apple.com/us/album/musikalisches-opfer-op-6-bwv-1079-ricercar-%C3%A0-3/1724249803
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 639
+      work_inferred_from: apple_music_url
+  - id: s-xqqyl7j
+    work: bwv-1079
+    movement: Canon perpetuus super Thema Regium
+    recording: suzuki-musikalisches-opfer
+    title: Canon perpetuus super Thema Regium
+    credits: Kiyomi Suga; Ryo Terakado; Emmanuel Balssa; Masaaki Suzuki
+    duration: 59
+    apple_music:
+      song_id: '1724250119'
+      url: https://music.apple.com/us/song/musikalisches-opfer-op-6-bwv-1079-canon-perpetuus-super/1724250119
+      album_url: https://music.apple.com/us/album/musikalisches-opfer-op-6-bwv-1079-canon-perpetuus-super/1724249803
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 640
+      work_inferred_from: apple_music_url
+  - id: s-fyu5ily
+    work: bwv-1079
+    movement: Ricercar à 6
+    recording: suzuki-musikalisches-opfer
+    title: Ricercar à 6
+    credits: Masaaki Suzuki
+    duration: 447
+    apple_music:
+      song_id: '1724250120'
+      url: https://music.apple.com/us/song/musikalisches-opfer-op-6-bwv-1079-ricercar-%C3%A0-6/1724250120
+      album_url: https://music.apple.com/us/album/musikalisches-opfer-op-6-bwv-1079-ricercar-%C3%A0-6/1724249803
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 641
+      work_inferred_from: apple_music_url
+  - id: s-j54yfgs
+    work: bwv-1079
+    movement: Canon à 2 querendo invenietis
+    recording: suzuki-musikalisches-opfer
+    title: Canon à 2 querendo invenietis
+    credits: Masaaki Suzuki
+    duration: 78
+    apple_music:
+      song_id: '1724250121'
+      url: https://music.apple.com/us/song/musikalisches-opfer-op-6-bwv-1079-canon-%C3%A0-2-querendo/1724250121
+      album_url: https://music.apple.com/us/album/musikalisches-opfer-op-6-bwv-1079-canon-%C3%A0-2-querendo/1724249803
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 642
+      work_inferred_from: apple_music_url
+  - id: s-447ap3b
+    work: bwv-1079
+    movement: Canon à 4
+    recording: suzuki-musikalisches-opfer
+    title: Canon à 4
+    credits: Ryo Terakado; Yukie Yamaguchi; Masaaki Suzuki
+    duration: 150
+    apple_music:
+      song_id: '1724250122'
+      url: https://music.apple.com/us/song/musikalisches-opfer-op-6-bwv-1079-canon-%C3%A0-4/1724250122
+      album_url: https://music.apple.com/us/album/musikalisches-opfer-op-6-bwv-1079-canon-%C3%A0-4/1724249803
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 643
+      work_inferred_from: apple_music_url
+  - id: s-7kkesaj
+    work: bwv-1079
+    movement: 'Sonata sopra il Soggetto Reale: I. Largo'
+    recording: suzuki-musikalisches-opfer
+    title: 'Sonata sopra il Soggetto Reale: I. Largo'
+    credits: Kiyomi Suga; Ryo Terakado; Emmanuel Balssa; Masaaki Suzuki
+    duration: 349
+    apple_music:
+      song_id: '1724249805'
+      url: https://music.apple.com/us/song/musikalisches-opfer-op-6-bwv-1079-sonata-sopra-il/1724249805
+      album_url: https://music.apple.com/us/album/musikalisches-opfer-op-6-bwv-1079-sonata-sopra-il/1724249803
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 644
+      work_inferred_from: apple_music_url
+  - id: s-g4a7vx6
+    work: bwv-1079
+    movement: 'Sonata sopra il Soggetto Reale: II. Allegro'
+    recording: suzuki-musikalisches-opfer
+    title: 'Sonata sopra il Soggetto Reale: II. Allegro'
+    credits: Kiyomi Suga; Ryo Terakado; Emmanuel Balssa; Masaaki Suzuki
+    duration: 357
+    apple_music:
+      song_id: '1724250107'
+      url: https://music.apple.com/us/song/musikalisches-opfer-op-6-bwv-1079-sonata-sopra-il/1724250107
+      album_url: https://music.apple.com/us/album/musikalisches-opfer-op-6-bwv-1079-sonata-sopra-il/1724249803
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 645
+      work_inferred_from: apple_music_url
+  - id: s-7v2rwhl
+    work: bwv-1079
+    movement: 'Sonata sopra il Soggetto Reale: III. Andante'
+    recording: suzuki-musikalisches-opfer
+    title: 'Sonata sopra il Soggetto Reale: III. Andante'
+    credits: Kiyomi Suga; Ryo Terakado; Emmanuel Balssa; Masaaki Suzuki
+    duration: 207
+    apple_music:
+      song_id: '1724250108'
+      url: https://music.apple.com/us/song/musikalisches-opfer-op-6-bwv-1079-sonata-sopra-il/1724250108
+      album_url: https://music.apple.com/us/album/musikalisches-opfer-op-6-bwv-1079-sonata-sopra-il/1724249803
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 646
+      work_inferred_from: apple_music_url
+  - id: s-tufa2ey
+    work: bwv-1079
+    movement: 'Sonata sopra il Soggetto Reale: IV. Allegro'
+    recording: suzuki-musikalisches-opfer
+    title: 'Sonata sopra il Soggetto Reale: IV. Allegro'
+    credits: Kiyomi Suga; Ryo Terakado; Emmanuel Balssa; Masaaki Suzuki
+    duration: 184
+    apple_music:
+      song_id: '1724250109'
+      url: https://music.apple.com/us/song/musikalisches-opfer-op-6-bwv-1079-sonata-sopra-il/1724250109
+      album_url: https://music.apple.com/us/album/musikalisches-opfer-op-6-bwv-1079-sonata-sopra-il/1724249803
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 647
+      work_inferred_from: apple_music_url
+  - id: s-lalcygf
+    work: bwv-1079
+    movement: Canon perpetuus
+    recording: suzuki-musikalisches-opfer
+    title: Canon perpetuus
+    credits: Kiyomi Suga; Ryo Terakado; Emmanuel Balssa; Masaaki Suzuki
+    duration: 160
+    apple_music:
+      song_id: '1724250123'
+      url: https://music.apple.com/us/song/musikalisches-opfer-op-6-bwv-1079-canon-perpetuus/1724250123
+      album_url: https://music.apple.com/us/album/musikalisches-opfer-op-6-bwv-1079-canon-perpetuus/1724249803
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 648
+      work_inferred_from: apple_music_url
+  - id: s-plfxdv6
+    work: bwv-1080
+    movement: Contrapunctus I
+    recording: hewitt-art-of-fugue
+    title: Contrapunctus I
+    credits: Angela Hewitt
+    duration: 204
+    apple_music:
+      song_id: '1697993918'
+      url: https://music.apple.com/us/song/the-art-of-fugue-bwv-1080-contrapunctus-i/1697993918
+      album_url: https://music.apple.com/us/album/the-art-of-fugue-bwv-1080-contrapunctus-i/1697993912
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 649
+      work_inferred_from: apple_music_url
+  - id: s-wzi453p
+    work: bwv-1080
+    movement: Contrapunctus II
+    recording: hewitt-art-of-fugue
+    title: Contrapunctus II
+    credits: Angela Hewitt
+    duration: 166
+    apple_music:
+      song_id: '1697993920'
+      url: https://music.apple.com/us/song/the-art-of-fugue-bwv-1080-contrapunctus-ii/1697993920
+      album_url: https://music.apple.com/us/album/the-art-of-fugue-bwv-1080-contrapunctus-ii/1697993912
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 650
+      work_inferred_from: apple_music_url
+  - id: s-nl72rxe
+    work: bwv-1080
+    movement: Contrapunctus III
+    recording: hewitt-art-of-fugue
+    title: Contrapunctus III
+    credits: Angela Hewitt
+    duration: 198
+    apple_music:
+      song_id: '1697993921'
+      url: https://music.apple.com/us/song/the-art-of-fugue-bwv-1080-contrapunctus-iii/1697993921
+      album_url: https://music.apple.com/us/album/the-art-of-fugue-bwv-1080-contrapunctus-iii/1697993912
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 651
+      work_inferred_from: apple_music_url
+  - id: s-u3zendi
+    work: bwv-1080
+    movement: Contrapunctus IV
+    recording: hewitt-art-of-fugue
+    title: Contrapunctus IV
+    credits: Angela Hewitt
+    duration: 277
+    apple_music:
+      song_id: '1697993924'
+      url: https://music.apple.com/us/song/the-art-of-fugue-bwv-1080-contrapunctus-iv/1697993924
+      album_url: https://music.apple.com/us/album/the-art-of-fugue-bwv-1080-contrapunctus-iv/1697993912
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 652
+      work_inferred_from: apple_music_url
+  - id: s-tt2nped
+    work: bwv-1080
+    movement: Contrapunctus V
+    recording: hewitt-art-of-fugue
+    title: Contrapunctus V
+    credits: Angela Hewitt
+    duration: 195
+    apple_music:
+      song_id: '1697993925'
+      url: https://music.apple.com/us/song/the-art-of-fugue-bwv-1080-contrapunctus-v/1697993925
+      album_url: https://music.apple.com/us/album/the-art-of-fugue-bwv-1080-contrapunctus-v/1697993912
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 653
+      work_inferred_from: apple_music_url
+  - id: s-dsgzion
+    work: bwv-1080
+    movement: Contrapunctus VI a 4 in stylo Francese "per diminutionem"
+    recording: hewitt-art-of-fugue
+    title: Contrapunctus VI a 4 in stylo Francese "per diminutionem"
+    credits: Angela Hewitt
+    duration: 334
+    apple_music:
+      song_id: '1697994080'
+      url: https://music.apple.com/us/song/the-art-of-fugue-bwv-1080-contrapunctus-vi-a-4/1697994080
+      album_url: https://music.apple.com/us/album/the-art-of-fugue-bwv-1080-contrapunctus-vi-a-4/1697993912
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 654
+      work_inferred_from: apple_music_url
+  - id: s-vx5otwd
+    work: bwv-1080
+    movement: Contrapunctus VII a 4 "per augmentationem et diminutionem"
+    recording: hewitt-art-of-fugue
+    title: Contrapunctus VII a 4 "per augmentationem et diminutionem"
+    credits: Angela Hewitt
+    duration: 279
+    apple_music:
+      song_id: '1697994085'
+      url: https://music.apple.com/us/song/the-art-of-fugue-bwv-1080-contrapunctus-vii-a/1697994085
+      album_url: https://music.apple.com/us/album/the-art-of-fugue-bwv-1080-contrapunctus-vii-a/1697993912
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 655
+      work_inferred_from: apple_music_url
+  - id: s-5nvuj3e
+    work: bwv-1080
+    movement: Contrapunctus VIII a 3
+    recording: hewitt-art-of-fugue
+    title: Contrapunctus VIII a 3
+    credits: Angela Hewitt
+    duration: 367
+    apple_music:
+      song_id: '1697994087'
+      url: https://music.apple.com/us/song/the-art-of-fugue-bwv-1080-contrapunctus-viii-a-3/1697994087
+      album_url: https://music.apple.com/us/album/the-art-of-fugue-bwv-1080-contrapunctus-viii-a-3/1697993912
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 656
+      work_inferred_from: apple_music_url
+  - id: s-b25pohz
+    work: bwv-1080
+    movement: Contrapunctus IX a 4 alla duodecima
+    recording: hewitt-art-of-fugue
+    title: Contrapunctus IX a 4 alla duodecima
+    credits: Angela Hewitt
+    duration: 168
+    apple_music:
+      song_id: '1697994095'
+      url: https://music.apple.com/us/song/the-art-of-fugue-bwv-1080-contrapunctus-ix-a-4-alla-duodecima/1697994095
+      album_url: https://music.apple.com/us/album/the-art-of-fugue-bwv-1080-contrapunctus-ix-a-4-alla-duodecima/1697993912
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 657
+      work_inferred_from: apple_music_url
+  - id: s-habgke5
+    work: bwv-1080
+    movement: Contrapunctus X a 4 alla decima
+    recording: hewitt-art-of-fugue
+    title: Contrapunctus X a 4 alla decima
+    credits: Angela Hewitt
+    duration: 337
+    apple_music:
+      song_id: '1697994097'
+      url: https://music.apple.com/us/song/the-art-of-fugue-bwv-1080-contrapunctus-x-a-4-alla-decima/1697994097
+      album_url: https://music.apple.com/us/album/the-art-of-fugue-bwv-1080-contrapunctus-x-a-4-alla-decima/1697993912
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 658
+      work_inferred_from: apple_music_url
+  - id: s-mmu3liw
+    work: bwv-1080
+    movement: Contrapunctus XI a 4
+    recording: hewitt-art-of-fugue
+    title: Contrapunctus XI a 4
+    credits: Angela Hewitt
+    duration: 423
+    apple_music:
+      song_id: '1697994104'
+      url: https://music.apple.com/us/song/the-art-of-fugue-bwv-1080-contrapunctus-xi-a-4/1697994104
+      album_url: https://music.apple.com/us/album/the-art-of-fugue-bwv-1080-contrapunctus-xi-a-4/1697993912
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 659
+      work_inferred_from: apple_music_url
+  - id: s-xzflgqm
+    work: bwv-1080
+    movement: Contrapunctus XIIb a 4 rectus
+    recording: hewitt-art-of-fugue
+    title: Contrapunctus XIIb a 4 rectus
+    credits: Angela Hewitt
+    duration: 194
+    apple_music:
+      song_id: '1697994286'
+      url: https://music.apple.com/us/song/the-art-of-fugue-bwv-1080-contrapunctus-xiib-a-4-rectus/1697994286
+      album_url: https://music.apple.com/us/album/the-art-of-fugue-bwv-1080-contrapunctus-xiib-a-4-rectus/1697993912
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 660
+      work_inferred_from: apple_music_url
+  - id: s-utuzgpe
+    work: bwv-1080
+    movement: Contrapunctus XIIa a 4 inversus
+    recording: hewitt-art-of-fugue
+    title: Contrapunctus XIIa a 4 inversus
+    credits: Angela Hewitt
+    duration: 188
+    apple_music:
+      song_id: '1697994294'
+      url: https://music.apple.com/us/song/the-art-of-fugue-bwv-1080-contrapunctus-xiia-a-4-inversus/1697994294
+      album_url: https://music.apple.com/us/album/the-art-of-fugue-bwv-1080-contrapunctus-xiia-a-4-inversus/1697993912
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 661
+      work_inferred_from: apple_music_url
+  - id: s-ypg53r6
+    work: bwv-1080
+    movement: Contrapunctus XIIIa a 3 rectus
+    recording: hewitt-art-of-fugue
+    title: Contrapunctus XIIIa a 3 rectus
+    credits: Angela Hewitt
+    duration: 141
+    apple_music:
+      song_id: '1697994301'
+      url: https://music.apple.com/us/song/the-art-of-fugue-bwv-1080-contrapunctus-xiiia-a-3-rectus/1697994301
+      album_url: https://music.apple.com/us/album/the-art-of-fugue-bwv-1080-contrapunctus-xiiia-a-3-rectus/1697993912
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 662
+      work_inferred_from: apple_music_url
+  - id: s-xmaqmvd
+    work: bwv-1080
+    movement: Contrapunctus XIIIb a 3 inversus
+    recording: hewitt-art-of-fugue
+    title: Contrapunctus XIIIb a 3 inversus
+    credits: Angela Hewitt
+    duration: 143
+    apple_music:
+      song_id: '1697994307'
+      url: https://music.apple.com/us/song/the-art-of-fugue-bwv-1080-contrapunctus-xiiib-a-3-inversus/1697994307
+      album_url: https://music.apple.com/us/album/the-art-of-fugue-bwv-1080-contrapunctus-xiiib-a-3-inversus/1697993912
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 663
+      work_inferred_from: apple_music_url
+  - id: s-o4vqpg3
+    work: bwv-1080
+    movement: Canon per augmentationem in contrario motu "in hypodiatessaron"
+    recording: hewitt-art-of-fugue
+    title: Canon per augmentationem in contrario motu "in hypodiatessaron"
+    credits: Angela Hewitt
+    duration: 275
+    apple_music:
+      song_id: '1697994312'
+      url: https://music.apple.com/us/song/the-art-of-fugue-bwv-1080-canon-per-augmentationem/1697994312
+      album_url: https://music.apple.com/us/album/the-art-of-fugue-bwv-1080-canon-per-augmentationem/1697993912
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 664
+      work_inferred_from: apple_music_url
+  - id: s-c23h77r
+    work: bwv-1080
+    movement: Canon alla ottava "in hypodiapason"
+    recording: hewitt-art-of-fugue
+    title: Canon alla ottava "in hypodiapason"
+    credits: Angela Hewitt
+    duration: 140
+    apple_music:
+      song_id: '1697994406'
+      url: https://music.apple.com/us/song/the-art-of-fugue-bwv-1080-canon-alla-ottava-in-hypodiapason/1697994406
+      album_url: https://music.apple.com/us/album/the-art-of-fugue-bwv-1080-canon-alla-ottava-in-hypodiapason/1697993912
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 665
+      work_inferred_from: apple_music_url
+  - id: s-dliwwei
+    work: bwv-1080
+    movement: Canon alla decima in contrapunto alla terza
+    recording: hewitt-art-of-fugue
+    title: Canon alla decima in contrapunto alla terza
+    credits: Angela Hewitt
+    duration: 291
+    apple_music:
+      song_id: '1697994410'
+      url: https://music.apple.com/us/song/the-art-of-fugue-bwv-1080-canon-alla-decima/1697994410
+      album_url: https://music.apple.com/us/album/the-art-of-fugue-bwv-1080-canon-alla-decima/1697993912
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 666
+      work_inferred_from: apple_music_url
+  - id: s-h4pkkej
+    work: bwv-1080
+    movement: Canon alla duodecima in contrapunto alla quinta
+    recording: hewitt-art-of-fugue
+    title: Canon alla duodecima in contrapunto alla quinta
+    credits: Angela Hewitt
+    duration: 142
+    apple_music:
+      song_id: '1697994413'
+      url: https://music.apple.com/us/song/the-art-of-fugue-bwv-1080-canon-alla-duodecima/1697994413
+      album_url: https://music.apple.com/us/album/the-art-of-fugue-bwv-1080-canon-alla-duodecima/1697993912
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 667
+      work_inferred_from: apple_music_url
+  - id: s-i5t2ghx
+    work: bwv-1080
+    movement: Contrapunctus XIV. Fuga a 3 Soggetti (Incomplete)
+    recording: hewitt-art-of-fugue
+    title: Contrapunctus XIV. Fuga a 3 Soggetti (Incomplete)
+    credits: Angela Hewitt
+    duration: 594
+    apple_music:
+      song_id: '1697994415'
+      url: https://music.apple.com/us/song/the-art-of-fugue-bwv-1080-contrapunctus-xiv-fuga/1697994415
+      album_url: https://music.apple.com/us/album/the-art-of-fugue-bwv-1080-contrapunctus-xiv-fuga/1697993912
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 668
+      work_inferred_from: apple_music_url
+  - id: s-opxmii3
+    work: bwv-668a
+    movement: null
+    recording: hewitt-art-of-fugue
+    title: Wenn wir in höchsten Nöten sein "Vor deinem Thron", BWV 668a
+    credits: Angela Hewitt
+    duration: 313
+    apple_music:
+      song_id: '1697993915'
+      url: https://music.apple.com/us/song/wenn-wir-in-h%C3%B6chsten-n%C3%B6ten-sein-vor-deinem-thron-bwv-668a/1697993915
+      album_url: https://music.apple.com/us/album/wenn-wir-in-h%C3%B6chsten-n%C3%B6ten-sein-vor-deinem-thron-bwv-668a/1697993912
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 669

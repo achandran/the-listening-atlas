@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Editorial issue register",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["issues"],
+  "properties": {
+    "issues": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "title", "status", "detail", "selections", "action"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^ED-[0-9]{3}$"},
+          "stage": {"type": ["string", "null"]},
+          "title": {"type": "string"},
+          "status": {"enum": ["open", "partially_resolved", "resolved", "wont_fix"]},
+          "detail": {"type": "string"},
+          "selections": {"type": "array", "items": {"type": "string"}},
+          "proposal": {"type": "string"},
+          "action": {"type": "string"}
+        }
+      }
+    }
+  }
+}

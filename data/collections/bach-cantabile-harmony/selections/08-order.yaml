@@ -1,0 +1,1541 @@
+# Stage 8 · Order — playlist order is the order of this list.
+# To move a selection, move its whole block. Never reuse or renumber `id` values.
+stage: order
+selections:
+  - id: s-4t7zbnj
+    work: bwv-846
+    movement: Prelude
+    recording: hewitt-wtc
+    title: Prelude No. 1 in C Major, BWV 846/1
+    credits: Angela Hewitt
+    duration: 140
+    apple_music:
+      song_id: '1721145877'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-1-prelude-no-1-in-c/1721145877
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-1-prelude-no-1-in-c/1721145434
+    status: keep
+    verification: snapshot_matched
+    editorial_note: Start of later WTC recording; verify album edition/recording date separately.
+    source:
+      snapshot: master-669
+      position: 370
+  - id: s-zmsndcl
+    work: bwv-846
+    movement: Fugue
+    recording: hewitt-wtc
+    title: Fugue No. 1 in C Major, BWV 846/2
+    credits: Angela Hewitt
+    duration: 127
+    apple_music:
+      song_id: '1721146078'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-1-fugue-no-1-in-c-major-bwv-846-2/1721146078
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-1-fugue-no-1-in-c-major-bwv-846-2/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 371
+  - id: s-f5idsc3
+    work: bwv-847
+    movement: Prelude
+    recording: hewitt-wtc
+    title: Prelude No. 2 in C Minor, BWV 847/1
+    credits: Angela Hewitt
+    duration: 96
+    apple_music:
+      song_id: '1721146091'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-1-prelude-no-2-in-c/1721146091
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-1-prelude-no-2-in-c/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 372
+  - id: s-zav3ilk
+    work: bwv-847
+    movement: Fugue
+    recording: hewitt-wtc
+    title: Fugue No. 2 in C Minor, BWV 847/2
+    credits: Angela Hewitt
+    duration: 112
+    apple_music:
+      song_id: '1721146311'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-1-fugue-no-2-in-c-minor-bwv-847-2/1721146311
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-1-fugue-no-2-in-c-minor-bwv-847-2/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 373
+  - id: s-v5ltsfb
+    work: bwv-848
+    movement: Prelude
+    recording: hewitt-wtc
+    title: Prelude No. 3 in C-Sharp Major, BWV 848/1
+    credits: Angela Hewitt
+    duration: 83
+    apple_music:
+      song_id: '1721146330'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-1-prelude-no-3-in-c/1721146330
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-1-prelude-no-3-in-c/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 374
+  - id: s-moud4fb
+    work: bwv-848
+    movement: Fugue
+    recording: hewitt-wtc
+    title: Fugue No. 3 in C-Sharp Major, BWV 848/2
+    credits: Angela Hewitt
+    duration: 139
+    apple_music:
+      song_id: '1721146508'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-1-fugue-no-3-in-c/1721146508
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-1-fugue-no-3-in-c/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 375
+  - id: s-vvdfsnj
+    work: bwv-849
+    movement: Prelude
+    recording: hewitt-wtc
+    title: Prelude No. 4 in C-Sharp Minor, BWV 849/1
+    credits: Angela Hewitt
+    duration: 184
+    apple_music:
+      song_id: '1721146550'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-1-prelude-no-4-in-c/1721146550
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-1-prelude-no-4-in-c/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 376
+  - id: s-zynkte4
+    work: bwv-849
+    movement: Fugue
+    recording: hewitt-wtc
+    title: Fugue No. 4 in C-Sharp Minor, BWV 849/2
+    credits: Angela Hewitt
+    duration: 324
+    apple_music:
+      song_id: '1721146561'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-1-fugue-no-4-in-c/1721146561
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-1-fugue-no-4-in-c/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 377
+  - id: s-tvtdohs
+    work: bwv-850
+    movement: Prelude
+    recording: hewitt-wtc
+    title: Prelude No. 5 in D Major, BWV 850/1
+    credits: Angela Hewitt
+    duration: 84
+    apple_music:
+      song_id: '1721146567'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-1-prelude-no-5-in-d/1721146567
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-1-prelude-no-5-in-d/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 378
+  - id: s-f4jsyb7
+    work: bwv-850
+    movement: Fugue
+    recording: hewitt-wtc
+    title: Fugue No. 5 in D Major, BWV 850/2
+    credits: Angela Hewitt
+    duration: 133
+    apple_music:
+      song_id: '1721146792'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-1-fugue-no-5-in-d-major-bwv-850-2/1721146792
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-1-fugue-no-5-in-d-major-bwv-850-2/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 379
+  - id: s-uz36gdl
+    work: bwv-851
+    movement: Prelude
+    recording: hewitt-wtc
+    title: Prelude No. 6 in D Minor, BWV 851/1
+    credits: Angela Hewitt
+    duration: 100
+    apple_music:
+      song_id: '1721146802'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-1-prelude-no-6-in-d/1721146802
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-1-prelude-no-6-in-d/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 380
+  - id: s-sm5syx4
+    work: bwv-851
+    movement: Fugue
+    recording: hewitt-wtc
+    title: Fugue No. 6 in D Minor, BWV 851/2
+    credits: Angela Hewitt
+    duration: 179
+    apple_music:
+      song_id: '1721146812'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-1-fugue-no-6-in-d-minor-bwv-851-2/1721146812
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-1-fugue-no-6-in-d-minor-bwv-851-2/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 381
+  - id: s-sdrdniy
+    work: bwv-852
+    movement: Prelude
+    recording: hewitt-wtc
+    title: Prelude No. 7 in E-Flat Major, BWV 852/1
+    credits: Angela Hewitt
+    duration: 224
+    apple_music:
+      song_id: '1721147038'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-1-prelude-no-7-in-e/1721147038
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-1-prelude-no-7-in-e/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 382
+  - id: s-onbyuw7
+    work: bwv-852
+    movement: Fugue
+    recording: hewitt-wtc
+    title: Fugue No. 7 in E-Flat Major, BWV 852/2
+    credits: Angela Hewitt
+    duration: 100
+    apple_music:
+      song_id: '1721147049'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-1-fugue-no-7-in-e-flat/1721147049
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-1-fugue-no-7-in-e-flat/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 383
+  - id: s-g5tbb46
+    work: bwv-853
+    movement: Prelude
+    recording: hewitt-wtc
+    title: Prelude No. 8 in E-Flat Minor, BWV 853/1
+    credits: Angela Hewitt
+    duration: 238
+    apple_music:
+      song_id: '1721147216'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-1-prelude-no-8-in-e/1721147216
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-1-prelude-no-8-in-e/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 384
+  - id: s-kiu77pb
+    work: bwv-853
+    movement: Fugue
+    recording: hewitt-wtc
+    title: Fugue No. 8 in E-Flat Minor, BWV 853/2
+    credits: Angela Hewitt
+    duration: 316
+    apple_music:
+      song_id: '1721147225'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-1-fugue-no-8-in-e-flat/1721147225
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-1-fugue-no-8-in-e-flat/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 385
+  - id: s-d6qaxdu
+    work: bwv-854
+    movement: Prelude
+    recording: hewitt-wtc
+    title: Prelude No. 9 in E Major, BWV 854/1
+    credits: Angela Hewitt
+    duration: 84
+    apple_music:
+      song_id: '1721147482'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-1-prelude-no-9-in-e/1721147482
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-1-prelude-no-9-in-e/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 386
+  - id: s-4nwe4mq
+    work: bwv-854
+    movement: Fugue
+    recording: hewitt-wtc
+    title: Fugue No. 9 in E Major, BWV 854/2
+    credits: Angela Hewitt
+    duration: 66
+    apple_music:
+      song_id: '1721147491'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-1-fugue-no-9-in-e-major-bwv-854-2/1721147491
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-1-fugue-no-9-in-e-major-bwv-854-2/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 387
+  - id: s-kcn6kx3
+    work: bwv-855
+    movement: Prelude
+    recording: hewitt-wtc
+    title: Prelude No. 10 in E Minor, BWV 855/1
+    credits: Angela Hewitt
+    duration: 138
+    apple_music:
+      song_id: '1721147504'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-1-prelude-no-10-in-e/1721147504
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-1-prelude-no-10-in-e/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 388
+  - id: s-ztjx5bk
+    work: bwv-855
+    movement: Fugue
+    recording: hewitt-wtc
+    title: Fugue No. 10 in E Minor, BWV 855/2
+    credits: Angela Hewitt
+    duration: 70
+    apple_music:
+      song_id: '1721147634'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-1-fugue-no-10-in-e/1721147634
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-1-fugue-no-10-in-e/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 389
+  - id: s-b26vs4d
+    work: bwv-856
+    movement: Prelude
+    recording: hewitt-wtc
+    title: Prelude No. 11 in F Major, BWV 856/1
+    credits: Angela Hewitt
+    duration: 62
+    apple_music:
+      song_id: '1721147648'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-1-prelude-no-11-in-f/1721147648
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-1-prelude-no-11-in-f/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 390
+  - id: s-3r6huh2
+    work: bwv-856
+    movement: Fugue
+    recording: hewitt-wtc
+    title: Fugue No. 11 in F Major, BWV 856/2
+    credits: Angela Hewitt
+    duration: 98
+    apple_music:
+      song_id: '1721147655'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-1-fugue-no-11-in-f/1721147655
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-1-fugue-no-11-in-f/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 391
+  - id: s-xqnplgu
+    work: bwv-857
+    movement: Prelude
+    recording: hewitt-wtc
+    title: Prelude No. 12 in F Minor, BWV 857/1
+    credits: Angela Hewitt
+    duration: 132
+    apple_music:
+      song_id: '1721147752'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-1-prelude-no-12-in-f/1721147752
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-1-prelude-no-12-in-f/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 392
+  - id: s-bwamcco
+    work: bwv-857
+    movement: Fugue
+    recording: hewitt-wtc
+    title: Fugue No. 12 in F Minor, BWV 857/2
+    credits: Angela Hewitt
+    duration: 295
+    apple_music:
+      song_id: '1721147763'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-1-fugue-no-12-in-f/1721147763
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-1-fugue-no-12-in-f/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 393
+  - id: s-w676suf
+    work: bwv-858
+    movement: Prelude
+    recording: hewitt-wtc
+    title: Prelude No. 13 in F-Sharp Major, BWV 858/1
+    credits: Angela Hewitt
+    duration: 91
+    apple_music:
+      song_id: '1721148211'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-1-prelude-no-13-in-f/1721148211
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-1-prelude-no-13-in-f/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 394
+  - id: s-zmbily5
+    work: bwv-858
+    movement: Fugue
+    recording: hewitt-wtc
+    title: Fugue No. 13 in F-Sharp Major, BWV 858/2
+    credits: Angela Hewitt
+    duration: 139
+    apple_music:
+      song_id: '1721148219'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-1-fugue-no-13-in-f/1721148219
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-1-fugue-no-13-in-f/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 395
+  - id: s-ur4lmxy
+    work: bwv-859
+    movement: Prelude
+    recording: hewitt-wtc
+    title: Prelude No. 14 in F-Sharp Minor, BWV 859/1
+    credits: Angela Hewitt
+    duration: 61
+    apple_music:
+      song_id: '1721148322'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-1-prelude-no-14-in-f/1721148322
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-1-prelude-no-14-in-f/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 396
+  - id: s-jpzu4nn
+    work: bwv-859
+    movement: Fugue
+    recording: hewitt-wtc
+    title: Fugue No. 14 in F-Sharp Minor, BWV 859/2
+    credits: Angela Hewitt
+    duration: 196
+    apple_music:
+      song_id: '1721148331'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-1-fugue-no-14-in-f/1721148331
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-1-fugue-no-14-in-f/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 397
+  - id: s-wxofjcw
+    work: bwv-860
+    movement: Prelude
+    recording: hewitt-wtc
+    title: Prelude No. 15 in G Major, BWV 860/1
+    credits: Angela Hewitt
+    duration: 54
+    apple_music:
+      song_id: '1721148339'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-1-prelude-no-15-in-g/1721148339
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-1-prelude-no-15-in-g/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 398
+  - id: s-rrbpncr
+    work: bwv-860
+    movement: Fugue
+    recording: hewitt-wtc
+    title: Fugue No. 15 in G Major, BWV 860/2
+    credits: Angela Hewitt
+    duration: 170
+    apple_music:
+      song_id: '1721148618'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-1-fugue-no-15-in-g/1721148618
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-1-fugue-no-15-in-g/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 399
+  - id: s-72tv2n7
+    work: bwv-861
+    movement: Prelude
+    recording: hewitt-wtc
+    title: Prelude No. 16 in G Minor, BWV 861/1
+    credits: Angela Hewitt
+    duration: 135
+    apple_music:
+      song_id: '1721148626'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-1-prelude-no-16-in-g/1721148626
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-1-prelude-no-16-in-g/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 400
+  - id: s-y5ashuq
+    work: bwv-861
+    movement: Fugue
+    recording: hewitt-wtc
+    title: Fugue No. 16 in G Minor, BWV 861/2
+    credits: Angela Hewitt
+    duration: 101
+    apple_music:
+      song_id: '1721148770'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-1-fugue-no-16-in-g/1721148770
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-1-fugue-no-16-in-g/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 401
+  - id: s-4uj665h
+    work: bwv-862
+    movement: Prelude
+    recording: hewitt-wtc
+    title: Prelude No. 17 in A-Flat Major, BWV 862/1
+    credits: Angela Hewitt
+    duration: 82
+    apple_music:
+      song_id: '1721148778'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-1-prelude-no-17-in/1721148778
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-1-prelude-no-17-in/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 402
+  - id: s-fcflrcz
+    work: bwv-862
+    movement: Fugue
+    recording: hewitt-wtc
+    title: Fugue No. 17 in A-Flat Major, BWV 862/2
+    credits: Angela Hewitt
+    duration: 189
+    apple_music:
+      song_id: '1721148788'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-1-fugue-no-17-in-a/1721148788
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-1-fugue-no-17-in-a/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 403
+  - id: s-3xmuio4
+    work: bwv-863
+    movement: Prelude
+    recording: hewitt-wtc
+    title: Prelude No. 18 in G-Sharp Minor, BWV 863/1
+    credits: Angela Hewitt
+    duration: 91
+    apple_music:
+      song_id: '1721149041'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-1-prelude-no-18-in-g/1721149041
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-1-prelude-no-18-in-g/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 404
+  - id: s-fxip7tc
+    work: bwv-863
+    movement: Fugue
+    recording: hewitt-wtc
+    title: Fugue No. 18 in G-Sharp Minor, BWV 863/2
+    credits: Angela Hewitt
+    duration: 127
+    apple_music:
+      song_id: '1721149049'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-1-fugue-no-18-in-g/1721149049
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-1-fugue-no-18-in-g/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 405
+  - id: s-7esglbk
+    work: bwv-864
+    movement: Prelude
+    recording: hewitt-wtc
+    title: Prelude No. 19 in A Major, BWV 864/1
+    credits: Angela Hewitt
+    duration: 88
+    apple_music:
+      song_id: '1721149057'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-1-prelude-no-19-in/1721149057
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-1-prelude-no-19-in/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 406
+  - id: s-cplfqvn
+    work: bwv-864
+    movement: Fugue
+    recording: hewitt-wtc
+    title: Fugue No. 19 in A Major, BWV 864/2
+    credits: Angela Hewitt
+    duration: 120
+    apple_music:
+      song_id: '1721149338'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-1-fugue-no-19-in-a/1721149338
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-1-fugue-no-19-in-a/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 407
+  - id: s-vgx5yhb
+    work: bwv-865
+    movement: Prelude
+    recording: hewitt-wtc
+    title: Prelude No. 20 in A Minor, BWV 865/1
+    credits: Angela Hewitt
+    duration: 59
+    apple_music:
+      song_id: '1721149348'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-1-prelude-no-20-in/1721149348
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-1-prelude-no-20-in/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 408
+  - id: s-cjy4fj7
+    work: bwv-865
+    movement: Fugue
+    recording: hewitt-wtc
+    title: Fugue No. 20 in A Minor, BWV 865/2
+    credits: Angela Hewitt
+    duration: 333
+    apple_music:
+      song_id: '1721149358'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-1-fugue-no-20-in-a/1721149358
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-1-fugue-no-20-in-a/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 409
+  - id: s-4lmorbv
+    work: bwv-866
+    movement: Prelude
+    recording: hewitt-wtc
+    title: Prelude No. 21 in B-Flat Major, BWV 866/1
+    credits: Angela Hewitt
+    duration: 85
+    apple_music:
+      song_id: '1721149583'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-1-prelude-no-21-in-b/1721149583
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-1-prelude-no-21-in-b/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 410
+  - id: s-hb35sas
+    work: bwv-866
+    movement: Fugue
+    recording: hewitt-wtc
+    title: Fugue No. 21 in B-Flat Major, BWV 866/2
+    credits: Angela Hewitt
+    duration: 105
+    apple_music:
+      song_id: '1721149590'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-1-fugue-no-21-in-b/1721149590
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-1-fugue-no-21-in-b/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 411
+  - id: s-3a3ezva
+    work: bwv-867
+    movement: Prelude
+    recording: hewitt-wtc
+    title: Prelude No. 22 in B-Flat Minor, BWV 867/1
+    credits: Angela Hewitt
+    duration: 231
+    apple_music:
+      song_id: '1721149597'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-1-prelude-no-22-in-b/1721149597
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-1-prelude-no-22-in-b/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 412
+  - id: s-pge5v5q
+    work: bwv-867
+    movement: Fugue
+    recording: hewitt-wtc
+    title: Fugue No. 22 in B-Flat Minor, BWV 867/2
+    credits: Angela Hewitt
+    duration: 188
+    apple_music:
+      song_id: '1721149910'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-1-fugue-no-22-in-b/1721149910
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-1-fugue-no-22-in-b/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 413
+  - id: s-wlqdlft
+    work: bwv-868
+    movement: Prelude
+    recording: hewitt-wtc
+    title: Prelude No. 23 in B Major, BWV 868/1
+    credits: Angela Hewitt
+    duration: 56
+    apple_music:
+      song_id: '1721149918'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-1-prelude-no-23-in-b/1721149918
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-1-prelude-no-23-in-b/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 414
+  - id: s-5razeb5
+    work: bwv-868
+    movement: Fugue
+    recording: hewitt-wtc
+    title: Fugue No. 23 in B Major, BWV 868/2
+    credits: Angela Hewitt
+    duration: 144
+    apple_music:
+      song_id: '1721149926'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-1-fugue-no-23-in-b/1721149926
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-1-fugue-no-23-in-b/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 415
+  - id: s-gtvbvnw
+    work: bwv-869
+    movement: Prelude
+    recording: hewitt-wtc
+    title: Prelude No. 24 in B Minor, BWV 869/1
+    credits: Angela Hewitt
+    duration: 280
+    apple_music:
+      song_id: '1721149932'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-1-prelude-no-24-in-b/1721149932
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-1-prelude-no-24-in-b/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 416
+  - id: s-ibxqm7r
+    work: bwv-869
+    movement: Fugue
+    recording: hewitt-wtc
+    title: Fugue No. 24 in B Minor, BWV 869/2
+    credits: Angela Hewitt
+    duration: 417
+    apple_music:
+      song_id: '1721150239'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-1-fugue-no-24-in-b/1721150239
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-1-fugue-no-24-in-b/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 417
+  - id: s-fb3guxp
+    work: bwv-870
+    movement: Prelude
+    recording: hewitt-wtc
+    title: Prelude No. 1 in C Major, BWV 870/1
+    credits: Angela Hewitt
+    duration: 184
+    apple_music:
+      song_id: '1721150259'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-2-prelude-no-1-in-c/1721150259
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-2-prelude-no-1-in-c/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 418
+  - id: s-gjhagbf
+    work: bwv-870
+    movement: Fugue
+    recording: hewitt-wtc
+    title: Fugue No. 1 in C Major, BWV 870/2
+    credits: Angela Hewitt
+    duration: 99
+    apple_music:
+      song_id: '1721150636'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-2-fugue-no-1-in-c-major-bwv-870-2/1721150636
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-2-fugue-no-1-in-c-major-bwv-870-2/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 419
+  - id: s-cghgasz
+    work: bwv-871
+    movement: Prelude
+    recording: hewitt-wtc
+    title: Prelude No. 2 in C Minor, BWV 871/1
+    credits: Angela Hewitt
+    duration: 147
+    apple_music:
+      song_id: '1721150652'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-2-prelude-no-2-in-c/1721150652
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-2-prelude-no-2-in-c/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 420
+  - id: s-gx65vqr
+    work: bwv-871
+    movement: Fugue
+    recording: hewitt-wtc
+    title: Fugue No. 2 in C Minor, BWV 871/2
+    credits: Angela Hewitt
+    duration: 173
+    apple_music:
+      song_id: '1721150811'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-2-fugue-no-2-in-c-minor-bwv-871-2/1721150811
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-2-fugue-no-2-in-c-minor-bwv-871-2/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 421
+  - id: s-5hnulf6
+    work: bwv-872
+    movement: Prelude
+    recording: hewitt-wtc
+    title: Prelude No. 3 in C-Sharp Major, BWV 872/1
+    credits: Angela Hewitt
+    duration: 101
+    apple_music:
+      song_id: '1721150816'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-2-prelude-no-3-in-c/1721150816
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-2-prelude-no-3-in-c/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 422
+  - id: s-vpvueih
+    work: bwv-872
+    movement: Fugue
+    recording: hewitt-wtc
+    title: Fugue No. 3 in C-Sharp Major, BWV 872/2
+    credits: Angela Hewitt
+    duration: 128
+    apple_music:
+      song_id: '1721150829'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-2-fugue-no-3-in-c/1721150829
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-2-fugue-no-3-in-c/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 423
+  - id: s-bhxnusv
+    work: bwv-873
+    movement: Prelude
+    recording: hewitt-wtc
+    title: Prelude No. 4 in C-Sharp Minor, BWV 873/1
+    credits: Angela Hewitt
+    duration: 287
+    apple_music:
+      song_id: '1721150836'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-2-prelude-no-4-in-c/1721150836
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-2-prelude-no-4-in-c/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 424
+  - id: s-znycgjx
+    work: bwv-873
+    movement: Fugue
+    recording: hewitt-wtc
+    title: Fugue No. 4 in C-Sharp Minor, BWV 873/2
+    credits: Angela Hewitt
+    duration: 142
+    apple_music:
+      song_id: '1721151232'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-2-fugue-no-4-in-c/1721151232
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-2-fugue-no-4-in-c/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 425
+  - id: s-ougmrwi
+    work: bwv-874
+    movement: Prelude
+    recording: hewitt-wtc
+    title: Prelude No. 5 in D Major, BWV 874/1
+    credits: Angela Hewitt
+    duration: 349
+    apple_music:
+      song_id: '1721151240'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-2-prelude-no-5-in-d/1721151240
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-2-prelude-no-5-in-d/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 426
+  - id: s-p7csxnw
+    work: bwv-874
+    movement: Fugue
+    recording: hewitt-wtc
+    title: Fugue No. 5 in D Major, BWV 874/2
+    credits: Angela Hewitt
+    duration: 179
+    apple_music:
+      song_id: '1721151244'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-2-fugue-no-5-in-d-major-bwv-874-2/1721151244
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-2-fugue-no-5-in-d-major-bwv-874-2/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 427
+  - id: s-3tepvcs
+    work: bwv-875
+    movement: Prelude
+    recording: hewitt-wtc
+    title: Prelude No. 6 in D Minor, BWV 875/1
+    credits: Angela Hewitt
+    duration: 94
+    apple_music:
+      song_id: '1721151568'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-2-prelude-no-6-in-d/1721151568
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-2-prelude-no-6-in-d/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 428
+  - id: s-v6lslmh
+    work: bwv-875
+    movement: Fugue
+    recording: hewitt-wtc
+    title: Fugue No. 6 in D Minor, BWV 875/2
+    credits: Angela Hewitt
+    duration: 142
+    apple_music:
+      song_id: '1721151576'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-2-fugue-no-6-in-d-minor-bwv-875-2/1721151576
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-2-fugue-no-6-in-d-minor-bwv-875-2/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 429
+  - id: s-537orw2
+    work: bwv-876
+    movement: Prelude
+    recording: hewitt-wtc
+    title: Prelude No. 7 in E-Flat Major, BWV 876/1
+    credits: Angela Hewitt
+    duration: 167
+    apple_music:
+      song_id: '1721151584'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-2-prelude-no-7-in-e/1721151584
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-2-prelude-no-7-in-e/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 430
+  - id: s-46osanb
+    work: bwv-876
+    movement: Fugue
+    recording: hewitt-wtc
+    title: Fugue No. 7 in E-Flat Major, BWV 876/2
+    credits: Angela Hewitt
+    duration: 115
+    apple_music:
+      song_id: '1721151831'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-2-fugue-no-7-in-e-flat/1721151831
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-2-fugue-no-7-in-e-flat/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 431
+  - id: s-n2ae5p3
+    work: bwv-877
+    movement: Prelude
+    recording: hewitt-wtc
+    title: Prelude No. 8 in D-Sharp Minor, BWV 877/1
+    credits: Angela Hewitt
+    duration: 258
+    apple_music:
+      song_id: '1721151843'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-2-prelude-no-8-in-d/1721151843
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-2-prelude-no-8-in-d/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 432
+  - id: s-3s3fkoa
+    work: bwv-877
+    movement: Fugue
+    recording: hewitt-wtc
+    title: Fugue No. 8 in D-Sharp Minor, BWV 877/2
+    credits: Angela Hewitt
+    duration: 300
+    apple_music:
+      song_id: '1721151851'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-2-fugue-no-8-in-d/1721151851
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-2-fugue-no-8-in-d/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 433
+  - id: s-wfh77pd
+    work: bwv-878
+    movement: Prelude
+    recording: hewitt-wtc
+    title: Prelude No. 9 in E Major, BWV 878/1
+    credits: Angela Hewitt
+    duration: 281
+    apple_music:
+      song_id: '1721152192'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-2-prelude-no-9-in-e/1721152192
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-2-prelude-no-9-in-e/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 434
+  - id: s-22aun7r
+    work: bwv-878
+    movement: Fugue
+    recording: hewitt-wtc
+    title: Fugue No. 9 in E Major, BWV 878/2
+    credits: Angela Hewitt
+    duration: 257
+    apple_music:
+      song_id: '1721152207'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-2-fugue-no-9-in-e-major-bwv-878-2/1721152207
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-2-fugue-no-9-in-e-major-bwv-878-2/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 435
+  - id: s-ba3byej
+    work: bwv-879
+    movement: Prelude
+    recording: hewitt-wtc
+    title: Prelude No. 10 in E Minor, BWV 879/1
+    credits: Angela Hewitt
+    duration: 220
+    apple_music:
+      song_id: '1721152215'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-2-prelude-no-10-in-e/1721152215
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-2-prelude-no-10-in-e/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 436
+  - id: s-xlswmkh
+    work: bwv-879
+    movement: Fugue
+    recording: hewitt-wtc
+    title: Fugue No. 10 in E Minor, BWV 879/2
+    credits: Angela Hewitt
+    duration: 170
+    apple_music:
+      song_id: '1721152468'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-2-fugue-no-10-in-e/1721152468
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-2-fugue-no-10-in-e/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 437
+  - id: s-xqhuw72
+    work: bwv-880
+    movement: Prelude
+    recording: hewitt-wtc
+    title: Prelude No. 11 in F Major, BWV 880/1
+    credits: Angela Hewitt
+    duration: 211
+    apple_music:
+      song_id: '1721152478'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-2-prelude-no-11-in-f/1721152478
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-2-prelude-no-11-in-f/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 438
+  - id: s-mqqmsdi
+    work: bwv-880
+    movement: Fugue
+    recording: hewitt-wtc
+    title: Fugue No. 11 in F Major, BWV 880/2
+    credits: Angela Hewitt
+    duration: 106
+    apple_music:
+      song_id: '1721152732'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-2-fugue-no-11-in-f/1721152732
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-2-fugue-no-11-in-f/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 439
+  - id: s-idrxm3w
+    work: bwv-881
+    movement: Prelude
+    recording: hewitt-wtc
+    title: Prelude No. 12 in F Minor, BWV 881/1
+    credits: Angela Hewitt
+    duration: 306
+    apple_music:
+      song_id: '1721152946'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-2-prelude-no-12-in-f/1721152946
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-2-prelude-no-12-in-f/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 440
+  - id: s-bimcahi
+    work: bwv-881
+    movement: Fugue
+    recording: hewitt-wtc
+    title: Fugue No. 12 in F Minor, BWV 881/2
+    credits: Angela Hewitt
+    duration: 109
+    apple_music:
+      song_id: '1721153155'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-2-fugue-no-12-in-f/1721153155
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-2-fugue-no-12-in-f/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 441
+  - id: s-4cnxttt
+    work: bwv-882
+    movement: Prelude
+    recording: hewitt-wtc
+    title: Prelude No. 13 in F-Sharp Major, BWV 882/1
+    credits: Angela Hewitt
+    duration: 215
+    apple_music:
+      song_id: '1721153372'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-2-prelude-no-13-in-f/1721153372
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-2-prelude-no-13-in-f/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 442
+  - id: s-aboe5dd
+    work: bwv-882
+    movement: Fugue
+    recording: hewitt-wtc
+    title: Fugue No. 13 in F-Sharp Major, BWV 882/2
+    credits: Angela Hewitt
+    duration: 155
+    apple_music:
+      song_id: '1721153376'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-2-fugue-no-13-in-f/1721153376
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-2-fugue-no-13-in-f/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 443
+  - id: s-fpfwgeg
+    work: bwv-883
+    movement: Prelude
+    recording: hewitt-wtc
+    title: Prelude No. 14 in F-Sharp Minor, BWV 883/1
+    credits: Angela Hewitt
+    duration: 201
+    apple_music:
+      song_id: '1721153380'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-2-prelude-no-14-in-f/1721153380
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-2-prelude-no-14-in-f/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 444
+  - id: s-olg7cj2
+    work: bwv-883
+    movement: Fugue
+    recording: hewitt-wtc
+    title: Fugue No. 14 in F-Sharp Minor, BWV 883/2
+    credits: Angela Hewitt
+    duration: 218
+    apple_music:
+      song_id: '1721153807'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-2-fugue-no-14-in-f/1721153807
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-2-fugue-no-14-in-f/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 445
+  - id: s-jlkjcq3
+    work: bwv-884
+    movement: Prelude
+    recording: hewitt-wtc
+    title: Prelude No. 15 in G Major, BWV 884/1
+    credits: Angela Hewitt
+    duration: 152
+    apple_music:
+      song_id: '1721153823'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-2-prelude-no-15-in-g/1721153823
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-2-prelude-no-15-in-g/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 446
+  - id: s-u76issb
+    work: bwv-884
+    movement: Fugue
+    recording: hewitt-wtc
+    title: Fugue No. 15 in G Major, BWV 884/2
+    credits: Angela Hewitt
+    duration: 74
+    apple_music:
+      song_id: '1721153836'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-2-fugue-no-15-in-g/1721153836
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-2-fugue-no-15-in-g/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 447
+  - id: s-vt6c7ab
+    work: bwv-885
+    movement: Prelude
+    recording: hewitt-wtc
+    title: Prelude No. 16 in G Minor, BWV 885/1
+    credits: Angela Hewitt
+    duration: 243
+    apple_music:
+      song_id: '1721154054'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-2-prelude-no-16-in-g/1721154054
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-2-prelude-no-16-in-g/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 448
+  - id: s-7jsphcq
+    work: bwv-885
+    movement: Fugue
+    recording: hewitt-wtc
+    title: Fugue No. 16 in G Minor, BWV 885/2
+    credits: Angela Hewitt
+    duration: 165
+    apple_music:
+      song_id: '1721154059'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-2-fugue-no-16-in-g/1721154059
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-2-fugue-no-16-in-g/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 449
+  - id: s-venyrje
+    work: bwv-886
+    movement: Prelude
+    recording: hewitt-wtc
+    title: Prelude No. 17 in A-Flat Major, BWV 886/1
+    credits: Angela Hewitt
+    duration: 257
+    apple_music:
+      song_id: '1721154074'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-2-prelude-no-17-in/1721154074
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-2-prelude-no-17-in/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 450
+  - id: s-ozpqps3
+    work: bwv-886
+    movement: Fugue
+    recording: hewitt-wtc
+    title: Fugue No. 17 in A-Flat Major, BWV 886/2
+    credits: Angela Hewitt
+    duration: 227
+    apple_music:
+      song_id: '1721154495'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-2-fugue-no-17-in-a/1721154495
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-2-fugue-no-17-in-a/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 451
+  - id: s-f3m3qc6
+    work: bwv-887
+    movement: Prelude
+    recording: hewitt-wtc
+    title: Prelude No. 18 in G-Sharp Minor, BWV 887/1
+    credits: Angela Hewitt
+    duration: 244
+    apple_music:
+      song_id: '1721154590'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-2-prelude-no-18-in-g/1721154590
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-2-prelude-no-18-in-g/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 452
+  - id: s-mvrvi36
+    work: bwv-887
+    movement: Fugue
+    recording: hewitt-wtc
+    title: Fugue No. 18 in G-Sharp Minor, BWV 887/2
+    credits: Angela Hewitt
+    duration: 203
+    apple_music:
+      song_id: '1721154599'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-2-fugue-no-18-in-g/1721154599
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-2-fugue-no-18-in-g/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 453
+  - id: s-4cgmuof
+    work: bwv-888
+    movement: Prelude
+    recording: hewitt-wtc
+    title: Prelude No. 19 in A Major, BWV 888/1
+    credits: Angela Hewitt
+    duration: 141
+    apple_music:
+      song_id: '1721154608'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-2-prelude-no-19-in/1721154608
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-2-prelude-no-19-in/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 454
+  - id: s-b44c5ax
+    work: bwv-888
+    movement: Fugue
+    recording: hewitt-wtc
+    title: Fugue No. 19 in A Major, BWV 888/2
+    credits: Angela Hewitt
+    duration: 73
+    apple_music:
+      song_id: '1721154951'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-2-fugue-no-19-in-a/1721154951
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-2-fugue-no-19-in-a/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 455
+  - id: s-nwdiuhh
+    work: bwv-889
+    movement: Prelude
+    recording: hewitt-wtc
+    title: Prelude No. 20 in A Minor, BWV 889/1
+    credits: Angela Hewitt
+    duration: 255
+    apple_music:
+      song_id: '1721154956'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-2-prelude-no-20-in/1721154956
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-2-prelude-no-20-in/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 456
+  - id: s-nhtmm5e
+    work: bwv-889
+    movement: Fugue
+    recording: hewitt-wtc
+    title: Fugue No. 20 in A Minor, BWV 889/2
+    credits: Angela Hewitt
+    duration: 102
+    apple_music:
+      song_id: '1721154962'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-2-fugue-no-20-in-a/1721154962
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-2-fugue-no-20-in-a/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 457
+  - id: s-mfxefp4
+    work: bwv-890
+    movement: Prelude
+    recording: hewitt-wtc
+    title: Prelude No. 21 in B-Flat Major, BWV 890/1
+    credits: Angela Hewitt
+    duration: 439
+    apple_music:
+      song_id: '1721155281'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-2-prelude-no-21-in-b/1721155281
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-2-prelude-no-21-in-b/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 458
+  - id: s-giejwcv
+    work: bwv-890
+    movement: Fugue
+    recording: hewitt-wtc
+    title: Fugue No. 21 in B-Flat Major, BWV 890/2
+    credits: Angela Hewitt
+    duration: 159
+    apple_music:
+      song_id: '1721155291'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-2-fugue-no-21-in-b/1721155291
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-2-fugue-no-21-in-b/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 459
+  - id: s-l365kgc
+    work: bwv-891
+    movement: Prelude
+    recording: hewitt-wtc
+    title: Prelude No. 22 in B-Flat Minor, BWV 891/1
+    credits: Angela Hewitt
+    duration: 209
+    apple_music:
+      song_id: '1721155302'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-2-prelude-no-22-in-b/1721155302
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-2-prelude-no-22-in-b/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 460
+  - id: s-2tvqbbp
+    work: bwv-891
+    movement: Fugue
+    recording: hewitt-wtc
+    title: Fugue No. 22 in B-Flat Minor, BWV 891/2
+    credits: Angela Hewitt
+    duration: 294
+    apple_music:
+      song_id: '1721155637'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-2-fugue-no-22-in-b/1721155637
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-2-fugue-no-22-in-b/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 461
+  - id: s-ibqutfq
+    work: bwv-892
+    movement: Prelude
+    recording: hewitt-wtc
+    title: Prelude No. 23 in B Major, BWV 892/1
+    credits: Angela Hewitt
+    duration: 112
+    apple_music:
+      song_id: '1721155643'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-2-prelude-no-23-in-b/1721155643
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-2-prelude-no-23-in-b/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 462
+  - id: s-pwnzr7g
+    work: bwv-892
+    movement: Fugue
+    recording: hewitt-wtc
+    title: Fugue No. 23 in B Major, BWV 892/2
+    credits: Angela Hewitt
+    duration: 229
+    apple_music:
+      song_id: '1721155655'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-2-fugue-no-23-in-b/1721155655
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-2-fugue-no-23-in-b/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 463
+  - id: s-6dmabic
+    work: bwv-893
+    movement: Prelude
+    recording: hewitt-wtc
+    title: Prelude No. 24 in B Minor, BWV 893/1
+    credits: Angela Hewitt
+    duration: 149
+    apple_music:
+      song_id: '1721156092'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-2-prelude-no-24-in-b/1721156092
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-2-prelude-no-24-in-b/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 464
+  - id: s-w4fa5tm
+    work: bwv-893
+    movement: Fugue
+    recording: hewitt-wtc
+    title: Fugue No. 24 in B Minor, BWV 893/2
+    credits: Angela Hewitt
+    duration: 113
+    apple_music:
+      song_id: '1721156104'
+      url: https://music.apple.com/us/song/the-well-tempered-clavier-book-2-fugue-no-24-in-b/1721156104
+      album_url: https://music.apple.com/us/album/the-well-tempered-clavier-book-2-fugue-no-24-in-b/1721145434
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 465

@@ -1,0 +1,19 @@
+# Build outputs (regenerate with `uv run atlas build` / `uv run atlas export`)
+_site/
+exports/
+
+# Python tooling
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+dist/
+
+# Secrets — Apple Music tokens must only ever come from the environment
+.env
+.env.*
+*.p8
+
+.DS_Store

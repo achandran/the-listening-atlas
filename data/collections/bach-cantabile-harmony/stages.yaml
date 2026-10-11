@@ -1,0 +1,99 @@
+stages:
+  - id: ground
+    number: 1
+    name: Ground
+    principle: Cantabile reveals the truth of harmonic relationships.
+    question: What does the bass know that the melody has not yet told us?
+    direction: Find the tonal center, sing the bass, and notice how each harmony creates an expectation.
+    at_the_piano: At the piano, sing the bass while playing the upper voice; then reverse. Mark a cadence and explain why it feels conclusive.
+    itinerary: 'Trifonov: Petzold Minuet BWV Anh.114 and the Minuet in A minor BWV Anh.120 (composer uncertain); Hewitt: selected Little Preludes BWV924–943 and BWV999. The Petzold Minuet is not by J. S. Bach.'
+    itinerary_source: 'Trifonov: Petzold Minuet BWV Anh.114 and Bach BWV511; Hewitt: selected Little Preludes BWV924–943 and BWV999. The Petzold Minuet is not by J. S. Bach.'
+    constraints:
+      pinned_opening_song_ids:
+        - '1577781357'
+        - '1577780575'
+  - id: breath
+    number: 2
+    name: Breath
+    principle: Cantabile reveals the truth of musical becoming.
+    question: What makes this phrase need to continue—and what finally allows it to rest?
+    direction: Listen to sung phrases before their instrumental reflections. Attend to inhalation, suspension, release, and cadence.
+    at_the_piano: Sing a phrase without words; locate the harmony that asks it to continue, and the cadence that lets it rest.
+    itinerary: BWV177/V→BWV639; BWV208 vocal aria→Petri/Fleisher transcription; BWV12 Sinfonia→chorus→Ólafsson; finish with only the opening BWV82 aria sung by Lorraine Hunt Lieberson.
+    editorial_notice: 'Breath reconciliation pending: an approved 19-selection sequence exists but is not yet merged into this playlist. See the editorial status page.'
+    constraints:
+      max_selections: 19
+  - id: motion
+    number: 3
+    name: Motion
+    principle: Cantabile reveals the truth of rhythm.
+    question: How does the pulse help this music sing?
+    direction: Hear dance meter as a living structure, not a metronomic constraint. Distinguish pulse, accent, upbeat, and longer rhythmic gesture.
+    at_the_piano: Keep a quiet pulse while singing the phrase; describe where the melodic accent agrees with, or leans against, the meter.
+    itinerary: 'Perahia: complete French Suites and English Suites; Suzuki/BCJ: complete Orchestral Suite No.2. Focus French Suite No.5 Sarabande and English Suite No.6 Prelude/Sarabande.'
+  - id: line
+    number: 4
+    name: Line
+    principle: Cantabile reveals the truth of counterpoint.
+    question: Can I hear each voice as a living line while still hearing why the voices belong together?
+    direction: Follow independent voices without losing their shared harmonic direction. Every voice must sing, but not every voice must dominate.
+    at_the_piano: Choose two voices; sing one while playing the other, then exchange roles. Mark imitation, arrival and overlap.
+    itinerary: 'Yo-Yo Ma: six cello suites; Ehnes: violin sonatas and partitas; BWV140/IV→Perahia BWV645; Hewitt (Hyperion, 1994): 15 Inventions and 15 Sinfonias; Hewitt: Four Duets; Koopman: BWV527.'
+    itinerary_source: 'Yo-Yo Ma: six cello suites; Ehnes: violin sonatas and partitas; BWV140/IV→Perahia BWV645; Schiff: 15 Inventions and 15 Sinfonias; Hewitt: Four Duets; Koopman: BWV527.'
+  - id: rhetoric
+    number: 5
+    name: Rhetoric
+    principle: Cantabile reveals the truth of musical speech.
+    question: What is this musical gesture saying—and what makes it necessary?
+    direction: 'Hear a figure as a meaningful utterance: question, interruption, contrast, elaboration, response.'
+    at_the_piano: Choose a contrasting passage. Name its rhetorical turn and explain which harmonic or contrapuntal event requires it.
+    itinerary: 'Hewitt: BWV992; seven toccatas in curated order 916, 914, 912, 913, 915, 910, 911; BWV903, BWV904 and BWV831; Koopman: BWV542.'
+  - id: exchange
+    number: 6
+    name: Exchange
+    principle: Cantabile reveals the truth of musical dialogue.
+    question: How does one voice change what I hear in another?
+    direction: Track entrances, imitation, exchange of roles, solo/tutti contrast and Bach’s reworkings across instruments.
+    at_the_piano: 'Listen twice to a dialogue: once following the initiator, once the responder. Explain how the response changes the first statement.'
+    itinerary: BWV78 duet; BWV578; flute sonatas BWV1034/1035 and trio BWV1039; gamba sonatas BWV1027–1029 (Hewitt/Müller-Schott); Ehnes concertos; Perahia Italian and keyboard concertos, Brandenburg No.5 and BWV1044; Faust Brandenburg No.4. Pair BWV156/I with BWV1056, BWV1049 with BWV1057, BWV527 with BWV1044.
+  - id: span
+    number: 7
+    name: Span
+    principle: Cantabile reveals the truth of musical form.
+    question: How does what I hear now change the meaning of what I heard before?
+    direction: Carry musical memory across sections. Hear recurrence as changed by what has intervened.
+    at_the_piano: 'Draw a small map of sections, returns and cadences. Sing the opening after the ending: what has changed in your hearing?'
+    itinerary: 'Suzuki/BCJ: BWV1068 Air only; Ólafsson (DG, 2018): BWV989, including the concluding Aria da capo; Suzuki: BWV582; Perahia: all six Partitas BWV825–830. Focus Partitas No.2 and No.4 Allemandes.'
+    itinerary_source: 'Suzuki/BCJ: BWV1068 Air only; Hewitt: BWV989; Suzuki: BWV582; Perahia: all six Partitas BWV825–830. Focus Partitas No.2 and No.4 Allemandes.'
+  - id: order
+    number: 8
+    name: Order
+    principle: Cantabile reveals expressive truth within musical discipline.
+    question: How does Bach make this particular prelude and fugue sing within the discipline of its key, texture and contrapuntal design?
+    direction: Hear each prelude–fugue pair as a distinct expressive solution to disciplined materials.
+    at_the_piano: Identify the fugue subject; sing it through successive entries. Compare its expressive character with its prelude.
+    itinerary: 'Angela Hewitt’s later Well-Tempered Clavier recording: Books I and II, BWV846–893, all 48 prelude–fugue pairs in order. Landmarks BWV846, 847, 849, 853, 869.'
+  - id: transformation
+    number: 9
+    name: Transformation
+    principle: Cantabile reveals the truth of musical identity through change.
+    question: What remains the same when almost everything I hear has changed?
+    direction: Hear the continuity of the Goldberg Variations beneath changing figuration, genre and character.
+    at_the_piano: After several variations, sing the Aria bass or trace its harmonic framework. Listen to the final Aria without playing along.
+    itinerary: 'Murray Perahia: BWV988, opening Aria, 30 variations, Aria da capo. Canons every third variation from unison through ninth; Variation 30 is a quodlibet. Focus Variations 13, 25, 30 and the returning Aria.'
+  - id: convergence
+    number: 10
+    name: Convergence
+    principle: Cantabile reveals the truth of musical relationships in human utterance.
+    question: How do all the relationships I have learned to hear become one meaningful human utterance?
+    direction: Follow words, voices, instruments and large-scale drama without reducing the music to a single emotion. Attend to the sacred text as part of the work’s meaning.
+    at_the_piano: Read a translation alongside the score. Trace one recurring musical relationship and describe how its expressive function changes.
+    itinerary: 'Herreweghe/Collegium Vocale Gent: complete St John and St Matthew Passions; Suzuki/BCJ: complete Mass in B minor. Recall BWV12 chorus in the Mass Crucifixus and the bassless BWV105 aria when hearing St Matthew’s Aus Liebe.'
+  - id: essence
+    number: 11
+    name: Essence
+    principle: Cantabile reveals the truth of musical relationships themselves.
+    question: Can I hear the music sing when nothing is trying to sound conventionally beautiful?
+    direction: Hear relation, inversion, canonic procedure and contrapuntal necessity as expressive in themselves.
+    at_the_piano: Sing a subject across transformations. At the unfinished fugue, attend to what is present, rather than imagining a compulsory completion.
+    itinerary: 'Suzuki: complete Musical Offering BWV1079 in recorded order; Hewitt: Art of Fugue BWV1080, including the unfinished final fugue and BWV668a as the recording’s closing chorale. Do not add a second chorale.'

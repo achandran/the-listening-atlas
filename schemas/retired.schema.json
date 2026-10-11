@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Retired selections (removed from the playlist, kept for provenance)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["retired"],
+  "properties": {
+    "retired": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["selection", "retired_on", "reason"],
+        "properties": {
+          "selection": {"type": "object", "description": "The full selection record as it was when retired."},
+          "former_stage": {"type": "string"},
+          "retired_on": {"type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"},
+          "reason": {"type": "string", "minLength": 3},
+          "proposal": {"type": "string"}
+        }
+      }
+    }
+  }
+}

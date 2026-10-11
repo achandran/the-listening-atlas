@@ -1,0 +1,763 @@
+works:
+  - id: bwv-anh-114
+    catalogue: BWV Anh. 114
+    title: Minuet in G Major (Notebook for Anna Magdalena Bach, 1725)
+    composer: Christian Petzold
+    attribution_note: Listed in the BWV Anhang; by Christian Petzold, not by J. S. Bach.
+  - id: bwv-anh-120
+    catalogue: BWV Anh. 120
+    title: Minuet in A Minor (Notebook for Anna Magdalena Bach, 1725)
+    composer: null
+    attribution_note: Composer attribution uncertain (Notebook for Anna Magdalena Bach).
+  - id: bwv-924
+    catalogue: BWV 924
+    title: Prelude in C Major
+    composer: Johann Sebastian Bach
+  - id: bwv-925
+    catalogue: BWV 925
+    title: Prelude in D Major
+    composer: Johann Sebastian Bach
+  - id: bwv-926
+    catalogue: BWV 926
+    title: Prelude in D Minor
+    composer: Johann Sebastian Bach
+  - id: bwv-927
+    catalogue: BWV 927
+    title: Prelude in F Major
+    composer: Johann Sebastian Bach
+  - id: bwv-928
+    catalogue: BWV 928
+    title: Prelude in F Major
+    composer: Johann Sebastian Bach
+  - id: bwv-930
+    catalogue: BWV 930
+    title: Prelude in G Minor
+    composer: Johann Sebastian Bach
+  - id: bwv-933
+    catalogue: BWV 933
+    title: Prelude in C Major
+    composer: Johann Sebastian Bach
+  - id: bwv-934
+    catalogue: BWV 934
+    title: Prelude in C Minor
+    composer: Johann Sebastian Bach
+  - id: bwv-935
+    catalogue: BWV 935
+    title: Prelude in D Minor
+    composer: Johann Sebastian Bach
+  - id: bwv-936
+    catalogue: BWV 936
+    title: Prelude in D Major
+    composer: Johann Sebastian Bach
+  - id: bwv-937
+    catalogue: BWV 937
+    title: Prelude in E Major
+    composer: Johann Sebastian Bach
+  - id: bwv-938
+    catalogue: BWV 938
+    title: Prelude in E Minor
+    composer: Johann Sebastian Bach
+  - id: bwv-939
+    catalogue: BWV 939
+    title: Prelude in C Major
+    composer: Johann Sebastian Bach
+  - id: bwv-940
+    catalogue: BWV 940
+    title: Prelude in D Minor
+    composer: Johann Sebastian Bach
+  - id: bwv-941
+    catalogue: BWV 941
+    title: Prelude in E Minor
+    composer: Johann Sebastian Bach
+  - id: bwv-942
+    catalogue: BWV 942
+    title: Prelude in A Minor
+    composer: Johann Sebastian Bach
+  - id: bwv-943
+    catalogue: BWV 943
+    title: Prelude in C Major
+    composer: Johann Sebastian Bach
+  - id: bwv-999
+    catalogue: BWV 999
+    title: Prelude in C Minor
+    composer: Johann Sebastian Bach
+  - id: bwv-177
+    catalogue: BWV 177
+    title: Ich ruf zu dir, Herr Jesu Christ (cantata)
+    composer: Johann Sebastian Bach
+  - id: bwv-639
+    catalogue: BWV 639
+    title: Ich ruf zu dir, Herr Jesu Christ (chorale prelude)
+    composer: Johann Sebastian Bach
+  - id: bwv-227
+    catalogue: BWV 227
+    title: Jesu, meine Freude
+    composer: Johann Sebastian Bach
+  - id: bwv-208
+    catalogue: BWV 208
+    title: Was mir behagt, ist nur die muntre Jagd (“Hunt Cantata”)
+    composer: Johann Sebastian Bach
+  - id: bwv-170
+    catalogue: BWV 170
+    title: Vergnügte Ruh, beliebte Seelenlust
+    composer: Johann Sebastian Bach
+  - id: bwv-32
+    catalogue: BWV 32
+    title: Liebster Jesu, mein Verlangen
+    composer: Johann Sebastian Bach
+  - id: bwv-57
+    catalogue: BWV 57
+    title: Selig ist der Mann
+    composer: Johann Sebastian Bach
+  - id: bwv-105
+    catalogue: BWV 105
+    title: Herr, gehe nicht ins Gericht mit deinem Knecht
+    composer: Johann Sebastian Bach
+  - id: bwv-659
+    catalogue: BWV 659
+    title: Nun komm, der Heiden Heiland (chorale prelude)
+    composer: Johann Sebastian Bach
+  - id: bwv-12
+    catalogue: BWV 12
+    title: Weinen, Klagen, Sorgen, Zagen
+    composer: Johann Sebastian Bach
+  - id: bwv-56
+    catalogue: BWV 56
+    title: Ich will den Kreuzstab gerne tragen
+    composer: Johann Sebastian Bach
+  - id: bwv-82
+    catalogue: BWV 82
+    title: Ich habe genug
+    composer: Johann Sebastian Bach
+  - id: bwv-812
+    catalogue: BWV 812
+    title: French Suite No. 1 in D Minor
+    composer: Johann Sebastian Bach
+  - id: bwv-813
+    catalogue: BWV 813
+    title: French Suite No. 2 in C Minor
+    composer: Johann Sebastian Bach
+  - id: bwv-814
+    catalogue: BWV 814
+    title: French Suite No. 3 in B Minor
+    composer: Johann Sebastian Bach
+  - id: bwv-815
+    catalogue: BWV 815
+    title: French Suite No. 4 in E-Flat Major
+    composer: Johann Sebastian Bach
+  - id: bwv-816
+    catalogue: BWV 816
+    title: French Suite No. 5 in G Major
+    composer: Johann Sebastian Bach
+  - id: bwv-817
+    catalogue: BWV 817
+    title: French Suite No. 6 in E Major
+    composer: Johann Sebastian Bach
+  - id: bwv-1067
+    catalogue: BWV 1067
+    title: Orchestral Suite No. 2 in B Minor
+    composer: Johann Sebastian Bach
+  - id: bwv-806
+    catalogue: BWV 806
+    title: English Suite No. 1 in A Major
+    composer: Johann Sebastian Bach
+  - id: bwv-807
+    catalogue: BWV 807
+    title: English Suite No. 2 in A Minor
+    composer: Johann Sebastian Bach
+  - id: bwv-808
+    catalogue: BWV 808
+    title: English Suite No. 3 in G minor
+    composer: Johann Sebastian Bach
+  - id: bwv-809
+    catalogue: BWV 809
+    title: English Suite No. 4 in F Major
+    composer: Johann Sebastian Bach
+  - id: bwv-810
+    catalogue: BWV 810
+    title: English Suite No. 5 in E Minor
+    composer: Johann Sebastian Bach
+  - id: bwv-811
+    catalogue: BWV 811
+    title: English Suite No. 6 in D minor
+    composer: Johann Sebastian Bach
+  - id: bwv-1007
+    catalogue: BWV 1007
+    title: Cello Suite No. 1 in G Major
+    composer: Johann Sebastian Bach
+  - id: bwv-1008
+    catalogue: BWV 1008
+    title: Cello Suite No. 2 in D Minor
+    composer: Johann Sebastian Bach
+  - id: bwv-1009
+    catalogue: BWV 1009
+    title: Cello Suite No. 3 in C Major
+    composer: Johann Sebastian Bach
+  - id: bwv-1010
+    catalogue: BWV 1010
+    title: Cello Suite No. 4 in E-Flat Major
+    composer: Johann Sebastian Bach
+  - id: bwv-1011
+    catalogue: BWV 1011
+    title: Cello Suite No. 5 in C Minor
+    composer: Johann Sebastian Bach
+  - id: bwv-1012
+    catalogue: BWV 1012
+    title: Cello Suite No. 6 in D Major
+    composer: Johann Sebastian Bach
+  - id: bwv-1001
+    catalogue: BWV 1001
+    title: Sonata No. 1 for Violin Solo in G Minor
+    composer: Johann Sebastian Bach
+  - id: bwv-1002
+    catalogue: BWV 1002
+    title: Partita No. 1 for Violin Solo in B Minor
+    composer: Johann Sebastian Bach
+  - id: bwv-1003
+    catalogue: BWV 1003
+    title: Sonata No. 2 for Violin Solo in A Minor
+    composer: Johann Sebastian Bach
+  - id: bwv-1004
+    catalogue: BWV 1004
+    title: Partita No. 2 for Violin Solo in D Minor
+    composer: Johann Sebastian Bach
+  - id: bwv-1005
+    catalogue: BWV 1005
+    title: Sonata No. 3 for Violin Solo in C Major
+    composer: Johann Sebastian Bach
+  - id: bwv-1006
+    catalogue: BWV 1006
+    title: Partita No. 3 for Violin Solo in E Major
+    composer: Johann Sebastian Bach
+  - id: bwv-140
+    catalogue: BWV 140
+    title: Wachet auf, ruft uns die Stimme (cantata)
+    composer: Johann Sebastian Bach
+  - id: bwv-645
+    catalogue: BWV 645
+    title: Wachet auf, ruft uns die Stimme (chorale prelude)
+    composer: Johann Sebastian Bach
+  - id: bwv-772a
+    catalogue: BWV 772a
+    title: Two-Part Invention No. 1 in C
+    composer: Johann Sebastian Bach
+  - id: bwv-773
+    catalogue: BWV 773
+    title: Two-Part Invention No. 2 in C Minor
+    composer: Johann Sebastian Bach
+  - id: bwv-774
+    catalogue: BWV 774
+    title: Two-Part Invention No. 3 in D
+    composer: Johann Sebastian Bach
+  - id: bwv-775
+    catalogue: BWV 775
+    title: Two-Part Invention No. 4 in D Minor
+    composer: Johann Sebastian Bach
+  - id: bwv-776
+    catalogue: BWV 776
+    title: Two-Part Invention No. 5 in E-Flat
+    composer: Johann Sebastian Bach
+  - id: bwv-777
+    catalogue: BWV 777
+    title: Two-Part Invention No. 6 in E
+    composer: Johann Sebastian Bach
+  - id: bwv-778
+    catalogue: BWV 778
+    title: Two-Part Invention No. 7 in E Minor
+    composer: Johann Sebastian Bach
+  - id: bwv-779
+    catalogue: BWV 779
+    title: Two-Part Invention No. 8 in F
+    composer: Johann Sebastian Bach
+  - id: bwv-780
+    catalogue: BWV 780
+    title: Two-Part Invention No. 9 in F Minor
+    composer: Johann Sebastian Bach
+  - id: bwv-781
+    catalogue: BWV 781
+    title: Two-Part Invention No. 10 in G
+    composer: Johann Sebastian Bach
+  - id: bwv-782
+    catalogue: BWV 782
+    title: Two-Part Invention No. 11 in G Minor
+    composer: Johann Sebastian Bach
+  - id: bwv-783
+    catalogue: BWV 783
+    title: Two-Part Invention No. 12 in A
+    composer: Johann Sebastian Bach
+  - id: bwv-784
+    catalogue: BWV 784
+    title: Two-Part Invention No. 13 in A Minor
+    composer: Johann Sebastian Bach
+  - id: bwv-785
+    catalogue: BWV 785
+    title: Two-Part Invention No. 14 in B-Flat
+    composer: Johann Sebastian Bach
+  - id: bwv-786
+    catalogue: BWV 786
+    title: Two-Part Invention No. 15 in B Minor
+    composer: Johann Sebastian Bach
+  - id: bwv-787
+    catalogue: BWV 787
+    title: Three-Part Invention No. 1 in C
+    composer: Johann Sebastian Bach
+  - id: bwv-788
+    catalogue: BWV 788
+    title: Three-Part Invention No. 2 in C Minor
+    composer: Johann Sebastian Bach
+  - id: bwv-789
+    catalogue: BWV 789
+    title: Three-Part Invention No. 3 in D
+    composer: Johann Sebastian Bach
+  - id: bwv-790
+    catalogue: BWV 790
+    title: Three-Part Invention No. 4 in D Minor
+    composer: Johann Sebastian Bach
+  - id: bwv-791
+    catalogue: BWV 791
+    title: Three-Part Invention No. 5 in E-Flat
+    composer: Johann Sebastian Bach
+  - id: bwv-792
+    catalogue: BWV 792
+    title: Three-Part Invention No. 6 in E
+    composer: Johann Sebastian Bach
+  - id: bwv-793
+    catalogue: BWV 793
+    title: Three-Part Invention No. 7 in E Minor
+    composer: Johann Sebastian Bach
+  - id: bwv-794
+    catalogue: BWV 794
+    title: Three-Part Invention No. 8 in F
+    composer: Johann Sebastian Bach
+  - id: bwv-795
+    catalogue: BWV 795
+    title: Three-Part Invention No. 9 in F Minor
+    composer: Johann Sebastian Bach
+  - id: bwv-796
+    catalogue: BWV 796
+    title: Three-Part Invention No. 10 in G
+    composer: Johann Sebastian Bach
+  - id: bwv-797
+    catalogue: BWV 797
+    title: Three-Part Invention No. 11 in G Minor
+    composer: Johann Sebastian Bach
+  - id: bwv-798
+    catalogue: BWV 798
+    title: Three-Part Invention No. 12 in A
+    composer: Johann Sebastian Bach
+  - id: bwv-799
+    catalogue: BWV 799
+    title: Three-Part Invention No. 13 in A Minor
+    composer: Johann Sebastian Bach
+  - id: bwv-800
+    catalogue: BWV 800
+    title: Three-Part Invention No. 14 in B-Flat
+    composer: Johann Sebastian Bach
+  - id: bwv-801
+    catalogue: BWV 801
+    title: Three-Part Invention No. 15 in B Minor
+    composer: Johann Sebastian Bach
+  - id: bwv-802
+    catalogue: BWV 802
+    title: Duet No. 1 in E Minor
+    composer: Johann Sebastian Bach
+  - id: bwv-803
+    catalogue: BWV 803
+    title: Duet No. 2 in F Major
+    composer: Johann Sebastian Bach
+  - id: bwv-804
+    catalogue: BWV 804
+    title: Duet No. 3 in G Major
+    composer: Johann Sebastian Bach
+  - id: bwv-805
+    catalogue: BWV 805
+    title: Duet No. 4 in A Minor
+    composer: Johann Sebastian Bach
+  - id: bwv-527
+    catalogue: BWV 527
+    title: Trio Sonata No. 3 in D Minor
+    composer: Johann Sebastian Bach
+  - id: bwv-992
+    catalogue: BWV 992
+    title: Capriccio in B-flat Major “On the Departure of His Beloved Brother”
+    composer: Johann Sebastian Bach
+  - id: bwv-916
+    catalogue: BWV 916
+    title: Toccata in G Major
+    composer: Johann Sebastian Bach
+  - id: bwv-914
+    catalogue: BWV 914
+    title: Toccata in E Minor
+    composer: Johann Sebastian Bach
+  - id: bwv-912
+    catalogue: BWV 912
+    title: Toccata in D Major
+    composer: Johann Sebastian Bach
+  - id: bwv-913
+    catalogue: BWV 913
+    title: Toccata in D Minor
+    composer: Johann Sebastian Bach
+  - id: bwv-915
+    catalogue: BWV 915
+    title: Toccata in G Minor
+    composer: Johann Sebastian Bach
+  - id: bwv-910
+    catalogue: BWV 910
+    title: Toccata in F-Sharp Minor
+    composer: Johann Sebastian Bach
+  - id: bwv-911
+    catalogue: BWV 911
+    title: Toccata in C Minor
+    composer: Johann Sebastian Bach
+  - id: bwv-903
+    catalogue: BWV 903
+    title: Chromatic Fantasia & Fugue in D Minor
+    composer: Johann Sebastian Bach
+  - id: bwv-904
+    catalogue: BWV 904
+    title: Fantasia & Fugue in A Minor
+    composer: Johann Sebastian Bach
+  - id: bwv-831
+    catalogue: BWV 831
+    title: Overture in the French Style
+    composer: Johann Sebastian Bach
+  - id: bwv-542
+    catalogue: BWV 542
+    title: Fantasia and Fugue in G Minor
+    composer: Johann Sebastian Bach
+  - id: bwv-78
+    catalogue: BWV 78
+    title: Jesu, der du meine Seele
+    composer: Johann Sebastian Bach
+  - id: bwv-578
+    catalogue: BWV 578
+    title: Fugue in G Minor (“Little”)
+    composer: Johann Sebastian Bach
+  - id: bwv-1034
+    catalogue: BWV 1034
+    title: Flute Sonata in E Minor
+    composer: Johann Sebastian Bach
+  - id: bwv-1035
+    catalogue: BWV 1035
+    title: Flute Sonata in E Major
+    composer: Johann Sebastian Bach
+  - id: bwv-1039
+    catalogue: BWV 1039
+    title: Trio Sonata for Two Flutes and Continuo in G Major
+    composer: Johann Sebastian Bach
+  - id: bwv-1027
+    catalogue: BWV 1027
+    title: Viola da gamba Sonata in G Major
+    composer: Johann Sebastian Bach
+  - id: bwv-1028
+    catalogue: BWV 1028
+    title: Viola da gamba Sonata in D Major
+    composer: Johann Sebastian Bach
+  - id: bwv-1029
+    catalogue: BWV 1029
+    title: Viola da gamba Sonata in G Minor
+    composer: Johann Sebastian Bach
+  - id: bwv-1041
+    catalogue: BWV 1041
+    title: Violin Concerto in A Minor
+    composer: Johann Sebastian Bach
+  - id: bwv-1043
+    catalogue: BWV 1043
+    title: Concerto for Two Violins in D Minor
+    composer: Johann Sebastian Bach
+  - id: bwv-1060r
+    catalogue: BWV 1060R
+    title: Concerto for Oboe and Violin in C Minor
+    composer: Johann Sebastian Bach
+  - id: bwv-971
+    catalogue: BWV 971
+    title: Italian Concerto
+    composer: Johann Sebastian Bach
+  - id: bwv-1058
+    catalogue: BWV 1058
+    title: Keyboard Concerto No. 7 in G minor
+    composer: Johann Sebastian Bach
+  - id: bwv-1052
+    catalogue: BWV 1052
+    title: Keyboard Concerto No. 1 in D minor
+    composer: Johann Sebastian Bach
+  - id: bwv-156
+    catalogue: BWV 156
+    title: Ich steh mit einem Fuß im Grabe
+    composer: Johann Sebastian Bach
+  - id: bwv-1056
+    catalogue: BWV 1056
+    title: Keyboard Concerto No. 5 in F minor
+    composer: Johann Sebastian Bach
+  - id: bwv-1049
+    catalogue: BWV 1049
+    title: Brandenburg Concerto No. 4 in G Major
+    composer: Johann Sebastian Bach
+  - id: bwv-1057
+    catalogue: BWV 1057
+    title: Keyboard Concerto No. 6 in F Major
+    composer: Johann Sebastian Bach
+  - id: bwv-1050
+    catalogue: BWV 1050
+    title: Brandenburg Concerto No. 5 in D Major
+    composer: Johann Sebastian Bach
+  - id: bwv-1044
+    catalogue: BWV 1044
+    title: Concerto for Flute, Violin and Harpsichord in A Minor
+    composer: Johann Sebastian Bach
+  - id: bwv-1068
+    catalogue: BWV 1068
+    title: Orchestral Suite No. 3 in D Major
+    composer: Johann Sebastian Bach
+  - id: bwv-989
+    catalogue: BWV 989
+    title: Aria variata (alla maniera italiana)
+    composer: Johann Sebastian Bach
+  - id: bwv-582
+    catalogue: BWV 582
+    title: Passacaglia in C Minor
+    composer: Johann Sebastian Bach
+  - id: bwv-825
+    catalogue: BWV 825
+    title: Partita No. 1 in B-Flat Major
+    composer: Johann Sebastian Bach
+  - id: bwv-826
+    catalogue: BWV 826
+    title: Partita No. 2 in C Minor
+    composer: Johann Sebastian Bach
+  - id: bwv-827
+    catalogue: BWV 827
+    title: Partita No. 3 in A Minor
+    composer: Johann Sebastian Bach
+  - id: bwv-828
+    catalogue: BWV 828
+    title: Partita No. 4 in D Major
+    composer: Johann Sebastian Bach
+  - id: bwv-829
+    catalogue: BWV 829
+    title: Partita No. 5 in G Major
+    composer: Johann Sebastian Bach
+  - id: bwv-830
+    catalogue: BWV 830
+    title: Partita No. 6 in E Minor
+    composer: Johann Sebastian Bach
+  - id: bwv-846
+    catalogue: BWV 846
+    title: 'The Well-Tempered Clavier, Book I: Prelude and Fugue No. 1 in C Major'
+    composer: Johann Sebastian Bach
+  - id: bwv-847
+    catalogue: BWV 847
+    title: 'The Well-Tempered Clavier, Book I: Prelude and Fugue No. 2 in C Minor'
+    composer: Johann Sebastian Bach
+  - id: bwv-848
+    catalogue: BWV 848
+    title: 'The Well-Tempered Clavier, Book I: Prelude and Fugue No. 3 in C-Sharp Major'
+    composer: Johann Sebastian Bach
+  - id: bwv-849
+    catalogue: BWV 849
+    title: 'The Well-Tempered Clavier, Book I: Prelude and Fugue No. 4 in C-Sharp Minor'
+    composer: Johann Sebastian Bach
+  - id: bwv-850
+    catalogue: BWV 850
+    title: 'The Well-Tempered Clavier, Book I: Prelude and Fugue No. 5 in D Major'
+    composer: Johann Sebastian Bach
+  - id: bwv-851
+    catalogue: BWV 851
+    title: 'The Well-Tempered Clavier, Book I: Prelude and Fugue No. 6 in D Minor'
+    composer: Johann Sebastian Bach
+  - id: bwv-852
+    catalogue: BWV 852
+    title: 'The Well-Tempered Clavier, Book I: Prelude and Fugue No. 7 in E-Flat Major'
+    composer: Johann Sebastian Bach
+  - id: bwv-853
+    catalogue: BWV 853
+    title: 'The Well-Tempered Clavier, Book I: Prelude and Fugue No. 8 in E-Flat Minor'
+    composer: Johann Sebastian Bach
+  - id: bwv-854
+    catalogue: BWV 854
+    title: 'The Well-Tempered Clavier, Book I: Prelude and Fugue No. 9 in E Major'
+    composer: Johann Sebastian Bach
+  - id: bwv-855
+    catalogue: BWV 855
+    title: 'The Well-Tempered Clavier, Book I: Prelude and Fugue No. 10 in E Minor'
+    composer: Johann Sebastian Bach
+  - id: bwv-856
+    catalogue: BWV 856
+    title: 'The Well-Tempered Clavier, Book I: Prelude and Fugue No. 11 in F Major'
+    composer: Johann Sebastian Bach
+  - id: bwv-857
+    catalogue: BWV 857
+    title: 'The Well-Tempered Clavier, Book I: Prelude and Fugue No. 12 in F Minor'
+    composer: Johann Sebastian Bach
+  - id: bwv-858
+    catalogue: BWV 858
+    title: 'The Well-Tempered Clavier, Book I: Prelude and Fugue No. 13 in F-Sharp Major'
+    composer: Johann Sebastian Bach
+  - id: bwv-859
+    catalogue: BWV 859
+    title: 'The Well-Tempered Clavier, Book I: Prelude and Fugue No. 14 in F-Sharp Minor'
+    composer: Johann Sebastian Bach
+  - id: bwv-860
+    catalogue: BWV 860
+    title: 'The Well-Tempered Clavier, Book I: Prelude and Fugue No. 15 in G Major'
+    composer: Johann Sebastian Bach
+  - id: bwv-861
+    catalogue: BWV 861
+    title: 'The Well-Tempered Clavier, Book I: Prelude and Fugue No. 16 in G Minor'
+    composer: Johann Sebastian Bach
+  - id: bwv-862
+    catalogue: BWV 862
+    title: 'The Well-Tempered Clavier, Book I: Prelude and Fugue No. 17 in A-Flat Major'
+    composer: Johann Sebastian Bach
+  - id: bwv-863
+    catalogue: BWV 863
+    title: 'The Well-Tempered Clavier, Book I: Prelude and Fugue No. 18 in G-Sharp Minor'
+    composer: Johann Sebastian Bach
+  - id: bwv-864
+    catalogue: BWV 864
+    title: 'The Well-Tempered Clavier, Book I: Prelude and Fugue No. 19 in A Major'
+    composer: Johann Sebastian Bach
+  - id: bwv-865
+    catalogue: BWV 865
+    title: 'The Well-Tempered Clavier, Book I: Prelude and Fugue No. 20 in A Minor'
+    composer: Johann Sebastian Bach
+  - id: bwv-866
+    catalogue: BWV 866
+    title: 'The Well-Tempered Clavier, Book I: Prelude and Fugue No. 21 in B-Flat Major'
+    composer: Johann Sebastian Bach
+  - id: bwv-867
+    catalogue: BWV 867
+    title: 'The Well-Tempered Clavier, Book I: Prelude and Fugue No. 22 in B-Flat Minor'
+    composer: Johann Sebastian Bach
+  - id: bwv-868
+    catalogue: BWV 868
+    title: 'The Well-Tempered Clavier, Book I: Prelude and Fugue No. 23 in B Major'
+    composer: Johann Sebastian Bach
+  - id: bwv-869
+    catalogue: BWV 869
+    title: 'The Well-Tempered Clavier, Book I: Prelude and Fugue No. 24 in B Minor'
+    composer: Johann Sebastian Bach
+  - id: bwv-870
+    catalogue: BWV 870
+    title: 'The Well-Tempered Clavier, Book II: Prelude and Fugue No. 1 in C Major'
+    composer: Johann Sebastian Bach
+  - id: bwv-871
+    catalogue: BWV 871
+    title: 'The Well-Tempered Clavier, Book II: Prelude and Fugue No. 2 in C Minor'
+    composer: Johann Sebastian Bach
+  - id: bwv-872
+    catalogue: BWV 872
+    title: 'The Well-Tempered Clavier, Book II: Prelude and Fugue No. 3 in C-Sharp Major'
+    composer: Johann Sebastian Bach
+  - id: bwv-873
+    catalogue: BWV 873
+    title: 'The Well-Tempered Clavier, Book II: Prelude and Fugue No. 4 in C-Sharp Minor'
+    composer: Johann Sebastian Bach
+  - id: bwv-874
+    catalogue: BWV 874
+    title: 'The Well-Tempered Clavier, Book II: Prelude and Fugue No. 5 in D Major'
+    composer: Johann Sebastian Bach
+  - id: bwv-875
+    catalogue: BWV 875
+    title: 'The Well-Tempered Clavier, Book II: Prelude and Fugue No. 6 in D Minor'
+    composer: Johann Sebastian Bach
+  - id: bwv-876
+    catalogue: BWV 876
+    title: 'The Well-Tempered Clavier, Book II: Prelude and Fugue No. 7 in E-Flat Major'
+    composer: Johann Sebastian Bach
+  - id: bwv-877
+    catalogue: BWV 877
+    title: 'The Well-Tempered Clavier, Book II: Prelude and Fugue No. 8 in D-Sharp Minor'
+    composer: Johann Sebastian Bach
+  - id: bwv-878
+    catalogue: BWV 878
+    title: 'The Well-Tempered Clavier, Book II: Prelude and Fugue No. 9 in E Major'
+    composer: Johann Sebastian Bach
+  - id: bwv-879
+    catalogue: BWV 879
+    title: 'The Well-Tempered Clavier, Book II: Prelude and Fugue No. 10 in E Minor'
+    composer: Johann Sebastian Bach
+  - id: bwv-880
+    catalogue: BWV 880
+    title: 'The Well-Tempered Clavier, Book II: Prelude and Fugue No. 11 in F Major'
+    composer: Johann Sebastian Bach
+  - id: bwv-881
+    catalogue: BWV 881
+    title: 'The Well-Tempered Clavier, Book II: Prelude and Fugue No. 12 in F Minor'
+    composer: Johann Sebastian Bach
+  - id: bwv-882
+    catalogue: BWV 882
+    title: 'The Well-Tempered Clavier, Book II: Prelude and Fugue No. 13 in F-Sharp Major'
+    composer: Johann Sebastian Bach
+  - id: bwv-883
+    catalogue: BWV 883
+    title: 'The Well-Tempered Clavier, Book II: Prelude and Fugue No. 14 in F-Sharp Minor'
+    composer: Johann Sebastian Bach
+  - id: bwv-884
+    catalogue: BWV 884
+    title: 'The Well-Tempered Clavier, Book II: Prelude and Fugue No. 15 in G Major'
+    composer: Johann Sebastian Bach
+  - id: bwv-885
+    catalogue: BWV 885
+    title: 'The Well-Tempered Clavier, Book II: Prelude and Fugue No. 16 in G Minor'
+    composer: Johann Sebastian Bach
+  - id: bwv-886
+    catalogue: BWV 886
+    title: 'The Well-Tempered Clavier, Book II: Prelude and Fugue No. 17 in A-Flat Major'
+    composer: Johann Sebastian Bach
+  - id: bwv-887
+    catalogue: BWV 887
+    title: 'The Well-Tempered Clavier, Book II: Prelude and Fugue No. 18 in G-Sharp Minor'
+    composer: Johann Sebastian Bach
+  - id: bwv-888
+    catalogue: BWV 888
+    title: 'The Well-Tempered Clavier, Book II: Prelude and Fugue No. 19 in A Major'
+    composer: Johann Sebastian Bach
+  - id: bwv-889
+    catalogue: BWV 889
+    title: 'The Well-Tempered Clavier, Book II: Prelude and Fugue No. 20 in A Minor'
+    composer: Johann Sebastian Bach
+  - id: bwv-890
+    catalogue: BWV 890
+    title: 'The Well-Tempered Clavier, Book II: Prelude and Fugue No. 21 in B-Flat Major'
+    composer: Johann Sebastian Bach
+  - id: bwv-891
+    catalogue: BWV 891
+    title: 'The Well-Tempered Clavier, Book II: Prelude and Fugue No. 22 in B-Flat Minor'
+    composer: Johann Sebastian Bach
+  - id: bwv-892
+    catalogue: BWV 892
+    title: 'The Well-Tempered Clavier, Book II: Prelude and Fugue No. 23 in B Major'
+    composer: Johann Sebastian Bach
+  - id: bwv-893
+    catalogue: BWV 893
+    title: 'The Well-Tempered Clavier, Book II: Prelude and Fugue No. 24 in B Minor'
+    composer: Johann Sebastian Bach
+  - id: bwv-988
+    catalogue: BWV 988
+    title: Goldberg Variations
+    composer: Johann Sebastian Bach
+  - id: bwv-245
+    catalogue: BWV 245
+    title: St John Passion
+    composer: Johann Sebastian Bach
+  - id: bwv-244
+    catalogue: BWV 244
+    title: St Matthew Passion
+    composer: Johann Sebastian Bach
+  - id: bwv-232
+    catalogue: BWV 232
+    title: Mass in B Minor
+    composer: Johann Sebastian Bach
+  - id: bwv-1079
+    catalogue: BWV 1079
+    title: The Musical Offering
+    composer: Johann Sebastian Bach
+  - id: bwv-1080
+    catalogue: BWV 1080
+    title: The Art of Fugue
+    composer: Johann Sebastian Bach
+  - id: bwv-668a
+    catalogue: BWV 668a
+    title: Wenn wir in höchsten Nöten sein (“Vor deinem Thron”)
+    composer: Johann Sebastian Bach

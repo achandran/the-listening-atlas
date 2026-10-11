@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% from "_macros.html" import collection_nav %}
+{% block title %}Search · {{ c.title }}{% endblock %}
+{% block header_nav %}{{ collection_nav(c, rel, 'search') }}{% endblock %}
+{% block body_attrs %} data-collection="{{ c.id }}" data-data="{{ rel }}{{ c.id }}/atlas-data.json" data-page="search"{% endblock %}
+{% block main %}
+<section class="wrap narrow">
+  <h1>Search {{ c.title }}</h1>
+  <noscript><p class="notice">Search needs JavaScript. Every stage page lists its selections in full.</p></noscript>
+  <div class="field js-only">
+    <label for="q">Titles, BWV numbers, artists, albums</label>
+    <input id="q" type="search" autocomplete="off" data-global-search placeholder="e.g. BWV 846, Sarabande, Hewitt">
+  </div>
+  <p class="muted small" data-search-count aria-live="polite"></p>
+  <ol class="search-results" data-search-results role="list"></ol>
+</section>
+{% endblock %}

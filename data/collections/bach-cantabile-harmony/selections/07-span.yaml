@@ -1,0 +1,907 @@
+# Stage 7 · Span — playlist order is the order of this list.
+# To move a selection, move its whole block. Never reuse or renumber `id` values.
+stage: span
+selections:
+  - id: s-ndd6kdj
+    work: bwv-1068
+    movement: II. Air
+    recording: suzuki-brandenburg-orchestral-suites
+    title: II. Air
+    credits: Bach Collegium Japan; Masaaki Suzuki
+    duration: 284
+    apple_music:
+      song_id: '1724251256'
+      url: https://music.apple.com/us/song/orchestral-suite-no-3-in-d-major-bwv-1068-overture/1724251256
+      album_url: https://music.apple.com/us/album/orchestral-suite-no-3-in-d-major-bwv-1068-overture/1724251065
+    status: keep
+    verification: snapshot_matched
+    editorial_note: Generic title II. Air; album/performer and BWV1068 verified from position and context.
+    source:
+      snapshot: master-669
+      position: 316
+      work_inferred_from: apple_music_url
+  - id: s-xotciql
+    work: bwv-989
+    movement: Aria
+    recording: olafsson-dg-2018
+    title: 'Aria variata (alla maniera italiana), BWV 989: Aria'
+    credits: Víkingur Ólafsson
+    duration: 111
+    duration_status: approximate
+    apple_music:
+      song_id: null
+      url: https://music.apple.com/us/search?term=Vikingur%20Olafsson%20Johann%20Sebastian%20Bach%202018
+      album_url: https://music.apple.com/us/search?term=Vikingur%20Olafsson%20Johann%20Sebastian%20Bach%202018
+    status: replacement_selected
+    verification: needs_verification
+    link_kind: search
+    editorial_note: 'Ólafsson DG 2018. Includes the concluding Aria da capo, absent from the former Hewitt selection. Source: DG official tracklist; timings rounded to seconds.'
+    source:
+      snapshot: master-669
+      position: 317
+  - id: s-mr7jqed
+    work: bwv-989
+    movement: Variation I. Largo
+    recording: olafsson-dg-2018
+    title: 'Aria variata (alla maniera italiana), BWV 989: Variation I. Largo'
+    credits: Víkingur Ólafsson
+    duration: 70
+    duration_status: approximate
+    apple_music:
+      song_id: null
+      url: https://music.apple.com/us/search?term=Vikingur%20Olafsson%20Johann%20Sebastian%20Bach%202018
+      album_url: https://music.apple.com/us/search?term=Vikingur%20Olafsson%20Johann%20Sebastian%20Bach%202018
+    status: replacement_selected
+    verification: needs_verification
+    link_kind: search
+    editorial_note: 'Ólafsson DG 2018. Includes the concluding Aria da capo, absent from the former Hewitt selection. Source: DG official tracklist; timings rounded to seconds.'
+    source:
+      snapshot: master-669
+      position: 318
+  - id: s-fn24zfn
+    work: bwv-989
+    movement: Variation II
+    recording: olafsson-dg-2018
+    title: 'Aria variata (alla maniera italiana), BWV 989: Variation II'
+    credits: Víkingur Ólafsson
+    duration: 56
+    duration_status: approximate
+    apple_music:
+      song_id: null
+      url: https://music.apple.com/us/search?term=Vikingur%20Olafsson%20Johann%20Sebastian%20Bach%202018
+      album_url: https://music.apple.com/us/search?term=Vikingur%20Olafsson%20Johann%20Sebastian%20Bach%202018
+    status: replacement_selected
+    verification: needs_verification
+    link_kind: search
+    editorial_note: 'Ólafsson DG 2018. Includes the concluding Aria da capo, absent from the former Hewitt selection. Source: DG official tracklist; timings rounded to seconds.'
+    source:
+      snapshot: master-669
+      position: 319
+  - id: s-luypvfk
+    work: bwv-989
+    movement: Variation III
+    recording: olafsson-dg-2018
+    title: 'Aria variata (alla maniera italiana), BWV 989: Variation III'
+    credits: Víkingur Ólafsson
+    duration: 55
+    duration_status: approximate
+    apple_music:
+      song_id: null
+      url: https://music.apple.com/us/search?term=Vikingur%20Olafsson%20Johann%20Sebastian%20Bach%202018
+      album_url: https://music.apple.com/us/search?term=Vikingur%20Olafsson%20Johann%20Sebastian%20Bach%202018
+    status: replacement_selected
+    verification: needs_verification
+    link_kind: search
+    editorial_note: 'Ólafsson DG 2018. Includes the concluding Aria da capo, absent from the former Hewitt selection. Source: DG official tracklist; timings rounded to seconds.'
+    source:
+      snapshot: master-669
+      position: 320
+  - id: s-hthinje
+    work: bwv-989
+    movement: Variation IV. Allegro
+    recording: olafsson-dg-2018
+    title: 'Aria variata (alla maniera italiana), BWV 989: Variation IV. Allegro'
+    credits: Víkingur Ólafsson
+    duration: 56
+    duration_status: approximate
+    apple_music:
+      song_id: null
+      url: https://music.apple.com/us/search?term=Vikingur%20Olafsson%20Johann%20Sebastian%20Bach%202018
+      album_url: https://music.apple.com/us/search?term=Vikingur%20Olafsson%20Johann%20Sebastian%20Bach%202018
+    status: replacement_selected
+    verification: needs_verification
+    link_kind: search
+    editorial_note: 'Ólafsson DG 2018. Includes the concluding Aria da capo, absent from the former Hewitt selection. Source: DG official tracklist; timings rounded to seconds.'
+    source:
+      snapshot: master-669
+      position: 321
+  - id: s-pxiu7zx
+    work: bwv-989
+    movement: Variation V. Un poco allegro
+    recording: olafsson-dg-2018
+    title: 'Aria variata (alla maniera italiana), BWV 989: Variation V. Un poco allegro'
+    credits: Víkingur Ólafsson
+    duration: 59
+    duration_status: approximate
+    apple_music:
+      song_id: null
+      url: https://music.apple.com/us/search?term=Vikingur%20Olafsson%20Johann%20Sebastian%20Bach%202018
+      album_url: https://music.apple.com/us/search?term=Vikingur%20Olafsson%20Johann%20Sebastian%20Bach%202018
+    status: replacement_selected
+    verification: needs_verification
+    link_kind: search
+    editorial_note: 'Ólafsson DG 2018. Includes the concluding Aria da capo, absent from the former Hewitt selection. Source: DG official tracklist; timings rounded to seconds.'
+    source:
+      snapshot: master-669
+      position: 322
+  - id: s-5sx5jvc
+    work: bwv-989
+    movement: Variation VI. Andante
+    recording: olafsson-dg-2018
+    title: 'Aria variata (alla maniera italiana), BWV 989: Variation VI. Andante'
+    credits: Víkingur Ólafsson
+    duration: 126
+    duration_status: approximate
+    apple_music:
+      song_id: null
+      url: https://music.apple.com/us/search?term=Vikingur%20Olafsson%20Johann%20Sebastian%20Bach%202018
+      album_url: https://music.apple.com/us/search?term=Vikingur%20Olafsson%20Johann%20Sebastian%20Bach%202018
+    status: replacement_selected
+    verification: needs_verification
+    link_kind: search
+    editorial_note: 'Ólafsson DG 2018. Includes the concluding Aria da capo, absent from the former Hewitt selection. Source: DG official tracklist; timings rounded to seconds.'
+    source:
+      snapshot: master-669
+      position: 323
+  - id: s-e7uh2vl
+    work: bwv-989
+    movement: Variation VII. Un poco allegro
+    recording: olafsson-dg-2018
+    title: 'Aria variata (alla maniera italiana), BWV 989: Variation VII. Un poco allegro'
+    credits: Víkingur Ólafsson
+    duration: 47
+    duration_status: approximate
+    apple_music:
+      song_id: null
+      url: https://music.apple.com/us/search?term=Vikingur%20Olafsson%20Johann%20Sebastian%20Bach%202018
+      album_url: https://music.apple.com/us/search?term=Vikingur%20Olafsson%20Johann%20Sebastian%20Bach%202018
+    status: replacement_selected
+    verification: needs_verification
+    link_kind: search
+    editorial_note: 'Ólafsson DG 2018. Includes the concluding Aria da capo, absent from the former Hewitt selection. Source: DG official tracklist; timings rounded to seconds.'
+    source:
+      snapshot: master-669
+      position: 324
+  - id: s-zk7hn4j
+    work: bwv-989
+    movement: Variation VIII. Allegro
+    recording: olafsson-dg-2018
+    title: 'Aria variata (alla maniera italiana), BWV 989: Variation VIII. Allegro'
+    credits: Víkingur Ólafsson
+    duration: 49
+    duration_status: approximate
+    apple_music:
+      song_id: null
+      url: https://music.apple.com/us/search?term=Vikingur%20Olafsson%20Johann%20Sebastian%20Bach%202018
+      album_url: https://music.apple.com/us/search?term=Vikingur%20Olafsson%20Johann%20Sebastian%20Bach%202018
+    status: replacement_selected
+    verification: needs_verification
+    link_kind: search
+    editorial_note: 'Ólafsson DG 2018. Includes the concluding Aria da capo, absent from the former Hewitt selection. Source: DG official tracklist; timings rounded to seconds.'
+    source:
+      snapshot: master-669
+      position: 325
+  - id: s-v4pa6od
+    work: bwv-989
+    movement: Variation IX
+    recording: olafsson-dg-2018
+    title: 'Aria variata (alla maniera italiana), BWV 989: Variation IX'
+    credits: Víkingur Ólafsson
+    duration: 68
+    duration_status: approximate
+    apple_music:
+      song_id: null
+      url: https://music.apple.com/us/search?term=Vikingur%20Olafsson%20Johann%20Sebastian%20Bach%202018
+      album_url: https://music.apple.com/us/search?term=Vikingur%20Olafsson%20Johann%20Sebastian%20Bach%202018
+    status: replacement_selected
+    verification: needs_verification
+    link_kind: search
+    editorial_note: 'Ólafsson DG 2018. Includes the concluding Aria da capo, absent from the former Hewitt selection. Source: DG official tracklist; timings rounded to seconds.'
+    source:
+      snapshot: master-669
+      position: 326
+  - id: s-fivbhxx
+    work: bwv-989
+    movement: Variation X
+    recording: olafsson-dg-2018
+    title: 'Aria variata (alla maniera italiana), BWV 989: Variation X'
+    credits: Víkingur Ólafsson
+    duration: 107
+    duration_status: approximate
+    apple_music:
+      song_id: null
+      url: https://music.apple.com/us/search?term=Vikingur%20Olafsson%20Johann%20Sebastian%20Bach%202018
+      album_url: https://music.apple.com/us/search?term=Vikingur%20Olafsson%20Johann%20Sebastian%20Bach%202018
+    status: replacement_selected
+    verification: needs_verification
+    link_kind: search
+    editorial_note: 'Ólafsson DG 2018. Includes the concluding Aria da capo, absent from the former Hewitt selection. Source: DG official tracklist; timings rounded to seconds.'
+    source:
+      snapshot: master-669
+      position: 327
+  - id: s-btos6ux
+    work: bwv-989
+    movement: Aria da capo
+    recording: olafsson-dg-2018
+    title: 'Aria variata (alla maniera italiana), BWV 989: Aria da capo'
+    credits: Víkingur Ólafsson
+    duration: 79
+    duration_status: approximate
+    apple_music:
+      song_id: null
+      url: https://music.apple.com/us/search?term=Vikingur%20Olafsson%20Johann%20Sebastian%20Bach%202018
+      album_url: https://music.apple.com/us/search?term=Vikingur%20Olafsson%20Johann%20Sebastian%20Bach%202018
+    status: replacement_selected
+    verification: needs_verification
+    link_kind: search
+    editorial_note: 'Ólafsson DG 2018. Includes the concluding Aria da capo, absent from the former Hewitt selection. Source: DG official tracklist; timings rounded to seconds.'
+    source:
+      snapshot: master-669
+      position: 328
+  - id: s-fgmnvuj
+    work: bwv-582
+    movement: null
+    recording: suzuki-organ-works-vol-3
+    title: Passacaglia in C Minor, BWV 582
+    credits: Masaaki Suzuki
+    duration: 908
+    apple_music:
+      song_id: '1725554469'
+      url: https://music.apple.com/us/song/passacaglia-in-c-minor-bwv-582/1725554469
+      album_url: https://music.apple.com/us/album/passacaglia-in-c-minor-bwv-582/1725554462
+    status: keep
+    verification: snapshot_matched
+    editorial_note: Track title says Passacaglia only; verify whether fugue is included in audio.
+    source:
+      snapshot: master-669
+      position: 329
+  - id: s-jluyfv2
+    work: bwv-825
+    movement: I. Praeludium
+    recording: perahia-partitas-1-5-6
+    title: 'Partita No. 1 in B-Flat Major, BWV 825: I. Praeludium'
+    credits: Murray Perahia
+    duration: 119
+    apple_music:
+      song_id: '328344870'
+      url: https://music.apple.com/us/song/partita-no-1-in-b-flat-major-bwv-825-i-praeludium/328344870
+      album_url: https://music.apple.com/us/album/partita-no-1-in-b-flat-major-bwv-825-i-praeludium/328344829
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 330
+  - id: s-3sk3usw
+    work: bwv-825
+    movement: II. Allemande
+    recording: perahia-partitas-1-5-6
+    title: 'Partita No. 1 in B-Flat Major, BWV 825: II. Allemande'
+    credits: Murray Perahia
+    duration: 187
+    apple_music:
+      song_id: '328344840'
+      url: https://music.apple.com/us/song/partita-no-1-in-b-flat-major-bwv-825-ii-allemande/328344840
+      album_url: https://music.apple.com/us/album/partita-no-1-in-b-flat-major-bwv-825-ii-allemande/328344829
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 331
+  - id: s-fk7hbr7
+    work: bwv-825
+    movement: III. Corrente
+    recording: perahia-partitas-1-5-6
+    title: 'Partita No. 1 in B-Flat Major, BWV 825: III. Corrente'
+    credits: Murray Perahia
+    duration: 172
+    apple_music:
+      song_id: '328344842'
+      url: https://music.apple.com/us/song/partita-no-1-in-b-flat-major-bwv-825-iii-corrente/328344842
+      album_url: https://music.apple.com/us/album/partita-no-1-in-b-flat-major-bwv-825-iii-corrente/328344829
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 332
+  - id: s-cfpr6ks
+    work: bwv-825
+    movement: IV. Sarabande
+    recording: perahia-partitas-1-5-6
+    title: 'Partita No. 1 in B-Flat Major, BWV 825: IV. Sarabande'
+    credits: Murray Perahia
+    duration: 302
+    apple_music:
+      song_id: '328344843'
+      url: https://music.apple.com/us/song/partita-no-1-in-b-flat-major-bwv-825-iv-sarabande/328344843
+      album_url: https://music.apple.com/us/album/partita-no-1-in-b-flat-major-bwv-825-iv-sarabande/328344829
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 333
+  - id: s-hpyc6j4
+    work: bwv-825
+    movement: V. Menuet I & II
+    recording: perahia-partitas-1-5-6
+    title: 'Partita No. 1 in B-Flat Major, BWV 825: V. Menuet I & II'
+    credits: Murray Perahia
+    duration: 197
+    apple_music:
+      song_id: '328344844'
+      url: https://music.apple.com/us/song/partita-no-1-in-b-flat-major-bwv-825-v-menuet-i-ii/328344844
+      album_url: https://music.apple.com/us/album/partita-no-1-in-b-flat-major-bwv-825-v-menuet-i-ii/328344829
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 334
+  - id: s-kek2w5s
+    work: bwv-825
+    movement: VI. Gigue
+    recording: perahia-partitas-1-5-6
+    title: 'Partita No. 1 in B-Flat Major, BWV 825: VI. Gigue'
+    credits: Murray Perahia
+    duration: 128
+    apple_music:
+      song_id: '328344851'
+      url: https://music.apple.com/us/song/partita-no-1-in-b-flat-major-bwv-825-vi-gigue/328344851
+      album_url: https://music.apple.com/us/album/partita-no-1-in-b-flat-major-bwv-825-vi-gigue/328344829
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 335
+  - id: s-dvn5mdw
+    work: bwv-826
+    movement: I. Sinfonia
+    recording: perahia-partitas-2-3-4
+    title: 'Partita No. 2 in C Minor, BWV 826: I. Sinfonia'
+    credits: Murray Perahia
+    duration: 283
+    apple_music:
+      song_id: '378454355'
+      url: https://music.apple.com/us/song/partita-no-2-in-c-minor-bwv-826-i-sinfonia/378454355
+      album_url: https://music.apple.com/us/album/partita-no-2-in-c-minor-bwv-826-i-sinfonia/378454353
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 336
+  - id: s-lnlidem
+    work: bwv-826
+    movement: II. Allemande
+    recording: perahia-partitas-2-3-4
+    title: 'Partita No. 2 in C Minor, BWV 826: II. Allemande'
+    credits: Murray Perahia
+    duration: 292
+    apple_music:
+      song_id: '378454356'
+      url: https://music.apple.com/us/song/partita-no-2-in-c-minor-bwv-826-ii-allemande/378454356
+      album_url: https://music.apple.com/us/album/partita-no-2-in-c-minor-bwv-826-ii-allemande/378454353
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 337
+  - id: s-gt3go2d
+    work: bwv-826
+    movement: III. Courante
+    recording: perahia-partitas-2-3-4
+    title: 'Partita No. 2 in C Minor, BWV 826: III. Courante'
+    credits: Murray Perahia
+    duration: 134
+    apple_music:
+      song_id: '378454357'
+      url: https://music.apple.com/us/song/partita-no-2-in-c-minor-bwv-826-iii-courante/378454357
+      album_url: https://music.apple.com/us/album/partita-no-2-in-c-minor-bwv-826-iii-courante/378454353
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 338
+  - id: s-vgz36jp
+    work: bwv-826
+    movement: IV. Sarabande
+    recording: perahia-partitas-2-3-4
+    title: 'Partita No. 2 in C Minor, BWV 826: IV. Sarabande'
+    credits: Murray Perahia
+    duration: 237
+    apple_music:
+      song_id: '378454358'
+      url: https://music.apple.com/us/song/partita-no-2-in-c-minor-bwv-826-iv-sarabande/378454358
+      album_url: https://music.apple.com/us/album/partita-no-2-in-c-minor-bwv-826-iv-sarabande/378454353
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 339
+  - id: s-za4lkmj
+    work: bwv-826
+    movement: V. Rondeau
+    recording: perahia-partitas-2-3-4
+    title: 'Partita No. 2 in C Minor, BWV 826: V. Rondeau'
+    credits: Murray Perahia
+    duration: 92
+    apple_music:
+      song_id: '378454359'
+      url: https://music.apple.com/us/song/partita-no-2-in-c-minor-bwv-826-v-rondeau/378454359
+      album_url: https://music.apple.com/us/album/partita-no-2-in-c-minor-bwv-826-v-rondeau/378454353
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 340
+  - id: s-r7axywn
+    work: bwv-826
+    movement: VI. Capriccio
+    recording: perahia-partitas-2-3-4
+    title: 'Partita No. 2 in C Minor, BWV 826: VI. Capriccio'
+    credits: Murray Perahia
+    duration: 218
+    apple_music:
+      song_id: '378454360'
+      url: https://music.apple.com/us/song/partita-no-2-in-c-minor-bwv-826-vi-capriccio/378454360
+      album_url: https://music.apple.com/us/album/partita-no-2-in-c-minor-bwv-826-vi-capriccio/378454353
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 341
+  - id: s-nn6srqg
+    work: bwv-827
+    movement: I. Fantasia
+    recording: perahia-partitas-2-3-4
+    title: 'Partita No. 3 in A Minor, BWV 827: I. Fantasia'
+    credits: Murray Perahia
+    duration: 122
+    apple_music:
+      song_id: '378454366'
+      url: https://music.apple.com/us/song/partita-no-3-in-a-minor-bwv-827-i-fantasia/378454366
+      album_url: https://music.apple.com/us/album/partita-no-3-in-a-minor-bwv-827-i-fantasia/378454353
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 342
+  - id: s-6rypstf
+    work: bwv-827
+    movement: II. Allemande
+    recording: perahia-partitas-2-3-4
+    title: 'Partita No. 3 in A Minor, BWV 827: II. Allemande'
+    credits: Murray Perahia
+    duration: 190
+    apple_music:
+      song_id: '378454367'
+      url: https://music.apple.com/us/song/partita-no-3-in-a-minor-bwv-827-ii-allemande/378454367
+      album_url: https://music.apple.com/us/album/partita-no-3-in-a-minor-bwv-827-ii-allemande/378454353
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 343
+  - id: s-6ugkx2l
+    work: bwv-827
+    movement: III. Courante
+    recording: perahia-partitas-2-3-4
+    title: 'Partita No. 3 in A Minor, BWV 827: III. Courante'
+    credits: Murray Perahia
+    duration: 181
+    apple_music:
+      song_id: '378454369'
+      url: https://music.apple.com/us/song/partita-no-3-in-a-minor-bwv-827-iii-courante/378454369
+      album_url: https://music.apple.com/us/album/partita-no-3-in-a-minor-bwv-827-iii-courante/378454353
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 344
+  - id: s-i5kigdy
+    work: bwv-827
+    movement: IV. Sarabande
+    recording: perahia-partitas-2-3-4
+    title: 'Partita No. 3 in A Minor, BWV 827: IV. Sarabande'
+    credits: Murray Perahia
+    duration: 249
+    apple_music:
+      song_id: '378454375'
+      url: https://music.apple.com/us/song/partita-no-3-in-a-minor-bwv-827-iv-sarabande/378454375
+      album_url: https://music.apple.com/us/album/partita-no-3-in-a-minor-bwv-827-iv-sarabande/378454353
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 345
+  - id: s-gcpu2yu
+    work: bwv-827
+    movement: V. Burlesca
+    recording: perahia-partitas-2-3-4
+    title: 'Partita No. 3 in A Minor, BWV 827: V. Burlesca'
+    credits: Murray Perahia
+    duration: 129
+    apple_music:
+      song_id: '378454376'
+      url: https://music.apple.com/us/song/partita-no-3-in-a-minor-bwv-827-v-burlesca/378454376
+      album_url: https://music.apple.com/us/album/partita-no-3-in-a-minor-bwv-827-v-burlesca/378454353
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 346
+  - id: s-2fyodf7
+    work: bwv-827
+    movement: VI. Scherzo
+    recording: perahia-partitas-2-3-4
+    title: 'Partita No. 3 in A Minor, BWV 827: VI. Scherzo'
+    credits: Murray Perahia
+    duration: 64
+    apple_music:
+      song_id: '378454377'
+      url: https://music.apple.com/us/song/partita-no-3-in-a-minor-bwv-827-vi-scherzo/378454377
+      album_url: https://music.apple.com/us/album/partita-no-3-in-a-minor-bwv-827-vi-scherzo/378454353
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 347
+  - id: s-q5gyex6
+    work: bwv-827
+    movement: VII. Gigue
+    recording: perahia-partitas-2-3-4
+    title: 'Partita No. 3 in A Minor, BWV 827: VII. Gigue'
+    credits: Murray Perahia
+    duration: 199
+    apple_music:
+      song_id: '378454378'
+      url: https://music.apple.com/us/song/partita-no-3-in-a-minor-bwv-827-vii-gigue/378454378
+      album_url: https://music.apple.com/us/album/partita-no-3-in-a-minor-bwv-827-vii-gigue/378454353
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 348
+  - id: s-2wovpds
+    work: bwv-828
+    movement: I. Ouverture
+    recording: perahia-partitas-2-3-4
+    title: 'Partita No. 4 in D Major, BWV 828: I. Ouverture'
+    credits: Murray Perahia
+    duration: 376
+    apple_music:
+      song_id: '378454381'
+      url: https://music.apple.com/us/song/partita-no-4-in-d-major-bwv-828-i-ouverture/378454381
+      album_url: https://music.apple.com/us/album/partita-no-4-in-d-major-bwv-828-i-ouverture/378454353
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 349
+  - id: s-dhby66n
+    work: bwv-828
+    movement: II. Allemande
+    recording: perahia-partitas-2-3-4
+    title: 'Partita No. 4 in D Major, BWV 828: II. Allemande'
+    credits: Murray Perahia
+    duration: 560
+    apple_music:
+      song_id: '378454383'
+      url: https://music.apple.com/us/song/partita-no-4-in-d-major-bwv-828-ii-allemande/378454383
+      album_url: https://music.apple.com/us/album/partita-no-4-in-d-major-bwv-828-ii-allemande/378454353
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 350
+  - id: s-6v56jlo
+    work: bwv-828
+    movement: III. Courante
+    recording: perahia-partitas-2-3-4
+    title: 'Partita No. 4 in D Major, BWV 828: III. Courante'
+    credits: Murray Perahia
+    duration: 211
+    apple_music:
+      song_id: '378454385'
+      url: https://music.apple.com/us/song/partita-no-4-in-d-major-bwv-828-iii-courante/378454385
+      album_url: https://music.apple.com/us/album/partita-no-4-in-d-major-bwv-828-iii-courante/378454353
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 351
+  - id: s-coodjg6
+    work: bwv-828
+    movement: IV. Aria
+    recording: perahia-partitas-2-3-4
+    title: 'Partita No. 4 in D Major, BWV 828: IV. Aria'
+    credits: Murray Perahia
+    duration: 135
+    apple_music:
+      song_id: '378454386'
+      url: https://music.apple.com/us/song/partita-no-4-in-d-major-bwv-828-iv-aria/378454386
+      album_url: https://music.apple.com/us/album/partita-no-4-in-d-major-bwv-828-iv-aria/378454353
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 352
+  - id: s-ajeeebp
+    work: bwv-828
+    movement: V. Sarabande
+    recording: perahia-partitas-2-3-4
+    title: 'Partita No. 4 in D Major, BWV 828: V. Sarabande'
+    credits: Murray Perahia
+    duration: 309
+    apple_music:
+      song_id: '378454388'
+      url: https://music.apple.com/us/song/partita-no-4-in-d-major-bwv-828-v-sarabande/378454388
+      album_url: https://music.apple.com/us/album/partita-no-4-in-d-major-bwv-828-v-sarabande/378454353
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 353
+  - id: s-tav5ngj
+    work: bwv-828
+    movement: VI. Menuett
+    recording: perahia-partitas-2-3-4
+    title: 'Partita No. 4 in D Major, BWV 828: VI. Menuett'
+    credits: Murray Perahia
+    duration: 98
+    apple_music:
+      song_id: '378454402'
+      url: https://music.apple.com/us/song/partita-no-4-in-d-major-bwv-828-vi-menuett/378454402
+      album_url: https://music.apple.com/us/album/partita-no-4-in-d-major-bwv-828-vi-menuett/378454353
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 354
+  - id: s-22exgzo
+    work: bwv-828
+    movement: VII. Gigue
+    recording: perahia-partitas-2-3-4
+    title: 'Partita No. 4 in D Major, BWV 828: VII. Gigue'
+    credits: Murray Perahia
+    duration: 230
+    apple_music:
+      song_id: '378454403'
+      url: https://music.apple.com/us/song/partita-no-4-in-d-major-bwv-828-vii-gigue/378454403
+      album_url: https://music.apple.com/us/album/partita-no-4-in-d-major-bwv-828-vii-gigue/378454353
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 355
+  - id: s-7zkwvsc
+    work: bwv-829
+    movement: I. Praeambulum
+    recording: perahia-partitas-1-5-6
+    title: 'Partita No. 5 In G Major, BWV 829: I. Praeambulum'
+    credits: Murray Perahia
+    duration: 135
+    apple_music:
+      song_id: '328344872'
+      url: https://music.apple.com/us/song/partita-no-5-in-g-major-bwv-829-i-praeambulum/328344872
+      album_url: https://music.apple.com/us/album/partita-no-5-in-g-major-bwv-829-i-praeambulum/328344829
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 356
+  - id: s-gcla4xo
+    work: bwv-829
+    movement: II. Allemande
+    recording: perahia-partitas-1-5-6
+    title: 'Partita No. 5 In G Major, BWV 829: II. Allemande'
+    credits: Murray Perahia
+    duration: 270
+    apple_music:
+      song_id: '328344873'
+      url: https://music.apple.com/us/song/partita-no-5-in-g-major-bwv-829-ii-allemande/328344873
+      album_url: https://music.apple.com/us/album/partita-no-5-in-g-major-bwv-829-ii-allemande/328344829
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 357
+  - id: s-nnwmtza
+    work: bwv-829
+    movement: III. Corrente
+    recording: perahia-partitas-1-5-6
+    title: 'Partita No. 5 In G Major, BWV 829: III. Corrente'
+    credits: Murray Perahia
+    duration: 103
+    apple_music:
+      song_id: '328344874'
+      url: https://music.apple.com/us/song/partita-no-5-in-g-major-bwv-829-iii-corrente/328344874
+      album_url: https://music.apple.com/us/album/partita-no-5-in-g-major-bwv-829-iii-corrente/328344829
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 358
+  - id: s-vsr26gc
+    work: bwv-829
+    movement: IV. Sarabande
+    recording: perahia-partitas-1-5-6
+    title: 'Partita No. 5 In G Major, BWV 829: IV. Sarabande'
+    credits: Murray Perahia
+    duration: 260
+    apple_music:
+      song_id: '328344875'
+      url: https://music.apple.com/us/song/partita-no-5-in-g-major-bwv-829-iv-sarabande/328344875
+      album_url: https://music.apple.com/us/album/partita-no-5-in-g-major-bwv-829-iv-sarabande/328344829
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 359
+  - id: s-bb4ossy
+    work: bwv-829
+    movement: V. Tempo Di Minuetto
+    recording: perahia-partitas-1-5-6
+    title: 'Partita No. 5 In G Major, BWV 829: V. Tempo Di Minuetto'
+    credits: Murray Perahia
+    duration: 121
+    apple_music:
+      song_id: '328344876'
+      url: https://music.apple.com/us/song/partita-no-5-in-g-major-bwv-829-v-tempo-di-minuetto/328344876
+      album_url: https://music.apple.com/us/album/partita-no-5-in-g-major-bwv-829-v-tempo-di-minuetto/328344829
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 360
+  - id: s-s3k2m3i
+    work: bwv-829
+    movement: VI. Passepied
+    recording: perahia-partitas-1-5-6
+    title: 'Partita No. 5 In G Major, BWV 829: VI. Passepied'
+    credits: Murray Perahia
+    duration: 104
+    apple_music:
+      song_id: '328344877'
+      url: https://music.apple.com/us/song/partita-no-5-in-g-major-bwv-829-vi-passepied/328344877
+      album_url: https://music.apple.com/us/album/partita-no-5-in-g-major-bwv-829-vi-passepied/328344829
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 361
+  - id: s-u2oj52p
+    work: bwv-829
+    movement: VII. Gigue
+    recording: perahia-partitas-1-5-6
+    title: 'Partita No. 5 In G Major, BWV 829: VII. Gigue'
+    credits: Murray Perahia
+    duration: 235
+    apple_music:
+      song_id: '328344878'
+      url: https://music.apple.com/us/song/partita-no-5-in-g-major-bwv-829-vii-gigue/328344878
+      album_url: https://music.apple.com/us/album/partita-no-5-in-g-major-bwv-829-vii-gigue/328344829
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 362
+  - id: s-fil34yb
+    work: bwv-830
+    movement: I. Toccata
+    recording: perahia-partitas-1-5-6
+    title: 'Partita No. 6 in E Minor, BWV 830: I. Toccata'
+    credits: Murray Perahia
+    duration: 487
+    apple_music:
+      song_id: '328344880'
+      url: https://music.apple.com/us/song/partita-no-6-in-e-minor-bwv-830-i-toccata/328344880
+      album_url: https://music.apple.com/us/album/partita-no-6-in-e-minor-bwv-830-i-toccata/328344829
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 363
+  - id: s-hz3yfes
+    work: bwv-830
+    movement: II. Allemande
+    recording: perahia-partitas-1-5-6
+    title: 'Partita No. 6 in E Minor, BWV 830: II. Allemande'
+    credits: Murray Perahia
+    duration: 190
+    apple_music:
+      song_id: '328344881'
+      url: https://music.apple.com/us/song/partita-no-6-in-e-minor-bwv-830-ii-allemande/328344881
+      album_url: https://music.apple.com/us/album/partita-no-6-in-e-minor-bwv-830-ii-allemande/328344829
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 364
+  - id: s-w2u3stp
+    work: bwv-830
+    movement: III. Corrente
+    recording: perahia-partitas-1-5-6
+    title: 'Partita No. 6 in E Minor, BWV 830: III. Corrente'
+    credits: Murray Perahia
+    duration: 264
+    apple_music:
+      song_id: '328344886'
+      url: https://music.apple.com/us/song/partita-no-6-in-e-minor-bwv-830-iii-corrente/328344886
+      album_url: https://music.apple.com/us/album/partita-no-6-in-e-minor-bwv-830-iii-corrente/328344829
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 365
+  - id: s-fu7zscr
+    work: bwv-830
+    movement: IV. Air
+    recording: perahia-partitas-1-5-6
+    title: 'Partita No. 6 in E Minor, BWV 830: IV. Air'
+    credits: Murray Perahia
+    duration: 92
+    apple_music:
+      song_id: '328344887'
+      url: https://music.apple.com/us/song/partita-no-6-in-e-minor-bwv-830-iv-air/328344887
+      album_url: https://music.apple.com/us/album/partita-no-6-in-e-minor-bwv-830-iv-air/328344829
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 366
+  - id: s-ywu5avv
+    work: bwv-830
+    movement: V. Sarabande
+    recording: perahia-partitas-1-5-6
+    title: 'Partita No. 6 in E Minor, BWV 830: V. Sarabande'
+    credits: Murray Perahia
+    duration: 333
+    apple_music:
+      song_id: '328344888'
+      url: https://music.apple.com/us/song/partita-no-6-in-e-minor-bwv-830-v-sarabande/328344888
+      album_url: https://music.apple.com/us/album/partita-no-6-in-e-minor-bwv-830-v-sarabande/328344829
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 367
+  - id: s-mjmur7g
+    work: bwv-830
+    movement: VI. Tempo Di Gavotta
+    recording: perahia-partitas-1-5-6
+    title: 'Partita No. 6 in E Minor, BWV 830: VI. Tempo Di Gavotta'
+    credits: Murray Perahia
+    duration: 116
+    apple_music:
+      song_id: '328344889'
+      url: https://music.apple.com/us/song/partita-no-6-in-e-minor-bwv-830-vi-tempo-di-gavotta/328344889
+      album_url: https://music.apple.com/us/album/partita-no-6-in-e-minor-bwv-830-vi-tempo-di-gavotta/328344829
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 368
+  - id: s-koyzcei
+    work: bwv-830
+    movement: VII. Gigue
+    recording: perahia-partitas-1-5-6
+    title: 'Partita No. 6 in E Minor, BWV 830: VII. Gigue'
+    credits: Murray Perahia
+    duration: 351
+    apple_music:
+      song_id: '328344890'
+      url: https://music.apple.com/us/song/partita-no-6-in-e-minor-bwv-830-vii-gigue/328344890
+      album_url: https://music.apple.com/us/album/partita-no-6-in-e-minor-bwv-830-vii-gigue/328344829
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 369

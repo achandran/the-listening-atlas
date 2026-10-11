@@ -1,0 +1,962 @@
+# Stage 6 · Exchange — playlist order is the order of this list.
+# To move a selection, move its whole block. Never reuse or renumber `id` values.
+stage: exchange
+selections:
+  - id: s-tqvrg6n
+    work: bwv-78
+    movement: II. Duet Aria. Wir eilen mit schwachen (Soprano, Alto)
+    recording: suzuki-cantatas-vol-25
+    title: 'Jesu, der du meine Seele, BWV 78: II. Duet Aria. Wir eilen mit schwachen (Soprano, Alto)'
+    credits: Peter Kooij; Yukari Nonoshita; Makoto Sakurada; Daniel Taylor; Bach Collegium Japan; Masaaki Suzuki
+    duration: 290
+    apple_music:
+      song_id: '1724260112'
+      url: https://music.apple.com/us/song/jesu-der-du-meine-seele-bwv-78-ii-duet-aria-wir-eilen/1724260112
+      album_url: https://music.apple.com/us/album/jesu-der-du-meine-seele-bwv-78-ii-duet-aria-wir-eilen/1724260101
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 257
+  - id: s-ndzkk5v
+    work: bwv-578
+    movement: null
+    recording: koopman-buxtehude-telemann
+    title: Fugue in G Minor, BWV 578 "The Little"
+    credits: Ton Koopman
+    duration: 228
+    apple_music:
+      song_id: '1744067996'
+      url: https://music.apple.com/us/song/fugue-in-g-minor-bwv-578-the-little/1744067996
+      album_url: https://music.apple.com/us/album/fugue-in-g-minor-bwv-578-the-little/1744064038
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 258
+  - id: s-ru2np67
+    work: bwv-1034
+    movement: I. Adagio ma non tanto
+    recording: hewitt-6-flute-sonatas
+    title: 'Flute Sonata in E Minor, BWV 1034: I. Adagio ma non tanto'
+    credits: Andrea Oliva; Angela Hewitt
+    duration: 201
+    apple_music:
+      song_id: '1721141728'
+      url: https://music.apple.com/us/song/flute-sonata-in-e-minor-bwv-1034-i-adagio-ma-non-tanto/1721141728
+      album_url: https://music.apple.com/us/album/flute-sonata-in-e-minor-bwv-1034-i-adagio-ma-non-tanto/1721139164
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 259
+  - id: s-o4xjffq
+    work: bwv-1034
+    movement: II. Allegro
+    recording: hewitt-6-flute-sonatas
+    title: 'Flute Sonata in E Minor, BWV 1034: II. Allegro'
+    credits: Andrea Oliva; Angela Hewitt
+    duration: 164
+    apple_music:
+      song_id: '1721141737'
+      url: https://music.apple.com/us/song/flute-sonata-in-e-minor-bwv-1034-ii-allegro/1721141737
+      album_url: https://music.apple.com/us/album/flute-sonata-in-e-minor-bwv-1034-ii-allegro/1721139164
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 260
+  - id: s-zlghzfd
+    work: bwv-1034
+    movement: III. Andante
+    recording: hewitt-6-flute-sonatas
+    title: 'Flute Sonata in E Minor, BWV 1034: III. Andante'
+    credits: Andrea Oliva; Angela Hewitt
+    duration: 237
+    apple_music:
+      song_id: '1721141745'
+      url: https://music.apple.com/us/song/flute-sonata-in-e-minor-bwv-1034-iii-andante/1721141745
+      album_url: https://music.apple.com/us/album/flute-sonata-in-e-minor-bwv-1034-iii-andante/1721139164
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 261
+  - id: s-fc3yehh
+    work: bwv-1034
+    movement: IV. Allegro
+    recording: hewitt-6-flute-sonatas
+    title: 'Flute Sonata in E Minor, BWV 1034: IV. Allegro'
+    credits: Andrea Oliva; Angela Hewitt
+    duration: 289
+    apple_music:
+      song_id: '1721142088'
+      url: https://music.apple.com/us/song/flute-sonata-in-e-minor-bwv-1034-iv-allegro/1721142088
+      album_url: https://music.apple.com/us/album/flute-sonata-in-e-minor-bwv-1034-iv-allegro/1721139164
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 262
+  - id: s-bgw6gca
+    work: bwv-1035
+    movement: I. Adagio ma non tanto
+    recording: hewitt-6-flute-sonatas
+    title: 'Flute Sonata in E Major, BWV 1035: I. Adagio ma non tanto'
+    credits: Andrea Oliva; Angela Hewitt
+    duration: 157
+    apple_music:
+      song_id: '1721142365'
+      url: https://music.apple.com/us/song/flute-sonata-in-e-major-bwv-1035-i-adagio-ma-non-tanto/1721142365
+      album_url: https://music.apple.com/us/album/flute-sonata-in-e-major-bwv-1035-i-adagio-ma-non-tanto/1721139164
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 263
+  - id: s-3sjjthy
+    work: bwv-1035
+    movement: II. Allegro
+    recording: hewitt-6-flute-sonatas
+    title: 'Flute Sonata in E Major, BWV 1035: II. Allegro'
+    credits: Andrea Oliva; Angela Hewitt
+    duration: 186
+    apple_music:
+      song_id: '1721142373'
+      url: https://music.apple.com/us/song/flute-sonata-in-e-major-bwv-1035-ii-allegro/1721142373
+      album_url: https://music.apple.com/us/album/flute-sonata-in-e-major-bwv-1035-ii-allegro/1721139164
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 264
+  - id: s-tjzbexy
+    work: bwv-1035
+    movement: III. Siciliano
+    recording: hewitt-6-flute-sonatas
+    title: 'Flute Sonata in E Major, BWV 1035: III. Siciliano'
+    credits: Andrea Oliva; Angela Hewitt
+    duration: 221
+    apple_music:
+      song_id: '1721142594'
+      url: https://music.apple.com/us/song/flute-sonata-in-e-major-bwv-1035-iii-siciliano/1721142594
+      album_url: https://music.apple.com/us/album/flute-sonata-in-e-major-bwv-1035-iii-siciliano/1721139164
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 265
+  - id: s-2m7ukra
+    work: bwv-1035
+    movement: IV. Allegro assai
+    recording: hewitt-6-flute-sonatas
+    title: 'Flute Sonata in E Major, BWV 1035: IV. Allegro assai'
+    credits: Andrea Oliva; Angela Hewitt
+    duration: 195
+    apple_music:
+      song_id: '1721142606'
+      url: https://music.apple.com/us/song/flute-sonata-in-e-major-bwv-1035-iv-allegro-assai/1721142606
+      album_url: https://music.apple.com/us/album/flute-sonata-in-e-major-bwv-1035-iv-allegro-assai/1721139164
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 266
+  - id: s-msc56ix
+    work: bwv-1039
+    movement: I. Adagio
+    recording: pahud-complete-flute-sonatas
+    title: 'Sonata for 2 flutes & continuo in G Major, BWV 1039: I. Adagio'
+    credits: Trevor Pinnock; Emmanuel Pahud; Jonathan Manson; Silvia Careddu
+    duration: 216
+    apple_music:
+      song_id: '698831700'
+      url: https://music.apple.com/us/song/sonata-for-2-flutes-continuo-in-g-major-bwv-1039-i-adagio/698831700
+      album_url: https://music.apple.com/us/album/sonata-for-2-flutes-continuo-in-g-major-bwv-1039-i-adagio/698830978
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 267
+  - id: s-nkigwca
+    work: bwv-1039
+    movement: II. Allegro ma non presto
+    recording: pahud-complete-flute-sonatas
+    title: 'Sonata for 2 flutes & continuo in G Major, BWV 1039: II. Allegro ma non presto'
+    credits: Trevor Pinnock; Emmanuel Pahud; Jonathan Manson; Silvia Careddu
+    duration: 208
+    apple_music:
+      song_id: '698831705'
+      url: https://music.apple.com/us/song/sonata-for-2-flutes-continuo-in-g-major-bwv-1039-ii/698831705
+      album_url: https://music.apple.com/us/album/sonata-for-2-flutes-continuo-in-g-major-bwv-1039-ii/698830978
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 268
+  - id: s-rgmcwqf
+    work: bwv-1039
+    movement: III. Adagio e piano
+    recording: pahud-complete-flute-sonatas
+    title: 'Sonata for 2 flutes & continuo in G Major, BWV 1039: III. Adagio e piano'
+    credits: Trevor Pinnock; Emmanuel Pahud; Jonathan Manson; Silvia Careddu
+    duration: 151
+    apple_music:
+      song_id: '698831715'
+      url: https://music.apple.com/us/song/sonata-for-2-flutes-continuo-in-g-major-bwv-1039-iii/698831715
+      album_url: https://music.apple.com/us/album/sonata-for-2-flutes-continuo-in-g-major-bwv-1039-iii/698830978
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 269
+  - id: s-7744fyz
+    work: bwv-1039
+    movement: IV. Presto
+    recording: pahud-complete-flute-sonatas
+    title: 'Sonata for 2 flutes & continuo in G Major, BWV 1039: IV. Presto'
+    credits: Trevor Pinnock; Emmanuel Pahud; Jonathan Manson; Silvia Careddu
+    duration: 172
+    apple_music:
+      song_id: '698831738'
+      url: https://music.apple.com/us/song/sonata-for-2-flutes-continuo-in-g-major-bwv-1039-iv-presto/698831738
+      album_url: https://music.apple.com/us/album/sonata-for-2-flutes-continuo-in-g-major-bwv-1039-iv-presto/698830978
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 270
+  - id: s-cbm3cdy
+    work: bwv-1027
+    movement: I. Adagio
+    arrangement: Arr. for Cello & Piano
+    recording: hewitt-viola-da-gamba-sonatas
+    title: 'Viola da gamba Sonata in G Major, BWV 1027 (Arr. for Cello & Piano): I. Adagio'
+    credits: Daniel Müller-Schott; Angela Hewitt
+    duration: 235
+    apple_music:
+      song_id: '1155583003'
+      url: https://music.apple.com/us/song/viola-da-gamba-sonata-in-g-major-bwv-1027-arr-for-cello/1155583003
+      album_url: https://music.apple.com/us/album/viola-da-gamba-sonata-in-g-major-bwv-1027-arr-for-cello/1155582523
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 271
+  - id: s-xfvownb
+    work: bwv-1027
+    movement: II. Allegro ma non tanto
+    arrangement: Arr. for Cello & Piano
+    recording: hewitt-viola-da-gamba-sonatas
+    title: 'Viola da gamba Sonata in G Major, BWV 1027 (Arr. for Cello & Piano): II. Allegro ma non tanto'
+    credits: Daniel Müller-Schott; Angela Hewitt
+    duration: 213
+    apple_music:
+      song_id: '1155583004'
+      url: https://music.apple.com/us/song/viola-da-gamba-sonata-in-g-major-bwv-1027-arr-for-cello/1155583004
+      album_url: https://music.apple.com/us/album/viola-da-gamba-sonata-in-g-major-bwv-1027-arr-for-cello/1155582523
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 272
+  - id: s-6zu5eee
+    work: bwv-1027
+    movement: III. Andante
+    arrangement: Arr. for Cello & Piano
+    recording: hewitt-viola-da-gamba-sonatas
+    title: 'Viola da gamba Sonata in G Major, BWV 1027 (Arr. for Cello & Piano): III. Andante'
+    credits: Daniel Müller-Schott; Angela Hewitt
+    duration: 177
+    apple_music:
+      song_id: '1155583005'
+      url: https://music.apple.com/us/song/viola-da-gamba-sonata-in-g-major-bwv-1027-arr-for-cello/1155583005
+      album_url: https://music.apple.com/us/album/viola-da-gamba-sonata-in-g-major-bwv-1027-arr-for-cello/1155582523
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 273
+  - id: s-jpzpukb
+    work: bwv-1027
+    movement: IV. Allegro moderato
+    arrangement: Arr. for Cello & Piano
+    recording: hewitt-viola-da-gamba-sonatas
+    title: 'Viola da gamba Sonata in G Major, BWV 1027 (Arr. for Cello & Piano): IV. Allegro moderato'
+    credits: Daniel Müller-Schott; Angela Hewitt
+    duration: 191
+    apple_music:
+      song_id: '1155583006'
+      url: https://music.apple.com/us/song/viola-da-gamba-sonata-in-g-major-bwv-1027-arr-for-cello/1155583006
+      album_url: https://music.apple.com/us/album/viola-da-gamba-sonata-in-g-major-bwv-1027-arr-for-cello/1155582523
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 274
+  - id: s-rzokqpq
+    work: bwv-1028
+    movement: I. Adagio
+    arrangement: Arr. for Cello & Piano
+    recording: hewitt-viola-da-gamba-sonatas
+    title: 'Viola da gamba Sonata in D Major, BWV 1028 (Arr. for Cello & Piano): I. Adagio'
+    credits: Daniel Müller-Schott; Angela Hewitt
+    duration: 124
+    apple_music:
+      song_id: '1155583008'
+      url: https://music.apple.com/us/song/viola-da-gamba-sonata-in-d-major-bwv-1028-arr-for-cello/1155583008
+      album_url: https://music.apple.com/us/album/viola-da-gamba-sonata-in-d-major-bwv-1028-arr-for-cello/1155582523
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 275
+  - id: s-ubifx2u
+    work: bwv-1028
+    movement: II. Allegro
+    arrangement: Arr. for Cello & Piano
+    recording: hewitt-viola-da-gamba-sonatas
+    title: 'Viola da gamba Sonata in D Major, BWV 1028 (Arr. for Cello & Piano): II. Allegro'
+    credits: Daniel Müller-Schott; Angela Hewitt
+    duration: 214
+    apple_music:
+      song_id: '1155583009'
+      url: https://music.apple.com/us/song/viola-da-gamba-sonata-in-d-major-bwv-1028-arr-for-cello/1155583009
+      album_url: https://music.apple.com/us/album/viola-da-gamba-sonata-in-d-major-bwv-1028-arr-for-cello/1155582523
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 276
+  - id: s-tzby4sn
+    work: bwv-1028
+    movement: III. Andante
+    arrangement: Arr. for Cello & Piano
+    recording: hewitt-viola-da-gamba-sonatas
+    title: 'Viola da gamba Sonata in D Major, BWV 1028 (Arr. for Cello & Piano): III. Andante'
+    credits: Daniel Müller-Schott; Angela Hewitt
+    duration: 254
+    apple_music:
+      song_id: '1155583011'
+      url: https://music.apple.com/us/song/viola-da-gamba-sonata-in-d-major-bwv-1028-arr-for-cello/1155583011
+      album_url: https://music.apple.com/us/album/viola-da-gamba-sonata-in-d-major-bwv-1028-arr-for-cello/1155582523
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 277
+  - id: s-7yndqhm
+    work: bwv-1028
+    movement: IV. Allegro
+    arrangement: Arr. for Cello & Piano
+    recording: hewitt-viola-da-gamba-sonatas
+    title: 'Viola da gamba Sonata in D Major, BWV 1028 (Arr. for Cello & Piano): IV. Allegro'
+    credits: Daniel Müller-Schott; Angela Hewitt
+    duration: 242
+    apple_music:
+      song_id: '1155583012'
+      url: https://music.apple.com/us/song/viola-da-gamba-sonata-in-d-major-bwv-1028-arr-for-cello/1155583012
+      album_url: https://music.apple.com/us/album/viola-da-gamba-sonata-in-d-major-bwv-1028-arr-for-cello/1155582523
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 278
+  - id: s-bjvmy6a
+    work: bwv-1029
+    movement: I. Vivace
+    arrangement: Arr. for Cello & Piano
+    recording: hewitt-viola-da-gamba-sonatas
+    title: 'Viola da gamba Sonata in G Minor, BWV 1029 (Arr. for Cello & Piano): I. Vivace'
+    credits: Daniel Müller-Schott; Angela Hewitt
+    duration: 307
+    apple_music:
+      song_id: '1155583014'
+      url: https://music.apple.com/us/song/viola-da-gamba-sonata-in-g-minor-bwv-1029-arr-for-cello/1155583014
+      album_url: https://music.apple.com/us/album/viola-da-gamba-sonata-in-g-minor-bwv-1029-arr-for-cello/1155582523
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 279
+  - id: s-woqylub
+    work: bwv-1029
+    movement: II. Adagio
+    arrangement: Arr. for Cello & Piano
+    recording: hewitt-viola-da-gamba-sonatas
+    title: 'Viola da gamba Sonata in G Minor, BWV 1029 (Arr. for Cello & Piano): II. Adagio'
+    credits: Daniel Müller-Schott; Angela Hewitt
+    duration: 343
+    apple_music:
+      song_id: '1155583015'
+      url: https://music.apple.com/us/song/viola-da-gamba-sonata-in-g-minor-bwv-1029-arr-for-cello/1155583015
+      album_url: https://music.apple.com/us/album/viola-da-gamba-sonata-in-g-minor-bwv-1029-arr-for-cello/1155582523
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 280
+  - id: s-tiqbmff
+    work: bwv-1029
+    movement: III. Allegro
+    arrangement: Arr. for Cello & Piano
+    recording: hewitt-viola-da-gamba-sonatas
+    title: 'Viola da gamba Sonata in G Minor, BWV 1029 (Arr. for Cello & Piano): III. Allegro'
+    credits: Daniel Müller-Schott; Angela Hewitt
+    duration: 236
+    apple_music:
+      song_id: '1155583016'
+      url: https://music.apple.com/us/song/viola-da-gamba-sonata-in-g-minor-bwv-1029-arr-for-cello/1155583016
+      album_url: https://music.apple.com/us/album/viola-da-gamba-sonata-in-g-minor-bwv-1029-arr-for-cello/1155582523
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 281
+  - id: s-qmmkwwm
+    work: bwv-1041
+    movement: I. No tempo marking
+    recording: ehnes-complete-violin-concertos
+    title: 'Violin Concerto in A Minor, BWV 1041: I. No tempo marking'
+    credits: James Ehnes; Canada's National Arts Centre Orchestra
+    duration: 228
+    apple_music:
+      song_id: '1793827371'
+      url: https://music.apple.com/us/song/violin-concerto-in-a-minor-bwv-1041-i-no-tempo-marking/1793827371
+      album_url: https://music.apple.com/us/album/violin-concerto-in-a-minor-bwv-1041-i-no-tempo-marking/1793826493
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 282
+  - id: s-zs45xig
+    work: bwv-1041
+    movement: II. Andante
+    recording: ehnes-complete-violin-concertos
+    title: 'Violin Concerto in A Minor, BWV 1041: II. Andante'
+    credits: James Ehnes; Canada's National Arts Centre Orchestra
+    duration: 371
+    apple_music:
+      song_id: '1793827372'
+      url: https://music.apple.com/us/song/violin-concerto-in-a-minor-bwv-1041-ii-andante/1793827372
+      album_url: https://music.apple.com/us/album/violin-concerto-in-a-minor-bwv-1041-ii-andante/1793826493
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 283
+  - id: s-e3iu2af
+    work: bwv-1041
+    movement: III. Allegro assai
+    recording: ehnes-complete-violin-concertos
+    title: 'Violin Concerto in A Minor, BWV 1041: III. Allegro assai'
+    credits: James Ehnes; Canada's National Arts Centre Orchestra
+    duration: 218
+    apple_music:
+      song_id: '1793827384'
+      url: https://music.apple.com/us/song/violin-concerto-in-a-minor-bwv-1041-iii-allegro-assai/1793827384
+      album_url: https://music.apple.com/us/album/violin-concerto-in-a-minor-bwv-1041-iii-allegro-assai/1793826493
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 284
+  - id: s-36lz5ij
+    work: bwv-1043
+    movement: I. Vivace
+    recording: ehnes-complete-violin-concertos
+    title: 'Concerto for Two Violins in D Minor, BWV 1043: I. Vivace'
+    credits: James Ehnes; Canada's National Arts Centre Orchestra; Yosuke Kawasaki
+    duration: 225
+    apple_music:
+      song_id: '1793827392'
+      url: https://music.apple.com/us/song/concerto-for-two-violins-in-d-minor-bwv-1043-i-vivace/1793827392
+      album_url: https://music.apple.com/us/album/concerto-for-two-violins-in-d-minor-bwv-1043-i-vivace/1793826493
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 285
+  - id: s-plijvyx
+    work: bwv-1043
+    movement: II. Largo ma non tanto
+    recording: ehnes-complete-violin-concertos
+    title: 'Concerto for Two Violins in D Minor, BWV 1043: II. Largo ma non tanto'
+    credits: James Ehnes; Canada's National Arts Centre Orchestra; Yosuke Kawasaki
+    duration: 384
+    apple_music:
+      song_id: '1793827394'
+      url: https://music.apple.com/us/song/concerto-for-two-violins-in-d-minor-bwv-1043-ii-largo/1793827394
+      album_url: https://music.apple.com/us/album/concerto-for-two-violins-in-d-minor-bwv-1043-ii-largo/1793826493
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 286
+  - id: s-kd3udi3
+    work: bwv-1043
+    movement: III. Allegro
+    recording: ehnes-complete-violin-concertos
+    title: 'Concerto for Two Violins in D Minor, BWV 1043: III. Allegro'
+    credits: James Ehnes; Canada's National Arts Centre Orchestra
+    duration: 287
+    apple_music:
+      song_id: '1793827620'
+      url: https://music.apple.com/us/song/concerto-for-two-violins-in-d-minor-bwv-1043-iii-allegro/1793827620
+      album_url: https://music.apple.com/us/album/concerto-for-two-violins-in-d-minor-bwv-1043-iii-allegro/1793826493
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 287
+  - id: s-u5gq6jf
+    work: bwv-1060r
+    movement: I. Allegro
+    recording: ehnes-complete-violin-concertos
+    title: 'Concerto for Oboe and Violin in C Minor, BWV 1060R: I. Allegro'
+    credits: James Ehnes; Canada's National Arts Centre Orchestra; Charles Hamann
+    duration: 300
+    apple_music:
+      song_id: '1793826975'
+      url: https://music.apple.com/us/song/concerto-for-oboe-and-violin-in-c-minor-bwv-1060r-i-allegro/1793826975
+      album_url: https://music.apple.com/us/album/concerto-for-oboe-and-violin-in-c-minor-bwv-1060r-i-allegro/1793826493
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 288
+  - id: s-v2bg7e4
+    work: bwv-1060r
+    movement: II. Adagio
+    recording: ehnes-complete-violin-concertos
+    title: 'Concerto for Oboe and Violin in C Minor, BWV 1060R: II. Adagio'
+    credits: James Ehnes; Canada's National Arts Centre Orchestra; Charles Hamann
+    duration: 307
+    apple_music:
+      song_id: '1793827072'
+      url: https://music.apple.com/us/song/concerto-for-oboe-and-violin-in-c-minor-bwv-1060r-ii-adagio/1793827072
+      album_url: https://music.apple.com/us/album/concerto-for-oboe-and-violin-in-c-minor-bwv-1060r-ii-adagio/1793826493
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 289
+  - id: s-kcm4q4z
+    work: bwv-1060r
+    movement: III. Allegro
+    recording: ehnes-complete-violin-concertos
+    title: 'Concerto for Oboe and Violin in C Minor, BWV 1060R: III. Allegro'
+    credits: James Ehnes; Canada's National Arts Centre Orchestra; Charles Hamann
+    duration: 220
+    apple_music:
+      song_id: '1793827077'
+      url: https://music.apple.com/us/song/concerto-for-oboe-and-violin-in-c-minor-bwv-1060r-iii-allegro/1793827077
+      album_url: https://music.apple.com/us/album/concerto-for-oboe-and-violin-in-c-minor-bwv-1060r-iii-allegro/1793826493
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 290
+  - id: s-3srco3r
+    work: bwv-971
+    movement: I. Allegro
+    recording: perahia-piano-concertos
+    title: 'Italian Concerto, BWV 971: I. Allegro'
+    credits: Murray Perahia
+    duration: 235
+    apple_music:
+      song_id: '429782203'
+      url: https://music.apple.com/us/song/italian-concerto-bwv-971-i-allegro/429782203
+      album_url: https://music.apple.com/us/album/italian-concerto-bwv-971-i-allegro/429782087
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 291
+  - id: s-bxkqmjw
+    work: bwv-971
+    movement: II. Andante
+    recording: perahia-piano-concertos
+    title: 'Italian Concerto, BWV 971: II. Andante'
+    credits: Murray Perahia
+    duration: 294
+    apple_music:
+      song_id: '429782217'
+      url: https://music.apple.com/us/song/italian-concerto-bwv-971-ii-andante/429782217
+      album_url: https://music.apple.com/us/album/italian-concerto-bwv-971-ii-andante/429782087
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 292
+  - id: s-6f5bgpi
+    work: bwv-971
+    movement: III. Presto
+    recording: perahia-piano-concertos
+    title: 'Italian Concerto, BWV 971: III. Presto'
+    credits: Murray Perahia
+    duration: 214
+    apple_music:
+      song_id: '429782220'
+      url: https://music.apple.com/us/song/italian-concerto-bwv-971-iii-presto/429782220
+      album_url: https://music.apple.com/us/album/italian-concerto-bwv-971-iii-presto/429782087
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 293
+  - id: s-zq3tnuc
+    work: bwv-1058
+    movement: I. (Allegro)
+    recording: perahia-piano-concertos
+    title: 'Keyboard Concerto No. 7 in G minor, BWV 1058: I. (Allegro)'
+    credits: Murray Perahia; Academy of St Martin in the Fields
+    duration: 217
+    apple_music:
+      song_id: '429782143'
+      url: https://music.apple.com/us/song/keyboard-concerto-no-7-in-g-minor-bwv-1058-i-allegro/429782143
+      album_url: https://music.apple.com/us/album/keyboard-concerto-no-7-in-g-minor-bwv-1058-i-allegro/429782087
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 294
+  - id: s-reiu5el
+    work: bwv-1058
+    movement: II. Andante
+    recording: perahia-piano-concertos
+    title: 'Keyboard Concerto No. 7 in G minor, BWV 1058: II. Andante'
+    credits: Murray Perahia; Academy of St Martin in the Fields
+    duration: 356
+    apple_music:
+      song_id: '429782145'
+      url: https://music.apple.com/us/song/keyboard-concerto-no-7-in-g-minor-bwv-1058-ii-andante/429782145
+      album_url: https://music.apple.com/us/album/keyboard-concerto-no-7-in-g-minor-bwv-1058-ii-andante/429782087
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 295
+  - id: s-dcix6mp
+    work: bwv-1058
+    movement: III. Allegro assai
+    recording: perahia-piano-concertos
+    title: 'Keyboard Concerto No. 7 in G minor, BWV 1058: III. Allegro assai'
+    credits: Murray Perahia; Academy of St Martin in the Fields
+    duration: 218
+    apple_music:
+      song_id: '429782147'
+      url: https://music.apple.com/us/song/keyboard-concerto-no-7-in-g-minor-bwv-1058-iii-allegro-assai/429782147
+      album_url: https://music.apple.com/us/album/keyboard-concerto-no-7-in-g-minor-bwv-1058-iii-allegro-assai/429782087
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 296
+  - id: s-aeilfll
+    work: bwv-1052
+    movement: I. Allegro
+    recording: perahia-piano-concertos
+    title: 'Keyboard Concerto No. 1 in D minor, BWV 1052: I. Allegro'
+    credits: Murray Perahia; Academy of St Martin in the Fields
+    duration: 430
+    apple_music:
+      song_id: '429782096'
+      url: https://music.apple.com/us/song/keyboard-concerto-no-1-in-d-minor-bwv-1052-i-allegro/429782096
+      album_url: https://music.apple.com/us/album/keyboard-concerto-no-1-in-d-minor-bwv-1052-i-allegro/429782087
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 297
+  - id: s-wrv4bxl
+    work: bwv-1052
+    movement: II. Adagio
+    recording: perahia-piano-concertos
+    title: 'Keyboard Concerto No. 1 in D minor, BWV 1052: II. Adagio'
+    credits: Murray Perahia; Academy of St Martin in the Fields
+    duration: 367
+    apple_music:
+      song_id: '429782099'
+      url: https://music.apple.com/us/song/keyboard-concerto-no-1-in-d-minor-bwv-1052-ii-adagio/429782099
+      album_url: https://music.apple.com/us/album/keyboard-concerto-no-1-in-d-minor-bwv-1052-ii-adagio/429782087
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 298
+  - id: s-sbucwiv
+    work: bwv-1052
+    movement: III. Allegro
+    recording: perahia-piano-concertos
+    title: 'Keyboard Concerto No. 1 in D minor, BWV 1052: III. Allegro'
+    credits: Murray Perahia; Academy of St Martin in the Fields
+    duration: 437
+    apple_music:
+      song_id: '429782107'
+      url: https://music.apple.com/us/song/keyboard-concerto-no-1-in-d-minor-bwv-1052-iii-allegro/429782107
+      album_url: https://music.apple.com/us/album/keyboard-concerto-no-1-in-d-minor-bwv-1052-iii-allegro/429782087
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 299
+  - id: s-2y562l6
+    work: bwv-156
+    movement: Sinfonia
+    recording: suzuki-cantatas-vol-49
+    title: 'Ich steh mit einem Fuss im Grabe, BWV 156: Sinfonia'
+    credits: Rachel Nicholls; Robin Blaze; Peter Kooij; Bach Collegium Japan Chorus; Bach Collegium Japan; Masaaki Suzuki
+    duration: 169
+    apple_music:
+      song_id: '1727080413'
+      url: https://music.apple.com/us/song/ich-steh-mit-einem-fuss-im-grabe-bwv-156-sinfonia/1727080413
+      album_url: https://music.apple.com/us/album/ich-steh-mit-einem-fuss-im-grabe-bwv-156-sinfonia/1727080405
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 300
+  - id: s-c4v5rnm
+    work: bwv-1056
+    movement: I. (Allegro)
+    recording: perahia-piano-concertos
+    title: 'Keyboard Concerto No. 5 in F minor, BWV 1056: I. (Allegro)'
+    credits: Murray Perahia; Academy of St Martin in the Fields
+    duration: 200
+    apple_music:
+      song_id: '429782134'
+      url: https://music.apple.com/us/song/keyboard-concerto-no-5-in-f-minor-bwv-1056-i-allegro/429782134
+      album_url: https://music.apple.com/us/album/keyboard-concerto-no-5-in-f-minor-bwv-1056-i-allegro/429782087
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 301
+  - id: s-i6vrgiu
+    work: bwv-1056
+    movement: II. Largo
+    recording: perahia-piano-concertos
+    title: 'Keyboard Concerto No. 5 in F minor, BWV 1056: II. Largo'
+    credits: Murray Perahia; Academy of St Martin in the Fields
+    duration: 173
+    apple_music:
+      song_id: '429782135'
+      url: https://music.apple.com/us/song/keyboard-concerto-no-5-in-f-minor-bwv-1056-ii-largo/429782135
+      album_url: https://music.apple.com/us/album/keyboard-concerto-no-5-in-f-minor-bwv-1056-ii-largo/429782087
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 302
+  - id: s-enk2dk3
+    work: bwv-1056
+    movement: III. Presto
+    recording: perahia-piano-concertos
+    title: 'Keyboard Concerto No. 5 in F minor, BWV 1056: III. Presto'
+    credits: Murray Perahia; Academy of St Martin in the Fields
+    duration: 178
+    apple_music:
+      song_id: '429782136'
+      url: https://music.apple.com/us/song/keyboard-concerto-no-5-in-f-minor-bwv-1056-iii-presto/429782136
+      album_url: https://music.apple.com/us/album/keyboard-concerto-no-5-in-f-minor-bwv-1056-iii-presto/429782087
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 303
+  - id: s-li2kz4j
+    work: bwv-1049
+    movement: I. Allegro
+    recording: faust-brandenburg-concertos
+    title: I. Allegro
+    credits: Akademie für Alte Musik Berlin; Isabelle Faust
+    duration: 391
+    apple_music:
+      song_id: '1582008656'
+      url: https://music.apple.com/us/song/brandenburg-concerto-no-4-in-g-major-bwv-1049-i-allegro/1582008656
+      album_url: https://music.apple.com/us/album/brandenburg-concerto-no-4-in-g-major-bwv-1049-i-allegro/1582007762
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 304
+      work_inferred_from: apple_music_url
+  - id: s-j6d7gsi
+    work: bwv-1049
+    movement: II. Andante
+    recording: faust-brandenburg-concertos
+    title: II. Andante
+    credits: Akademie für Alte Musik Berlin; Isabelle Faust
+    duration: 216
+    apple_music:
+      song_id: '1582008661'
+      url: https://music.apple.com/us/song/brandenburg-concerto-no-4-in-g-major-bwv-1049-ii-andante/1582008661
+      album_url: https://music.apple.com/us/album/brandenburg-concerto-no-4-in-g-major-bwv-1049-ii-andante/1582007762
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 305
+      work_inferred_from: apple_music_url
+  - id: s-4vw56zr
+    work: bwv-1049
+    movement: III. Presto
+    recording: faust-brandenburg-concertos
+    title: III. Presto
+    credits: Akademie für Alte Musik Berlin; Isabelle Faust
+    duration: 265
+    apple_music:
+      song_id: '1582008997'
+      url: https://music.apple.com/us/song/brandenburg-concerto-no-4-in-g-major-bwv-1049-iii-presto/1582008997
+      album_url: https://music.apple.com/us/album/brandenburg-concerto-no-4-in-g-major-bwv-1049-iii-presto/1582007762
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 306
+      work_inferred_from: apple_music_url
+  - id: s-nr7rghg
+    work: bwv-1057
+    movement: I. (without tempo indication)
+    recording: perahia-piano-concertos
+    title: 'Concerto for Harpsichord and Orchestra No. 6 in F Major, BWV 1057: I. (without tempo indication)'
+    credits: Murray Perahia; Academy of St Martin in the Fields
+    duration: 423
+    apple_music:
+      song_id: '429782139'
+      url: https://music.apple.com/us/song/concerto-for-harpsichord-and-orchestra-no-6-in-f/429782139
+      album_url: https://music.apple.com/us/album/concerto-for-harpsichord-and-orchestra-no-6-in-f/429782087
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 307
+  - id: s-27ebyxj
+    work: bwv-1057
+    movement: II. Andante
+    recording: perahia-piano-concertos
+    title: 'Concerto for Harpsichord and Orchestra No. 6 in F Major, BWV 1057: II. Andante'
+    credits: Murray Perahia; Academy of St Martin in the Fields
+    duration: 234
+    apple_music:
+      song_id: '429782140'
+      url: https://music.apple.com/us/song/concerto-for-harpsichord-and-orchestra-no-6-in-f/429782140
+      album_url: https://music.apple.com/us/album/concerto-for-harpsichord-and-orchestra-no-6-in-f/429782087
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 308
+  - id: s-clhebv7
+    work: bwv-1057
+    movement: III. Allegro assai
+    recording: perahia-piano-concertos
+    title: 'Concerto for Harpsichord and Orchestra No. 6 in F Major, BWV 1057: III. Allegro assai'
+    credits: Murray Perahia; Academy of St Martin in the Fields
+    duration: 275
+    apple_music:
+      song_id: '429782141'
+      url: https://music.apple.com/us/song/concerto-for-harpsichord-and-orchestra-no-6-in-f/429782141
+      album_url: https://music.apple.com/us/album/concerto-for-harpsichord-and-orchestra-no-6-in-f/429782087
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 309
+  - id: s-goedfof
+    work: bwv-1050
+    movement: I. Allegro
+    recording: perahia-piano-concertos
+    title: 'Brandenburg Concerto No 5, BWV 1050: I. Allegro'
+    credits: Murray Perahia; Academy of St Martin in the Fields
+    duration: 627
+    apple_music:
+      song_id: '429782191'
+      url: https://music.apple.com/us/song/brandenburg-concerto-no-5-bwv-1050-i-allegro/429782191
+      album_url: https://music.apple.com/us/album/brandenburg-concerto-no-5-bwv-1050-i-allegro/429782087
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 310
+  - id: s-53je7g7
+    work: bwv-1050
+    movement: II. Affetuoso
+    recording: perahia-piano-concertos
+    title: 'Brandenburg Concerto No 5, BWV 1050: II. Affetuoso'
+    credits: Murray Perahia; Academy of St Martin in the Fields
+    duration: 320
+    apple_music:
+      song_id: '429782192'
+      url: https://music.apple.com/us/song/brandenburg-concerto-no-5-bwv-1050-ii-affetuoso/429782192
+      album_url: https://music.apple.com/us/album/brandenburg-concerto-no-5-bwv-1050-ii-affetuoso/429782087
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 311
+  - id: s-3n6flst
+    work: bwv-1050
+    movement: III. Allegro
+    recording: perahia-piano-concertos
+    title: 'Brandenburg Concerto No 5, BWV 1050: III. Allegro'
+    credits: Murray Perahia; Academy of St Martin in the Fields
+    duration: 317
+    apple_music:
+      song_id: '429782200'
+      url: https://music.apple.com/us/song/brandenburg-concerto-no-5-bwv-1050-iii-allegro/429782200
+      album_url: https://music.apple.com/us/album/brandenburg-concerto-no-5-bwv-1050-iii-allegro/429782087
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 312
+  - id: s-ml4d7x5
+    work: bwv-1044
+    movement: I. Allegro
+    recording: perahia-piano-concertos
+    title: 'Concerto for flute, violin, harpsichord, BWV 1044: I. Allegro'
+    credits: Murray Perahia; Academy of St Martin in the Fields
+    duration: 520
+    apple_music:
+      song_id: '429782149'
+      url: https://music.apple.com/us/song/concerto-for-flute-violin-harpsichord-bwv-1044-i-allegro/429782149
+      album_url: https://music.apple.com/us/album/concerto-for-flute-violin-harpsichord-bwv-1044-i-allegro/429782087
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 313
+  - id: s-wl73kaf
+    work: bwv-1044
+    movement: II. Adagio ma non tanto e dolce
+    recording: perahia-piano-concertos
+    title: 'Concerto for flute, violin, harpsichord, BWV 1044: II. Adagio ma non tanto e dolce'
+    credits: Murray Perahia; Academy of St Martin in the Fields
+    duration: 372
+    apple_music:
+      song_id: '429782155'
+      url: https://music.apple.com/us/song/concerto-for-flute-violin-harpsichord-bwv-1044-ii-adagio/429782155
+      album_url: https://music.apple.com/us/album/concerto-for-flute-violin-harpsichord-bwv-1044-ii-adagio/429782087
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 314
+  - id: s-6ifvmwm
+    work: bwv-1044
+    movement: III. Tempo di Alla breve
+    recording: perahia-piano-concertos
+    title: 'Concerto for flute, violin, harpsichord, BWV 1044: III. Tempo di Alla breve'
+    credits: Murray Perahia; Academy of St Martin in the Fields
+    duration: 383
+    apple_music:
+      song_id: '429782174'
+      url: https://music.apple.com/us/song/concerto-for-flute-violin-harpsichord-bwv-1044-iii/429782174
+      album_url: https://music.apple.com/us/album/concerto-for-flute-violin-harpsichord-bwv-1044-iii/429782087
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 315

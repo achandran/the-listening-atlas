@@ -1,0 +1,247 @@
+# Stage 2 · Breath — playlist order is the order of this list.
+# To move a selection, move its whole block. Never reuse or renumber `id` values.
+stage: breath
+selections:
+  - id: s-tlw42pr
+    work: bwv-177
+    movement: V. Chorale. Ich lieg im Streit und widerstreb (Chorus)
+    recording: suzuki-cantatas-vol-53
+    title: 'Ich ruf zu dir, Herr Jesu Christ, Bwv 177: V. Chorale. Ich lieg im Streit und widerstreb (Chorus)'
+    credits: Hana Blažíková; Robin Blaze; Gerd Türk; Bach Collegium Japan; Masaaki Suzuki
+    duration: 76
+    apple_music:
+      song_id: '1724250518'
+      url: https://music.apple.com/us/song/ich-ruf-zu-dir-herr-jesu-christ-bwv-177-v-chorale-ich/1724250518
+      album_url: https://music.apple.com/us/album/ich-ruf-zu-dir-herr-jesu-christ-bwv-177-v-chorale-ich/1724250501
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 21
+  - id: s-i24e5dp
+    work: bwv-639
+    movement: null
+    recording: perahia-songs-without-words
+    title: Ich ruf zu dir, Herr Jesu Christ, No. 5, BWV 639
+    credits: Murray Perahia
+    duration: 186
+    apple_music:
+      song_id: '597604525'
+      url: https://music.apple.com/us/song/ich-ruf-zu-dir-herr-jesu-christ-no-5-bwv-639/597604525
+      album_url: https://music.apple.com/us/album/ich-ruf-zu-dir-herr-jesu-christ-no-5-bwv-639/597604194
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 22
+  - id: s-6neuf73
+    work: bwv-227
+    movement: No. 9, Gute Nacht, o Wesen
+    recording: herreweghe-motets
+    title: 'Jesu, meine Freude, BWV 227: No. 9, Gute Nacht, o Wesen'
+    credits: Collegium Vocale Gent; Philippe Herreweghe
+    duration: 224
+    apple_music:
+      song_id: '1212394872'
+      url: https://music.apple.com/us/song/jesu-meine-freude-bwv-227-no-9-gute-nacht-o-wesen/1212394872
+      album_url: https://music.apple.com/us/album/jesu-meine-freude-bwv-227-no-9-gute-nacht-o-wesen/1212393692
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 23
+  - id: s-wr2abe5
+    work: bwv-208
+    movement: No. 9, Schafe können sicher weiden
+    recording: suzuki-secular-cantatas-vol-2
+    title: 'Was mir behagt, ist nur die muntre Jagd, BWV 208 "Hunt Cantata": No. 9, Schafe können sicher weiden'
+    credits: Sophie Junker; Joanne Lunn; Makoto Sakurada; Roderick Williams; Bach Collegium Japan Chorus; Bach Collegium Japan; Masaaki Suzuki
+    duration: 269
+    apple_music:
+      song_id: '1727120254'
+      url: https://music.apple.com/us/song/was-mir-behagt-ist-nur-die-muntre-jagd-bwv-208-hunt/1727120254
+      album_url: https://music.apple.com/us/album/was-mir-behagt-ist-nur-die-muntre-jagd-bwv-208-hunt/1727120243
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 24
+  - id: s-h7qkkv3
+    work: bwv-208
+    movement: No. 9
+    arrangement: Arr. for Piano
+    recording: fleisher-two-hands
+    title: Sheep May Safely Graze, BWV 208/9 (Arr. for Piano)
+    credits: Leon Fleisher
+    duration: 295
+    apple_music:
+      song_id: '1023324571'
+      url: https://music.apple.com/us/song/sheep-may-safely-graze-bwv-208-9-arr-for-piano/1023324571
+      album_url: https://music.apple.com/us/album/sheep-may-safely-graze-bwv-208-9-arr-for-piano/1023324548
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 25
+  - id: s-f6c6zb5
+    work: bwv-170
+    movement: Aria. Vergnugte Ruh! Beliebte Seelenlust! (Alto)
+    recording: suzuki-cantatas-vol-37
+    title: 'Vergnügte Ruh'', beliebte Seelenlust, BWV 170: Aria. Vergnugte Ruh! Beliebte Seelenlust! (Alto)'
+    credits: Robin Blaze; Bach Collegium Japan; Masaaki Suzuki
+    duration: 396
+    apple_music:
+      song_id: '1727101425'
+      url: https://music.apple.com/us/song/vergn%C3%BCgte-ruh-beliebte-seelenlust-bwv-170-aria-vergnugte/1727101425
+      album_url: https://music.apple.com/us/album/vergn%C3%BCgte-ruh-beliebte-seelenlust-bwv-170-aria-vergnugte/1727101422
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 26
+  - id: s-dykbvma
+    work: bwv-32
+    movement: I. Aria. Liebster Jesu, mein Verlangen (Soprano)
+    recording: suzuki-cantatas-vol-42
+    title: 'Liebster Jesu, mein Verlangen, BWV 32: I. Aria. Liebster Jesu, mein Verlangen (Soprano)'
+    credits: Rachel Nicholls; Peter Kooij; Bach Collegium Japan; Masaaki Suzuki
+    duration: 407
+    apple_music:
+      song_id: '1724258660'
+      url: https://music.apple.com/us/song/liebster-jesu-mein-verlangen-bwv-32-i-aria-liebster/1724258660
+      album_url: https://music.apple.com/us/album/liebster-jesu-mein-verlangen-bwv-32-i-aria-liebster/1724258470
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 27
+  - id: s-qpw5nju
+    work: bwv-57
+    movement: 3. Aria S "Ich Wünschte Mir Den Tod"
+    recording: herreweghe-christmas-cantatas
+    title: 'Selig Ist Der Mann, BWV 57: 3. Aria S "Ich Wünschte Mir Den Tod"'
+    credits: Collegium Vocale Gent; Philippe Herreweghe; Vasiljka Jezovsek
+    duration: 335
+    apple_music:
+      song_id: '251162130'
+      url: https://music.apple.com/us/song/selig-ist-der-mann-bwv-57-3-aria-s-ich-w%C3%BCnschte-mir-den-tod/251162130
+      album_url: https://music.apple.com/us/album/selig-ist-der-mann-bwv-57-3-aria-s-ich-w%C3%BCnschte-mir-den-tod/251161194
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 28
+  - id: s-lbxcqoz
+    work: bwv-105
+    movement: III. Aria "Wie zittern und wanken"
+    recording: herreweghe-ach-suer-trost
+    title: '"Herr, gehe nicht ins Gericht mit deinem Knecht" in G Minor, BWV 105: III. Aria "Wie zittern und wanken"'
+    credits: Collegium Vocale Gent; Philippe Herreweghe; Hana Blažíková
+    duration: 330
+    apple_music:
+      song_id: '1572122070'
+      url: https://music.apple.com/us/song/herr-gehe-nicht-ins-gericht-mit-deinem-knecht-in-g/1572122070
+      album_url: https://music.apple.com/us/album/herr-gehe-nicht-ins-gericht-mit-deinem-knecht-in-g/1572121291
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 29
+  - id: s-65qhnur
+    work: bwv-659
+    movement: null
+    arrangement: Transcr. for Piano by Ferruccio Busoni
+    recording: olafsson-johann-sebastian-bach
+    title: Nun komm, der Heiden Heiland, BWV 659 (Transcr. for Piano by Ferruccio Busoni)
+    credits: Víkingur Ólafsson
+    duration: 304
+    apple_music:
+      song_id: '1410552331'
+      url: https://music.apple.com/us/song/nun-komm-der-heiden-heiland-bwv-659-transcr-for-piano/1410552331
+      album_url: https://music.apple.com/us/album/nun-komm-der-heiden-heiland-bwv-659-transcr-for-piano/1410551592
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 30
+  - id: s-32yvaoz
+    work: bwv-12
+    movement: I. Sinfonia
+    recording: herreweghe-weinen-klagen-cantatas
+    title: 'Cantata, BWV 12, "Weinen, Klagen, Sorgen, Zagen": I. Sinfonia'
+    credits: Collegium Vocale Gent; Philippe Herreweghe
+    duration: 146
+    apple_music:
+      song_id: '207672435'
+      url: https://music.apple.com/us/song/cantata-bwv-12-weinen-klagen-sorgen-zagen-i-sinfonia/207672435
+      album_url: https://music.apple.com/us/album/cantata-bwv-12-weinen-klagen-sorgen-zagen-i-sinfonia/207672419
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 31
+  - id: s-ljf7ojn
+    work: bwv-12
+    movement: II. Chor "Weinen, Klagen, Sorgen, Zagen"
+    recording: herreweghe-weinen-klagen-cantatas
+    title: 'Cantata, BWV 12, "Weinen, Klagen, Sorgen, Zagen": II. Chor "Weinen, Klagen, Sorgen, Zagen"'
+    credits: Collegium Vocale Gent; Philippe Herreweghe
+    duration: 365
+    apple_music:
+      song_id: '207672438'
+      url: https://music.apple.com/us/song/cantata-bwv-12-weinen-klagen-sorgen-zagen-ii-chor-weinen/207672438
+      album_url: https://music.apple.com/us/album/cantata-bwv-12-weinen-klagen-sorgen-zagen-ii-chor-weinen/207672419
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 32
+  - id: s-lbtfu7z
+    work: bwv-12
+    movement: Weinen, Klagen, Sorgen, Zagen
+    arrangement: Arr. Ólafsson for Piano
+    recording: olafsson-continuum-ep
+    title: 'Cantata, BWV 12: Weinen, Klagen, Sorgen, Zagen (Arr. Ólafsson for Piano)'
+    credits: Víkingur Ólafsson
+    duration: 158
+    apple_music:
+      song_id: '1766083498'
+      url: https://music.apple.com/us/song/cantata-bwv-12-weinen-klagen-sorgen-zagen-arr-%C3%B3lafsson/1766083498
+      album_url: https://music.apple.com/us/album/cantata-bwv-12-weinen-klagen-sorgen-zagen-arr-%C3%B3lafsson/1766083236
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 33
+  - id: s-vpyynmu
+    work: bwv-56
+    movement: I. Aria "Ich will den Kreuzstab gerne tragen"
+    recording: herreweghe-cantatas-for-bass
+    title: 'Ich will den Kreuzstab gerne tragen, BWV 56: I. Aria "Ich will den Kreuzstab gerne tragen"'
+    credits: Peter Kooij; Philippe Herreweghe; La Chapelle Royale
+    duration: 415
+    apple_music:
+      song_id: '1707369482'
+      url: https://music.apple.com/us/song/ich-will-den-kreuzstab-gerne-tragen-bwv-56-i-aria-ich/1707369482
+      album_url: https://music.apple.com/us/album/ich-will-den-kreuzstab-gerne-tragen-bwv-56-i-aria-ich/1707369107
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 34
+  - id: s-pjnc2ca
+    work: bwv-82
+    movement: 'I. Aria: Ich habe genug'
+    recording: hunt-lieberson-cantatas-82-199
+    title: 'Cantata No. 82, "Ich habe genug," BWV 82: I. Aria: Ich habe genug'
+    credits: Lorraine Hunt Lieberson
+    duration: 461
+    apple_music:
+      song_id: '73238160'
+      url: https://music.apple.com/us/song/cantata-no-82-ich-habe-genug-bwv-82-i-aria-ich-habe-genug/73238160
+      album_url: https://music.apple.com/us/album/cantata-no-82-ich-habe-genug-bwv-82-i-aria-ich-habe-genug/73238424
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 35

@@ -1,0 +1,55 @@
+{
+  "project": "the-listening-atlas",
+  "source_snapshot_rows": 669,
+  "first_two_song_ids": [
+    "1577781357",
+    "1577780575"
+  ],
+  "files": [
+    {
+      "path": "AGENT_PROMPT.md",
+      "bytes": 7481,
+      "sha256": "ce8a743dd3114db3f009c2c6b17bdeaf3eb0041a8b3f19b6660f3657f82c2bac"
+    },
+    {
+      "path": "README_START_HERE.md",
+      "bytes": 1049,
+      "sha256": "a8413350426799a29111099e37c98fdb3e03a30dc5006edfca53b956f1215313"
+    },
+    {
+      "path": "editorial/BREATH_19_APPROVED.md",
+      "bytes": 2565,
+      "sha256": "fffa90223cdd6e621ba0c0340ca00d3c44f66a14bcf0d7d56d30f846c5407c88"
+    },
+    {
+      "path": "editorial/Bach_Cantabile_Replacements_Audit.csv",
+      "bytes": 13248,
+      "sha256": "362d3bae9a3e618859fbd5beada42ff5cfad3b32fddd62ce55e79e2693838fe2"
+    },
+    {
+      "path": "editorial/Bach_Cantabile_Student_Guide.md",
+      "bytes": 11479,
+      "sha256": "6be01947fadb8495c1f49635d05ca4c2e193177c97c51b22c6cab39f8fd2256d"
+    },
+    {
+      "path": "source/Bach_Cantabile_Interactive_Guide_Ground_Revised.html",
+      "bytes": 458797,
+      "sha256": "0697772618b90089b5df79eb9e33ebd089526dfdc1e1434037c49e73cc3bfd56"
+    },
+    {
+      "path": "source/Bach_Cantabile_Master_Ground_Revised.csv",
+      "bytes": 265588,
+      "sha256": "bce78f833d7fa95cc66a76494f70a60cdab6dad345bf258bd100a23ea40d1daf"
+    },
+    {
+      "path": "source/Bach_Cantabile_Playlist_Master_Ground_Revised.xlsx",
+      "bytes": 71104,
+      "sha256": "3f96d5d02e44530f5a5d05607688f50c59f5e65a289627df705c6edf4a3682c0"
+    },
+    {
+      "path": "source/Bach_Cantabile_Transfer_Ground_Revised.csv",
+      "bytes": 156979,
+      "sha256": "e8b7f25149915e599cc9704984d57ef65c15a095225f154711437e5bd2e8181e"
+    }
+  ]
+}

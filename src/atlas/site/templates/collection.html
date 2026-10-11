@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+{% from "_macros.html" import collection_nav, stage_list %}
+{% block title %}{{ c.title }} · {{ atlas.meta.title }}{% endblock %}
+{% block description %}{{ c.meta.lead }}{% endblock %}
+{% block header_nav %}{{ collection_nav(c, rel, 'overview') }}{% endblock %}
+{% block body_attrs %} data-collection="{{ c.id }}" data-data="{{ rel }}{{ c.id }}/atlas-data.json"{% endblock %}
+{% block main %}
+<section class="hero">
+  <div class="wrap">
+    <p class="eyebrow">{{ c.meta.subtitle }}</p>
+    <h1>{{ c.title }}</h1>
+    {% if c.meta.epigraph %}<blockquote class="epigraph">“{{ c.meta.epigraph }}”</blockquote>{% endif %}
+    {% if c.meta.lead %}<p class="lead">{{ c.meta.lead }}</p>{% endif %}
+    <p class="js-only progress-summary" data-progress-summary aria-live="polite"></p>
+  </div>
+</section>
+
+<div class="wrap two-col">
+  <div>
+    <section aria-labelledby="stages-h">
+      <h2 id="stages-h">The {{ c.stages|length }} stages</h2>
+      <ol class="stage-cards" role="list">
+      {% for st in c.stages %}
+        <li class="stage-card">
+          <a href="{{ stage_slug(st) }}/index.html">
+            <span class="stage-num" aria-hidden="true">{{ '%02d' % st.number }}</span>
+            <span class="stage-card-body">
+              <strong class="stage-card-name">{{ st.name }}</strong>
+              <span class="stage-card-principle">{{ st.principle }}</span>
+              <span class="stage-card-question">{{ st.question }}</span>
+              <span class="muted small">{{ st.selections|length }} selections · {{ totals[st.id]|total }}{% if st.selections %} · tracks {{ positions[st.selections[0].id] }}–{{ positions[st.selections[-1].id] }}{% endif %}</span>
+              <span class="stage-progress js-only" data-stage-progress="{{ stage_slug(st) }}" data-total="{{ st.selections|length }}"></span>
+            </span>
+          </a>
+        </li>
+      {% endfor %}
+      </ol>
+    </section>
+  </div>
+  <aside class="prose">
+    {% if c.meta.vision %}
+    <section aria-labelledby="vision-h">
+      <h2 id="vision-h">The vision</h2>
+      {% for p in c.meta.vision %}<p>{{ p }}</p>{% endfor %}
+    </section>
+    {% endif %}
+    {% if c.meta.how_to_listen %}
+    <section aria-labelledby="listen-h">
+      <h2 id="listen-h">How to listen</h2>
+      {% for p in c.meta.how_to_listen %}<p>{{ p }}</p>{% endfor %}
+    </section>
+    {% endif %}
+    {% if c.meta.how_to_use %}
+    <section aria-labelledby="use-h">
+      <h2 id="use-h">How to use the guide</h2>
+      <ul>{% for p in c.meta.how_to_use %}<li>{{ p }}</li>{% endfor %}</ul>
+    </section>
+    {% endif %}
+    {% if c.meta.beyond_the_sequence %}
+    <section aria-labelledby="beyond-h">
+      <h2 id="beyond-h">Listening beyond the sequence</h2>
+      {% for p in c.meta.beyond_the_sequence %}<p>{{ p }}</p>{% endfor %}
+    </section>
+    {% endif %}
+    {% if c.meta.public_playlist_url %}
+    <p class="small"><a href="{{ c.meta.public_playlist_url }}" rel="noopener" target="_blank">Public Apple Music playlist<span class="vh"> (opens in a new tab)</span> ↗</a><br><span class="muted">{{ c.meta.public_playlist_note }}</span></p>
+    {% endif %}
+  </aside>
+</div>
+{% endblock %}

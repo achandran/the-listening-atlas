@@ -1,0 +1,78 @@
+{% extends "base.html" %}
+{% from "_macros.html" import collection_nav, stage_list %}
+{% block title %}{{ '%02d' % st.number }} {{ st.name }} · {{ c.title }}{% endblock %}
+{% block description %}{{ st.principle }} {{ st.question }}{% endblock %}
+{% block header_nav %}{{ collection_nav(c, rel) }}{% endblock %}
+{% block body_attrs %} data-collection="{{ c.id }}" data-data="{{ rel }}{{ c.id }}/atlas-data.json" data-stage="{{ stage_slug(st) }}"{% endblock %}
+{% block main %}
+<div class="wrap stage-layout">
+  <nav class="stage-nav" aria-label="Stages">
+    <p class="eyebrow">Stages</p>
+    {{ stage_list(c, rel, st.id) }}
+  </nav>
+
+  <div class="stage-main">
+    <section class="stage-intro" aria-labelledby="stage-h">
+      <p class="eyebrow">Stage {{ '%02d' % st.number }} · {{ st.selections|length }} selections · {{ totals[st.id]|total }}{% if st.selections %} · tracks {{ positions[st.selections[0].id] }}–{{ positions[st.selections[-1].id] }}{% endif %}</p>
+      <h1 id="stage-h">{{ st.name }}</h1>
+      <p class="principle">{{ st.principle }}</p>
+      <div class="prompt">
+        <p class="prompt-label">Listening question</p>
+        <p class="prompt-text">{{ st.question }}</p>
+      </div>
+      <p>{{ st.direction }}</p>
+      <p><strong>At the piano:</strong> {{ st.at_the_piano }}</p>
+      <p class="itinerary"><strong>Recording itinerary:</strong> {{ st.itinerary }}</p>
+      {% if st.editorial_notice %}
+      <p class="notice" role="note"><strong>Editorial note:</strong> {{ st.editorial_notice }} <a href="../status/index.html">Details</a></p>
+      {% endif %}
+    </section>
+
+    <section class="controls js-only" aria-label="Filter this stage">
+      <div class="field">
+        <label for="filter">Search this stage</label>
+        <input id="filter" type="search" placeholder="Title, BWV, artist, album…" autocomplete="off" data-filter aria-describedby="filter-hint">
+        <span id="filter-hint" class="vh">Press slash to focus search.</span>
+      </div>
+      <div class="field">
+        <label for="view">View</label>
+        <select id="view" data-view>
+          <option value="works">Group by work</option>
+          <option value="tracks">All tracks</option>
+        </select>
+      </div>
+      <label class="check"><input type="checkbox" data-unheard> Unheard only</label>
+      <p class="muted small result-count" data-result-count aria-live="polite"></p>
+    </section>
+
+    <div class="results" data-results data-mode="works">
+    {% for g in groups %}
+      {% set w = works[g.work_id] %}
+      <details class="work" data-group{% if st.selections|length <= 40 or groups|length <= 3 %} open{% endif %}>
+        <summary>
+          <span class="work-cat">{{ w.catalogue }}</span>
+          <span class="work-title">{{ w.title }}</span>
+          <span class="work-meta muted">{{ g.selections|length }} track{{ '' if g.selections|length == 1 else 's' }}{% if g.seconds %} · {{ g.seconds|total }}{% endif %}<span class="js-only" data-group-progress></span></span>
+        </summary>
+        <div class="work-body">
+          <div class="focus">
+            <p class="prompt-label">Work-level focus</p>
+            <p>{{ c.work_focus.get(g.work_id, c.meta.default_work_focus) }}</p>
+          </div>
+          {% if w.composer != 'Johann Sebastian Bach' or w.attribution_note %}
+          <p class="small attribution">{% if w.composer %}Composer: {{ w.composer }}. {% endif %}{{ w.attribution_note or '' }}</p>
+          {% endif %}
+          {% for s in g.selections %}{% include "_selection.html" %}{% endfor %}
+        </div>
+      </details>
+    {% endfor %}
+    </div>
+    <p class="no-results" data-no-results hidden>No selections match.</p>
+
+    <nav class="pager" aria-label="Previous and next stage">
+      {% if prev_st %}<a rel="prev" href="../{{ stage_slug(prev_st) }}/index.html">← {{ '%02d' % prev_st.number }} {{ prev_st.name }}</a>{% else %}<span></span>{% endif %}
+      {% if next_st %}<a rel="next" href="../{{ stage_slug(next_st) }}/index.html">{{ '%02d' % next_st.number }} {{ next_st.name }} →</a>{% endif %}
+    </nav>
+  </div>
+</div>
+{% endblock %}

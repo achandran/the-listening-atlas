@@ -1,0 +1,404 @@
+# Stage 5 · Rhetoric — playlist order is the order of this list.
+# To move a selection, move its whole block. Never reuse or renumber `id` values.
+stage: rhetoric
+selections:
+  - id: s-htyawg6
+    work: bwv-992
+    movement: I. Arioso. Adagio
+    recording: hewitt-italian-concerto-french-overture-duets
+    title: 'Capriccio in B-Flat Major, BWV 992 "On the Departure of His Beloved Brother": I. Arioso. Adagio'
+    credits: Angela Hewitt
+    duration: 118
+    apple_music:
+      song_id: '1721139746'
+      url: https://music.apple.com/us/song/capriccio-in-b-flat-major-bwv-992-on-the-departure/1721139746
+      album_url: https://music.apple.com/us/album/capriccio-in-b-flat-major-bwv-992-on-the-departure/1721137911
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 232
+  - id: s-nsxg7fa
+    work: bwv-992
+    movement: II. [Andante]
+    recording: hewitt-italian-concerto-french-overture-duets
+    title: 'Capriccio in B-Flat Major, BWV 992 "On the Departure of His Beloved Brother": II. [Andante]'
+    credits: Angela Hewitt
+    duration: 69
+    apple_music:
+      song_id: '1721139762'
+      url: https://music.apple.com/us/song/capriccio-in-b-flat-major-bwv-992-on-the-departure/1721139762
+      album_url: https://music.apple.com/us/album/capriccio-in-b-flat-major-bwv-992-on-the-departure/1721137911
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 233
+  - id: s-eylltnn
+    work: bwv-992
+    movement: III. Adagissimo
+    recording: hewitt-italian-concerto-french-overture-duets
+    title: 'Capriccio in B-Flat Major, BWV 992 "On the Departure of His Beloved Brother": III. Adagissimo'
+    credits: Angela Hewitt
+    duration: 197
+    apple_music:
+      song_id: '1721140045'
+      url: https://music.apple.com/us/song/capriccio-in-b-flat-major-bwv-992-on-the-departure/1721140045
+      album_url: https://music.apple.com/us/album/capriccio-in-b-flat-major-bwv-992-on-the-departure/1721137911
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 234
+  - id: s-zcuglbi
+    work: bwv-992
+    movement: IV. [Andante con moto]
+    recording: hewitt-italian-concerto-french-overture-duets
+    title: 'Capriccio in B-Flat Major, BWV 992 "On the Departure of His Beloved Brother": IV. [Andante con moto]'
+    credits: Angela Hewitt
+    duration: 28
+    apple_music:
+      song_id: '1721140056'
+      url: https://music.apple.com/us/song/capriccio-in-b-flat-major-bwv-992-on-the-departure/1721140056
+      album_url: https://music.apple.com/us/album/capriccio-in-b-flat-major-bwv-992-on-the-departure/1721137911
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 235
+  - id: s-7vdcc62
+    work: bwv-992
+    movement: V. Aria di postiglione
+    recording: hewitt-italian-concerto-french-overture-duets
+    title: 'Capriccio in B-Flat Major, BWV 992 "On the Departure of His Beloved Brother": V. Aria di postiglione'
+    credits: Angela Hewitt
+    duration: 64
+    apple_music:
+      song_id: '1721140337'
+      url: https://music.apple.com/us/song/capriccio-in-b-flat-major-bwv-992-on-the-departure/1721140337
+      album_url: https://music.apple.com/us/album/capriccio-in-b-flat-major-bwv-992-on-the-departure/1721137911
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 236
+  - id: s-7nmth7t
+    work: bwv-992
+    movement: VI. Fuga all' imitazione di posta
+    recording: hewitt-italian-concerto-french-overture-duets
+    title: 'Capriccio in B-Flat Major, BWV 992 "On the Departure of His Beloved Brother": VI. Fuga all'' imitazione di posta'
+    credits: Angela Hewitt
+    duration: 131
+    apple_music:
+      song_id: '1721140356'
+      url: https://music.apple.com/us/song/capriccio-in-b-flat-major-bwv-992-on-the-departure/1721140356
+      album_url: https://music.apple.com/us/album/capriccio-in-b-flat-major-bwv-992-on-the-departure/1721137911
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 237
+  - id: s-hp2zngz
+    work: bwv-916
+    movement: null
+    recording: hewitt-toccatas
+    title: Toccata in G Major, BWV 916
+    credits: Angela Hewitt
+    duration: 447
+    apple_music:
+      song_id: '1721142572'
+      url: https://music.apple.com/us/song/toccata-in-g-major-bwv-916/1721142572
+      album_url: https://music.apple.com/us/album/toccata-in-g-major-bwv-916/1721142200
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 238
+  - id: s-dkn6jn4
+    work: bwv-914
+    movement: null
+    recording: hewitt-toccatas
+    title: Toccata in E Minor, BWV 914
+    credits: Angela Hewitt
+    duration: 409
+    apple_music:
+      song_id: '1721142889'
+      url: https://music.apple.com/us/song/toccata-in-e-minor-bwv-914/1721142889
+      album_url: https://music.apple.com/us/album/toccata-in-e-minor-bwv-914/1721142200
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 239
+  - id: s-3ygsbye
+    work: bwv-912
+    movement: null
+    recording: hewitt-toccatas
+    title: Toccata in D Major, BWV 912
+    credits: Angela Hewitt
+    duration: 682
+    apple_music:
+      song_id: '1721142916'
+      url: https://music.apple.com/us/song/toccata-in-d-major-bwv-912/1721142916
+      album_url: https://music.apple.com/us/album/toccata-in-d-major-bwv-912/1721142200
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 240
+  - id: s-6hmlksf
+    work: bwv-913
+    movement: null
+    recording: hewitt-toccatas
+    title: Toccata in D Minor, BWV 913
+    credits: Angela Hewitt
+    duration: 701
+    apple_music:
+      song_id: '1721142894'
+      url: https://music.apple.com/us/song/toccata-in-d-minor-bwv-913/1721142894
+      album_url: https://music.apple.com/us/album/toccata-in-d-minor-bwv-913/1721142200
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 241
+  - id: s-4tcgdzh
+    work: bwv-915
+    movement: null
+    recording: hewitt-toccatas
+    title: Toccata in G Minor, BWV 915
+    credits: Angela Hewitt
+    duration: 540
+    apple_music:
+      song_id: '1721142908'
+      url: https://music.apple.com/us/song/toccata-in-g-minor-bwv-915/1721142908
+      album_url: https://music.apple.com/us/album/toccata-in-g-minor-bwv-915/1721142200
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 242
+  - id: s-hhuddb3
+    work: bwv-910
+    movement: null
+    recording: hewitt-toccatas
+    title: Toccata in F-Sharp Minor, BWV 910
+    credits: Angela Hewitt
+    duration: 622
+    apple_music:
+      song_id: '1721142583'
+      url: https://music.apple.com/us/song/toccata-in-f-sharp-minor-bwv-910/1721142583
+      album_url: https://music.apple.com/us/album/toccata-in-f-sharp-minor-bwv-910/1721142200
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 243
+  - id: s-x2ho3a4
+    work: bwv-911
+    movement: null
+    recording: hewitt-toccatas
+    title: Toccata in C Minor, BWV 911
+    credits: Angela Hewitt
+    duration: 732
+    apple_music:
+      song_id: '1721142226'
+      url: https://music.apple.com/us/song/toccata-in-c-minor-bwv-911/1721142226
+      album_url: https://music.apple.com/us/album/toccata-in-c-minor-bwv-911/1721142200
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 244
+  - id: s-2jcduqt
+    work: bwv-903
+    movement: I. Fantasia
+    recording: hewitt-inventions-sinfonias-1994
+    title: 'Chromatic Fantasia & Fugue in D Minor, BWV 903: I. Fantasia'
+    credits: Angela Hewitt
+    duration: 412
+    apple_music:
+      song_id: '1721147452'
+      url: https://music.apple.com/us/song/chromatic-fantasia-fugue-in-d-minor-bwv-903-i-fantasia/1721147452
+      album_url: https://music.apple.com/us/album/chromatic-fantasia-fugue-in-d-minor-bwv-903-i-fantasia/1721143424
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 245
+  - id: s-p5knkq7
+    work: bwv-903
+    movement: II. Fugue
+    recording: hewitt-inventions-sinfonias-1994
+    title: 'Chromatic Fantasia & Fugue in D Minor, BWV 903: II. Fugue'
+    credits: Angela Hewitt
+    duration: 308
+    apple_music:
+      song_id: '1721147456'
+      url: https://music.apple.com/us/song/chromatic-fantasia-fugue-in-d-minor-bwv-903-ii-fugue/1721147456
+      album_url: https://music.apple.com/us/album/chromatic-fantasia-fugue-in-d-minor-bwv-903-ii-fugue/1721143424
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 246
+  - id: s-dy2qool
+    work: bwv-904
+    movement: I. Fantasia
+    recording: hewitt-aria-variata-other-keyboard
+    title: 'Fantasia & Fugue in A Minor, BWV 904: I. Fantasia'
+    credits: Angela Hewitt
+    duration: 217
+    apple_music:
+      song_id: '1721137828'
+      url: https://music.apple.com/us/song/fantasia-fugue-in-a-minor-bwv-904-i-fantasia/1721137828
+      album_url: https://music.apple.com/us/album/fantasia-fugue-in-a-minor-bwv-904-i-fantasia/1721137532
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 247
+  - id: s-ltq3ycn
+    work: bwv-904
+    movement: II. Fugue
+    recording: hewitt-aria-variata-other-keyboard
+    title: 'Fantasia & Fugue in A Minor, BWV 904: II. Fugue'
+    credits: Angela Hewitt
+    duration: 262
+    apple_music:
+      song_id: '1721137834'
+      url: https://music.apple.com/us/song/fantasia-fugue-in-a-minor-bwv-904-ii-fugue/1721137834
+      album_url: https://music.apple.com/us/album/fantasia-fugue-in-a-minor-bwv-904-ii-fugue/1721137532
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 248
+  - id: s-7k7fnbk
+    work: bwv-831
+    movement: I. Ouverture
+    recording: hewitt-italian-concerto-french-overture-duets
+    title: 'French Overture (Partita), BWV 831: I. Ouverture'
+    credits: Angela Hewitt
+    duration: 729
+    apple_music:
+      song_id: '1721140621'
+      url: https://music.apple.com/us/song/french-overture-partita-bwv-831-i-ouverture/1721140621
+      album_url: https://music.apple.com/us/album/french-overture-partita-bwv-831-i-ouverture/1721137911
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 249
+  - id: s-njo3ont
+    work: bwv-831
+    movement: II. Courante
+    recording: hewitt-italian-concerto-french-overture-duets
+    title: 'French Overture (Partita), BWV 831: II. Courante'
+    credits: Angela Hewitt
+    duration: 147
+    apple_music:
+      song_id: '1721140633'
+      url: https://music.apple.com/us/song/french-overture-partita-bwv-831-ii-courante/1721140633
+      album_url: https://music.apple.com/us/album/french-overture-partita-bwv-831-ii-courante/1721137911
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 250
+  - id: s-ytso52i
+    work: bwv-831
+    movement: III. Gavotte I
+    recording: hewitt-italian-concerto-french-overture-duets
+    title: 'French Overture (Partita), BWV 831: III. Gavotte I'
+    credits: Angela Hewitt
+    duration: 83
+    apple_music:
+      song_id: '1721140974'
+      url: https://music.apple.com/us/song/french-overture-partita-bwv-831-iii-gavotte-i/1721140974
+      album_url: https://music.apple.com/us/album/french-overture-partita-bwv-831-iii-gavotte-i/1721137911
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 251
+  - id: s-ph7ypp7
+    work: bwv-831
+    movement: IVa. Gavotte II
+    recording: hewitt-italian-concerto-french-overture-duets
+    title: 'French Overture (Partita), BWV 831: IVa. Gavotte II'
+    credits: Angela Hewitt
+    duration: 85
+    apple_music:
+      song_id: '1721140990'
+      url: https://music.apple.com/us/song/french-overture-partita-bwv-831-iva-gavotte-ii/1721140990
+      album_url: https://music.apple.com/us/album/french-overture-partita-bwv-831-iva-gavotte-ii/1721137911
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 252
+  - id: s-6v4q6p5
+    work: bwv-831
+    movement: IVb. Gavotte I da capo
+    recording: hewitt-italian-concerto-french-overture-duets
+    title: 'French Overture (Partita), BWV 831: IVb. Gavotte I da capo'
+    credits: Angela Hewitt
+    duration: 46
+    apple_music:
+      song_id: '1721141221'
+      url: https://music.apple.com/us/song/french-overture-partita-bwv-831-ivb-gavotte-i-da-capo/1721141221
+      album_url: https://music.apple.com/us/album/french-overture-partita-bwv-831-ivb-gavotte-i-da-capo/1721137911
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 253
+  - id: s-rt6hrv4
+    work: bwv-831
+    movement: V. Passepied I
+    recording: hewitt-italian-concerto-french-overture-duets
+    title: 'French Overture (Partita), BWV 831: V. Passepied I'
+    credits: Angela Hewitt
+    duration: 69
+    apple_music:
+      song_id: '1721141390'
+      url: https://music.apple.com/us/song/french-overture-partita-bwv-831-v-passepied-i/1721141390
+      album_url: https://music.apple.com/us/album/french-overture-partita-bwv-831-v-passepied-i/1721137911
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 254
+  - id: s-srnl5km
+    work: bwv-831
+    movement: VIa. Passepied II
+    recording: hewitt-italian-concerto-french-overture-duets
+    title: 'French Overture (Partita), BWV 831: VIa. Passepied II'
+    credits: Angela Hewitt
+    duration: 56
+    apple_music:
+      song_id: '1721141407'
+      url: https://music.apple.com/us/song/french-overture-partita-bwv-831-via-passepied-ii/1721141407
+      album_url: https://music.apple.com/us/album/french-overture-partita-bwv-831-via-passepied-ii/1721137911
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 255
+  - id: s-tmljjn6
+    work: bwv-542
+    movement: null
+    recording: koopman-organ-works
+    title: Fantasia and Fugue In G Minor, BWV 542
+    credits: Ton Koopman
+    duration: 625
+    apple_music:
+      song_id: '337062394'
+      url: https://music.apple.com/us/song/fantasia-and-fugue-in-g-minor-bwv-542/337062394
+      album_url: https://music.apple.com/us/album/fantasia-and-fugue-in-g-minor-bwv-542/337062299
+    status: keep
+    verification: snapshot_matched
+    source:
+      snapshot: master-669
+      position: 256

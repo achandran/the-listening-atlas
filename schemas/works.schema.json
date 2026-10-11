@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Musical works",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["works"],
+  "properties": {
+    "works": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "catalogue", "title", "composer"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^[a-z0-9-]+$"},
+          "catalogue": {"type": "string", "description": "Catalogue designation, e.g. 'BWV 812', 'K. 331', 'Op. 110'."},
+          "title": {"type": "string", "minLength": 1},
+          "composer": {"type": ["string", "null"], "description": "null when attribution is uncertain."},
+          "attribution_note": {"type": "string"}
+        }
+      }
+    }
+  }
+}

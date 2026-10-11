@@ -1,0 +1,169 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://the-listening-atlas/schemas/selections.schema.json",
+  "title": "Stage selections file",
+  "description": "Ordered playlist selections for one stage. Playlist order is list order. Invariant: each recorded track appears at most once per collection.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "stage",
+    "selections"
+  ],
+  "properties": {
+    "stage": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "selections": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/selection"
+      }
+    }
+  },
+  "$defs": {
+    "nullableString": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "selection": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "work",
+        "movement",
+        "recording",
+        "title",
+        "credits",
+        "duration",
+        "apple_music",
+        "status",
+        "verification"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^s-[a-z0-9]{7}$",
+          "description": "Stable selection ID. Never reuse or renumber."
+        },
+        "work": {
+          "type": "string",
+          "pattern": "^[a-z0-9-]+$"
+        },
+        "movement": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "arrangement": {
+          "type": "string"
+        },
+        "recording": {
+          "type": "string",
+          "pattern": "^[a-z0-9-]+$"
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Track title exactly as listed in Apple Music."
+        },
+        "credits": {
+          "type": "string",
+          "description": "Track-level performer credits exactly as listed."
+        },
+        "principal_artist": {
+          "type": "string",
+          "description": "Only when it differs from the recording's principal artist."
+        },
+        "album_as_listed": {
+          "type": "string",
+          "description": "Only when the album title shown differs from the recording's."
+        },
+        "duration": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1,
+          "description": "Seconds; null if unknown."
+        },
+        "duration_status": {
+          "enum": [
+            "approximate"
+          ]
+        },
+        "apple_music": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "song_id",
+            "url"
+          ],
+          "properties": {
+            "song_id": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "pattern": "^[0-9]+$"
+            },
+            "url": {
+              "$ref": "#/$defs/nullableString"
+            },
+            "album_url": {
+              "$ref": "#/$defs/nullableString"
+            }
+          }
+        },
+        "status": {
+          "enum": [
+            "keep",
+            "replacement_selected"
+          ]
+        },
+        "verification": {
+          "enum": [
+            "verified",
+            "snapshot_matched",
+            "user_supplied",
+            "needs_verification"
+          ]
+        },
+        "link_kind": {
+          "enum": [
+            "album",
+            "search"
+          ]
+        },
+        "editorial_note": {
+          "type": "string"
+        },
+        "source": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "snapshot",
+            "position"
+          ],
+          "properties": {
+            "snapshot": {
+              "type": "string"
+            },
+            "position": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "work_inferred_from": {
+              "enum": [
+                "apple_music_url",
+                "album_url",
+                "album"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

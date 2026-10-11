@@ -1,0 +1,39 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          version: "0.13.0"
+      - name: Install (from lockfile)
+        run: uv sync --locked
+      - name: Lint
+        run: uv run ruff check .
+      - name: Format
+        run: uv run ruff format --check .
+      - name: Type check
+        run: uv run mypy
+      - name: Validate data (schemas, references, editorial rules)
+        run: uv run atlas validate
+      - name: Reports are up to date
+        run: uv run atlas audit --check
+      - name: Tests
+        run: uv run pytest
+      - name: Exports are deterministic
+        run: |
+          uv run atlas export --out /tmp/export-a
+          uv run atlas export --out /tmp/export-b
+          diff -r /tmp/export-a /tmp/export-b
+      - name: Site builds
+        run: uv run atlas build --out _site

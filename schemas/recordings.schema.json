@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Recordings (releases as available in Apple Music)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["recordings"],
+  "properties": {
+    "recordings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "principal_artist", "album_title", "apple_album_id", "label", "release_year", "version", "verification"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^[a-z0-9-]+$"},
+          "principal_artist": {"type": "string", "description": "Pianist / ensemble / conductor as credited."},
+          "album_title": {"type": ["string", "null"]},
+          "apple_album_id": {"type": ["string", "null"], "pattern": "^[0-9]+$"},
+          "label": {"type": ["string", "null"]},
+          "release_year": {"type": ["integer", "null"], "minimum": 1900, "maximum": 2100},
+          "version": {"type": ["string", "null"], "description": "Which recording/version, e.g. Hewitt's later WTC."},
+          "verification": {"enum": ["verified", "snapshot_matched", "user_supplied", "needs_verification"]},
+          "notes": {"type": "string"},
+          "sources": {"type": "array", "items": {"type": "string", "format": "uri"}}
+        }
+      }
+    }
+  }
+}

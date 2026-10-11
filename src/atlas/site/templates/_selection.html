@@ -1,0 +1,37 @@
+{% set rec = recordings[s.recording] %}
+{% set link = apple_link(s) %}
+{% set df = c.deep_focus.get(s.id) %}
+<article class="sel" id="{{ s.id }}" data-sel="{{ s.id }}" data-q="{{ search_text(s) }}" aria-labelledby="{{ s.id }}-t">
+  <div class="sel-head">
+    <span class="pos" title="Playlist position">{{ positions[s.id] }}</span>
+    <div class="sel-heading">
+      <h3 class="sel-title" id="{{ s.id }}-t">{{ s.title }}</h3>
+      <p class="meta">{{ s.credits }} · <span class="album">{{ s.album_as_listed or rec.album_title }}</span>{% if rec.label or rec.release_year %} ({{ [rec.label, rec.release_year]|select|join(', ') }}){% endif %}{% if s.duration %} · {{ s.duration|duration }}{% if s.duration_status == 'approximate' %} (approx.){% endif %}{% endif %}</p>
+      {% if s.arrangement %}<p class="meta">Arrangement: {{ s.arrangement }}</p>{% endif %}
+    </div>
+  </div>
+  {% if link %}
+  <p class="listen">
+    <a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.label }}<span class="vh"> — {{ s.title }} (opens in a new tab)</span> <span aria-hidden="true">↗</span></a>
+    {% if link.badge %}<span class="badge">{{ link.badge }}</span>{% endif %}
+  </p>
+  {% endif %}
+  {% if df %}
+  <div class="deep-focus">
+    <p class="prompt-label">Close-listening study</p>
+    <p><strong>Listen for:</strong> {{ df.listen }}</p>
+    <p><strong>At the piano:</strong> {{ df.piano }}</p>
+    <p><strong>Return and ask:</strong> {{ df.question }}</p>
+  </div>
+  {% else %}
+  <p class="listen-for"><strong>Listen for:</strong> {{ prompt_for(s) }}</p>
+  {% endif %}
+  {% if s.editorial_note %}
+  <details class="ed-note"><summary>Editorial note</summary><p class="small">{{ s.editorial_note }}</p></details>
+  {% endif %}
+  <div class="journal-entry js-only">
+    <label class="check"><input type="checkbox" data-done> Heard attentively</label>
+    <label class="vh" for="{{ s.id }}-note">Your note on {{ s.title }}</label>
+    <textarea id="{{ s.id }}-note" data-note rows="2" placeholder="{{ c.meta.journal_placeholder }}"></textarea>
+  </div>
+</article>
