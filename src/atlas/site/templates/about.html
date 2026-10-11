@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block title %}About this guide · {{ c.title }}{% endblock %}
+{% block main %}
+<article class="wrap narrow prose">
+  <h1>About this guide</h1>
+  {% if c.meta.volume_principle %}<p class="lead">{{ c.meta.volume_principle }}</p>{% endif %}
+  {% if c.meta.vision %}
+  <h2>The vision</h2>
+  {% for p in c.meta.vision %}<p>{{ p }}</p>{% endfor %}
+  {% endif %}
+  {% if c.meta.how_to_listen %}
+  <h2>How to listen</h2>
+  {% for p in c.meta.how_to_listen %}<p>{{ p }}</p>{% endfor %}
+  {% endif %}
+  {% if c.meta.how_to_use %}
+  <h2>How to use the guide</h2>
+  <ul>{% for p in c.meta.how_to_use %}<li>{{ p }}</li>{% endfor %}</ul>
+  {% endif %}
+  {% if c.meta.beyond_the_sequence %}
+  <h2>Listening beyond the sequence</h2>
+  {% for p in c.meta.beyond_the_sequence %}<p>{{ p }}</p>{% endfor %}
+  {% endif %}
+  {% if c.meta.public_playlist_url %}
+  <h2>The playlist</h2>
+  <p>{{ c.selections()|length }} selections in {{ c.stages|length }} stages. <a href="{{ c.meta.public_playlist_url }}" target="_blank" rel="noopener">Open the public Apple Music playlist<span class="vh"> (opens in a new tab)</span> ↗</a></p>
+  {% if c.meta.public_playlist_note %}<p class="muted small">{{ c.meta.public_playlist_note }}</p>{% endif %}
+  {% endif %}
+  <p><a href="../index.html">← Back to the stages</a></p>
+</article>
+{% endblock %}

@@ -1,16 +1,32 @@
-{% macro collection_nav(c, rel, current='') %}
-<nav class="collection-nav" aria-label="{{ c.title }}">
-  <a href="{{ rel }}{{ c.id }}/index.html"{% if current == 'overview' %} aria-current="page"{% endif %}>Overview</a>
-  <a href="{{ rel }}{{ c.id }}/search/index.html"{% if current == 'search' %} aria-current="page"{% endif %}>Search</a>
-  <a href="{{ rel }}{{ c.id }}/status/index.html"{% if current == 'status' %} aria-current="page"{% endif %}>Editorial status</a>
-</nav>
+{% macro menu(c, rel, current='') %}
+<details class="menu" data-menu>
+  <summary><span class="menu-icon" aria-hidden="true">☰</span> Menu</summary>
+  <nav class="menu-panel" aria-label="{{ c.title }}">
+    <a href="{{ rel }}{{ c.id }}/index.html"{% if current == 'overview' %} aria-current="page"{% endif %}>Overview</a>
+    <a href="{{ rel }}{{ c.id }}/about/index.html"{% if current == 'about' %} aria-current="page"{% endif %}>About this guide</a>
+    <a href="{{ rel }}{{ c.id }}/status/index.html"{% if current == 'status' %} aria-current="page"{% endif %}>Editorial status</a>
+    {% if c.meta.public_playlist_url %}<a href="{{ c.meta.public_playlist_url }}" target="_blank" rel="noopener">Apple Music playlist <span aria-hidden="true">↗</span><span class="vh"> (opens in a new tab)</span></a>{% endif %}
+  </nav>
+</details>
 {% endmacro %}
 
-{% macro stage_list(c, rel, current_id=None, totals=None) %}
+{% macro search(label, rel, collection=None, placeholder='Title, BWV, performer, album…') %}
+{# Inline search over the site-wide index; results appear below the box. Needs JavaScript. #}
+<section class="search js-only" role="search" aria-label="{{ label }}">
+  <label class="search-label" for="q">{{ label }}</label>
+  <input id="q" type="search" autocomplete="off" placeholder="{{ placeholder }}" aria-describedby="q-hint"
+         data-search data-src="{{ rel }}search-index.json" data-root="{{ rel }}"{% if collection %} data-collection="{{ collection }}"{% endif %}>
+  <span id="q-hint" class="vh">Results appear below as you type. Press slash to focus.</span>
+  <p class="muted small search-count" data-search-count aria-live="polite"></p>
+  <ol class="search-results" data-search-results role="list"></ol>
+</section>
+{% endmacro %}
+
+{% macro stage_list(c, rel, current_id=None) %}
 <ol class="stage-list" role="list">
 {% for st in c.stages %}
   <li>
-    <a class="stage-link" href="{{ rel }}{{ c.id }}/{{ stage_slug(st) }}/index.html"{% if st.id == current_id %} aria-current="page"{% endif %} data-stage-link="{{ stage_slug(st) }}">
+    <a class="stage-link" href="{{ rel }}{{ c.id }}/{{ stage_slug(st) }}/index.html"{% if st.id == current_id %} aria-current="page"{% endif %}>
       <span class="stage-num" aria-hidden="true">{{ '%02d' % st.number }}</span>
       <span class="stage-name">{{ st.name }}</span>
     </a>

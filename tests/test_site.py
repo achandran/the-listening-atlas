@@ -88,9 +88,15 @@ def test_original_prompts_preserved(site: Path, root: Path) -> None:
 
 
 def test_search_index(site: Path) -> None:
-    data = json.loads((site / "bach-cantabile-harmony/atlas-data.json").read_text())
-    assert data["total"] == 674 == len(data["selections"])
-    assert set(data) == {"collection", "title", "total", "selections"}
+    """One site-wide index; every result path points at a real selection anchor."""
+    data = json.loads((site / "search-index.json").read_text())
+    rows = data["selections"]
+    assert len(rows) == 674 and {r["c"] for r in rows} == {"bach-cantabile-harmony"}
+    pages: dict[str, str] = {}
+    for r in rows:
+        page, anchor = r["path"].split("#")
+        html = pages.setdefault(page, (site / page).read_text())
+        assert f'id="{anchor}"' in html, r["path"]
 
 
 def test_read_only_no_journal_or_storage(site: Path) -> None:
@@ -113,7 +119,7 @@ def test_search_text_matches_catalogue_spellings() -> None:
 
 
 def test_catalogue_search_hits_only_that_work(site: Path) -> None:
-    data = json.loads((site / "bach-cantabile-harmony/atlas-data.json").read_text())
+    data = json.loads((site / "search-index.json").read_text())
     hits = [s["title"] for s in data["selections"] if "bwv846" in s["q"].split()]
     assert hits == ["Prelude No. 1 in C Major, BWV 846/1", "Fugue No. 1 in C Major, BWV 846/2"]
 
@@ -174,11 +180,9 @@ def test_single_recording_work_shows_recording_once(site: Path, atlas) -> None: 
     sels = atlas.collection("bach-cantabile-harmony").stage("transformation").selections
     card = _card(html, sels[1].id)
     assert "Bach: Goldberg Variations" not in card.split("<a ")[0]  # album not repeated per track
-    assert '<span class="t-short">Variation 1 a 1 Clav. (Instrumental)</span>' in card
-    assert (
-        '<span class="t-full">Goldberg Variations, BWV 988: Variation 1 a 1 Clav. (Instrumental)</span>'
-        in card
-    )
+    assert f'<h3 class="sel-title" id="{sels[1].id}-t">Variation 1 a 1 Clav. (Instrumental)</h3>' in card
+    # The full Apple title stays in the link's accessible name.
+    assert "— Goldberg Variations, BWV 988: Variation 1 a 1 Clav. (Instrumental) (opens in a new tab)" in card
 
 
 def test_mixed_recordings_keep_per_track_details(site: Path, atlas) -> None:  # type: ignore[no-untyped-def]
@@ -189,7 +193,7 @@ def test_mixed_recordings_keep_per_track_details(site: Path, atlas) -> None:  # 
     ]
     assert {s.recording for s in bwv12} == {"herreweghe-weinen-klagen-cantatas", "olafsson-continuum-ep"}
     card = _card(html, bwv12[0].id)
-    assert "t-short" not in card and 'Bach: "Weinen, Klagen"' in card.replace("&#34;", '"')
+    assert 'Bach: "Weinen, Klagen"' in card.replace("&#34;", '"')  # performer and album on the track itself
     assert "Continuum - EP" in _card(html, bwv12[-1].id)
 
 
@@ -212,7 +216,11 @@ def test_display_title_corrects_typo_but_title_stays_apples(site: Path, atlas, r
     assert "E-FlA" in s.title and s.shown_title == "French Suite No. 4 in E-Flat Major, BWV 815: VI. Air"
     card = _card((site / "bach-cantabile-harmony/03-motion/index.html").read_text(), s.id)
     heading = card[card.index("<h3") : card.index("</h3>")]
-    assert "E-Flat Major" in heading and "E-FlA" not in heading
+    assert heading.endswith(">VI. Air")  # grouped under the correctly spelled work title
+    link_name = card[card.index('<span class="vh"> — ') : card.index("(opens in a new tab)")]
+    assert "E-Flat Major" in link_name and "E-FlA" not in link_name
+    index = json.loads((site / "search-index.json").read_text())["selections"]
+    assert next(r for r in index if r["id"] == s.id)["title"] == s.shown_title
     from atlas.export import build_exports
 
     csv_text = next(
@@ -221,3 +229,39 @@ def test_display_title_corrects_typo_but_title_stays_apples(site: Path, atlas, r
         if f.path.name == "playlist-full.csv"
     )
     assert "French Suite No. 4 in E-FlA Major, BWV 815: VI. Air" in csv_text
+
+
+def test_navigation_is_simple(site: Path) -> None:
+    """Breadcrumb + one menu on volume pages; search only on the home and volume pages."""
+    c = "bach-cantabile-harmony"
+    assert not (site / c / "search").exists()
+    home = (site / "index.html").read_text()
+    assert "data-search" in home and "data-collection=" not in home.split("data-search")[1].split(">")[0]
+    overview = (site / c / "index.html").read_text()
+    assert f'data-collection="{c}"' in overview and "data-search" in overview
+    for page in (site / c).glob("*/index.html"):
+        html = page.read_text()
+        assert html.count('<details class="menu"') == 1, page
+        for label in ("Overview", "About this guide", "Editorial status", "Apple Music playlist"):
+            assert label in html.split('<details class="menu"')[1].split("</details>")[0]
+        if page.parent.name[:2].isdigit():
+            assert "data-search" not in html  # stage pages: just the music
+    assert '<details class="menu"' not in home
+
+
+def test_about_page_carries_the_guide_prose(site: Path, atlas) -> None:  # type: ignore[no-untyped-def]
+    import html as h
+
+    c = atlas.collection("bach-cantabile-harmony")
+    about = h.unescape((site / c.id / "about/index.html").read_text())
+    for para in (
+        c.meta["vision"] + c.meta["how_to_listen"] + c.meta["how_to_use"] + c.meta["beyond_the_sequence"]
+    ):
+        assert para in about
+    assert c.meta["volume_principle"] in about
+
+
+def test_status_page_with_no_open_issues(site: Path) -> None:
+    html = (site / "bach-cantabile-harmony/status/index.html").read_text()
+    assert "None at the moment." in html and "each linked to its exact Apple Music track" in html
+    assert "still link to an album" not in html

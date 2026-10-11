@@ -1,21 +1,23 @@
 {% extends "base.html" %}
+{% from "_macros.html" import search %}
 {% block main %}
 <section class="hero">
   <div class="wrap">
-    <p class="eyebrow">A curated listening atlas</p>
     <h1>{{ atlas.meta.title }}</h1>
     <p class="lead">{{ atlas.meta.method }}</p>
+    {{ search("Search the Atlas", rel) }}
   </div>
 </section>
-<section class="wrap">
-  <h2>Volumes</h2>
+<section class="wrap" aria-labelledby="volumes-h">
+  <h2 id="volumes-h">Volumes</h2>
   <ul class="cards" role="list">
   {% for c in atlas.collections %}
     <li class="card">
-      <h3><a href="{{ c.id }}/index.html">{{ c.title }}</a></h3>
-      {% if c.meta.subtitle %}<p class="muted">{{ c.meta.subtitle }} · {{ c.selections()|length }} selections</p>{% endif %}
-      {% if c.meta.epigraph %}<blockquote>“{{ c.meta.epigraph }}”</blockquote>{% endif %}
-      {% if c.meta.volume_principle %}<p class="small">{{ c.meta.volume_principle }}</p>{% endif %}
+      <a class="card-link" href="{{ c.id }}/index.html">
+        <strong class="card-title">{{ c.title }}</strong>
+        <span class="muted small">{{ c.meta.subtitle }} · {{ c.selections()|length }} selections</span>
+        {% if c.meta.epigraph %}<span class="card-epigraph">“{{ c.meta.epigraph }}”</span>{% endif %}
+      </a>
     </li>
   {% endfor %}
   </ul>

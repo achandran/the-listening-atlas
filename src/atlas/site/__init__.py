@@ -169,6 +169,7 @@ class SiteBuilder:
         self._write("index.html", "home.html", 0)
         for c in self.atlas.collections:
             self.build_collection(c)
+        self._write_search_index()
         # GitHub Pages serves 404.html at any path, so its links must be absolute (from --base-url).
         self._write("404.html", "404.html", 0, prefix=f"{self.base_url}/")
         return sorted(p for p in self.out.rglob("*") if p.is_file())
@@ -183,7 +184,8 @@ class SiteBuilder:
             "works": self.atlas.works,
             "recordings": self.atlas.recordings,
         }
-        self._write(f"{c.id}/index.html", "collection.html", 1, **ctx)
+        self._write(f"{c.id}/index.html", "collection.html", 1, current="overview", **ctx)
+        self._write(f"{c.id}/about/index.html", "about.html", 2, current="about", **ctx)
         for i, st in enumerate(c.stages):
             prev_st = c.stages[i - 1] if i > 0 else None
             next_st = c.stages[i + 1] if i + 1 < len(c.stages) else None
@@ -199,33 +201,37 @@ class SiteBuilder:
                 search_text=lambda s: selection_search_text(self.atlas, s),
                 **ctx,
             )
-        self._write(f"{c.id}/search/index.html", "search.html", 2, **ctx)
-        self._write(f"{c.id}/status/index.html", "status.html", 2, **ctx)
-        self._write_json(c, positions)
+        self._write(f"{c.id}/status/index.html", "status.html", 2, current="status", **ctx)
 
-    def _write_json(self, c: Collection, positions: dict[str, int]) -> None:
+    def _write_search_index(self) -> None:
+        """One index for the whole site. Paths are relative to the site root; the home page searches every
+        volume and each volume page filters to its own collection."""
         index = []
-        for st in c.stages:
-            for s in st.selections:
-                w = self.atlas.works[s.work]
-                r = self.atlas.recordings[s.recording]
-                index.append(
-                    {
-                        "id": s.id,
-                        "p": positions[s.id],
-                        "stage": stage_slug(st),
-                        "stageName": st.name,
-                        "title": s.shown_title,
-                        "artist": s.credits,
-                        "album": s.album_as_listed or r.album_title,
-                        "work": f"{w.catalogue} · {w.title}",
-                        "d": fmt_duration(s.duration),
-                        "q": selection_search_text(self.atlas, s),
-                    }
-                )
-        data = {"collection": c.id, "title": c.title, "total": len(index), "selections": index}
-        (self.out / c.id / "atlas-data.json").write_text(
-            json.dumps(data, ensure_ascii=False, separators=(",", ":"), sort_keys=True), encoding="utf-8"
+        for c in self.atlas.collections:
+            positions = c.positions()
+            for st in c.stages:
+                for s in st.selections:
+                    w = self.atlas.works[s.work]
+                    r = self.atlas.recordings[s.recording]
+                    index.append(
+                        {
+                            "c": c.id,
+                            "cTitle": c.title,
+                            "id": s.id,
+                            "p": positions[s.id],
+                            "path": f"{c.id}/{stage_slug(st)}/index.html#{s.id}",
+                            "stageName": st.name,
+                            "title": s.shown_title,
+                            "artist": s.credits,
+                            "album": s.album_as_listed or r.album_title,
+                            "work": f"{w.catalogue} · {w.title}",
+                            "d": fmt_duration(s.duration),
+                            "q": selection_search_text(self.atlas, s),
+                        }
+                    )
+        (self.out / "search-index.json").write_text(
+            json.dumps({"selections": index}, ensure_ascii=False, separators=(",", ":"), sort_keys=True),
+            encoding="utf-8",
         )
 
 

@@ -9,22 +9,23 @@
 <link rel="stylesheet" href="{{ rel }}assets/atlas.css">
 <script>document.documentElement.classList.add('js')</script>
 </head>
-<body{% block body_attrs %}{% endblock %}>
+<body>
 <a class="skip" href="#main">Skip to content</a>
 <header class="site-header">
   <div class="wrap header-row">
-    <a class="brand" href="{{ rel }}index.html">{{ atlas.meta.title }}</a>
-    {% block header_nav %}{% endblock %}
+    <nav class="crumbs" aria-label="Breadcrumb">
+      <a class="brand" href="{{ rel }}index.html">{{ atlas.meta.title }}</a>
+      {% if c is defined %}<span class="crumb-sep" aria-hidden="true">›</span><a class="crumb" href="{{ rel }}{{ c.id }}/index.html">{{ c.title }}</a>{% endif %}
+    </nav>
+    {% if c is defined %}{% from "_macros.html" import menu %}{{ menu(c, rel, current|default('')) }}{% endif %}
   </div>
 </header>
-{% block before_main %}{% endblock %}
 <main id="main" tabindex="-1">
 {% block main %}{% endblock %}
 </main>
 <footer class="site-footer">
   <div class="wrap">
-    <p>{{ atlas.meta.method }}</p>
-    <p class="muted small">Recordings are listening lenses, not authorities. Links open Apple Music. This site stores nothing about you.</p>
+    <p class="small">Recordings are listening lenses, not authorities. Links open Apple Music; this site stores nothing about you.</p>
   </div>
 </footer>
 <script src="{{ rel }}assets/atlas.js" defer></script>

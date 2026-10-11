@@ -1,12 +1,9 @@
 /* The Listening Atlas — progressive enhancement for a read-only site.
- * Adds stage filtering, the "All tracks" view and global search. Pages are complete without it.
+ * Adds inline search, menu behaviour, and opening of linked selections. Pages are complete without it.
  * Nothing is stored and nothing is sent anywhere.
  */
 (() => {
   'use strict';
-
-  const body = document.body;
-  if (!body.dataset.collection) return;
 
   const $ = (sel, root = document) => root.querySelector(sel);
   const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
@@ -18,95 +15,78 @@
   const matches = (haystack, query) => query.split(' ').every((tok) => !tok || haystack.includes(tok));
   const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 
-  // ---------------------------------------------------------------- stage page
-  function initStage() {
-    const results = $('[data-results]');
-    if (!results) return;
-    const sels = $$('[data-sel]', results);
-    const groups = $$('[data-group]', results);
-    const filter = $('[data-filter]');
-    const view = $('[data-view]');
-    const count = $('[data-result-count]');
-    const none = $('[data-no-results]');
-
-    function applyFilter() {
-      const q = norm(filter.value);
-      let shown = 0;
-      for (const el of sels) {
-        el.hidden = !!q && !matches(el.dataset.q, q);
-        if (!el.hidden) shown += 1;
-      }
-      for (const g of groups) {
-        const any = $$('[data-sel]', g).some((el) => !el.hidden);
-        g.hidden = !any;
-        if (any && (q || results.dataset.mode === 'tracks')) g.open = true;
-      }
-      none.hidden = shown > 0;
-      count.textContent = q ? `${shown} of ${sels.length} selections shown` : '';
-    }
-    filter.addEventListener('input', applyFilter);
-    filter.addEventListener('keydown', (ev) => {
-      if (ev.key === 'Escape' && filter.value) { filter.value = ''; applyFilter(); }
+  // ---------------------------------------------------------------- menu
+  const menu = $('[data-menu]');
+  if (menu) {
+    document.addEventListener('click', (ev) => {
+      if (menu.open && !menu.contains(ev.target)) menu.open = false;
     });
-    view.addEventListener('change', () => {
-      results.dataset.mode = view.value;
-      if (view.value === 'tracks') groups.forEach((g) => { g.open = true; });
-      applyFilter();
+    document.addEventListener('keydown', (ev) => {
+      if (ev.key === 'Escape' && menu.open) { menu.open = false; $('summary', menu).focus(); }
     });
-
-    // Open the group containing a linked selection (#s-xxxxxxx).
-    const reveal = () => {
-      const id = decodeURIComponent(location.hash.slice(1));
-      const target = id && document.getElementById(id);
-      if (target && target.matches('[data-sel]')) {
-        const g = target.closest('details');
-        if (g) g.open = true;
-        target.scrollIntoView({ block: 'start', behavior: 'instant' });
-      }
-    };
-    window.addEventListener('hashchange', reveal);
-    reveal();
   }
 
-  // "/" focuses the page's search box, unless the user is typing.
-  document.addEventListener('keydown', (ev) => {
-    if (ev.key !== '/' || ev.metaKey || ev.ctrlKey || ev.altKey) return;
-    const t = ev.target;
-    if (t instanceof HTMLElement && (t.isContentEditable || /^(INPUT|TEXTAREA|SELECT)$/.test(t.tagName))) return;
-    const box = $('[data-filter]') || $('[data-global-search]');
-    if (box) { ev.preventDefault(); box.focus(); box.select(); }
-  });
-
-  // ---------------------------------------------------------------- search page
-  function initSearch() {
-    const input = $('[data-global-search]');
-    if (!input) return;
+  // ---------------------------------------------------------------- inline search
+  const input = $('[data-search]');
+  if (input) {
     const list = $('[data-search-results]');
     const count = $('[data-search-count]');
-    const params = new URLSearchParams(location.search);
-    if (params.get('q')) input.value = params.get('q');
-    fetch(body.dataset.data).then((r) => {
+    const only = input.dataset.collection;
+    const root = input.dataset.root || '';
+    const LIMIT = 100;
+    let data = null;
+    const load = () => (data ??= fetch(input.dataset.src).then((r) => {
       if (!r.ok) throw new Error(r.status);
       return r.json();
-    }).then((data) => {
-      const run = () => {
-        const q = norm(input.value);
-        if (!q) { list.innerHTML = ''; count.textContent = ''; return; }
-        const hits = data.selections.filter((s) => matches(s.q, q));
-        count.textContent = `${hits.length} selection${hits.length === 1 ? '' : 's'} found` + (hits.length > 200 ? ' (showing first 200)' : '');
-        list.innerHTML = hits.slice(0, 200).map((s) => `<li>
-          <a href="../${esc(s.stage)}/index.html#${esc(s.id)}"><strong>${esc(s.p)}. ${esc(s.title)}</strong></a>
+    }).then((d) => (only ? d.selections.filter((s) => s.c === only) : d.selections)));
+
+    const run = () => {
+      const q = norm(input.value);
+      if (!q) { list.innerHTML = ''; count.textContent = ''; return; }
+      load().then((rows) => {
+        if (norm(input.value) !== q) return; // a newer query is running
+        const hits = rows.filter((s) => matches(s.q, q));
+        const many = !only && new Set(rows.map((s) => s.c)).size > 1;
+        count.textContent = `${hits.length} selection${hits.length === 1 ? '' : 's'} found` + (hits.length > LIMIT ? ` (showing the first ${LIMIT})` : '');
+        list.innerHTML = hits.slice(0, LIMIT).map((s) => `<li>
+          <a href="${esc(root + s.path)}"><strong>${esc(s.title)}</strong></a>
           <div class="meta">${esc(s.artist)} · ${esc(s.album)}${s.d ? ' · ' + esc(s.d) : ''}</div>
-          <div class="meta">${esc(s.stageName)} · ${esc(s.work)}</div></li>`).join('');
+          <div class="meta">${many ? esc(s.cTitle) + ' · ' : ''}Stage ${esc(s.stageName)} · #${esc(s.p)}</div></li>`).join('');
         const url = new URL(location.href);
         url.searchParams.set('q', input.value);
         history.replaceState(null, '', url);
-      };
-      input.addEventListener('input', run);
-      run();
-    }).catch(() => { count.textContent = 'Search data could not be loaded. If you opened this file directly from disk, serve the site over HTTP (see README).'; });
+      }).catch(() => {
+        count.textContent = 'Search could not load its data. If you opened this file directly from disk, preview with `atlas serve` (see README).';
+      });
+    };
+    input.addEventListener('input', run);
+    input.addEventListener('keydown', (ev) => {
+      if (ev.key === 'Escape' && input.value) { input.value = ''; run(); history.replaceState(null, '', location.pathname); }
+    });
+    const initial = new URLSearchParams(location.search).get('q');
+    if (initial) { input.value = initial; run(); }
   }
 
-  initStage();
-  initSearch();
+  // "/" focuses search, unless the user is typing.
+  document.addEventListener('keydown', (ev) => {
+    if (ev.key !== '/' || ev.metaKey || ev.ctrlKey || ev.altKey || !input) return;
+    const t = ev.target;
+    if (t instanceof HTMLElement && (t.isContentEditable || /^(INPUT|TEXTAREA|SELECT)$/.test(t.tagName))) return;
+    ev.preventDefault();
+    input.focus();
+    input.select();
+  });
+
+  // ---------------------------------------------------------------- linked selection (#s-xxxxxxx)
+  const reveal = () => {
+    const id = decodeURIComponent(location.hash.slice(1));
+    const target = id && document.getElementById(id);
+    if (target && target.matches('[data-sel]')) {
+      const g = target.closest('details');
+      if (g) g.open = true;
+      target.scrollIntoView({ block: 'start', behavior: 'instant' });
+    }
+  };
+  window.addEventListener('hashchange', reveal);
+  reveal();
 })();

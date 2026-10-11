@@ -30,8 +30,12 @@ uv run atlas serve               # preview at http://127.0.0.1:8000/
 uv run pytest                    # run the test suite
 ```
 
-The site works when opened directly from disk, but the search page loads a JSON file, which browsers
-only allow over HTTP — use `atlas serve` for a full local preview.
+The site works when opened directly from disk, but search loads a JSON file, which browsers only allow
+over HTTP — use `atlas serve` for a full local preview.
+
+**Site layout:** the home page has the volumes and a search across all of them. Each volume page lists its
+stages and has a search for that volume. Stage pages show the music. A ☰ menu on volume pages links to
+*About this guide*, *Editorial status* and the Apple Music playlist.
 
 ## Common tasks
 

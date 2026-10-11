@@ -1,9 +1,7 @@
 {% extends "base.html" %}
-{% from "_macros.html" import collection_nav, stage_list %}
+{% from "_macros.html" import stage_list %}
 {% block title %}{{ '%02d' % st.number }} {{ st.name }} · {{ c.title }}{% endblock %}
 {% block description %}{{ st.principle }} {{ st.question }}{% endblock %}
-{% block header_nav %}{{ collection_nav(c, rel) }}{% endblock %}
-{% block body_attrs %} data-collection="{{ c.id }}" data-data="{{ rel }}{{ c.id }}/atlas-data.json" data-stage="{{ stage_slug(st) }}"{% endblock %}
 {% block main %}
 <div class="wrap stage-layout">
   <nav class="stage-nav" aria-label="Stages">
@@ -28,23 +26,8 @@
       {% endif %}
     </section>
 
-    <section class="controls js-only" aria-label="Filter this stage">
-      <div class="field">
-        <label for="filter">Search this stage</label>
-        <input id="filter" type="search" placeholder="Title, BWV, artist, album…" autocomplete="off" data-filter aria-describedby="filter-hint">
-        <span id="filter-hint" class="vh">Press slash to focus search.</span>
-      </div>
-      <div class="field">
-        <label for="view">View</label>
-        <select id="view" data-view>
-          <option value="works">Group by work</option>
-          <option value="tracks">All tracks</option>
-        </select>
-      </div>
-      <p class="muted small result-count" data-result-count aria-live="polite"></p>
-    </section>
 
-    <div class="results" data-results data-mode="works">
+    <div class="results" data-results>
     {% for g in groups %}
       {% set w = works[g.work_id] %}
       {% set work_note = c.work_focus.get(g.work_id) %}
@@ -79,7 +62,6 @@
       {% endif %}
     {% endfor %}
     </div>
-    <p class="no-results" data-no-results hidden>No selections match.</p>
 
     <nav class="pager" aria-label="Previous and next stage">
       {% if prev_st %}<a rel="prev" href="../{{ stage_slug(prev_st) }}/index.html">← {{ '%02d' % prev_st.number }} {{ prev_st.name }}</a>{% else %}<span></span>{% endif %}

@@ -2,7 +2,7 @@
   One playlist selection. Context from stage.html: s, g (its work group), w (work), work_note.
   - Single-track work: the card carries the work heading, and the work note and study share one panel.
   - Multi-track work from one recording: the recording is shown once on the group, so each track shows
-    only its movement, duration and link (full Apple titles return in the "All tracks" view).
+    only its movement, duration and link (the full Apple title stays in the link's accessible name and search).
 #}
 {% set rec = recordings[s.recording] %}
 {% set link = apple_link(s) %}
@@ -16,7 +16,7 @@
       <h3 class="sel-title" id="{{ s.id }}-t"><span class="work-cat">{{ w.catalogue }}</span> {{ w.title }}</h3>
       {% if s.movement %}<p class="movement">{{ s.movement }}</p>{% endif %}
       {% elif shared_rec and s.movement %}
-      <h3 class="sel-title" id="{{ s.id }}-t"><span class="t-short">{{ s.movement }}</span><span class="t-full">{{ s.shown_title }}</span></h3>
+      <h3 class="sel-title" id="{{ s.id }}-t">{{ s.movement }}</h3>
       {% else %}
       <h3 class="sel-title" id="{{ s.id }}-t">{{ s.shown_title }}</h3>
       {% endif %}

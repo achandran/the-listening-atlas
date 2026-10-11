@@ -49,7 +49,8 @@ The website, exports and validator need no code changes for a new volume.
 
 ## The website is a read view
 
-The site presents each playlist with its listening questions, notes and Apple Music links, plus search.
+The site presents each playlist with its listening questions, notes and Apple Music links. Search lives
+on the home page (all volumes) and on each volume's page.
 Readers can't record anything on it: there are no checklists, note fields or accounts, and it stores
 nothing in the browser. Listening notes belong in the reader's own notebook. Adding interactive features
 would be a deliberate, separate decision.
