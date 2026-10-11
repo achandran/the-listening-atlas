@@ -1,9 +1,8 @@
 # Editorial status
 
-The generated, always-current list is in
-[`reports/bach-cantabile-harmony/editorial-discrepancies.md`](../reports/bach-cantabile-harmony/editorial-discrepancies.md)
-(`uv run atlas audit`), built from `data/collections/bach-cantabile-harmony/issues.yaml`. Readers see a summary
-on the website's *Editorial status* page.
+The issue register is `data/collections/bach-cantabile-harmony/issues.yaml`. Readers see it on the
+website's *Editorial status* page. The report from the 2026-10-11 review is frozen in
+[`reports/bach-cantabile-harmony/editorial-discrepancies.md`](../reports/bach-cantabile-harmony/editorial-discrepancies.md).
 
 **Current state (after the 2026-10-11 review): no open issues.** All 674 selections have exact Apple song IDs
 and durations, and `atlas validate --strict` passes with no findings.
@@ -24,7 +23,7 @@ and durations, and `atlas validate --strict` passes with no findings.
 - **Convergence.** "Erbarme dich" is refiled under the St Matthew Passion album, where the same song appears as
   No. 39.
 - **Essence.** The Musical Offering is confirmed to be in Suzuki's recorded order.
-- **Student guide.** It is now generated from the data (`atlas export --format guide`); the archived guide is
+- **Student guide.** It is now generated from the data (`atlas export`); the archived guide is
   kept as a historical record.
 
 ## Resolved issues
@@ -63,4 +62,5 @@ and durations are whole seconds rounded down, the same convention as the origina
 1. Add an entry to `issues.yaml` (`ED-0NN`, stage, title, detail, affected selection IDs, action).
 2. When it is decided, make the data change, set `status: resolved` (or `wont_fix`) and record the decision in
    `detail`.
-3. `uv run atlas validate && uv run atlas audit && uv run pytest`, then commit data and reports together.
+3. `uv run atlas validate && uv run pytest`, commit, then bring the Music app playlist in step
+   (`uv run atlas music check`).

@@ -13,10 +13,11 @@ and stage structure as data.
 | | |
 |---|---|
 | Canonical data | `data/` — human-edited YAML, validated by JSON Schemas in `schemas/` |
-| Tools | `atlas` CLI — validate, audit, export, build, preview, proposals, (inactive) Apple Music sync |
+| Tools | `atlas` CLI — validate, build, preview, student guide, Music app playlist check/sync |
 | Website | static HTML generated into `_site/`, published with GitHub Pages |
+| Apple Music | the `Bach` playlist in the Music app, synced to the public playlist through iCloud |
 | Original inputs | `archive/2026-10-11-handoff/` — byte-identical, checksummed (`archive/PROVENANCE.yaml`) |
-| Reports | `reports/<collection>/` — migration report and editorial discrepancy report (generated) |
+| Reports | `reports/<collection>/` — migration and editorial review reports, frozen on 2026-10-11 |
 
 ## Quick start
 
@@ -43,37 +44,27 @@ stages and has a search for that volume. Stage pages show the music. A ☰ menu 
 |---|---|
 | Validate (schemas, references, duplicates, URLs, stage rules) | `uv run atlas validate` (`-v` for info, `--strict` to fail on unresolved song IDs) |
 | Check every Apple Music URL over the network (slow, optional) | `uv run atlas validate --check-links` |
-| Regenerate migration + editorial reports | `uv run atlas audit` (CI runs `atlas audit --check`) |
-| Export playlists (full + per stage CSV, legacy CSVs, song-ID list, match report) | `uv run atlas export` → `exports/` |
-| Export only importer CSVs | `uv run atlas export --format csv` |
-| Generate the student guide (Markdown, always current) | `uv run atlas export --format guide` |
-| Check / dry-run / apply an editorial proposal | `uv run atlas proposal check breath-19` · `apply breath-19` · `apply breath-19 --write` |
+| Generate the student guide (Markdown, always current) | `uv run atlas export` → `exports/` |
 | Mint IDs for new selections | `uv run atlas new-id -n 3` |
-| Plan an Apple Music sync (dry run, no network) | `uv run atlas sync plan --current current-ids.txt` |
+| Compare the Music app playlist with the data (macOS) | `uv run atlas music check` |
+| Remove extra tracks from the Music app playlist | `uv run atlas music apply` (dry run) · `--write` |
 | Lint / format / type-check | `uv run ruff check . && uv run ruff format --check . && uv run mypy` |
 
 ## Editing a playlist
+
+The usual loop: browse the site, ask Claude Code for a change, review the diff, then sync the Music app.
 
 Playlist order is the order of selections in each stage file under
 `data/collections/<collection>/selections/`. To move, add or remove a selection, edit that YAML file, then:
 
 ```sh
-uv run atlas validate && uv run atlas audit && uv run pytest
+uv run atlas validate && uv run pytest
+uv run atlas music check          # then `music apply`, and any additions or moves by hand
 ```
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for the full workflow and [docs/data-model.md](docs/data-model.md) for
-every field. Within a playlist each recording may appear only once; the validator enforces this with no override.
-Approved changes that are not yet ready (for example the 19-selection Breath sequence) live in
-`proposals/` and are applied explicitly — never silently.
-
-## Exports and Apple Music
-
-`atlas export` writes deterministic CSVs in a documented schema suitable for manual-review import through
-services such as Soundiiz or TuneMyMusic. **Apple Music does not import arbitrary CSV files directly**, and
-text-matching importers can pick the wrong recording; see [docs/exporting.md](docs/exporting.md).
-
-The live Apple Music playlist is never modified by this repository. A phase-two sync command is designed but
-disabled; see [docs/apple-music-sync.md](docs/apple-music-sync.md) for what it can and cannot do.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for the full workflow, [docs/data-model.md](docs/data-model.md) for
+every field and [docs/music-sync.md](docs/music-sync.md) for the Music app sync. Within a playlist each
+recording may appear only once; the validator enforces this with no override.
 
 ## Publishing
 
@@ -85,8 +76,7 @@ enabled with **Source: GitHub Actions**. See [docs/publishing.md](docs/publishin
 - [docs/methodology.md](docs/methodology.md) — the Atlas's method; how volumes differ; adding a composer
 - [docs/data-model.md](docs/data-model.md) — files, fields, IDs, validation rules, clean diffs
 - [docs/editorial-status.md](docs/editorial-status.md) — open editorial questions and how they are tracked
-- [docs/exporting.md](docs/exporting.md) — CSV schema; Soundiiz / TuneMyMusic with manual review
-- [docs/apple-music-sync.md](docs/apple-music-sync.md) — phase-two sync design and API limitations
+- [docs/music-sync.md](docs/music-sync.md) — keeping the Music app playlist in step; what is done by hand
 - [docs/publishing.md](docs/publishing.md) — GitHub Pages
 - [archive/PROVENANCE.yaml](archive/PROVENANCE.yaml) — origin and checksums of every input file
 

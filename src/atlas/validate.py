@@ -73,8 +73,6 @@ def _schema_name(path: Path) -> str | None:
         return "works"
     if path.parent.name == "selections":
         return "selections"
-    if path.parent.name == "proposals":
-        return "proposal"
     return SCHEMA_FOR.get(path.name)
 
 
@@ -208,7 +206,7 @@ def check_collection(atlas: Atlas, c: Collection) -> list[Finding]:
             Finding(
                 WARNING,
                 "UNRESOLVED-SONG-IDS",
-                f"{len(unresolved)} selections have no Apple song ID (run `atlas audit` for the list)",
+                f"{len(unresolved)} selections have no Apple song ID",
             )
         )
     no_dur = sum(1 for s in sels if s.duration is None)

@@ -26,8 +26,6 @@ jobs:
         run: uv run mypy
       - name: Validate data (schemas, references, editorial rules)
         run: uv run atlas validate
-      - name: Reports are up to date
-        run: uv run atlas audit --check
       - name: Tests
         run: uv run pytest
       - name: Exports are deterministic

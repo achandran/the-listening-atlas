@@ -17,7 +17,6 @@ data/
     notes/deep-focus.yaml           close-listening studies, keyed by selection ID
     issues.yaml                     editorial issue register (ED-001 …)
     retired.yaml                    selections removed from the playlist, kept with reason and date
-    proposals/*.yaml                approved-but-unapplied editorial changes
 ```
 
 ## Entities
@@ -60,7 +59,7 @@ update), `editorial_notice`, and `constraints`:
 Within one collection's playlist, every recorded track appears **at most once**. "Recorded track" means an
 Apple song ID, and independently the same work + movement + arrangement from the same recording. This rule
 has no override. Different performances of the same music (e.g. a vocal original and a piano transcription,
-or two ensembles) are allowed. The rule is enforced by `atlas validate` and by `atlas proposal check`.
+or two ensembles) are allowed. The rule is enforced by `atlas validate`.
 
 ## Order
 
@@ -103,9 +102,7 @@ That's what keeps diffs clean. Moving one selection is a cut-and-paste of its bl
 ```
 
 *(Illustration only — this is the open question ED-001 and has **not** been applied.)* `git diff --stat`
-reports `16 insertions(+), 16 deletions(-)`. No other selection changes, and no renumbering. `atlas audit`
-then lists the moved selection under *Reordered* in `reports/…/migration-report.md` (insertions and removals
-only shift position numbers; they are counted, not listed as moves).
+reports `16 insertions(+), 16 deletions(-)`. No other selection changes, and no renumbering.
 
 ## Validation rules (`atlas validate`)
 
@@ -133,7 +130,7 @@ arrangement/recording.
 
 ## Migration provenance
 
-The initial data was produced once by `atlas migrate` from `archive/2026-10-11-handoff/`. Tests prove that
-the migration reproduces the 669-row master CSV **byte for byte**. They also check that every snapshot row
-is accounted for, either as an active selection or in `retired.yaml`, and that the opening Ground song IDs are
-intact. `reports/<collection>/migration-report.md` shows the current state against the snapshot.
+The initial data was produced once, on 2026-10-11, by a migration from `archive/2026-10-11-handoff/` that
+was tested to reproduce the 669-row master CSV byte for byte. The migration code was removed afterwards (it
+is in git history); each selection's `source` still records its snapshot row, and
+`reports/<collection>/migration-report.md` is the frozen report from that review.

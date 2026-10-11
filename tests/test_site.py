@@ -221,14 +221,6 @@ def test_display_title_corrects_typo_but_title_stays_apples(site: Path, atlas, r
     assert "E-Flat Major" in link_name and "E-FlA" not in link_name
     index = json.loads((site / "search-index.json").read_text())["selections"]
     assert next(r for r in index if r["id"] == s.id)["title"] == s.shown_title
-    from atlas.export import build_exports
-
-    csv_text = next(
-        f.content.decode("utf-8-sig")
-        for f in build_exports(atlas, atlas.collections[0])
-        if f.path.name == "playlist-full.csv"
-    )
-    assert "French Suite No. 4 in E-FlA Major, BWV 815: VI. Air" in csv_text
 
 
 def test_navigation_is_simple(site: Path) -> None:

@@ -35,36 +35,39 @@ uv run pytest
 | Record a verified song ID | Set `apple_music.song_id` and the song `url`, remove `link_kind`, set `verification: verified`, fill `duration`. |
 | Change stage texts | Edit `stages.yaml`. If you change approved wording, keep the original in `itinerary_source`. |
 | Add a listening study | `notes/deep-focus.yaml` (keyed by selection ID) or `notes/work-focus.yaml` (keyed by work ID). |
-| Prepare a larger editorial change | Write a proposal in `proposals/` (see `breath-19.yaml`), then `atlas proposal check <name>`. |
 
 After every change:
 
 ```sh
 uv run atlas validate        # 0 errors required
-uv run atlas audit           # regenerate reports/ and commit them
 uv run pytest
 ```
+
+Larger editorial changes go on a branch or in a pull request; the diff is the proposal.
 
 Some tests pin approved editorial facts on purpose, for example the first two Ground song IDs, the Hewitt
 1994 Inventions, Ólafsson's BWV 989 with its Aria da capo, and Hewitt's later WTC. If an approved editorial
 change makes one of them fail, update the test in the same commit and say why in the commit message.
 
-## Applying a proposal
+## Updating the Apple Music playlist
+
+The public playlist is the `Bach` playlist in the Music app on the editor's Mac (`library_playlist` in
+`collection.yaml`); iCloud syncs it to Apple Music. Once a data change is committed:
 
 ```sh
-uv run atlas proposal check breath-19        # what is still missing
-uv run atlas proposal apply breath-19        # dry run: lists files it would write
-uv run atlas proposal apply breath-19 --write
-uv run atlas validate && uv run atlas audit && uv run pytest
+uv run atlas music check            # compare the playlist with the data
+uv run atlas music apply            # dry run: lists tracks it would remove
+uv run atlas music apply --write    # remove them (from the playlist only, not the library)
 ```
 
-`apply` refuses to run until every new selection has a recording, the exact Apple title and credits, and a
-song ID.
+Additions and moves are listed with their Apple Music links and are done by hand in the Music app, because
+its scripting interface can only append tracks that are already in the library. See
+[docs/music-sync.md](docs/music-sync.md).
 
 ## Code changes
 
 - Python 3.12, `ruff` (lint + format) and `mypy --strict` must pass: `uv run ruff check . && uv run ruff format --check . && uv run mypy`.
-- Keep exports and the site deterministic: no timestamps or random values in generated files.
+- Keep the guide export and the site deterministic: no timestamps or random values in generated files.
 - The website must work without JavaScript, and its JavaScript must work without a network connection
   (apart from the Apple Music links themselves).
 - Add or update tests with every behaviour change.

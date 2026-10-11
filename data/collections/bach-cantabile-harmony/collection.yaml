@@ -27,6 +27,7 @@ guide:
   stages_heading: The eleven stages
 public_playlist_url: https://music.apple.com/us/playlist/bach/pl.u-xlyNJ0kFkAVK3NM
 public_playlist_note: Public reference only; not proof that this data and the live playlist are identical.
+library_playlist: Bach
 fallback_prompts:
   - match: fugue|fuga|contrapunctus
     prompt: Follow one subject entry, then sing a different voice. What makes the voices belong together?

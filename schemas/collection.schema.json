@@ -20,11 +20,12 @@
       "type": "object",
       "additionalProperties": false,
       "required": ["title", "stages_heading"],
-      "description": "Headings for the generated student guide (atlas export --format guide).",
+      "description": "Headings for the generated student guide (atlas export).",
       "properties": {"title": {"type": "string"}, "subtitle": {"type": "string"}, "stages_heading": {"type": "string"}}
     },
     "public_playlist_url": {"type": "string", "format": "uri"},
     "public_playlist_note": {"type": "string"},
+    "library_playlist": {"type": "string", "description": "Name of the Music app playlist that `atlas music` keeps in step (it syncs to the public playlist through iCloud)."},
     "fallback_prompts": {
       "type": "array",
       "items": {
